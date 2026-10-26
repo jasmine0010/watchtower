@@ -285,9 +285,6 @@
   border-radius: 4px;
   font-size: 14px;
 }
-.live-aqi-chip.is-delayed {
-  border-style: dashed;
-}
 .live-list-title {
   margin: 12px 0 0;
   font-size: var(--live-caption-size);

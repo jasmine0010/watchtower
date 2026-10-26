@@ -922,10 +922,10 @@ def build_approved_update():
         encoding="utf-8",
     )
     print(
-        "Approved update:", [(s["name"], s["missingHours"], s["negativeHours"]) for s in stations]
+        "Updated stations:", [(s["name"], s["missingHours"], s["negativeHours"]) for s in stations]
     )
     print(
-        "Preserved case, perimeter, rain, health and all soil values; exported",
+        "Exported",
         len(days),
         "NOAA days",
     )

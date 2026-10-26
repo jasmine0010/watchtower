@@ -1565,21 +1565,13 @@ function LiveOverview({
 
 function AqiChip({ report }: { report: Feature }) {
   const p = report.properties!;
-  let chipColor;
-  if (p.demoPM25) {
-    chipColor = "#eef3ef";
-  } else if (p.delayed) {
-    chipColor = "#ffffff";
-  } else {
-    chipColor = p.color;
-  }
   return (
     <strong
-      className={`live-aqi-chip${p.delayed ? " is-delayed" : ""}`}
+      className="live-aqi-chip"
       style={{
-        background: chipColor,
+        background: p.demoPM25 ? "#eef3ef" : p.color,
         borderColor: p.color,
-        color: !p.delayed && p.category === "Hazardous" ? "#ffffff" : "#17251f",
+        color: p.category === "Hazardous" ? "#ffffff" : "#17251f",
       }}
     >
       {p.demoPM25 ? p.pm25 : p.value}

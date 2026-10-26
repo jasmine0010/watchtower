@@ -843,7 +843,7 @@ def make_report(records, state, replays, scoped=False):
         for key in ["sourceRecordCount", "counts", "sources", "auditUrl", "limitation"]
     }
     report["notCheckedMeaning"] = (
-        "Legacy per-category fallback, not proof of missing source data. It mixes deferred retrieval, missing prerequisites, limited source scope and completed source/index searches without a verified export. Each category now provides a reconciled reason breakdown. No measurements, coverage counts or availability statuses were changed by this clarification."
+        "Legacy per-category fallback, not proof of missing source data. It mixes deferred retrieval, missing prerequisites, limited source scope and completed source/index searches without a verified export. Each category provides a reason breakdown."
     )
     observation_overlap = {}
     for left in linked_observations:
@@ -1013,7 +1013,7 @@ def explain_saved_report():
             if data[field] != original:
                 raise ValueError("Audit wording changed a coverage count: " + category)
     report["notCheckedMeaning"] = (
-        "Legacy per-category fallback, not proof of missing source data. It mixes deferred retrieval, missing prerequisites, limited source scope and completed source/index searches without a verified export. Each category now provides a reconciled reason breakdown. No measurements, coverage counts or availability statuses were changed by this clarification."
+        "Legacy per-category fallback, not proof of missing source data. It mixes deferred retrieval, missing prerequisites, limited source scope and completed source/index searches without a verified export. Each category provides a reason breakdown."
     )
     report["explanationsUpdatedAt"] = datetime.now(timezone.utc).isoformat()
     temporary = path.with_suffix(".json.tmp")
@@ -1025,7 +1025,7 @@ def explain_saved_report():
     print(
         "Explanations added for",
         len(groups),
-        "categories; all existing coverage counts and statuses unchanged.",
+        "categories.",
     )
 
 
