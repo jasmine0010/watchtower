@@ -1,0 +1,3440 @@
+{
+  "schemaVersion": 1,
+  "eligibleFireCount": 177,
+  "countySource": {
+    "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?f=geojson&where=STATE%3D%2706%27&outFields=STATE%2CCOUNTY%2CGEOID%2CNAME&returnGeometry=true&outSR=4326&resultRecordCount=1000",
+    "retrievedAt": "2026-10-21T09:55:24.029716+00:00",
+    "bytes": 10816969,
+    "sha256": "f51dd64302c7fe4df11c3f9bb11d2b3b13f35cf66bc2b252d49f8b6d572f9b14"
+  },
+  "areaCrs": "EPSG:3310",
+  "overlapShareBasis": "Percentage of total verified MTBS perimeter area",
+  "records": [
+    {
+      "fireId": "frap:2025:484d5bef-ccd9-4d01-9667-880c6562630b",
+      "status": "single",
+      "primaryCounty": "Riverside County",
+      "counties": [
+        {
+          "geoid": "06065",
+          "name": "Riverside County",
+          "overlapAreaKm2": 4.473062,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10035545",
+        "sha256": "0933b850cf75472248154ba325ec4f53056cad86c82f900e48d01429a6f11029"
+      }
+    },
+    {
+      "fireId": "frap:2025:6817a72c-90cf-4cd4-8f26-2b9622f1f140",
+      "status": "multiple",
+      "primaryCounty": "Fresno County",
+      "counties": [
+        {
+          "geoid": "06019",
+          "name": "Fresno County",
+          "overlapAreaKm2": 106.375318,
+          "overlapSharePercent": 99.285969
+        },
+        {
+          "geoid": "06031",
+          "name": "Kings County",
+          "overlapAreaKm2": 0.594264,
+          "overlapSharePercent": 0.55466
+        },
+        {
+          "geoid": "06053",
+          "name": "Monterey County",
+          "overlapAreaKm2": 0.170751,
+          "overlapSharePercent": 0.159372
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10034738",
+        "sha256": "ef822ad9bb2381d59968e5b46fd370b5c7e71f57c88b82cccae4b0f76ffd325d"
+      }
+    },
+    {
+      "fireId": "frap:2025:73730f90-5d60-4850-98c2-2431c4284cd7",
+      "status": "single",
+      "primaryCounty": "Los Angeles County",
+      "counties": [
+        {
+          "geoid": "06037",
+          "name": "Los Angeles County",
+          "overlapAreaKm2": 97.90774,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10037057",
+        "sha256": "fa5681d2322b39a6aff4f55efa17dcfa7f913177e13a19568566774f0c4831e2"
+      }
+    },
+    {
+      "fireId": "frap:2025:d8dcb0e7-0ad6-46a4-901a-86d777bb09af",
+      "status": "single",
+      "primaryCounty": "Los Angeles County",
+      "counties": [
+        {
+          "geoid": "06037",
+          "name": "Los Angeles County",
+          "overlapAreaKm2": 58.360533,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10037055",
+        "sha256": "e7e50df8a4d3d3e2bc981b44d03cff7203e4cab76d3689e6eca892216bd2f0b7"
+      }
+    },
+    {
+      "fireId": "mtbs:2025:10034741",
+      "status": "single",
+      "primaryCounty": "Fresno County",
+      "counties": [
+        {
+          "geoid": "06019",
+          "name": "Fresno County",
+          "overlapAreaKm2": 4.229702,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10034741",
+        "sha256": "c849abe914d1e947bf2a65fa7dbf0ba07c56147004600c4d19ed9532b3bbfc62"
+      }
+    },
+    {
+      "fireId": "frap:2024:0d30178b-3237-4c2a-baf1-62eb7e4add69",
+      "status": "single",
+      "primaryCounty": "Ventura County",
+      "counties": [
+        {
+          "geoid": "06111",
+          "name": "Ventura County",
+          "overlapAreaKm2": 6.163201,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10033676",
+        "sha256": "cc614ea9b968d8e2e5a2a60981032d869aecc69fe91e9ba1a65cb041ca1da384"
+      }
+    },
+    {
+      "fireId": "frap:2024:2e6ff118-242b-42bd-8ac9-bd5309a3d5f4",
+      "status": "single",
+      "primaryCounty": "Humboldt County",
+      "counties": [
+        {
+          "geoid": "06023",
+          "name": "Humboldt County",
+          "overlapAreaKm2": 29.05752,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10034725",
+        "sha256": "43623378e3be42ea8a5d72800b64c546a546494f93f9c230e972f232940b53f2"
+      }
+    },
+    {
+      "fireId": "frap:2024:4aa4ff07-8ae0-4290-a0c0-b9d0549f8fce",
+      "status": "single",
+      "primaryCounty": "Kern County",
+      "counties": [
+        {
+          "geoid": "06029",
+          "name": "Kern County",
+          "overlapAreaKm2": 6.17998,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10033698",
+        "sha256": "fd9b54f1b55e0b7fedc4bddecd51e41f4553926987a84ac29c7dfee09214ac91"
+      }
+    },
+    {
+      "fireId": "frap:2024:5181b3f1-ebe7-45ca-adb9-91c670336044",
+      "status": "single",
+      "primaryCounty": "San Benito County",
+      "counties": [
+        {
+          "geoid": "06069",
+          "name": "San Benito County",
+          "overlapAreaKm2": 5.46515,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10033784",
+        "sha256": "16b19516edaf472d3d5d8e3cc4d01012232d20f043f07d986c57e70f1fa0ab1b"
+      }
+    },
+    {
+      "fireId": "frap:2024:540bb6c9-9242-4d98-9d4f-b84dad7f9840",
+      "status": "single",
+      "primaryCounty": "Santa Barbara County",
+      "counties": [
+        {
+          "geoid": "06083",
+          "name": "Santa Barbara County",
+          "overlapAreaKm2": 166.615844,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10034115",
+        "sha256": "78c746e0a5a32245efca932c78924b7f916177bd9d3d38543209cff32c4827bb"
+      }
+    },
+    {
+      "fireId": "frap:2024:56ecd408-5e0a-4339-a87b-aca69c779f48",
+      "status": "multiple",
+      "primaryCounty": "Fresno County",
+      "counties": [
+        {
+          "geoid": "06019",
+          "name": "Fresno County",
+          "overlapAreaKm2": 70.701093,
+          "overlapSharePercent": 98.668556
+        },
+        {
+          "geoid": "06053",
+          "name": "Monterey County",
+          "overlapAreaKm2": 0.954048,
+          "overlapSharePercent": 1.331444
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10031933",
+        "sha256": "3e0912ac8f984cd3045fb4917f395462341d7b3924ae335f9f30b58d324a602f"
+      }
+    },
+    {
+      "fireId": "frap:2024:5f5c5d8f-4ba8-4fa3-8a5e-d4d3848caac2",
+      "status": "multiple",
+      "primaryCounty": "Los Angeles County",
+      "counties": [
+        {
+          "geoid": "06037",
+          "name": "Los Angeles County",
+          "overlapAreaKm2": 206.650018,
+          "overlapSharePercent": 93.7
+        },
+        {
+          "geoid": "06071",
+          "name": "San Bernardino County",
+          "overlapAreaKm2": 13.894292,
+          "overlapSharePercent": 6.3
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10034242",
+        "sha256": "cec69d744c21e3427967b99b5ba68f4e1eee03fdba633745014f266652221845"
+      }
+    },
+    {
+      "fireId": "frap:2024:68dacb3c-9e37-485c-82c8-6774bb311b60",
+      "status": "multiple",
+      "primaryCounty": "Kern County",
+      "counties": [
+        {
+          "geoid": "06029",
+          "name": "Kern County",
+          "overlapAreaKm2": 3.733254,
+          "overlapSharePercent": 79.790642
+        },
+        {
+          "geoid": "06079",
+          "name": "San Luis Obispo County",
+          "overlapAreaKm2": 0.945558,
+          "overlapSharePercent": 20.209358
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10033693",
+        "sha256": "4cad2475ba98008e2b49fdfb57a3e09b6132d104379198c27ee3256e6b7d84b4"
+      }
+    },
+    {
+      "fireId": "frap:2024:69719aba-43f8-4273-a9d6-62c065765736",
+      "status": "single",
+      "primaryCounty": "Santa Barbara County",
+      "counties": [
+        {
+          "geoid": "06083",
+          "name": "Santa Barbara County",
+          "overlapAreaKm2": 5.809838,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10033696",
+        "sha256": "68e800482929fe4b858a46fec794c37030c4b9e7f26db91eb0ef922bf0d79743"
+      }
+    },
+    {
+      "fireId": "frap:2024:6d7774fa-ce74-46b3-8e2f-2e9f9dce5c76",
+      "status": "single",
+      "primaryCounty": "San Bernardino County",
+      "counties": [
+        {
+          "geoid": "06071",
+          "name": "San Bernardino County",
+          "overlapAreaKm2": 11.668699,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10034188",
+        "sha256": "ff2e9406d63a8172ea5ba572c671f7c5c5649b772eb760ec64a0c03c2870c698"
+      }
+    },
+    {
+      "fireId": "frap:2024:851b940a-5d46-4301-86a3-ea55e4ac75ee",
+      "status": "single",
+      "primaryCounty": "Kern County",
+      "counties": [
+        {
+          "geoid": "06029",
+          "name": "Kern County",
+          "overlapAreaKm2": 4.079653,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10035366",
+        "sha256": "6188a720815711fe7f6e54bf42367ac2966e36996d012dab0dc613969b798ae4"
+      }
+    },
+    {
+      "fireId": "frap:2024:8ac8baed-b7d3-4a5c-bb33-519a8534ca98",
+      "status": "single",
+      "primaryCounty": "San Joaquin County",
+      "counties": [
+        {
+          "geoid": "06077",
+          "name": "San Joaquin County",
+          "overlapAreaKm2": 65.326874,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10030149",
+        "sha256": "2dba3c71273420295e551e8e65373e42bb00109406251aa886517697044c248d"
+      }
+    },
+    {
+      "fireId": "frap:2024:9984fddf-a134-4923-9080-35786eded0fb",
+      "status": "single",
+      "primaryCounty": "Monterey County",
+      "counties": [
+        {
+          "geoid": "06053",
+          "name": "Monterey County",
+          "overlapAreaKm2": 4.118831,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10033844",
+        "sha256": "7c79e6ca46334a21dd14abc95f5471dae31b4e9462a1a68196ebf4c78689f36e"
+      }
+    },
+    {
+      "fireId": "frap:2024:a4bf169f-d9aa-4f2b-bd3a-a1ddb11a8105",
+      "status": "multiple",
+      "primaryCounty": "Humboldt County",
+      "counties": [
+        {
+          "geoid": "06023",
+          "name": "Humboldt County",
+          "overlapAreaKm2": 45.410312,
+          "overlapSharePercent": 84.713801
+        },
+        {
+          "geoid": "06093",
+          "name": "Siskiyou County",
+          "overlapAreaKm2": 8.194073,
+          "overlapSharePercent": 15.286199
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10034731",
+        "sha256": "5f9dd2e1e64d154576162fd000893c9952b6a296bd25c2a0f6957d42e459c117"
+      }
+    },
+    {
+      "fireId": "frap:2024:e6920a47-8fae-40d4-9373-ebfc60010315",
+      "status": "single",
+      "primaryCounty": "Kern County",
+      "counties": [
+        {
+          "geoid": "06029",
+          "name": "Kern County",
+          "overlapAreaKm2": 23.509953,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10034253",
+        "sha256": "552d0569981e71bfe4c65ecdd4390541c173ad1aa9835569289f7d12492aeac8"
+      }
+    },
+    {
+      "fireId": "frap:2024:f74de061-c2dd-4323-ba4d-de07e3d0fac7",
+      "status": "multiple",
+      "primaryCounty": "Kern County",
+      "counties": [
+        {
+          "geoid": "06029",
+          "name": "Kern County",
+          "overlapAreaKm2": 28.522465,
+          "overlapSharePercent": 52.240666
+        },
+        {
+          "geoid": "06079",
+          "name": "San Luis Obispo County",
+          "overlapAreaKm2": 26.075738,
+          "overlapSharePercent": 47.759334
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10031531",
+        "sha256": "659b02bc4b229d60fd1d971aed70fd345491c6c096f8148299f4d10d78ed255f"
+      }
+    },
+    {
+      "fireId": "mtbs:2024:10033673",
+      "status": "multiple",
+      "primaryCounty": "Monterey County",
+      "counties": [
+        {
+          "geoid": "06053",
+          "name": "Monterey County",
+          "overlapAreaKm2": 29.782331,
+          "overlapSharePercent": 87.390797
+        },
+        {
+          "geoid": "06079",
+          "name": "San Luis Obispo County",
+          "overlapAreaKm2": 4.297151,
+          "overlapSharePercent": 12.609203
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10033673",
+        "sha256": "423812bfa4a32f32d6a5c7ac3ae951f3512202f2486dceca10d842d56dbd64f2"
+      }
+    },
+    {
+      "fireId": "frap:2023:0a8d7425-2692-4a21-bcf5-a20aa0e124e7",
+      "status": "single",
+      "primaryCounty": "Santa Barbara County",
+      "counties": [
+        {
+          "geoid": "06083",
+          "name": "Santa Barbara County",
+          "overlapAreaKm2": 25.525427,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10031146",
+        "sha256": "9edc52ffda7c4dec11395d5ecd2a5201430e3ba6e2b272057800274fb6a31a9c"
+      }
+    },
+    {
+      "fireId": "frap:2023:13fa4b10-50ac-4e78-ae65-b37f15eacdd4",
+      "status": "single",
+      "primaryCounty": "Humboldt County",
+      "counties": [
+        {
+          "geoid": "06023",
+          "name": "Humboldt County",
+          "overlapAreaKm2": 6.626093,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10030905",
+        "sha256": "e438260d27d89037d07d7a19b645fce42aabf86e7c8046b494843193d90a507b"
+      }
+    },
+    {
+      "fireId": "frap:2023:1523daff-0002-4533-836f-ea608ead9259",
+      "status": "multiple",
+      "primaryCounty": "Siskiyou County",
+      "counties": [
+        {
+          "geoid": "06093",
+          "name": "Siskiyou County",
+          "overlapAreaKm2": 29.859649,
+          "overlapSharePercent": 56.409862
+        },
+        {
+          "geoid": "06023",
+          "name": "Humboldt County",
+          "overlapAreaKm2": 23.073735,
+          "overlapSharePercent": 43.590138
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10030539",
+        "sha256": "33f8e057cff28212e2bfa10c4f93b5f9b856572749f438264fdc7fb99e28b286"
+      }
+    },
+    {
+      "fireId": "frap:2023:1b951977-cbcb-4b1e-b4f5-bb65ba33c0c0",
+      "status": "single",
+      "primaryCounty": "Kern County",
+      "counties": [
+        {
+          "geoid": "06029",
+          "name": "Kern County",
+          "overlapAreaKm2": 4.327423,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10031781",
+        "sha256": "852ffedd2a638014588a508c2a8122cdeb6dcd078858c8ea15d359bec5d609cf"
+      }
+    },
+    {
+      "fireId": "frap:2023:2a85dea7-561e-4375-83e0-541d701d4c40",
+      "status": "single",
+      "primaryCounty": "Humboldt County",
+      "counties": [
+        {
+          "geoid": "06023",
+          "name": "Humboldt County",
+          "overlapAreaKm2": 4.72871,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10030912",
+        "sha256": "273528d66a8bedafe78413ecdc0f8c6900fa84890f5e3c5d010ae6233d9b18c8"
+      }
+    },
+    {
+      "fireId": "frap:2023:68036d6d-241a-4ae9-8b98-ec22a9cae23d",
+      "status": "single",
+      "primaryCounty": "Kern County",
+      "counties": [
+        {
+          "geoid": "06029",
+          "name": "Kern County",
+          "overlapAreaKm2": 23.891588,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10031142",
+        "sha256": "052ba5fc7426ff4801c9d72cd96987d7a92753b06fe400ea28cb778e2de03793"
+      }
+    },
+    {
+      "fireId": "frap:2023:68c03a54-1e24-4f4e-8801-007bdd7d4dc1",
+      "status": "single",
+      "primaryCounty": "Siskiyou County",
+      "counties": [
+        {
+          "geoid": "06093",
+          "name": "Siskiyou County",
+          "overlapAreaKm2": 56.081468,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10030526",
+        "sha256": "4d23ddbcffd4ce7f0b99c603d589cb8515dcdb6f7acdbb535741a6adc5dd40e3"
+      }
+    },
+    {
+      "fireId": "frap:2023:6a908f2d-c3a8-430d-a034-69bd2744fe25",
+      "status": "single",
+      "primaryCounty": "Ventura County",
+      "counties": [
+        {
+          "geoid": "06111",
+          "name": "Ventura County",
+          "overlapAreaKm2": 12.798976,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10031777",
+        "sha256": "d34725ab47892a5537e5da23fa69a33c4bc50a3583339e333d14de0a87961246"
+      }
+    },
+    {
+      "fireId": "frap:2023:762e80e7-5123-4fb9-9ed4-c94fab40d7b0",
+      "status": "single",
+      "primaryCounty": "Siskiyou County",
+      "counties": [
+        {
+          "geoid": "06093",
+          "name": "Siskiyou County",
+          "overlapAreaKm2": 28.683539,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10030927",
+        "sha256": "76fdba0eb95d0111c77d6527d75fa29b6c07ce0c52fc1157211b430c95083f6d"
+      }
+    },
+    {
+      "fireId": "frap:2023:8192e3f5-ee3c-4694-9bcf-4059ba1b5645",
+      "status": "single",
+      "primaryCounty": "Riverside County",
+      "counties": [
+        {
+          "geoid": "06065",
+          "name": "Riverside County",
+          "overlapAreaKm2": 34.915983,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10031830",
+        "sha256": "25ad7bfe404cf4bc750a25e57918c2bb1d4cc98a64aaf54b9f8dfbaef1b6e1a1"
+      }
+    },
+    {
+      "fireId": "frap:2023:8c92583b-fce1-4731-ac81-9f702a29806f",
+      "status": "multiple",
+      "primaryCounty": "Kern County",
+      "counties": [
+        {
+          "geoid": "06029",
+          "name": "Kern County",
+          "overlapAreaKm2": 4.028229,
+          "overlapSharePercent": 93.487942
+        },
+        {
+          "geoid": "06027",
+          "name": "Inyo County",
+          "overlapAreaKm2": 0.280593,
+          "overlapSharePercent": 6.512058
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10031765",
+        "sha256": "0b340a4288af17f994298b9c8ba4a81381a2f85768628d73658fae26facc6752"
+      }
+    },
+    {
+      "fireId": "frap:2023:96de9fb9-9d05-4434-94c7-ea28afb74d0f",
+      "status": "multiple",
+      "primaryCounty": "Tulare County",
+      "counties": [
+        {
+          "geoid": "06107",
+          "name": "Tulare County",
+          "overlapAreaKm2": 9.814189,
+          "overlapSharePercent": 84.580234
+        },
+        {
+          "geoid": "06019",
+          "name": "Fresno County",
+          "overlapAreaKm2": 1.789218,
+          "overlapSharePercent": 15.419766
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10031094",
+        "sha256": "d0be6192bc1a2f9ca6655303b490082a3d9babac18e110c77de75f717beb2a8c"
+      }
+    },
+    {
+      "fireId": "frap:2023:ad85c229-b480-41bd-bbc7-896787b2d77c",
+      "status": "single",
+      "primaryCounty": "Trinity County",
+      "counties": [
+        {
+          "geoid": "06105",
+          "name": "Trinity County",
+          "overlapAreaKm2": 17.198954,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10030918",
+        "sha256": "26643f68dc0892ec3e391e2102873f06cf110882858dc7cf242523af6ad914d8"
+      }
+    },
+    {
+      "fireId": "frap:2023:bf32bba0-6927-43fe-ad03-e6c5cb53c8d4",
+      "status": "single",
+      "primaryCounty": "Siskiyou County",
+      "counties": [
+        {
+          "geoid": "06093",
+          "name": "Siskiyou County",
+          "overlapAreaKm2": 31.781292,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10030531",
+        "sha256": "0a0ac2d149a3484abebb4eb2a51b565cd67c9f5110c75ba22a2a5d8970ec4005"
+      }
+    },
+    {
+      "fireId": "frap:2023:c3e2dff2-84fd-4024-ba8c-78b440b00c61",
+      "status": "single",
+      "primaryCounty": "Siskiyou County",
+      "counties": [
+        {
+          "geoid": "06093",
+          "name": "Siskiyou County",
+          "overlapAreaKm2": 6.790628,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10030574",
+        "sha256": "d3d5d23bab4cce99e9be133cfde79fb1743452abe3f0f032be406fea94846bb9"
+      }
+    },
+    {
+      "fireId": "frap:2023:dc7aba42-392a-4f82-9b32-fd43731ace9b",
+      "status": "single",
+      "primaryCounty": "Kern County",
+      "counties": [
+        {
+          "geoid": "06029",
+          "name": "Kern County",
+          "overlapAreaKm2": 6.821385,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10031143",
+        "sha256": "21b0917d9fb2e121dac75beb22a5096460f1d83d8bccad974908f0da9106d964"
+      }
+    },
+    {
+      "fireId": "frap:2023:dec0a41a-7c09-43fc-a84f-6c859c1f12be",
+      "status": "single",
+      "primaryCounty": "Tulare County",
+      "counties": [
+        {
+          "geoid": "06107",
+          "name": "Tulare County",
+          "overlapAreaKm2": 9.033072,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10031114",
+        "sha256": "76a83360fde9e4cd8e144e98fc2248fe35a900a339b026172cfa7ef3dbfa9746"
+      }
+    },
+    {
+      "fireId": "mtbs:2023:10031920",
+      "status": "single",
+      "primaryCounty": "Imperial County",
+      "counties": [
+        {
+          "geoid": "06025",
+          "name": "Imperial County",
+          "overlapAreaKm2": 3.268166,
+          "overlapSharePercent": 78.003932
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10031920",
+        "sha256": "03d9546a710062f1f63a904e50e0380ce3a1db6d6379174a7eb53090480af6cb"
+      }
+    },
+    {
+      "fireId": "frap:2022:26de3c11-becd-4377-a682-887d09091b0f",
+      "status": "single",
+      "primaryCounty": "Humboldt County",
+      "counties": [
+        {
+          "geoid": "06023",
+          "name": "Humboldt County",
+          "overlapAreaKm2": 46.610475,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10029641",
+        "sha256": "b07017e5fd0946ebd2ad79702dabb1520b8bad13003cec7a9e70b80f7a3af177"
+      }
+    },
+    {
+      "fireId": "frap:2022:431dbef9-7353-463a-a151-aa0dcde6039c",
+      "status": "single",
+      "primaryCounty": "San Bernardino County",
+      "counties": [
+        {
+          "geoid": "06071",
+          "name": "San Bernardino County",
+          "overlapAreaKm2": 4.408552,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10029537",
+        "sha256": "dfbd6daf10d768bec44fecd1322b3a16c007b86ed9de8c8ba01427b47cd6b3e3"
+      }
+    },
+    {
+      "fireId": "frap:2022:59057cce-82a4-4fe0-bda8-3ad971fba648",
+      "status": "single",
+      "primaryCounty": "Kern County",
+      "counties": [
+        {
+          "geoid": "06029",
+          "name": "Kern County",
+          "overlapAreaKm2": 10.454497,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10029531",
+        "sha256": "5eda4d1c0e41e687ef6b02dbe546d2b030f1880a6878ba6e6050868c1fe93ced"
+      }
+    },
+    {
+      "fireId": "frap:2022:63d97306-9069-4742-8a68-9f5ad8b0cd7d",
+      "status": "single",
+      "primaryCounty": "Tuolumne County",
+      "counties": [
+        {
+          "geoid": "06109",
+          "name": "Tuolumne County",
+          "overlapAreaKm2": 12.760626,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10026545",
+        "sha256": "343ca40a2b757e3c90e7fab9ad2376a299e866130e786da7ed57eaf8b8278188"
+      }
+    },
+    {
+      "fireId": "frap:2022:d6292c57-4fc3-4ad4-be3c-659f0e7bbaa3",
+      "status": "single",
+      "primaryCounty": "Tulare County",
+      "counties": [
+        {
+          "geoid": "06107",
+          "name": "Tulare County",
+          "overlapAreaKm2": 9.174119,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10024579",
+        "sha256": "3891486f99ae7163f72e8d34dc13deb500f7a9814e992a8654db19f428d34805"
+      }
+    },
+    {
+      "fireId": "frap:2022:f47fcb64-b5f7-4e5c-91a4-8a86892888a5",
+      "status": "multiple",
+      "primaryCounty": "Mariposa County",
+      "counties": [
+        {
+          "geoid": "06043",
+          "name": "Mariposa County",
+          "overlapAreaKm2": 31.019885,
+          "overlapSharePercent": 90.229918
+        },
+        {
+          "geoid": "06039",
+          "name": "Madera County",
+          "overlapAreaKm2": 3.358829,
+          "overlapSharePercent": 9.770082
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10025372",
+        "sha256": "fae957654a90fcccd0d82e33f9a5dd0d15cb29cc17c429b3c2bd2e9913b5feee"
+      }
+    },
+    {
+      "fireId": "frap:2022:f8dbe7e8-0e3a-4a39-884c-ee8dd761ce79",
+      "status": "multiple",
+      "primaryCounty": "Mariposa County",
+      "counties": [
+        {
+          "geoid": "06043",
+          "name": "Mariposa County",
+          "overlapAreaKm2": 10.634231,
+          "overlapSharePercent": 52.727307
+        },
+        {
+          "geoid": "06039",
+          "name": "Madera County",
+          "overlapAreaKm2": 9.534125,
+          "overlapSharePercent": 47.272693
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10025513",
+        "sha256": "0bf7dca1a0628b3b1e3196a9ff4c14f8c79341d5dc0e1b8641fb84b43a0761ae"
+      }
+    },
+    {
+      "fireId": "frap:2022:fafaad70-a284-4d5b-b551-15eae96b6a08",
+      "status": "multiple",
+      "primaryCounty": "Amador County",
+      "counties": [
+        {
+          "geoid": "06005",
+          "name": "Amador County",
+          "overlapAreaKm2": 10.798714,
+          "overlapSharePercent": 57.499676
+        },
+        {
+          "geoid": "06009",
+          "name": "Calaveras County",
+          "overlapAreaKm2": 7.981764,
+          "overlapSharePercent": 42.500324
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10025484",
+        "sha256": "f1df1ec31d5ab5c6a137e89db91ed258e6c1b0ebe01d33bdd86be541a244c5ad"
+      }
+    },
+    {
+      "fireId": "frap:2021:15488e23-1fec-4e26-9270-754e0660b482",
+      "status": "multiple",
+      "primaryCounty": "Madera County",
+      "counties": [
+        {
+          "geoid": "06039",
+          "name": "Madera County",
+          "overlapAreaKm2": 36.063742,
+          "overlapSharePercent": 87.494601
+        },
+        {
+          "geoid": "06043",
+          "name": "Mariposa County",
+          "overlapAreaKm2": 5.154506,
+          "overlapSharePercent": 12.505399
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10024050",
+        "sha256": "fd8dfe648a1e9c2b2b7fa537b6fb354a12ae4dda855866c7db20137bf0c7ff48"
+      }
+    },
+    {
+      "fireId": "frap:2021:385c374b-bf2a-4afb-a266-efb3ba24f92b",
+      "status": "single",
+      "primaryCounty": "Siskiyou County",
+      "counties": [
+        {
+          "geoid": "06093",
+          "name": "Siskiyou County",
+          "overlapAreaKm2": 387.613246,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10024164",
+        "sha256": "b2a47f8ee445e07ee6099b0b075dbf949a55b60fe2b4e812889726ccaa44b9d9"
+      }
+    },
+    {
+      "fireId": "frap:2021:4334bcde-1cc6-4bf5-8897-d0f707e7bfe7",
+      "status": "single",
+      "primaryCounty": "Tulare County",
+      "counties": [
+        {
+          "geoid": "06107",
+          "name": "Tulare County",
+          "overlapAreaKm2": 5.553511,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10022045",
+        "sha256": "c84a81cf0c4c320999e86e2569ff1130d161b834cf785ad72da7faab59a4e69d"
+      }
+    },
+    {
+      "fireId": "frap:2021:58704783-4c46-41d4-bd1f-d95a4b119d5b",
+      "status": "single",
+      "primaryCounty": "Alpine County",
+      "counties": [
+        {
+          "geoid": "06003",
+          "name": "Alpine County",
+          "overlapAreaKm2": 4.799329,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10024031",
+        "sha256": "5620bdca45fbd451d7c3a6ae56d91c91cbf19bcc44b047b6cfd036688b5652f6"
+      }
+    },
+    {
+      "fireId": "frap:2021:6fd85c49-8013-4fae-8b55-23c031eb50aa",
+      "status": "single",
+      "primaryCounty": "San Bernardino County",
+      "counties": [
+        {
+          "geoid": "06071",
+          "name": "San Bernardino County",
+          "overlapAreaKm2": 10.115169,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10021937",
+        "sha256": "cc8a5241d289d7a700e50dd30a3059ed87c57de64b2e06deab7705a2d25d3b71"
+      }
+    },
+    {
+      "fireId": "frap:2021:7c6db18d-4656-4ac4-a80d-211b7bda4ac7",
+      "status": "single",
+      "primaryCounty": "Shasta County",
+      "counties": [
+        {
+          "geoid": "06089",
+          "name": "Shasta County",
+          "overlapAreaKm2": 36.779117,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10024056",
+        "sha256": "d2e316d29446c4eea693eb01fda1aa94c7dbda735e68bb89ca9f13db9db6e0d7"
+      }
+    },
+    {
+      "fireId": "frap:2021:84cbb6f2-8afc-448c-87ad-7ca1f55b1edc",
+      "status": "multiple",
+      "primaryCounty": "Tehama County",
+      "counties": [
+        {
+          "geoid": "06103",
+          "name": "Tehama County",
+          "overlapAreaKm2": 353.207851,
+          "overlapSharePercent": 71.793945
+        },
+        {
+          "geoid": "06105",
+          "name": "Trinity County",
+          "overlapAreaKm2": 71.466126,
+          "overlapSharePercent": 14.52639
+        },
+        {
+          "geoid": "06089",
+          "name": "Shasta County",
+          "overlapAreaKm2": 67.300455,
+          "overlapSharePercent": 13.679665
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10024077",
+        "sha256": "512afc0cb331b390cbdf4059ef25752fcffb9f803b72427777d96247b17c0094"
+      }
+    },
+    {
+      "fireId": "frap:2021:855a6985-f448-4d7a-bc96-d21994207328",
+      "status": "single",
+      "primaryCounty": "Kern County",
+      "counties": [
+        {
+          "geoid": "06029",
+          "name": "Kern County",
+          "overlapAreaKm2": 8.294209,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10022010",
+        "sha256": "834f4eb3cd3ecd72ad99e27a7ce01ced71f104588fc7eb59af002c80cd261930"
+      }
+    },
+    {
+      "fireId": "frap:2021:b87298da-7263-4773-b763-aabde89122bc",
+      "status": "single",
+      "primaryCounty": "Kern County",
+      "counties": [
+        {
+          "geoid": "06029",
+          "name": "Kern County",
+          "overlapAreaKm2": 9.377019,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10022020",
+        "sha256": "e0fe41fd7552d016ae646ffc93ce605c9798b1a36adb090c6c5df2606c7bbffe"
+      }
+    },
+    {
+      "fireId": "frap:2021:c62f887f-6203-4d10-a59a-d94b56a0b4ec",
+      "status": "single",
+      "primaryCounty": "Tuolumne County",
+      "counties": [
+        {
+          "geoid": "06109",
+          "name": "Tuolumne County",
+          "overlapAreaKm2": 11.445004,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10024041",
+        "sha256": "a22be6153c6880f4aea8f736bb3745787af14f444fea41de932f28f1f3d7191c"
+      }
+    },
+    {
+      "fireId": "frap:2021:d49c28ea-ae01-4f49-8d9e-d0bb85a78a3d",
+      "status": "single",
+      "primaryCounty": "Los Angeles County",
+      "counties": [
+        {
+          "geoid": "06037",
+          "name": "Los Angeles County",
+          "overlapAreaKm2": 5.535626,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10022017",
+        "sha256": "20f62cd0911347199d9d4c7026b9cedbacbaba24ce298fa9db9f9a6a2ff6f08f"
+      }
+    },
+    {
+      "fireId": "frap:2021:de4569b2-e81c-4b4e-8668-2dd28b49b352",
+      "status": "single",
+      "primaryCounty": "Siskiyou County",
+      "counties": [
+        {
+          "geoid": "06093",
+          "name": "Siskiyou County",
+          "overlapAreaKm2": 106.381678,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10023982",
+        "sha256": "090e9b1772ce95914d36ae3acf58cd98a5970ee88e90e4200f7b19c0d1052e94"
+      }
+    },
+    {
+      "fireId": "frap:2021:e4b227a5-8090-42e0-9d77-2d73d73c1946",
+      "status": "single",
+      "primaryCounty": "Humboldt County",
+      "counties": [
+        {
+          "geoid": "06023",
+          "name": "Humboldt County",
+          "overlapAreaKm2": 10.030825,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10022388",
+        "sha256": "75706ca28d88cf5b8ffb9eed0864ee36d3240b0245514fd7a3182581bd732444"
+      }
+    },
+    {
+      "fireId": "frap:2021:ee0ec126-23f6-4106-a96a-52f925dab4b6",
+      "status": "multiple",
+      "primaryCounty": "Nevada County",
+      "counties": [
+        {
+          "geoid": "06057",
+          "name": "Nevada County",
+          "overlapAreaKm2": 7.067846,
+          "overlapSharePercent": 64.53493
+        },
+        {
+          "geoid": "06061",
+          "name": "Placer County",
+          "overlapAreaKm2": 3.884124,
+          "overlapSharePercent": 35.465072
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10022374",
+        "sha256": "c2bfc62bc02618cb97583a903756c8a8d4cdb828ca7c49e15ad2d8a35f834615"
+      }
+    },
+    {
+      "fireId": "frap:2021:fb575640-2bd0-44af-bfdc-12089ca2da3b",
+      "status": "single",
+      "primaryCounty": "Kern County",
+      "counties": [
+        {
+          "geoid": "06029",
+          "name": "Kern County",
+          "overlapAreaKm2": 6.279495,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10023978",
+        "sha256": "ad37b731641d4ffe158d6b792538c96674f514ae3ece836bf841c3e9672db846"
+      }
+    },
+    {
+      "fireId": "frap:2021:fe7660f9-a7b2-4fde-940c-9fadf2517a6e",
+      "status": "single",
+      "primaryCounty": "Mono County",
+      "counties": [
+        {
+          "geoid": "06051",
+          "name": "Mono County",
+          "overlapAreaKm2": 12.060531,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10023998",
+        "sha256": "4275fb732936701949c08cd5ea25fe26a2c69365674b36a6a8bf31b133f8c3df"
+      }
+    },
+    {
+      "fireId": "mtbs:2021:10022013",
+      "status": "single",
+      "primaryCounty": "Monterey County",
+      "counties": [
+        {
+          "geoid": "06053",
+          "name": "Monterey County",
+          "overlapAreaKm2": 4.983336,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10022013",
+        "sha256": "42b4cc3915aaa107f5dcd2b86ba4159241bf2111a359208113c91a3d129b0878"
+      }
+    },
+    {
+      "fireId": "mtbs:2021:10023801",
+      "status": "single",
+      "primaryCounty": "Imperial County",
+      "counties": [
+        {
+          "geoid": "06025",
+          "name": "Imperial County",
+          "overlapAreaKm2": 2.534488,
+          "overlapSharePercent": 48.071689
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10023801",
+        "sha256": "e2b1408524f29f9f2454cc2f19a9045bf47c22ad55367619660e542d433525ed"
+      }
+    },
+    {
+      "fireId": "mtbs:2021:10023994",
+      "status": "single",
+      "primaryCounty": "Siskiyou County",
+      "counties": [
+        {
+          "geoid": "06093",
+          "name": "Siskiyou County",
+          "overlapAreaKm2": 30.790384,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10023994",
+        "sha256": "ab08a82249cab8923f52f42f66823c59c3ed16b35f765742445956c31cbdea0e"
+      }
+    },
+    {
+      "fireId": "frap:2020:06a2810f-2c71-4811-a82f-9ac92f389e63",
+      "status": "single",
+      "primaryCounty": "Tulare County",
+      "counties": [
+        {
+          "geoid": "06107",
+          "name": "Tulare County",
+          "overlapAreaKm2": 4.532983,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10021038",
+        "sha256": "f310131df8346179e7a4bc3fd81abf6c746bcf06551169c6ce0d6b5f27c7421c"
+      }
+    },
+    {
+      "fireId": "frap:2020:0d274bfa-15f9-472b-b775-160dbd2e51fb",
+      "status": "multiple",
+      "primaryCounty": "Tulare County",
+      "counties": [
+        {
+          "geoid": "06107",
+          "name": "Tulare County",
+          "overlapAreaKm2": 4.522373,
+          "overlapSharePercent": 92.700803
+        },
+        {
+          "geoid": "06019",
+          "name": "Fresno County",
+          "overlapAreaKm2": 0.356088,
+          "overlapSharePercent": 7.299197
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10021047",
+        "sha256": "efd3515b7c42cea3b99059e7155bcd31cbf0706328d0ed197036779da4650fa1"
+      }
+    },
+    {
+      "fireId": "frap:2020:163cac2f-bf8f-4b21-adb2-6086eef27e2f",
+      "status": "single",
+      "primaryCounty": "Merced County",
+      "counties": [
+        {
+          "geoid": "06047",
+          "name": "Merced County",
+          "overlapAreaKm2": 9.103062,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10020640",
+        "sha256": "4ad4a02c93d8e63d879c6dff64ef7cf8766148daa9a031c57c3b3299059fb20e"
+      }
+    },
+    {
+      "fireId": "frap:2020:1bdfb029-f66a-4047-a072-05e2ed36d3d7",
+      "status": "single",
+      "primaryCounty": "San Luis Obispo County",
+      "counties": [
+        {
+          "geoid": "06079",
+          "name": "San Luis Obispo County",
+          "overlapAreaKm2": 8.258024,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10020375",
+        "sha256": "29e10f0d8ba49f01e20d114286f19ed770a65b3a8338f45cc8c9743d1253ebbb"
+      }
+    },
+    {
+      "fireId": "frap:2020:21e5e1af-519c-4a4d-9636-2fea81480871",
+      "status": "single",
+      "primaryCounty": "Tuolumne County",
+      "counties": [
+        {
+          "geoid": "06109",
+          "name": "Tuolumne County",
+          "overlapAreaKm2": 12.75299,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10020655",
+        "sha256": "a03abd9ada18bc995073982501553f1796822754e8084ab005b5ea14f1a819b3"
+      }
+    },
+    {
+      "fireId": "frap:2020:2c6a52fc-c5c4-4660-9204-002e44f2d7fa",
+      "status": "single",
+      "primaryCounty": "San Luis Obispo County",
+      "counties": [
+        {
+          "geoid": "06079",
+          "name": "San Luis Obispo County",
+          "overlapAreaKm2": 7.146411,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10021037",
+        "sha256": "196f4cde319e627c6ff5ac7cc2aac9c4405df24127e37d30682bef6e31b2c4f6"
+      }
+    },
+    {
+      "fireId": "frap:2020:4240ed66-0c9a-4e25-95fc-92a6462584b8",
+      "status": "single",
+      "primaryCounty": "Los Angeles County",
+      "counties": [
+        {
+          "geoid": "06037",
+          "name": "Los Angeles County",
+          "overlapAreaKm2": 6.697172,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10020771",
+        "sha256": "1a511f5682de42884d1378bdde21d3665ad758227986525bd136a18353e82b75"
+      }
+    },
+    {
+      "fireId": "frap:2020:53cf764b-1f0e-4f1e-b464-a0e5554f898d",
+      "status": "single",
+      "primaryCounty": "Lassen County",
+      "counties": [
+        {
+          "geoid": "06035",
+          "name": "Lassen County",
+          "overlapAreaKm2": 12.539796,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10020677",
+        "sha256": "2a8100c51da9b96df3d6bdd3db64818b3a22ed66a060c06b61db09f096360cfe"
+      }
+    },
+    {
+      "fireId": "frap:2020:555ed669-d6cd-452d-bc7e-86c879591aa7",
+      "status": "single",
+      "primaryCounty": "Butte County",
+      "counties": [
+        {
+          "geoid": "06007",
+          "name": "Butte County",
+          "overlapAreaKm2": 4.309098,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10021068",
+        "sha256": "70ae58a9eaecce77e201e9020dcc2c74929262ee419e8240c7661a95697fa2c0"
+      }
+    },
+    {
+      "fireId": "frap:2020:6100b97f-16b2-49d9-a546-4e74887daff0",
+      "status": "single",
+      "primaryCounty": "Orange County",
+      "counties": [
+        {
+          "geoid": "06059",
+          "name": "Orange County",
+          "overlapAreaKm2": 50.639183,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10020826",
+        "sha256": "986ee50d08f76e26e4ce36c889f6ce88d7d683196f756c5250d330d5d0511baa"
+      }
+    },
+    {
+      "fireId": "frap:2020:793f45e0-e862-41c0-a129-762acda3242c",
+      "status": "single",
+      "primaryCounty": "Sacramento County",
+      "counties": [
+        {
+          "geoid": "06067",
+          "name": "Sacramento County",
+          "overlapAreaKm2": 20.986098,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10020664",
+        "sha256": "91d4869f40674387632f7e5c94bc364a0ff2a0641acabd7fe540e1a8868f8379"
+      }
+    },
+    {
+      "fireId": "frap:2020:7ab9ae5d-781e-4d52-b035-f80c692d42d2",
+      "status": "multiple",
+      "primaryCounty": "Ventura County",
+      "counties": [
+        {
+          "geoid": "06111",
+          "name": "Ventura County",
+          "overlapAreaKm2": 8.453615,
+          "overlapSharePercent": 88.742639
+        },
+        {
+          "geoid": "06037",
+          "name": "Los Angeles County",
+          "overlapAreaKm2": 1.072375,
+          "overlapSharePercent": 11.257361
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10020797",
+        "sha256": "6f6630e2aebb5b2e0caae217e572f2ab67c0e375ee494f28ae2f4884ef5aa4f0"
+      }
+    },
+    {
+      "fireId": "frap:2020:7aba2b28-9b21-4d9b-9fd5-dbf0042c0419",
+      "status": "single",
+      "primaryCounty": "Modoc County",
+      "counties": [
+        {
+          "geoid": "06049",
+          "name": "Modoc County",
+          "overlapAreaKm2": 6.631168,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10019551",
+        "sha256": "dca150cabd119e658cf0f1fd99cafa931469e8e6980249bf653b01c98d88f2e1"
+      }
+    },
+    {
+      "fireId": "frap:2020:9a1d2730-1608-4029-a3b7-c058b3c9fa53",
+      "status": "single",
+      "primaryCounty": "San Diego County",
+      "counties": [
+        {
+          "geoid": "06073",
+          "name": "San Diego County",
+          "overlapAreaKm2": 17.842792,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10020758",
+        "sha256": "f3dbab7cddb33df3d898882650210c3122699da0bd8464c906c49dd403cad34c"
+      }
+    },
+    {
+      "fireId": "frap:2020:9f05a4ff-ca01-4df8-8cd0-8fd3f1c3ef4e",
+      "status": "single",
+      "primaryCounty": "Solano County",
+      "counties": [
+        {
+          "geoid": "06095",
+          "name": "Solano County",
+          "overlapAreaKm2": 7.460993,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10020658",
+        "sha256": "ac4764b6cd0775fa3b62ca14ac04d9ec0ef3e18e22c37ee7e5cceff875968f9e"
+      }
+    },
+    {
+      "fireId": "frap:2020:a0b83504-5cbd-4f15-8826-dc470349a4ba",
+      "status": "single",
+      "primaryCounty": "Los Angeles County",
+      "counties": [
+        {
+          "geoid": "06037",
+          "name": "Los Angeles County",
+          "overlapAreaKm2": 125.329784,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10020788",
+        "sha256": "de89edc04c48c7315962b03177bbc57cefe47bf642c8c5f9cd231b47040fe7bf"
+      }
+    },
+    {
+      "fireId": "frap:2020:b74e1e7e-6d4c-4121-89c6-4a1213fac476",
+      "status": "single",
+      "primaryCounty": "Riverside County",
+      "counties": [
+        {
+          "geoid": "06065",
+          "name": "Riverside County",
+          "overlapAreaKm2": 26.168946,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10020811",
+        "sha256": "dfb9838041c3d04782bf4cce85c8f420961720d3d2e6acbb754d464dbc846394"
+      }
+    },
+    {
+      "fireId": "frap:2020:beee4e07-0016-46b2-8426-1ae1c6272399",
+      "status": "multiple",
+      "primaryCounty": "San Bernardino County",
+      "counties": [
+        {
+          "geoid": "06071",
+          "name": "San Bernardino County",
+          "overlapAreaKm2": 43.057028,
+          "overlapSharePercent": 76.688605
+        },
+        {
+          "geoid": "06059",
+          "name": "Orange County",
+          "overlapAreaKm2": 10.852758,
+          "overlapSharePercent": 19.329779
+        },
+        {
+          "geoid": "06065",
+          "name": "Riverside County",
+          "overlapAreaKm2": 2.23549,
+          "overlapSharePercent": 3.981617
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10020816",
+        "sha256": "67aef200b93f9e6dd8b72f3643472330612a21427338ccb41be0d95341c44443"
+      }
+    },
+    {
+      "fireId": "frap:2020:cb9a2880-6dd6-481f-aa33-cd5caa16e285",
+      "status": "single",
+      "primaryCounty": "Calaveras County",
+      "counties": [
+        {
+          "geoid": "06009",
+          "name": "Calaveras County",
+          "overlapAreaKm2": 6.261528,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10020639",
+        "sha256": "1c97ed2859529c6bee9e9417bee433696f6aebf03c66ac9929cf83698e0fb8d4"
+      }
+    },
+    {
+      "fireId": "frap:2020:d72b4f6c-67ff-43dd-a306-082a05f1f801",
+      "status": "single",
+      "primaryCounty": "Sonoma County",
+      "counties": [
+        {
+          "geoid": "06097",
+          "name": "Sonoma County",
+          "overlapAreaKm2": 9.960825,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10021149",
+        "sha256": "56f89e05a49ffa561aba80769afa4c29fa982a28ed1bd59c4050895b31c9b936"
+      }
+    },
+    {
+      "fireId": "frap:2020:e07f9231-b6d3-4158-90a9-b59d5a959ed0",
+      "status": "single",
+      "primaryCounty": "Kern County",
+      "counties": [
+        {
+          "geoid": "06029",
+          "name": "Kern County",
+          "overlapAreaKm2": 12.618369,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10020767",
+        "sha256": "4fbc32e093f8f1fec3b12dadbe2327d897c84b28c570c77bd7c4739d8319f456"
+      }
+    },
+    {
+      "fireId": "frap:2020:f08e7e5c-2730-4c86-b29e-32116cec80bd",
+      "status": "single",
+      "primaryCounty": "Los Angeles County",
+      "counties": [
+        {
+          "geoid": "06037",
+          "name": "Los Angeles County",
+          "overlapAreaKm2": 18.177417,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10021006",
+        "sha256": "08aa85629f34ca19394743f4beb46df556bfe14546bde212af5393cc94a1a4bd"
+      }
+    },
+    {
+      "fireId": "mtbs:2020:10020757",
+      "status": "single",
+      "primaryCounty": "Inyo County",
+      "counties": [
+        {
+          "geoid": "06027",
+          "name": "Inyo County",
+          "overlapAreaKm2": 166.504733,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10020757",
+        "sha256": "3562de43add642277dabd3f5c600c9b2fcac902bc96fe73631175f2acea6b9b2"
+      }
+    },
+    {
+      "fireId": "mtbs:2020:10021276",
+      "status": "single",
+      "primaryCounty": "Monterey County",
+      "counties": [
+        {
+          "geoid": "06053",
+          "name": "Monterey County",
+          "overlapAreaKm2": 29.562739,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10021276",
+        "sha256": "d08c2ebca8758877d3eecffe1701e0bef8c28be13ac4bd0f66b75cbbd6d31f65"
+      }
+    },
+    {
+      "fireId": "frap:2019:13efa956-7be4-4892-a3e4-c844aa8c3c45",
+      "status": "single",
+      "primaryCounty": "Lassen County",
+      "counties": [
+        {
+          "geoid": "06035",
+          "name": "Lassen County",
+          "overlapAreaKm2": 4.665552,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10015727",
+        "sha256": "44f0c984ea4f5c60bbe155b1d3424d83238051992085ff6a22f203f8572e7153"
+      }
+    },
+    {
+      "fireId": "frap:2019:1a93dcbb-0ffe-4ed5-afb4-309e439c1fb0",
+      "status": "single",
+      "primaryCounty": "Kern County",
+      "counties": [
+        {
+          "geoid": "06029",
+          "name": "Kern County",
+          "overlapAreaKm2": 13.83728,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10015609",
+        "sha256": "ccbd1e75f5f5210bcffa0e071351fe904b1006ee1059ff86370b4847cfd7cd71"
+      }
+    },
+    {
+      "fireId": "frap:2019:22bf6a54-c657-418d-80ca-f5a2fa8a2269",
+      "status": "single",
+      "primaryCounty": "Siskiyou County",
+      "counties": [
+        {
+          "geoid": "06093",
+          "name": "Siskiyou County",
+          "overlapAreaKm2": 7.545321,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10016211",
+        "sha256": "aed8acb4da2194abe9639595d4de1bb3930755f7a92cc96c790db5482f6da517"
+      }
+    },
+    {
+      "fireId": "frap:2019:43c1b1c9-81ad-42bf-9cee-f57738d9b62d",
+      "status": "single",
+      "primaryCounty": "Modoc County",
+      "counties": [
+        {
+          "geoid": "06049",
+          "name": "Modoc County",
+          "overlapAreaKm2": 23.329982,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10016214",
+        "sha256": "9c91fc562e23c2dba1f36dcc2a63076a3dccf32c0510b3d30a72f43554e1e0a3"
+      }
+    },
+    {
+      "fireId": "frap:2019:46d17e03-91d5-401f-a5a4-d41b52f2fa42",
+      "status": "single",
+      "primaryCounty": "Modoc County",
+      "counties": [
+        {
+          "geoid": "06049",
+          "name": "Modoc County",
+          "overlapAreaKm2": 57.176383,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10016216",
+        "sha256": "e7728f35594de0cbfad940af63657493a74bb2dca4f01256b6f5bb2aeec00970"
+      }
+    },
+    {
+      "fireId": "frap:2019:49c0fb18-b9af-4169-8fb7-7f24570b98e1",
+      "status": "single",
+      "primaryCounty": "Riverside County",
+      "counties": [
+        {
+          "geoid": "06065",
+          "name": "Riverside County",
+          "overlapAreaKm2": 7.372653,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10016117",
+        "sha256": "33edea9c379024b766ae9edabd9a187cd633b95b679b48eb3ba0dda0b1a454ed"
+      }
+    },
+    {
+      "fireId": "frap:2019:82401000-e20d-4741-905d-359bfb49c1e0",
+      "status": "single",
+      "primaryCounty": "Mono County",
+      "counties": [
+        {
+          "geoid": "06051",
+          "name": "Mono County",
+          "overlapAreaKm2": 24.364042,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10015719",
+        "sha256": "66008eb993fa94f47bbf7bc8f4ceb335c10858a86f7d315e0849c6c43950fdb0"
+      }
+    },
+    {
+      "fireId": "frap:2019:946febb0-0c97-4843-9ed8-621f774d3cd7",
+      "status": "single",
+      "primaryCounty": "Tehama County",
+      "counties": [
+        {
+          "geoid": "06103",
+          "name": "Tehama County",
+          "overlapAreaKm2": 11.853587,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10015669",
+        "sha256": "bfaee7cfe8baa1163156328c37def362bd255b65e688e4824ef769ff57b63492"
+      }
+    },
+    {
+      "fireId": "frap:2019:b7f50217-2587-43f9-8863-21bce60ad19a",
+      "status": "single",
+      "primaryCounty": "Tulare County",
+      "counties": [
+        {
+          "geoid": "06107",
+          "name": "Tulare County",
+          "overlapAreaKm2": 8.074263,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10016618",
+        "sha256": "be2ee27de7c3be9f8bc8efc167132e63b54e018ba9890473b1e0c678da25153e"
+      }
+    },
+    {
+      "fireId": "frap:2019:cad7be29-d31c-4133-ac67-af6ef4ff2345",
+      "status": "single",
+      "primaryCounty": "San Luis Obispo County",
+      "counties": [
+        {
+          "geoid": "06079",
+          "name": "San Luis Obispo County",
+          "overlapAreaKm2": 4.845444,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10016419",
+        "sha256": "dc767786a1ab1b4bce51ad6169b428e070fa209cb33864da0bb1b8cea5f4432a"
+      }
+    },
+    {
+      "fireId": "frap:2019:ccf8aac1-bf1e-4aa3-8c4b-3ddebfe4dade",
+      "status": "multiple",
+      "primaryCounty": "Riverside County",
+      "counties": [
+        {
+          "geoid": "06065",
+          "name": "Riverside County",
+          "overlapAreaKm2": 3.753507,
+          "overlapSharePercent": 88.463003
+        },
+        {
+          "geoid": "06071",
+          "name": "San Bernardino County",
+          "overlapAreaKm2": 0.489518,
+          "overlapSharePercent": 11.536997
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10015772",
+        "sha256": "71639b544bf33790cb1b311232842592dd94fb85406ad05e969a4724c3517616"
+      }
+    },
+    {
+      "fireId": "frap:2019:dbdb00cd-3dfc-4adf-91e5-e03f1375dc98",
+      "status": "single",
+      "primaryCounty": "Santa Barbara County",
+      "counties": [
+        {
+          "geoid": "06083",
+          "name": "Santa Barbara County",
+          "overlapAreaKm2": 11.184841,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10016590",
+        "sha256": "49b1d88a13e7c641db895f8c977b9629132d8e7d62964d3a73795bf5aa50afd8"
+      }
+    },
+    {
+      "fireId": "frap:2019:f3c62855-faca-4309-89d4-a789377b8b1b",
+      "status": "multiple",
+      "primaryCounty": "Yolo County",
+      "counties": [
+        {
+          "geoid": "06113",
+          "name": "Yolo County",
+          "overlapAreaKm2": 8.948361,
+          "overlapSharePercent": 89.371054
+        },
+        {
+          "geoid": "06011",
+          "name": "Colusa County",
+          "overlapAreaKm2": 1.064233,
+          "overlapSharePercent": 10.628946
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10016320",
+        "sha256": "dd631b7d36391d89ae83923b5817f4c89cb1af5d447c11737fbc60a94ceb528a"
+      }
+    },
+    {
+      "fireId": "frap:2019:fd90e0e8-ced4-4374-abeb-7b79ae7fb28a",
+      "status": "single",
+      "primaryCounty": "Monterey County",
+      "counties": [
+        {
+          "geoid": "06053",
+          "name": "Monterey County",
+          "overlapAreaKm2": 10.570905,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10015604",
+        "sha256": "cb982b9952a47a298e072eb9e8be0fadeaae7c5746ec2ae9e0be1d712917181b"
+      }
+    },
+    {
+      "fireId": "mtbs:2019:10015726",
+      "status": "single",
+      "primaryCounty": "Lassen County",
+      "counties": [
+        {
+          "geoid": "06035",
+          "name": "Lassen County",
+          "overlapAreaKm2": 15.256268,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10015726",
+        "sha256": "8afd6a8469487d86992d7b84b249fe925ebd0ec5afdb9f23f352d429808a830e"
+      }
+    },
+    {
+      "fireId": "frap:2018:1b42a2b5-caef-4f90-b8bf-af6e8a192259",
+      "status": "multiple",
+      "primaryCounty": "Merced County",
+      "counties": [
+        {
+          "geoid": "06047",
+          "name": "Merced County",
+          "overlapAreaKm2": 13.269794,
+          "overlapSharePercent": 70.501697
+        },
+        {
+          "geoid": "06043",
+          "name": "Mariposa County",
+          "overlapAreaKm2": 5.552156,
+          "overlapSharePercent": 29.498303
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10012730",
+        "sha256": "d31de977d39c4e91f5940e192b362339ec0de84d01ce678e2534143d336fe920"
+      }
+    },
+    {
+      "fireId": "frap:2018:26bbffe1-6241-4da8-af63-a8298a3362ee",
+      "status": "single",
+      "primaryCounty": "San Bernardino County",
+      "counties": [
+        {
+          "geoid": "06071",
+          "name": "San Bernardino County",
+          "overlapAreaKm2": 5.063946,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10012984",
+        "sha256": "7c987f67241c956132fb6a106dbcb33106008359d35efafb002ca3f72ca117d8"
+      }
+    },
+    {
+      "fireId": "frap:2018:27f39179-b96a-4bb1-b984-af12d2685b18",
+      "status": "single",
+      "primaryCounty": "Riverside County",
+      "counties": [
+        {
+          "geoid": "06065",
+          "name": "Riverside County",
+          "overlapAreaKm2": 52.983858,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10013011",
+        "sha256": "018111f546afdd04130d79087a2b0c2fc09603e980d5507fe24ff2a9fa2a0d5a"
+      }
+    },
+    {
+      "fireId": "frap:2018:2f087173-99cd-4907-b699-02de95a6b0da",
+      "status": "single",
+      "primaryCounty": "Placer County",
+      "counties": [
+        {
+          "geoid": "06061",
+          "name": "Placer County",
+          "overlapAreaKm2": 5.137191,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10012361",
+        "sha256": "19a8b92a5abb01f732d413df707003d8def6744263d8b4e9e0e22bf76821224c"
+      }
+    },
+    {
+      "fireId": "frap:2018:441d9ef4-3a52-423a-81b2-91d4dbe10f36",
+      "status": "single",
+      "primaryCounty": "Tulare County",
+      "counties": [
+        {
+          "geoid": "06107",
+          "name": "Tulare County",
+          "overlapAreaKm2": 21.123087,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10012499",
+        "sha256": "3c7c36af40c24587f82ca644ac79874b3600f21d228f6874711f0c5bfd66682e"
+      }
+    },
+    {
+      "fireId": "frap:2018:527f1e49-1596-4c21-95a9-44d8399adb60",
+      "status": "single",
+      "primaryCounty": "Solano County",
+      "counties": [
+        {
+          "geoid": "06095",
+          "name": "Solano County",
+          "overlapAreaKm2": 8.923851,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10012350",
+        "sha256": "0ac55a995c1ee34475efcbc4b5103f9c9a69db3a69db4d30fe42bcf58930d229"
+      }
+    },
+    {
+      "fireId": "frap:2018:5adfe99c-0b0b-4293-a86f-434cb355f325",
+      "status": "single",
+      "primaryCounty": "Riverside County",
+      "counties": [
+        {
+          "geoid": "06065",
+          "name": "Riverside County",
+          "overlapAreaKm2": 5.262556,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10013408",
+        "sha256": "6c4a904e17c8f66026a704f2df6e4a1063e70e726c79350ee87f07b79d21816c"
+      }
+    },
+    {
+      "fireId": "frap:2018:79da167c-ed47-4a08-8b28-e95b4b81056f",
+      "status": "single",
+      "primaryCounty": "Napa County",
+      "counties": [
+        {
+          "geoid": "06055",
+          "name": "Napa County",
+          "overlapAreaKm2": 10.090755,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10012437",
+        "sha256": "e7c62ad1d524c1be8ca124b18e4e7ab2db724e6f5d0d008929a9b2740504dcf0"
+      }
+    },
+    {
+      "fireId": "frap:2018:80bde547-1dcb-4d23-95f9-e1acfd055754",
+      "status": "multiple",
+      "primaryCounty": "Stanislaus County",
+      "counties": [
+        {
+          "geoid": "06099",
+          "name": "Stanislaus County",
+          "overlapAreaKm2": 25.127241,
+          "overlapSharePercent": 50.734354
+        },
+        {
+          "geoid": "06009",
+          "name": "Calaveras County",
+          "overlapAreaKm2": 23.458189,
+          "overlapSharePercent": 47.364375
+        },
+        {
+          "geoid": "06077",
+          "name": "San Joaquin County",
+          "overlapAreaKm2": 0.941644,
+          "overlapSharePercent": 1.901272
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10012739",
+        "sha256": "5497f3b9b90ae4cec502d8731e52ca615f169c813e8dae68db02a42c8aef6eb7"
+      }
+    },
+    {
+      "fireId": "frap:2018:832b3132-d787-42b0-9fcc-2c61127e838e",
+      "status": "single",
+      "primaryCounty": "Tulare County",
+      "counties": [
+        {
+          "geoid": "06107",
+          "name": "Tulare County",
+          "overlapAreaKm2": 7.303648,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10011573",
+        "sha256": "b48457ca5576bd1861efaf0c2bf023b84255a518242b13436d6b1d44049044a0"
+      }
+    },
+    {
+      "fireId": "frap:2018:8762b737-26cc-47cd-8736-86e4fdae43d9",
+      "status": "single",
+      "primaryCounty": "Tulare County",
+      "counties": [
+        {
+          "geoid": "06107",
+          "name": "Tulare County",
+          "overlapAreaKm2": 5.313653,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10012503",
+        "sha256": "3d2a503d3fd7d11c292b0a4917c3eff3808390628b7c1814f0cf60e618a19070"
+      }
+    },
+    {
+      "fireId": "frap:2018:9ca4083f-eace-40a9-9dc8-86cd7c6ec8ce",
+      "status": "single",
+      "primaryCounty": "Inyo County",
+      "counties": [
+        {
+          "geoid": "06027",
+          "name": "Inyo County",
+          "overlapAreaKm2": 5.378918,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10013285",
+        "sha256": "3c2729c49468ebdf037e2efe6863d4968a9643f2af5ec924094a7776ade3300e"
+      }
+    },
+    {
+      "fireId": "frap:2018:c0bb2e1c-40ab-448b-9a4b-7b58dc7f0a5a",
+      "status": "single",
+      "primaryCounty": "Monterey County",
+      "counties": [
+        {
+          "geoid": "06053",
+          "name": "Monterey County",
+          "overlapAreaKm2": 9.377884,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10013187",
+        "sha256": "7f7b3b396765a7376d532e280b73d9790c85f3310cbd9191dea6f3d367cb20ed"
+      }
+    },
+    {
+      "fireId": "frap:2018:cb17c724-5840-4b1f-9234-c1af012b9fce",
+      "status": "multiple",
+      "primaryCounty": "San Luis Obispo County",
+      "counties": [
+        {
+          "geoid": "06079",
+          "name": "San Luis Obispo County",
+          "overlapAreaKm2": 4.25519,
+          "overlapSharePercent": 93.239276
+        },
+        {
+          "geoid": "06083",
+          "name": "Santa Barbara County",
+          "overlapAreaKm2": 0.308541,
+          "overlapSharePercent": 6.760724
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10013185",
+        "sha256": "7bf49fea25d1b925a03ff0d8dcc5fd579d314953dea09e28add21c8f3761c491"
+      }
+    },
+    {
+      "fireId": "frap:2018:cb2b4d42-2975-4368-901e-7368bebc9be0",
+      "status": "single",
+      "primaryCounty": "Shasta County",
+      "counties": [
+        {
+          "geoid": "06089",
+          "name": "Shasta County",
+          "overlapAreaKm2": 7.976099,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10012450",
+        "sha256": "ea426e0c6bde72b40885ba47c0c2728e578f6111cbbdadfe5e629fde38c79086"
+      }
+    },
+    {
+      "fireId": "frap:2018:d1318ce6-dede-4413-8bd7-fbfbca03dd02",
+      "status": "single",
+      "primaryCounty": "Los Angeles County",
+      "counties": [
+        {
+          "geoid": "06037",
+          "name": "Los Angeles County",
+          "overlapAreaKm2": 6.716217,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10013015",
+        "sha256": "85c288c068b27b9f7574458d065af36195a1f11727373dff7f346bc93964276e"
+      }
+    },
+    {
+      "fireId": "frap:2018:e629405b-4ee6-40fa-8089-7f73dec5ae3a",
+      "status": "multiple",
+      "primaryCounty": "Fresno County",
+      "counties": [
+        {
+          "geoid": "06019",
+          "name": "Fresno County",
+          "overlapAreaKm2": 4.105022,
+          "overlapSharePercent": 55.125821
+        },
+        {
+          "geoid": "06047",
+          "name": "Merced County",
+          "overlapAreaKm2": 3.341619,
+          "overlapSharePercent": 44.874179
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10012729",
+        "sha256": "32a8483956388f567014452c42d0d66bb9320c36d61311ca9ae7206dea96b568"
+      }
+    },
+    {
+      "fireId": "frap:2018:efe9bf5a-6fb7-47a6-89d2-3f20d027a2d8",
+      "status": "single",
+      "primaryCounty": "Sutter County",
+      "counties": [
+        {
+          "geoid": "06101",
+          "name": "Sutter County",
+          "overlapAreaKm2": 4.140377,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10012347",
+        "sha256": "d190e0c6f054545a82b47a22c030441f6df4508e3c6849a4ba48a5d5300843aa"
+      }
+    },
+    {
+      "fireId": "frap:2018:f4f8553a-8c23-4cdb-b9f5-b4ee810c33c0",
+      "status": "single",
+      "primaryCounty": "Tehama County",
+      "counties": [
+        {
+          "geoid": "06103",
+          "name": "Tehama County",
+          "overlapAreaKm2": 11.529375,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10010399",
+        "sha256": "ef0186ff852c8429a807a62cafe9c50c3c26f6c34f45bc4f8faf78d21606b53e"
+      }
+    },
+    {
+      "fireId": "frap:2018:f5510c92-0797-40de-88ff-267f439c77f7",
+      "status": "single",
+      "primaryCounty": "Trinity County",
+      "counties": [
+        {
+          "geoid": "06105",
+          "name": "Trinity County",
+          "overlapAreaKm2": 7.184215,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10012178",
+        "sha256": "377575f24e201ce40940fc80dfd93ba9db047ec5c7bf5d7d7a19d34fd96fbccc"
+      }
+    },
+    {
+      "fireId": "frap:2017:0391dc57-7b82-4f9c-9fe8-aad9f7c5c316",
+      "status": "single",
+      "primaryCounty": "Siskiyou County",
+      "counties": [
+        {
+          "geoid": "06093",
+          "name": "Siskiyou County",
+          "overlapAreaKm2": 6.492614,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10007702",
+        "sha256": "e44e107e4105ece8b844d127d39163584ad31f73114dc269d7a0411b4c233739"
+      }
+    },
+    {
+      "fireId": "frap:2017:10876f96-ece4-491c-b769-970162bf35d1",
+      "status": "single",
+      "primaryCounty": "Butte County",
+      "counties": [
+        {
+          "geoid": "06007",
+          "name": "Butte County",
+          "overlapAreaKm2": 26.257232,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10008058",
+        "sha256": "abea13560026e03e273de3f2a6276fd284467c08c395156079260a23e360fcc8"
+      }
+    },
+    {
+      "fireId": "frap:2017:13d8ac74-de85-49d5-9bf6-88a1ea171abc",
+      "status": "single",
+      "primaryCounty": "Tulare County",
+      "counties": [
+        {
+          "geoid": "06107",
+          "name": "Tulare County",
+          "overlapAreaKm2": 9.855572,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10007968",
+        "sha256": "3baba7e6db83ebd1b36fcc08fdbc8e3d33c82e56fe881539efd9b054cec10121"
+      }
+    },
+    {
+      "fireId": "frap:2017:1a886c63-4f18-459b-806a-447be49eabb6",
+      "status": "multiple",
+      "primaryCounty": "Riverside County",
+      "counties": [
+        {
+          "geoid": "06065",
+          "name": "Riverside County",
+          "overlapAreaKm2": 16.324205,
+          "overlapSharePercent": 97.267415
+        },
+        {
+          "geoid": "06071",
+          "name": "San Bernardino County",
+          "overlapAreaKm2": 0.458605,
+          "overlapSharePercent": 2.732585
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10008141",
+        "sha256": "caa4276dd85c64c3a3f9dd1e2f009b89198e9404fd0a57efd4d86f4978737b81"
+      }
+    },
+    {
+      "fireId": "frap:2017:25ca550e-7d73-4c92-9ebc-ed0e9219cb85",
+      "status": "multiple",
+      "primaryCounty": "Ventura County",
+      "counties": [
+        {
+          "geoid": "06111",
+          "name": "Ventura County",
+          "overlapAreaKm2": 950.788271,
+          "overlapSharePercent": 83.315444
+        },
+        {
+          "geoid": "06083",
+          "name": "Santa Barbara County",
+          "overlapAreaKm2": 190.402631,
+          "overlapSharePercent": 16.684556
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10008148",
+        "sha256": "7ed960ca6840e326060eb14ab57b59ce7973d50fa72f056fa9c033e2940d9c12"
+      }
+    },
+    {
+      "fireId": "frap:2017:35bf84f6-71e0-4d13-93e4-d7d0ed7beeaa",
+      "status": "multiple",
+      "primaryCounty": "Mariposa County",
+      "counties": [
+        {
+          "geoid": "06043",
+          "name": "Mariposa County",
+          "overlapAreaKm2": 17.217259,
+          "overlapSharePercent": 52.845028
+        },
+        {
+          "geoid": "06039",
+          "name": "Madera County",
+          "overlapAreaKm2": 15.363401,
+          "overlapSharePercent": 47.154972
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10007573",
+        "sha256": "94571b381acef7d2da00cb4910ca1624ae18df674c80a79634c39a51eedfcb4b"
+      }
+    },
+    {
+      "fireId": "frap:2017:3aa32444-cfc0-4dd4-8183-c26b7588d7ec",
+      "status": "single",
+      "primaryCounty": "Modoc County",
+      "counties": [
+        {
+          "geoid": "06049",
+          "name": "Modoc County",
+          "overlapAreaKm2": 6.901219,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10007770",
+        "sha256": "8520d9f7e7e1a199426f31c144f811b8eac278da0680334885c84ce614c508d4"
+      }
+    },
+    {
+      "fireId": "frap:2017:3c56ab98-354b-4d71-be4c-ca9943b782b1",
+      "status": "single",
+      "primaryCounty": "Modoc County",
+      "counties": [
+        {
+          "geoid": "06049",
+          "name": "Modoc County",
+          "overlapAreaKm2": 30.956388,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10007790",
+        "sha256": "0ec26819c29acf86c8f1c66967d8cbec80dcf2d7a80141ff554a69094049130d"
+      }
+    },
+    {
+      "fireId": "frap:2017:3c60bd2f-7f7d-49c2-b547-5fedf11a31ac",
+      "status": "multiple",
+      "primaryCounty": "Los Angeles County",
+      "counties": [
+        {
+          "geoid": "06037",
+          "name": "Los Angeles County",
+          "overlapAreaKm2": 19.792623,
+          "overlapSharePercent": 99.892117
+        },
+        {
+          "geoid": "06111",
+          "name": "Ventura County",
+          "overlapAreaKm2": 0.021376,
+          "overlapSharePercent": 0.107883
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10007997",
+        "sha256": "a406f3f8c8a9882b721e748fe3abb5088b51bb99bac3b95c0fd2f2b65dafa45c"
+      }
+    },
+    {
+      "fireId": "frap:2017:3e33c2e4-7235-48ff-9076-5e91885f558e",
+      "status": "single",
+      "primaryCounty": "Kern County",
+      "counties": [
+        {
+          "geoid": "06029",
+          "name": "Kern County",
+          "overlapAreaKm2": 6.847832,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10009026",
+        "sha256": "d56ca4278a81327e1c6fb627f561ea44106df853e1e918378e5fe3b8ef6eeae2"
+      }
+    },
+    {
+      "fireId": "frap:2017:3ff1994c-da4d-4e91-ba16-fa71d00406b9",
+      "status": "single",
+      "primaryCounty": "Riverside County",
+      "counties": [
+        {
+          "geoid": "06065",
+          "name": "Riverside County",
+          "overlapAreaKm2": 4.521008,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10011611",
+        "sha256": "c8f6b20544f441c45b2ed5f6c80bf2af7b5e2021c049f3fae1d3d0a550462024"
+      }
+    },
+    {
+      "fireId": "frap:2017:50177213-3fc6-41f4-80b9-53ede7f275a1",
+      "status": "single",
+      "primaryCounty": "Plumas County",
+      "counties": [
+        {
+          "geoid": "06063",
+          "name": "Plumas County",
+          "overlapAreaKm2": 18.394489,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10007822",
+        "sha256": "400edda7926510a5b5656d3601567e11c9a1e1838c13f9eb3661fe9ff8e08168"
+      }
+    },
+    {
+      "fireId": "frap:2017:536f89cf-e51f-4948-b6fd-987b5c51528e",
+      "status": "single",
+      "primaryCounty": "Madera County",
+      "counties": [
+        {
+          "geoid": "06039",
+          "name": "Madera County",
+          "overlapAreaKm2": 6.107702,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10007837",
+        "sha256": "e044b8ac5ad22d979f98bb25ddc63024600d1bb3b652a26b4d9865f37c0c172b"
+      }
+    },
+    {
+      "fireId": "frap:2017:5595ba2a-131f-4172-a762-d7728a2a7a26",
+      "status": "multiple",
+      "primaryCounty": "Yolo County",
+      "counties": [
+        {
+          "geoid": "06113",
+          "name": "Yolo County",
+          "overlapAreaKm2": 10.051294,
+          "overlapSharePercent": 99.918132
+        },
+        {
+          "geoid": "06095",
+          "name": "Solano County",
+          "overlapAreaKm2": 0.008235,
+          "overlapSharePercent": 0.081868
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10007983",
+        "sha256": "1aed03142dacec1251a54730bca8508e370471c00c3b8c1a3591b756da40e6e0"
+      }
+    },
+    {
+      "fireId": "frap:2017:56ff5dd9-58ba-48da-b002-983a178f4807",
+      "status": "single",
+      "primaryCounty": "Modoc County",
+      "counties": [
+        {
+          "geoid": "06049",
+          "name": "Modoc County",
+          "overlapAreaKm2": 124.989549,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10007778",
+        "sha256": "bdc3df302b753b1e64dc7123751ac3d021cc02788dc400dcca76077d239feeaf"
+      }
+    },
+    {
+      "fireId": "frap:2017:5a34be30-67bb-4fd8-a9ea-159f2544ce76",
+      "status": "single",
+      "primaryCounty": "Butte County",
+      "counties": [
+        {
+          "geoid": "06007",
+          "name": "Butte County",
+          "overlapAreaKm2": 17.258206,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10008061",
+        "sha256": "1967d27399a8df827c53a601158c49c4db5b3c774ea6dc30fa8fb5037c13f27b"
+      }
+    },
+    {
+      "fireId": "frap:2017:66bf6a14-6ea6-4d9d-ba7c-7321e1d35350",
+      "status": "single",
+      "primaryCounty": "Siskiyou County",
+      "counties": [
+        {
+          "geoid": "06093",
+          "name": "Siskiyou County",
+          "overlapAreaKm2": 17.100938,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10007754",
+        "sha256": "1664a4be2f235dd4e4c9a89b06b2fd03f651f1a360c0b6b51ffaa6570559168e"
+      }
+    },
+    {
+      "fireId": "frap:2017:6c98702b-c5e8-4998-a16c-f3ef0de6b654",
+      "status": "multiple",
+      "primaryCounty": "Santa Barbara County",
+      "counties": [
+        {
+          "geoid": "06083",
+          "name": "Santa Barbara County",
+          "overlapAreaKm2": 93.098677,
+          "overlapSharePercent": 78.633047
+        },
+        {
+          "geoid": "06079",
+          "name": "San Luis Obispo County",
+          "overlapAreaKm2": 25.297697,
+          "overlapSharePercent": 21.366953
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10008404",
+        "sha256": "14f0660c0f84407cd502e158b77206eac4b5d0880e0418a787f6424a6f443070"
+      }
+    },
+    {
+      "fireId": "frap:2017:73e823ed-5a5f-4d0e-b28f-f81ef9b46002",
+      "status": "single",
+      "primaryCounty": "Madera County",
+      "counties": [
+        {
+          "geoid": "06039",
+          "name": "Madera County",
+          "overlapAreaKm2": 4.075186,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10007846",
+        "sha256": "1433bea585ab7869e1af8e730757861af61ca330b2623e916d5a0c6801c2498c"
+      }
+    },
+    {
+      "fireId": "frap:2017:796daa7a-2ee8-4694-9556-539dd4419711",
+      "status": "single",
+      "primaryCounty": "San Diego County",
+      "counties": [
+        {
+          "geoid": "06073",
+          "name": "San Diego County",
+          "overlapAreaKm2": 9.165971,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10007829",
+        "sha256": "75c304b712ab3ca6e5d98f48e0692216dd326434002ca9d2441af4ad5eb5b546"
+      }
+    },
+    {
+      "fireId": "frap:2017:81063e96-e4a3-441c-99a9-43c9b5a870af",
+      "status": "single",
+      "primaryCounty": "Kern County",
+      "counties": [
+        {
+          "geoid": "06029",
+          "name": "Kern County",
+          "overlapAreaKm2": 6.143783,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10008723",
+        "sha256": "5eb4505969c7a62ed356f9f46bf23adacf493060dcaccac5be9cca1e15dc6e92"
+      }
+    },
+    {
+      "fireId": "frap:2017:93cf0a19-0adc-4175-98d8-4c3798307e3b",
+      "status": "single",
+      "primaryCounty": "Riverside County",
+      "counties": [
+        {
+          "geoid": "06065",
+          "name": "Riverside County",
+          "overlapAreaKm2": 4.332647,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10007917",
+        "sha256": "4f9083224d4066917b73382a32593f808891cfc12af9df45cf962029ddea812a"
+      }
+    },
+    {
+      "fireId": "frap:2017:947646b6-07bd-43b6-8956-a3d847f7a43b",
+      "status": "multiple",
+      "primaryCounty": "Fresno County",
+      "counties": [
+        {
+          "geoid": "06019",
+          "name": "Fresno County",
+          "overlapAreaKm2": 3.865615,
+          "overlapSharePercent": 53.301385
+        },
+        {
+          "geoid": "06053",
+          "name": "Monterey County",
+          "overlapAreaKm2": 3.386757,
+          "overlapSharePercent": 46.698615
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10009289",
+        "sha256": "f5f7628d5657c6a13d04261cd0be4f095a98bebc477b6186be83034a2825b84a"
+      }
+    },
+    {
+      "fireId": "frap:2017:98477c45-3e63-404b-82e9-fda9d2884509",
+      "status": "multiple",
+      "primaryCounty": "Kern County",
+      "counties": [
+        {
+          "geoid": "06029",
+          "name": "Kern County",
+          "overlapAreaKm2": 3.850844,
+          "overlapSharePercent": 80.216471
+        },
+        {
+          "geoid": "06079",
+          "name": "San Luis Obispo County",
+          "overlapAreaKm2": 0.949721,
+          "overlapSharePercent": 19.783529
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10008044",
+        "sha256": "d62aee92c60f9a3d5eec69b96e0c0419c9362da77902053133b63408ddfb56a1"
+      }
+    },
+    {
+      "fireId": "frap:2017:a81b50ab-2c00-4801-a015-3eeaa16e0129",
+      "status": "single",
+      "primaryCounty": "Plumas County",
+      "counties": [
+        {
+          "geoid": "06063",
+          "name": "Plumas County",
+          "overlapAreaKm2": 4.175306,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10007868",
+        "sha256": "435d1fe0f9b0c60899115e1be5faf1634039aa2cd809b8922e86350e8dba928e"
+      }
+    },
+    {
+      "fireId": "frap:2017:ab73eb7a-39b8-4163-8470-749342c4e793",
+      "status": "single",
+      "primaryCounty": "Tulare County",
+      "counties": [
+        {
+          "geoid": "06107",
+          "name": "Tulare County",
+          "overlapAreaKm2": 75.172773,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10009055",
+        "sha256": "f11849b712ffe337735ebf1b0a8cb5175fe8fa52408d007c47bb53af8231253b"
+      }
+    },
+    {
+      "fireId": "frap:2017:b1d08f4b-cc51-4788-89a7-92fded1fe245",
+      "status": "single",
+      "primaryCounty": "Lassen County",
+      "counties": [
+        {
+          "geoid": "06035",
+          "name": "Lassen County",
+          "overlapAreaKm2": 79.602163,
+          "overlapSharePercent": 24.446946
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10007865",
+        "sha256": "0cfb86b3a1bc8f413e10c5c0b6e3e12a3440520e3d5b2fec0a53e236d008ff72"
+      }
+    },
+    {
+      "fireId": "frap:2017:bdfe6859-b687-4ed7-97f9-5f840e200441",
+      "status": "single",
+      "primaryCounty": "Tulare County",
+      "counties": [
+        {
+          "geoid": "06107",
+          "name": "Tulare County",
+          "overlapAreaKm2": 9.907855,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10009053",
+        "sha256": "7561ff94c1b0cb8d2f0577ee8b63b14d757f250e2e1a98106871454aa0db7181"
+      }
+    },
+    {
+      "fireId": "frap:2017:d0b1cdc3-b988-4939-a54f-676d08479306",
+      "status": "single",
+      "primaryCounty": "San Luis Obispo County",
+      "counties": [
+        {
+          "geoid": "06079",
+          "name": "San Luis Obispo County",
+          "overlapAreaKm2": 7.690987,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10009177",
+        "sha256": "97c10cca4f338c5d8f025c664cf83d013d7935e85df7adfaeaed93baabfb84c6"
+      }
+    },
+    {
+      "fireId": "frap:2017:d4d637f1-951f-4830-90a3-bb053e0e782f",
+      "status": "multiple",
+      "primaryCounty": "Mono County",
+      "counties": [
+        {
+          "geoid": "06051",
+          "name": "Mono County",
+          "overlapAreaKm2": 34.288394,
+          "overlapSharePercent": 96.13717
+        },
+        {
+          "geoid": "06003",
+          "name": "Alpine County",
+          "overlapAreaKm2": 0.352198,
+          "overlapSharePercent": 0.987486
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10009461",
+        "sha256": "34a825c7eedfb0027dd12b7b3c452bee58b6688f9a7cfe129ccc5bd1356fb5ce"
+      }
+    },
+    {
+      "fireId": "frap:2017:da241f1b-5e3e-4015-a45a-87c436e0e923",
+      "status": "single",
+      "primaryCounty": "Los Angeles County",
+      "counties": [
+        {
+          "geoid": "06037",
+          "name": "Los Angeles County",
+          "overlapAreaKm2": 28.463323,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10011251",
+        "sha256": "3336f299e9cfa8246bea5b88d870f9ab147f8f6e9bc1d30b697af37cacfff1e5"
+      }
+    },
+    {
+      "fireId": "frap:2017:db968943-b56e-4e6b-b8c4-561a1310ea70",
+      "status": "single",
+      "primaryCounty": "Tulare County",
+      "counties": [
+        {
+          "geoid": "06107",
+          "name": "Tulare County",
+          "overlapAreaKm2": 65.148243,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10009482",
+        "sha256": "0ca51dc5075fd4bd117ea75d65008c0539ee2a0e9bd8fad26c6bb2b90edf8cbb"
+      }
+    },
+    {
+      "fireId": "frap:2017:e92d5c9d-b605-4112-af2b-d5bb35144c44",
+      "status": "single",
+      "primaryCounty": "Riverside County",
+      "counties": [
+        {
+          "geoid": "06065",
+          "name": "Riverside County",
+          "overlapAreaKm2": 25.573834,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10007847",
+        "sha256": "67521b02c7a5a4d6b03e6c47d2e62906c1c787db8aac6655bfb5176dd3af275c"
+      }
+    },
+    {
+      "fireId": "frap:2017:eb78138b-c987-4671-9ac3-1966224dfa21",
+      "status": "single",
+      "primaryCounty": "Lassen County",
+      "counties": [
+        {
+          "geoid": "06035",
+          "name": "Lassen County",
+          "overlapAreaKm2": 24.450297,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10007873",
+        "sha256": "79b85b76ef29caa17488d8c76344bd018ef063493eb2ed7249e3962a6b0f1a68"
+      }
+    },
+    {
+      "fireId": "frap:2017:ecd534e0-fb99-4fd6-9fa2-572438132177",
+      "status": "single",
+      "primaryCounty": "Kern County",
+      "counties": [
+        {
+          "geoid": "06029",
+          "name": "Kern County",
+          "overlapAreaKm2": 5.992581,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10008730",
+        "sha256": "a5a44ab5df18a8caed8f99b2a8927803bd846a59c217dbe8789c81f0cf7a95b3"
+      }
+    },
+    {
+      "fireId": "frap:2017:eda14f3d-c971-4262-ac89-4320a98f8b5d",
+      "status": "single",
+      "primaryCounty": "Los Angeles County",
+      "counties": [
+        {
+          "geoid": "06037",
+          "name": "Los Angeles County",
+          "overlapAreaKm2": 64.062014,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10007994",
+        "sha256": "4e07c3a0e936f8f0436796fccf4ebf5757d120757c573eb76b97934727d03011"
+      }
+    },
+    {
+      "fireId": "frap:2017:f2db4f36-1af9-44bd-b0aa-b5fda76e854f",
+      "status": "single",
+      "primaryCounty": "Mariposa County",
+      "counties": [
+        {
+          "geoid": "06043",
+          "name": "Mariposa County",
+          "overlapAreaKm2": 337.094026,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10007828",
+        "sha256": "61ff049054b75f8b337f0224e40acc072f40f14b07b9da5a62b9e57856a73185"
+      }
+    },
+    {
+      "fireId": "frap:2017:f532c134-d127-45ea-b74f-c99b0096acf5",
+      "status": "single",
+      "primaryCounty": "Fresno County",
+      "counties": [
+        {
+          "geoid": "06019",
+          "name": "Fresno County",
+          "overlapAreaKm2": 18.925946,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10009120",
+        "sha256": "76f61c46579cb7bfae1db0f29ed4089dd8b5f2ec16ed3246fe0392a7e4bdbc7c"
+      }
+    },
+    {
+      "fireId": "frap:2017:fb3f0ad5-fce8-48c3-86d0-cbd99fc0640d",
+      "status": "single",
+      "primaryCounty": "Tulare County",
+      "counties": [
+        {
+          "geoid": "06107",
+          "name": "Tulare County",
+          "overlapAreaKm2": 148.215032,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10007974",
+        "sha256": "4d3d801c67e75aa3aaf76702e64829ebb81d709cc92ec347c96c13cd044b4a89"
+      }
+    },
+    {
+      "fireId": "frap:2017:fda908bb-7d0c-4d41-a31d-5e62583f8d9b",
+      "status": "single",
+      "primaryCounty": "Modoc County",
+      "counties": [
+        {
+          "geoid": "06049",
+          "name": "Modoc County",
+          "overlapAreaKm2": 198.914989,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10007807",
+        "sha256": "393b6191ea3e6f9d91c399d645f72f93a9ff04b71920a1531fa1fbf9fc2026dd"
+      }
+    },
+    {
+      "fireId": "frap:2017:fe52e159-9033-4604-9720-bd97db47e697",
+      "status": "multiple",
+      "primaryCounty": "Madera County",
+      "counties": [
+        {
+          "geoid": "06039",
+          "name": "Madera County",
+          "overlapAreaKm2": 42.091593,
+          "overlapSharePercent": 81.492531
+        },
+        {
+          "geoid": "06043",
+          "name": "Mariposa County",
+          "overlapAreaKm2": 9.559267,
+          "overlapSharePercent": 18.507469
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10007842",
+        "sha256": "fe3d1c51248d2ac353b2e299f4ac722b2759bba3aa028dc2d5e8755fa1e49382"
+      }
+    },
+    {
+      "fireId": "frap:2017:fea2976a-e35d-4195-9b03-8e1a5f63917b",
+      "status": "single",
+      "primaryCounty": "Siskiyou County",
+      "counties": [
+        {
+          "geoid": "06093",
+          "name": "Siskiyou County",
+          "overlapAreaKm2": 43.558495,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10007752",
+        "sha256": "87cd983b3dab53bce92fd56cf9264835b301d00a5853904be5e413dfb87923b6"
+      }
+    },
+    {
+      "fireId": "mtbs:2017:10007844",
+      "status": "single",
+      "primaryCounty": "San Diego County",
+      "counties": [
+        {
+          "geoid": "06073",
+          "name": "San Diego County",
+          "overlapAreaKm2": 16.828299,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10007844",
+        "sha256": "e9d3b5bc9a84daf6d4ee1d88873f27760df948a9ba6af61373fb83046c43e85f"
+      }
+    },
+    {
+      "fireId": "mtbs:2017:10007878",
+      "status": "single",
+      "primaryCounty": "Lassen County",
+      "counties": [
+        {
+          "geoid": "06035",
+          "name": "Lassen County",
+          "overlapAreaKm2": 2.397163,
+          "overlapSharePercent": 3.28248
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10007878",
+        "sha256": "679cf6a14da3d3b32102be0ab0c3ca1dac048abd414a6b09fef79ed33257409d"
+      }
+    },
+    {
+      "fireId": "mtbs:2017:10007965",
+      "status": "single",
+      "primaryCounty": "Kern County",
+      "counties": [
+        {
+          "geoid": "06029",
+          "name": "Kern County",
+          "overlapAreaKm2": 8.083387,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10007965",
+        "sha256": "e310f413269e424de98ee33c763bcbe2d4b10387ec4e5c512a2458c3e91ca104"
+      }
+    },
+    {
+      "fireId": "mtbs:2017:10008003",
+      "status": "multiple",
+      "primaryCounty": "Sacramento County",
+      "counties": [
+        {
+          "geoid": "06067",
+          "name": "Sacramento County",
+          "overlapAreaKm2": 5.53559,
+          "overlapSharePercent": 85.964436
+        },
+        {
+          "geoid": "06017",
+          "name": "El Dorado County",
+          "overlapAreaKm2": 0.903806,
+          "overlapSharePercent": 14.035564
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10008003",
+        "sha256": "59ac4f82d7244e92fffc2174f11ee7dc25a05cb2e604350163a90562e83000d4"
+      }
+    },
+    {
+      "fireId": "mtbs:2017:10008101",
+      "status": "single",
+      "primaryCounty": "Lake County",
+      "counties": [
+        {
+          "geoid": "06033",
+          "name": "Lake County",
+          "overlapAreaKm2": 10.488287,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10008101",
+        "sha256": "51f5ab87963398a532ecd531559b1dd67027d2364d43ddb643921674dcc98f89"
+      }
+    },
+    {
+      "fireId": "mtbs:2017:10009029",
+      "status": "single",
+      "primaryCounty": "Kern County",
+      "counties": [
+        {
+          "geoid": "06029",
+          "name": "Kern County",
+          "overlapAreaKm2": 5.087804,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10009029",
+        "sha256": "d7d59e8098e37e3ee14c16884d0a69e87b34cc3a3b044efabc6a7ddc176b34a9"
+      }
+    },
+    {
+      "fireId": "mtbs:2017:10009174",
+      "status": "single",
+      "primaryCounty": "Fresno County",
+      "counties": [
+        {
+          "geoid": "06019",
+          "name": "Fresno County",
+          "overlapAreaKm2": 43.566924,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10009174",
+        "sha256": "1f297b8304949eb3e6a963b75233934dc56460b56e44c38d1c9eb9a0d6ee37b1"
+      }
+    },
+    {
+      "fireId": "mtbs:2017:10009360",
+      "status": "single",
+      "primaryCounty": "Sonoma County",
+      "counties": [
+        {
+          "geoid": "06097",
+          "name": "Sonoma County",
+          "overlapAreaKm2": 7.174461,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10009360",
+        "sha256": "9f86a592d4da86d6b3074fb77b66ef7fa64d6612187b6f1f4d16bd431a58d30d"
+      }
+    },
+    {
+      "fireId": "mtbs:2017:10011474",
+      "status": "single",
+      "primaryCounty": "Monterey County",
+      "counties": [
+        {
+          "geoid": "06053",
+          "name": "Monterey County",
+          "overlapAreaKm2": 8.448457,
+          "overlapSharePercent": 100.0
+        }
+      ],
+      "reason": "",
+      "boundary": {
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10011474",
+        "sha256": "2ab6c431daf77062702d167e1e26700cde49424340f40172076fd942c7cf44bf"
+      }
+    }
+  ]
+}

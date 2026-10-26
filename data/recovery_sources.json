@@ -1,0 +1,98 @@
+{
+  "damage": {
+    "service": "https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/POSTFIRE_MASTER_DATA_SHARE/FeatureServer/0",
+    "sourceUrl": "https://publish.data.ca.gov/dataset/cal-fire-damage-inspection-dins-data",
+    "license": "Creative Commons Attribution; no restrictions on public use",
+    "colors": {
+      "Destroyed (>50%)": "#a44136",
+      "Major (25-50%)": "#c8723c",
+      "Major (26-50%)": "#c8723c",
+      "Minor (10-25%)": "#dca963",
+      "Affected (>0-10%)": "#e2ca92",
+      "Affected (1-9%)": "#e2ca92",
+      "Inaccessible": "#8c8499",
+      "No Damage": "#7e9c91"
+    },
+    "reviewedSources": [
+      {
+        "catalogId": "frap:2025:73730f90-5d60-4850-98c2-2431c4284cd7",
+        "incidentDate": "2025-01-07",
+        "sourceUrl": "https://www.fire.ca.gov/incidents/2025/1/7/palisades-fire",
+        "appUrl": "https://www.arcgis.com/sharing/rest/content/items/e6c63033e31a48758aee44ed8d4c0284/data?f=json",
+        "mapUrl": "https://www.arcgis.com/sharing/rest/content/items/2d764eef786841ce9194e84f524f2c8e/data?f=json",
+        "publicLayer": "https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/DINS_2025_Palisades_Public_View/FeatureServer/0",
+        "termsUrl": "https://www.arcgis.com/sharing/rest/content/items/c336759e45764c45861a1e62c4c5e2db?f=json",
+        "license": "CAL FIRE public-view terms; no warranty of accuracy. Credit: CAL FIRE",
+        "note": "CAL FIRE's incident page explicitly links this structure-status map and its dedicated public layer. This layer supplies no incident number or individual inspection dates. Its GLOBALIDs differ from the statewide master layer, so the two releases are not merged. The FRAP/DINS unit-code discrepancy remains unresolved."
+      }
+    ]
+  },
+  "power": {
+    "annualExports": [
+      {
+        "year": 2014,
+        "metadataCache": "ornl-older-api.json",
+        "metadataUrl": "https://openenergyhub.ornl.gov/api/explore/v2.1/catalog/datasets/eaglei_outages_2014",
+        "sourceUrl": "https://openenergyhub.ornl.gov/explore/dataset/eaglei_outages_2014/",
+        "methodsUrl": "https://www.nature.com/articles/s41597-024-03095-5",
+        "license": "CC BY 4.0; ORNL EAGLE-I / DOE-CESER",
+        "countyUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1"
+      }
+    ],
+    "releases": [
+      {
+        "year": 2025,
+        "status": "access_failed",
+        "reason": "County outage data not verified: the official archive listing requires credentials. No outage chart is shown.",
+        "sourceUrl": "https://doi.ccs.ornl.gov/dataset/c09fce3f-5faa-54ef-878a-cb0af6851cb6",
+        "publicationDate": "2026-02-19",
+        "checkedAt": "2026-10-21T06:12:17Z",
+        "accessResponse": "Globus anonymous directory listing: ClientError.AuthenticationFailed / No credentials supplied. Actual county values, gaps and release-specific license remain unverified."
+      }
+    ]
+  },
+  "waterNotices": [
+    {
+      "sourceId": "tbs2017",
+      "provider": "City of Santa Rosa Water / State Water Board",
+      "sourceUrl": "https://www.waterboards.ca.gov/board_info/agendas/2018/nov/final_ed_rpt_112818.pdf",
+      "sourceFormat": "pdf",
+      "publicationDate": "2018-11-28",
+      "verifyText": "On October 11, 2018, Santa Rosa Water lifted the Water Quality Advisory.",
+      "events": [
+        {"date": "2018-10-11", "label": "Water-quality advisory lifted", "scope": "Affected portion of Fountaingrove served by Santa Rosa Water after the Tubbs Fire; not the entire perimeter or every provider. State Water Board report, page 9."}
+      ]
+    },
+    {
+      "sourceId": "eat2025",
+      "provider": "Pasadena Water and Power",
+      "sourceUrl": "https://www.cityofpasadena.net/city-manager/news/pasadena-confirms-safe-drinking-water-quality-for-all-pwp-water-customers-lifts-do-not-drink-water-notice/",
+      "publicationDate": "2025-01-24",
+      "verifyText": "lifted the Do-Not-Drink-Water Notice for the remaining areas",
+      "events": [
+        {"date": "2025-01-24", "label": "Do-not-drink notice lifted", "scope": "Remaining affected areas within PWP's service territory; not every Eaton-area water provider."}
+      ]
+    },
+    {
+      "sourceId": "eat2025",
+      "provider": "Las Flores Water Company",
+      "sourceUrl": "https://waterboards.ca.gov/press_room/press_releases/2025/pr20250509-la-wildfire-recovery.html",
+      "publicationDate": "2025-05-09",
+      "verifyText": "Las Flores Water Co. in Altadena",
+      "events": [
+        {"date": "2025-05-09", "label": "Do-not-drink / do-not-boil advisory lifted", "scope": "Las Flores service area; the last of nine affected public water systems, according to the State Water Board."}
+      ]
+    },
+    {
+      "sourceId": "pal2025",
+      "provider": "Los Angeles Department of Water and Power",
+      "sourceUrl": "https://www.ladwp.com/who-we-are/water-system/water-quality/water-quality-restoration-pacific-palisades",
+      "publicationDate": null,
+      "verifyText": "Do Not Drink Notice issued on January 10, 2025",
+      "events": [
+        {"date": "2025-01-10", "label": "Boil-water notice changed to do-not-drink", "scope": "Affected LADWP Pacific Palisades service areas; not the entire fire perimeter."},
+        {"date": "2025-03-07", "label": "Remaining do-not-drink notice lifted", "scope": "All areas previously covered by this LADWP notice. Earlier partial cancellations are not fully reconstructed here."}
+      ]
+    }
+  ]
+}

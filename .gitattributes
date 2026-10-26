@@ -1,0 +1,5 @@
+* text=auto
+*.json text eol=lf
+frontend/public/data/model.json -text
+frontend/public/data/training-manifest.json -text
+*.png binary

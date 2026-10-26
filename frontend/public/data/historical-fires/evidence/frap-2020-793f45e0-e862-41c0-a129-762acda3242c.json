@@ -1,0 +1,4912 @@
+{
+  "schemaVersion": 1,
+  "fireId": "frap:2020:793f45e0-e862-41c0-a129-762acda3242c",
+  "builtAt": "2026-10-25T18:32:51.745736+00:00",
+  "smoke": {
+    "status": "available",
+    "epaStatus": "available",
+    "reason": "",
+    "checkedAt": "2026-10-22T00:56:44.983102+00:00",
+    "relationship": "nearby_time_matched",
+    "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88101_2020.zip",
+    "retrievedAt": "2026-10-21T21:22:57.917759+00:00",
+    "bytes": 59698845,
+    "sha256": "ca69e410880402f75dabaa917af84abb6008707f8ef7d611dd54c5cd351a793c",
+    "dataClass": "Observed",
+    "stations": [
+      {
+        "id": "06-067-5003",
+        "parameter": 88101,
+        "poc": 3,
+        "method": 170,
+        "methodName": "Met One BAM-1020 Mass Monitor w/VSCC - Beta Attenuation",
+        "longitude": -121.211131,
+        "latitude": 38.494475,
+        "distanceKm": 4.8507079087386815,
+        "missingHours": 0,
+        "referenceDayCounts": [
+          92,
+          92,
+          92
+        ],
+        "referenceSources": [
+          {
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88101_2017.zip",
+            "retrievedAt": "2026-10-21T21:24:54.979422+00:00",
+            "bytes": 5188737,
+            "sha256": "0a09c955d4a84e604acfb3d3bfc864a4bff883eaca9ac1deb208563204256d74",
+            "dataClass": "Observed"
+          },
+          {
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88101_2018.zip",
+            "retrievedAt": "2026-10-21T21:25:08.532706+00:00",
+            "bytes": 6325876,
+            "sha256": "a82e60b1bd486ebd23adacedd4f1822a41cda0985194b3a21898e135cdf468e5",
+            "dataClass": "Observed"
+          },
+          {
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88101_2019.zip",
+            "retrievedAt": "2026-10-21T21:25:30.316044+00:00",
+            "bytes": 7315771,
+            "sha256": "88b9b0b1bbd0c7545ffc07959a5ecbd4c6fbe951c67ea648cef70cafe956af53",
+            "dataClass": "Observed"
+          }
+        ],
+        "thresholdUgM3": 18.5,
+        "windowEnd": "2020-06-14",
+        "coverageFraction": 0.9965277777777778,
+        "name": "Sloughhouse",
+        "color": "#254c46",
+        "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88101_2020.zip",
+        "retrievedAt": "2026-10-21T21:22:57.917759+00:00",
+        "bytes": 59698845,
+        "sha256": "ca69e410880402f75dabaa917af84abb6008707f8ef7d611dd54c5cd351a793c",
+        "dataClass": "Observed",
+        "series": [
+          {
+            "timestamp": "2020-06-09T00:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T01:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T02:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T03:00:00-08:00",
+            "value": -1.0,
+            "qualifier": null,
+            "reason": "Signed negative source reading retained"
+          },
+          {
+            "timestamp": "2020-06-09T04:00:00-08:00",
+            "value": -2.0,
+            "qualifier": null,
+            "reason": "Signed negative source reading retained"
+          },
+          {
+            "timestamp": "2020-06-09T05:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T06:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T07:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T08:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T09:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T10:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T11:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T12:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T13:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T14:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T15:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T16:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T17:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T18:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T19:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T20:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T21:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T22:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T23:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T00:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T01:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T02:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T03:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T04:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T05:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T06:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T07:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T08:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T09:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T10:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T11:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T12:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T13:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T14:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T15:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T16:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T17:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T18:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T19:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T20:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T21:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T22:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T23:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T00:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T01:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T02:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T03:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T04:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T05:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T06:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T07:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T08:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T09:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T10:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T11:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T12:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T13:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T14:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T15:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T16:00:00-08:00",
+            "value": -1.0,
+            "qualifier": null,
+            "reason": "Signed negative source reading retained"
+          },
+          {
+            "timestamp": "2020-06-11T17:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T18:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T19:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T20:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T21:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T22:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T23:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T00:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T01:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T02:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T03:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T04:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T05:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T06:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T07:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T08:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T09:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T10:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T11:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T12:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T13:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T14:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T15:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T16:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T17:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T18:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T19:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T20:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T21:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T22:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T23:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T00:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T01:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T02:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T03:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T04:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T05:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T06:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T07:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T08:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T09:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T10:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T11:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T12:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T13:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T14:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T15:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T16:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T17:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T18:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T19:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T20:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T21:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T22:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T23:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T00:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T01:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T02:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T03:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T04:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T05:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T06:00:00-08:00",
+            "value": 20.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T07:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T08:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T09:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T10:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T11:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T12:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T13:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T14:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T15:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T16:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T17:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T18:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T19:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T20:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T21:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T22:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T23:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          }
+        ],
+        "expectedHours": 144,
+        "negativeHours": 3,
+        "dailyMeans": [
+          {
+            "date": "2020-06-09",
+            "hours": 24,
+            "value": 2.4583333333333335,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88101_2020.zip",
+            "retrievedAt": "2026-10-21T21:22:57.917759+00:00",
+            "bytes": 59698845,
+            "sha256": "ca69e410880402f75dabaa917af84abb6008707f8ef7d611dd54c5cd351a793c",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2020-06-10",
+            "hours": 24,
+            "value": 4.083333333333333,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88101_2020.zip",
+            "retrievedAt": "2026-10-21T21:22:57.917759+00:00",
+            "bytes": 59698845,
+            "sha256": "ca69e410880402f75dabaa917af84abb6008707f8ef7d611dd54c5cd351a793c",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2020-06-11",
+            "hours": 24,
+            "value": 2.8333333333333335,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88101_2020.zip",
+            "retrievedAt": "2026-10-21T21:22:57.917759+00:00",
+            "bytes": 59698845,
+            "sha256": "ca69e410880402f75dabaa917af84abb6008707f8ef7d611dd54c5cd351a793c",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2020-06-12",
+            "hours": 24,
+            "value": 3.5416666666666665,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88101_2020.zip",
+            "retrievedAt": "2026-10-21T21:22:57.917759+00:00",
+            "bytes": 59698845,
+            "sha256": "ca69e410880402f75dabaa917af84abb6008707f8ef7d611dd54c5cd351a793c",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2020-06-13",
+            "hours": 24,
+            "value": 3.3333333333333335,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88101_2020.zip",
+            "retrievedAt": "2026-10-21T21:22:57.917759+00:00",
+            "bytes": 59698845,
+            "sha256": "ca69e410880402f75dabaa917af84abb6008707f8ef7d611dd54c5cd351a793c",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2020-06-14",
+            "hours": 24,
+            "value": 3.5833333333333335,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88101_2020.zip",
+            "retrievedAt": "2026-10-21T21:22:57.917759+00:00",
+            "bytes": 59698845,
+            "sha256": "ca69e410880402f75dabaa917af84abb6008707f8ef7d611dd54c5cd351a793c",
+            "dataClass": "Observed"
+          }
+        ],
+        "nonnegativeSensitivityEnd": "2020-06-14"
+      },
+      {
+        "id": "06-067-0006",
+        "parameter": 88502,
+        "poc": 3,
+        "method": 731,
+        "methodName": "Met-One BAM-1020 W/PM2.5 SCC - Beta Attenuation",
+        "longitude": -121.368014,
+        "latitude": 38.613779,
+        "distanceKm": 17.06832001540515,
+        "missingHours": 0,
+        "referenceDayCounts": [
+          92,
+          92,
+          88
+        ],
+        "referenceSources": [
+          {
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88502_2017.zip",
+            "retrievedAt": "2026-10-21T21:25:41.959305+00:00",
+            "bytes": 3160032,
+            "sha256": "0152c51056a3c36d4dd0ccda84afd8df775db3e3f9a440a1b9b409a058158500",
+            "dataClass": "Observed"
+          },
+          {
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88502_2018.zip",
+            "retrievedAt": "2026-10-21T21:25:46.531141+00:00",
+            "bytes": 2864638,
+            "sha256": "38f6b79cae0a40f1d47f443bb2c2121f2d9fc238f137f8e589ec9c192a443e37",
+            "dataClass": "Observed"
+          },
+          {
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88502_2019.zip",
+            "retrievedAt": "2026-10-21T21:25:50.598602+00:00",
+            "bytes": 2646702,
+            "sha256": "1dcc4d3aeb71c1dd62c315ca846915b75f685f07b5badbaa21fa77c0f28c2c4d",
+            "dataClass": "Observed"
+          }
+        ],
+        "thresholdUgM3": 19.904167,
+        "windowEnd": "2020-06-14",
+        "coverageFraction": 0.9951388888888889,
+        "name": "Sacramento-Del Paso Manor",
+        "color": "#717b9b",
+        "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88502_2020.zip",
+        "retrievedAt": "2026-10-21T21:24:27.983696+00:00",
+        "bytes": 19911673,
+        "sha256": "8762e57443c91cc059a90fd0c55d25b93775edaa3930d8c530b9561a649d2075",
+        "dataClass": "Observed",
+        "series": [
+          {
+            "timestamp": "2020-06-09T00:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T01:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T02:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T03:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T04:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T05:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T06:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T07:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T08:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T09:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T10:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T11:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T12:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T13:00:00-08:00",
+            "value": -1.0,
+            "qualifier": null,
+            "reason": "Signed negative source reading retained"
+          },
+          {
+            "timestamp": "2020-06-09T14:00:00-08:00",
+            "value": -1.0,
+            "qualifier": null,
+            "reason": "Signed negative source reading retained"
+          },
+          {
+            "timestamp": "2020-06-09T15:00:00-08:00",
+            "value": -1.0,
+            "qualifier": null,
+            "reason": "Signed negative source reading retained"
+          },
+          {
+            "timestamp": "2020-06-09T16:00:00-08:00",
+            "value": -2.0,
+            "qualifier": null,
+            "reason": "Signed negative source reading retained"
+          },
+          {
+            "timestamp": "2020-06-09T17:00:00-08:00",
+            "value": -2.0,
+            "qualifier": null,
+            "reason": "Signed negative source reading retained"
+          },
+          {
+            "timestamp": "2020-06-09T18:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T19:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T20:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T21:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T22:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T23:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T00:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T01:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T02:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T03:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T04:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T05:00:00-08:00",
+            "value": -1.0,
+            "qualifier": null,
+            "reason": "Signed negative source reading retained"
+          },
+          {
+            "timestamp": "2020-06-10T06:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T07:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T08:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T09:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T10:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T11:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T12:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T13:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T14:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T15:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T16:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T17:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T18:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T19:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T20:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T21:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T22:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T23:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T00:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T01:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T02:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T03:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T04:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T05:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T06:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T07:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T08:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T09:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T10:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T11:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T12:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T13:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T14:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T15:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T16:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T17:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T18:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T19:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T20:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T21:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T22:00:00-08:00",
+            "value": -1.0,
+            "qualifier": null,
+            "reason": "Signed negative source reading retained"
+          },
+          {
+            "timestamp": "2020-06-11T23:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T00:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T01:00:00-08:00",
+            "value": -1.0,
+            "qualifier": null,
+            "reason": "Signed negative source reading retained"
+          },
+          {
+            "timestamp": "2020-06-12T02:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T03:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T04:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T05:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T06:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T07:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T08:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T09:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T10:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T11:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T12:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T13:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T14:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T15:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T16:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T17:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T18:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T19:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T20:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T21:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T22:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T23:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T00:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T01:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T02:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T03:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T04:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T05:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T06:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T07:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T08:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T09:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T10:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T11:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T12:00:00-08:00",
+            "value": -1.0,
+            "qualifier": null,
+            "reason": "Signed negative source reading retained"
+          },
+          {
+            "timestamp": "2020-06-13T13:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T14:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T15:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T16:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T17:00:00-08:00",
+            "value": -1.0,
+            "qualifier": null,
+            "reason": "Signed negative source reading retained"
+          },
+          {
+            "timestamp": "2020-06-13T18:00:00-08:00",
+            "value": -1.0,
+            "qualifier": null,
+            "reason": "Signed negative source reading retained"
+          },
+          {
+            "timestamp": "2020-06-13T19:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T20:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T21:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T22:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T23:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T00:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T01:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T02:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T03:00:00-08:00",
+            "value": -1.0,
+            "qualifier": null,
+            "reason": "Signed negative source reading retained"
+          },
+          {
+            "timestamp": "2020-06-14T04:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T05:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T06:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T07:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T08:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T09:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T10:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T11:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T12:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T13:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T14:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T15:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T16:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T17:00:00-08:00",
+            "value": -1.0,
+            "qualifier": null,
+            "reason": "Signed negative source reading retained"
+          },
+          {
+            "timestamp": "2020-06-14T18:00:00-08:00",
+            "value": -2.0,
+            "qualifier": null,
+            "reason": "Signed negative source reading retained"
+          },
+          {
+            "timestamp": "2020-06-14T19:00:00-08:00",
+            "value": -1.0,
+            "qualifier": null,
+            "reason": "Signed negative source reading retained"
+          },
+          {
+            "timestamp": "2020-06-14T20:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T21:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T22:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T23:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          }
+        ],
+        "expectedHours": 144,
+        "negativeHours": 15,
+        "dailyMeans": [
+          {
+            "date": "2020-06-09",
+            "hours": 24,
+            "value": 1.7083333333333333,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88502_2020.zip",
+            "retrievedAt": "2026-10-21T21:24:27.983696+00:00",
+            "bytes": 19911673,
+            "sha256": "8762e57443c91cc059a90fd0c55d25b93775edaa3930d8c530b9561a649d2075",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2020-06-10",
+            "hours": 24,
+            "value": 3.6666666666666665,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88502_2020.zip",
+            "retrievedAt": "2026-10-21T21:24:27.983696+00:00",
+            "bytes": 19911673,
+            "sha256": "8762e57443c91cc059a90fd0c55d25b93775edaa3930d8c530b9561a649d2075",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2020-06-11",
+            "hours": 24,
+            "value": 2.9166666666666665,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88502_2020.zip",
+            "retrievedAt": "2026-10-21T21:24:27.983696+00:00",
+            "bytes": 19911673,
+            "sha256": "8762e57443c91cc059a90fd0c55d25b93775edaa3930d8c530b9561a649d2075",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2020-06-12",
+            "hours": 24,
+            "value": 2.7916666666666665,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88502_2020.zip",
+            "retrievedAt": "2026-10-21T21:24:27.983696+00:00",
+            "bytes": 19911673,
+            "sha256": "8762e57443c91cc059a90fd0c55d25b93775edaa3930d8c530b9561a649d2075",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2020-06-13",
+            "hours": 24,
+            "value": 2.25,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88502_2020.zip",
+            "retrievedAt": "2026-10-21T21:24:27.983696+00:00",
+            "bytes": 19911673,
+            "sha256": "8762e57443c91cc059a90fd0c55d25b93775edaa3930d8c530b9561a649d2075",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2020-06-14",
+            "hours": 24,
+            "value": 0.875,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88502_2020.zip",
+            "retrievedAt": "2026-10-21T21:24:27.983696+00:00",
+            "bytes": 19911673,
+            "sha256": "8762e57443c91cc059a90fd0c55d25b93775edaa3930d8c530b9561a649d2075",
+            "dataClass": "Observed"
+          }
+        ],
+        "nonnegativeSensitivityEnd": "2020-06-14"
+      },
+      {
+        "id": "06-061-0006",
+        "parameter": 88502,
+        "poc": 3,
+        "method": 731,
+        "methodName": "Met-One BAM-1020 W/PM2.5 SCC - Beta Attenuation",
+        "longitude": -121.26498,
+        "latitude": 38.74643,
+        "distanceKm": 19.318947433570248,
+        "missingHours": 24,
+        "referenceDayCounts": [
+          92,
+          78,
+          88
+        ],
+        "referenceSources": [
+          {
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88502_2017.zip",
+            "retrievedAt": "2026-10-21T21:25:41.959305+00:00",
+            "bytes": 3160032,
+            "sha256": "0152c51056a3c36d4dd0ccda84afd8df775db3e3f9a440a1b9b409a058158500",
+            "dataClass": "Observed"
+          },
+          {
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88502_2018.zip",
+            "retrievedAt": "2026-10-21T21:25:46.531141+00:00",
+            "bytes": 2864638,
+            "sha256": "38f6b79cae0a40f1d47f443bb2c2121f2d9fc238f137f8e589ec9c192a443e37",
+            "dataClass": "Observed"
+          },
+          {
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88502_2019.zip",
+            "retrievedAt": "2026-10-21T21:25:50.598602+00:00",
+            "bytes": 2646702,
+            "sha256": "1dcc4d3aeb71c1dd62c315ca846915b75f685f07b5badbaa21fa77c0f28c2c4d",
+            "dataClass": "Observed"
+          }
+        ],
+        "thresholdUgM3": 17.65000000000002,
+        "windowEnd": "2020-06-14",
+        "coverageFraction": 0.9118055555555555,
+        "name": "Roseville-N Sunrise Ave",
+        "color": "#a07a59",
+        "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88502_2020.zip",
+        "retrievedAt": "2026-10-21T21:24:27.983696+00:00",
+        "bytes": 19911673,
+        "sha256": "8762e57443c91cc059a90fd0c55d25b93775edaa3930d8c530b9561a649d2075",
+        "dataClass": "Observed",
+        "series": [
+          {
+            "timestamp": "2020-06-09T00:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T01:00:00-08:00",
+            "value": -1.0,
+            "qualifier": null,
+            "reason": "Signed negative source reading retained"
+          },
+          {
+            "timestamp": "2020-06-09T02:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T03:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T04:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T05:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T06:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T07:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T08:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T09:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T10:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T11:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-09T12:00:00-08:00",
+            "value": null,
+            "qualifier": null,
+            "reason": "Missing source hour"
+          },
+          {
+            "timestamp": "2020-06-09T13:00:00-08:00",
+            "value": null,
+            "qualifier": null,
+            "reason": "Missing source hour"
+          },
+          {
+            "timestamp": "2020-06-09T14:00:00-08:00",
+            "value": null,
+            "qualifier": null,
+            "reason": "Missing source hour"
+          },
+          {
+            "timestamp": "2020-06-09T15:00:00-08:00",
+            "value": null,
+            "qualifier": null,
+            "reason": "Missing source hour"
+          },
+          {
+            "timestamp": "2020-06-09T16:00:00-08:00",
+            "value": null,
+            "qualifier": null,
+            "reason": "Missing source hour"
+          },
+          {
+            "timestamp": "2020-06-09T17:00:00-08:00",
+            "value": null,
+            "qualifier": null,
+            "reason": "Missing source hour"
+          },
+          {
+            "timestamp": "2020-06-09T18:00:00-08:00",
+            "value": null,
+            "qualifier": null,
+            "reason": "Missing source hour"
+          },
+          {
+            "timestamp": "2020-06-09T19:00:00-08:00",
+            "value": null,
+            "qualifier": null,
+            "reason": "Missing source hour"
+          },
+          {
+            "timestamp": "2020-06-09T20:00:00-08:00",
+            "value": null,
+            "qualifier": null,
+            "reason": "Missing source hour"
+          },
+          {
+            "timestamp": "2020-06-09T21:00:00-08:00",
+            "value": null,
+            "qualifier": null,
+            "reason": "Missing source hour"
+          },
+          {
+            "timestamp": "2020-06-09T22:00:00-08:00",
+            "value": null,
+            "qualifier": null,
+            "reason": "Missing source hour"
+          },
+          {
+            "timestamp": "2020-06-09T23:00:00-08:00",
+            "value": null,
+            "qualifier": null,
+            "reason": "Missing source hour"
+          },
+          {
+            "timestamp": "2020-06-10T00:00:00-08:00",
+            "value": null,
+            "qualifier": null,
+            "reason": "Missing source hour"
+          },
+          {
+            "timestamp": "2020-06-10T01:00:00-08:00",
+            "value": null,
+            "qualifier": null,
+            "reason": "Missing source hour"
+          },
+          {
+            "timestamp": "2020-06-10T02:00:00-08:00",
+            "value": null,
+            "qualifier": null,
+            "reason": "Missing source hour"
+          },
+          {
+            "timestamp": "2020-06-10T03:00:00-08:00",
+            "value": null,
+            "qualifier": null,
+            "reason": "Missing source hour"
+          },
+          {
+            "timestamp": "2020-06-10T04:00:00-08:00",
+            "value": null,
+            "qualifier": null,
+            "reason": "Missing source hour"
+          },
+          {
+            "timestamp": "2020-06-10T05:00:00-08:00",
+            "value": null,
+            "qualifier": null,
+            "reason": "Missing source hour"
+          },
+          {
+            "timestamp": "2020-06-10T06:00:00-08:00",
+            "value": null,
+            "qualifier": null,
+            "reason": "Missing source hour"
+          },
+          {
+            "timestamp": "2020-06-10T07:00:00-08:00",
+            "value": null,
+            "qualifier": null,
+            "reason": "Missing source hour"
+          },
+          {
+            "timestamp": "2020-06-10T08:00:00-08:00",
+            "value": null,
+            "qualifier": null,
+            "reason": "Missing source hour"
+          },
+          {
+            "timestamp": "2020-06-10T09:00:00-08:00",
+            "value": null,
+            "qualifier": null,
+            "reason": "Missing source hour"
+          },
+          {
+            "timestamp": "2020-06-10T10:00:00-08:00",
+            "value": null,
+            "qualifier": null,
+            "reason": "Missing source hour"
+          },
+          {
+            "timestamp": "2020-06-10T11:00:00-08:00",
+            "value": null,
+            "qualifier": null,
+            "reason": "Missing source hour"
+          },
+          {
+            "timestamp": "2020-06-10T12:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T13:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T14:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T15:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T16:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T17:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T18:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T19:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T20:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T21:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T22:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-10T23:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T00:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T01:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T02:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T03:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T04:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T05:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T06:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T07:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T08:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T09:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T10:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T11:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T12:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T13:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T14:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T15:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T16:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T17:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T18:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T19:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T20:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T21:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T22:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-11T23:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T00:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T01:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T02:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T03:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T04:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T05:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T06:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T07:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T08:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T09:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T10:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T11:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T12:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T13:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T14:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T15:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T16:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T17:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T18:00:00-08:00",
+            "value": 10.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T19:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T20:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T21:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T22:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-12T23:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T00:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T01:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T02:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T03:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T04:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T05:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T06:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T07:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T08:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T09:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T10:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T11:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T12:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T13:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T14:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T15:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T16:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T17:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T18:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T19:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T20:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T21:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T22:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-13T23:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T00:00:00-08:00",
+            "value": 9.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T01:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T02:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T03:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T04:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T05:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T06:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T07:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T08:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T09:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T10:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T11:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T12:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T13:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T14:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T15:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T16:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T17:00:00-08:00",
+            "value": -2.0,
+            "qualifier": null,
+            "reason": "Signed negative source reading retained"
+          },
+          {
+            "timestamp": "2020-06-14T18:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T19:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T20:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T21:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T22:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2020-06-14T23:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          }
+        ],
+        "expectedHours": 144,
+        "negativeHours": 2,
+        "dailyMeans": [
+          {
+            "date": "2020-06-09",
+            "hours": 12,
+            "value": null,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88502_2020.zip",
+            "retrievedAt": "2026-10-21T21:24:27.983696+00:00",
+            "bytes": 19911673,
+            "sha256": "8762e57443c91cc059a90fd0c55d25b93775edaa3930d8c530b9561a649d2075",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2020-06-10",
+            "hours": 12,
+            "value": null,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88502_2020.zip",
+            "retrievedAt": "2026-10-21T21:24:27.983696+00:00",
+            "bytes": 19911673,
+            "sha256": "8762e57443c91cc059a90fd0c55d25b93775edaa3930d8c530b9561a649d2075",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2020-06-11",
+            "hours": 24,
+            "value": 2.9166666666666665,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88502_2020.zip",
+            "retrievedAt": "2026-10-21T21:24:27.983696+00:00",
+            "bytes": 19911673,
+            "sha256": "8762e57443c91cc059a90fd0c55d25b93775edaa3930d8c530b9561a649d2075",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2020-06-12",
+            "hours": 24,
+            "value": 4.25,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88502_2020.zip",
+            "retrievedAt": "2026-10-21T21:24:27.983696+00:00",
+            "bytes": 19911673,
+            "sha256": "8762e57443c91cc059a90fd0c55d25b93775edaa3930d8c530b9561a649d2075",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2020-06-13",
+            "hours": 24,
+            "value": 3.3333333333333335,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88502_2020.zip",
+            "retrievedAt": "2026-10-21T21:24:27.983696+00:00",
+            "bytes": 19911673,
+            "sha256": "8762e57443c91cc059a90fd0c55d25b93775edaa3930d8c530b9561a649d2075",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2020-06-14",
+            "hours": 24,
+            "value": 3.125,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88502_2020.zip",
+            "retrievedAt": "2026-10-21T21:24:27.983696+00:00",
+            "bytes": 19911673,
+            "sha256": "8762e57443c91cc059a90fd0c55d25b93775edaa3930d8c530b9561a649d2075",
+            "dataClass": "Observed"
+          }
+        ],
+        "nonnegativeSensitivityEnd": "2020-06-14"
+      }
+    ],
+    "timezone": "Pacific standard time (UTC−08:00)",
+    "window": {
+      "start": "2020-06-09",
+      "end": "2020-06-14",
+      "referenceYears": [
+        2017,
+        2018,
+        2019
+      ],
+      "referenceMonths": [
+        6,
+        7,
+        8
+      ],
+      "minimumHoursPerDay": 18,
+      "referenceSources": [
+        {
+          "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88101_2017.zip",
+          "retrievedAt": "2026-10-21T21:24:54.979422+00:00",
+          "bytes": 5188737,
+          "sha256": "0a09c955d4a84e604acfb3d3bfc864a4bff883eaca9ac1deb208563204256d74",
+          "dataClass": "Observed"
+        },
+        {
+          "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88101_2018.zip",
+          "retrievedAt": "2026-10-21T21:25:08.532706+00:00",
+          "bytes": 6325876,
+          "sha256": "a82e60b1bd486ebd23adacedd4f1822a41cda0985194b3a21898e135cdf468e5",
+          "dataClass": "Observed"
+        },
+        {
+          "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88101_2019.zip",
+          "retrievedAt": "2026-10-21T21:25:30.316044+00:00",
+          "bytes": 7315771,
+          "sha256": "88b9b0b1bbd0c7545ffc07959a5ecbd4c6fbe951c67ea648cef70cafe956af53",
+          "dataClass": "Observed"
+        }
+      ]
+    },
+    "plumes": {
+      "days": [
+        {
+          "dateUtc": "2020-06-09",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-06-09.json",
+          "monitorCoverage": {
+            "06-067-5003": false,
+            "06-067-0006": false,
+            "06-061-0006": false
+          },
+          "measurementPeriod": {
+            "start": "2020-06-09T12:00:00+00:00",
+            "end": "2020-06-10T02:00:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/06/hms_smoke20200609.kml",
+          "retrievedAt": "2026-10-22T01:22:22.442277+00:00",
+          "bytes": 69582,
+          "sha256": "b2da80c2cc867c0ea97a68bc27539d12089312a628567367899728b97661c005",
+          "md5": "ced0b415105617377a724f51f37dd284",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 13,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-06-10",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-06-10.json",
+          "monitorCoverage": {
+            "06-067-5003": false,
+            "06-067-0006": false,
+            "06-061-0006": false
+          },
+          "measurementPeriod": {
+            "start": "2020-06-10T12:00:00+00:00",
+            "end": "2020-06-11T02:30:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/06/hms_smoke20200610.kml",
+          "retrievedAt": "2026-10-22T01:22:23.582305+00:00",
+          "bytes": 137935,
+          "sha256": "d095a28063d0a5b1165f9a1d2eed4060c7ecf99b6d8b395860b7aef5217729bf",
+          "md5": "c40d05ef4fcc9c61efd691773543f87c",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 60,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-06-11",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-06-11.json",
+          "monitorCoverage": {
+            "06-067-5003": false,
+            "06-067-0006": false,
+            "06-061-0006": false
+          },
+          "measurementPeriod": {
+            "start": "2020-06-11T11:00:00+00:00",
+            "end": "2020-06-12T01:36:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/06/hms_smoke20200611.kml",
+          "retrievedAt": "2026-10-22T01:22:24.762216+00:00",
+          "bytes": 139153,
+          "sha256": "4ede0669e90aaa5bb475b059961efd2a1a5252542506dcf80e4f9bf02272f77e",
+          "md5": "3c8ecda249c549b77c073cab0bb312e6",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 38,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-06-12",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-06-12.json",
+          "monitorCoverage": {
+            "06-067-5003": false,
+            "06-067-0006": false,
+            "06-061-0006": false
+          },
+          "measurementPeriod": {
+            "start": "2020-06-12T12:30:00+00:00",
+            "end": "2020-06-13T07:00:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/06/hms_smoke20200612.kml",
+          "retrievedAt": "2026-10-22T01:22:25.539159+00:00",
+          "bytes": 106405,
+          "sha256": "a75b9c730f8b043e11530954eea59865d07379f6bddd3c6e9bd0b70654cced92",
+          "md5": "f8d33c0f22901e0abe42a33618c7fb7f",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 34,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-06-13",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-06-13.json",
+          "monitorCoverage": {
+            "06-067-5003": false,
+            "06-067-0006": false,
+            "06-061-0006": false
+          },
+          "measurementPeriod": {
+            "start": "2020-06-13T16:30:00+00:00",
+            "end": "2020-06-14T02:00:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/06/hms_smoke20200613.kml",
+          "retrievedAt": "2026-10-22T01:22:26.690516+00:00",
+          "bytes": 192664,
+          "sha256": "041391006d58006f9bf26ee5a023a0542c9a3cc2e07f99e036daf4770044c6d5",
+          "md5": "862740e4b84bfbe93e73608493b778b0",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 38,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-06-14",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-06-14.json",
+          "monitorCoverage": {
+            "06-067-5003": false,
+            "06-067-0006": false,
+            "06-061-0006": false
+          },
+          "measurementPeriod": {
+            "start": "2020-06-14T12:00:00+00:00",
+            "end": "2020-06-15T02:10:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/06/hms_smoke20200614.kml",
+          "retrievedAt": "2026-10-22T01:22:27.900835+00:00",
+          "bytes": 147873,
+          "sha256": "261f51045f8a6cec291878ff78218e9e677a03bcc914b62284aeda256b402fff",
+          "md5": "178d051f6f784c1316e7de12d815908f",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 59,
+          "firePolygonCount": 0
+        }
+      ]
+    },
+    "exclusions": [],
+    "health": [],
+    "aqiReference": {
+      "bands": [
+        {
+          "name": "Good",
+          "low": 0,
+          "high": 9,
+          "color": "#00e400"
+        },
+        {
+          "name": "Moderate",
+          "low": 9.1,
+          "high": 35.4,
+          "color": "#ffff00"
+        },
+        {
+          "name": "Unhealthy for sensitive groups",
+          "low": 35.5,
+          "high": 55.4,
+          "color": "#ff7e00"
+        },
+        {
+          "name": "Unhealthy",
+          "low": 55.5,
+          "high": 125.4,
+          "color": "#ff0000"
+        },
+        {
+          "name": "Very unhealthy",
+          "low": 125.5,
+          "high": 225.4,
+          "color": "#8f3f97"
+        },
+        {
+          "name": "Hazardous",
+          "low": 225.5,
+          "high": 325.4,
+          "color": "#7e0023"
+        }
+      ],
+      "averagingHours": 24,
+      "sourceUrl": "https://aqs.epa.gov/aqsweb/documents/codetables/aqi_breakpoints.csv",
+      "retrievedAt": "2026-10-19T02:57:31.110041+00:00",
+      "bytes": 6494,
+      "sha256": "00460436574eb146f0b1293cf591a831c272c3d2a5be1fbef76b98193f9ff3c4",
+      "dataClass": "Historical"
+    },
+    "limitedCoverage": false,
+    "selectionRule": "Nearest three distinct sites among five audited within 50 km, preferring >=75% hourly coverage over 60 days. If none qualify, show partial records with gaps. Prefer comparable reference instrument within each site. Not fire-attributed smoke."
+  },
+  "checks": {
+    "ash": {
+      "status": "not_checked",
+      "reason": "No reviewed soil study is linked. Wider sampling-study availability has not been checked."
+    },
+    "recovery": {
+      "status": "checked",
+      "reason": "Products checked separately; power is county/time context."
+    },
+    "smoke": {
+      "status": "available",
+      "reason": "",
+      "preparedUrl": "/data/historical-fires/evidence/frap-2020-793f45e0-e862-41c0-a129-762acda3242c.json",
+      "scope": {
+        "fireId": "frap:2020:793f45e0-e862-41c0-a129-762acda3242c",
+        "boundarySource": {
+          "status": "available",
+          "sourceUrl": "https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/California_Historic_Fire_Perimeters/FeatureServer/0/query?f=geojson&where=GlobalID%3D%27793f45e0-e862-41c0-a129-762acda3242c%27&outFields=GlobalID%2CFIRE_NAME%2CYEAR_%2CALARM_DATE&outSR=4326&returnGeometry=true",
+          "retrievedAt": "2026-10-21T09:05:55.301910+00:00",
+          "bytes": 8276,
+          "sha256": "9e9dd202572b6bd1b13b039c5c507b76e7485a23cd108a6da5b0b7349090b1ed"
+        },
+        "spatialRelationship": "nearby ambient monitors; not fire-attributed exposure",
+        "analysisWindow": {
+          "start": "2020-06-09",
+          "end": "2020-06-14",
+          "referenceYears": [
+            2017,
+            2018,
+            2019
+          ],
+          "referenceMonths": [
+            6,
+            7,
+            8
+          ],
+          "minimumHoursPerDay": 18,
+          "referenceSources": [
+            {
+              "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88101_2017.zip",
+              "retrievedAt": "2026-10-21T21:24:54.979422+00:00",
+              "bytes": 5188737,
+              "sha256": "0a09c955d4a84e604acfb3d3bfc864a4bff883eaca9ac1deb208563204256d74",
+              "dataClass": "Observed"
+            },
+            {
+              "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88101_2018.zip",
+              "retrievedAt": "2026-10-21T21:25:08.532706+00:00",
+              "bytes": 6325876,
+              "sha256": "a82e60b1bd486ebd23adacedd4f1822a41cda0985194b3a21898e135cdf468e5",
+              "dataClass": "Observed"
+            },
+            {
+              "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88101_2019.zip",
+              "retrievedAt": "2026-10-21T21:25:30.316044+00:00",
+              "bytes": 7315771,
+              "sha256": "88b9b0b1bbd0c7545ffc07959a5ecbd4c6fbe951c67ea648cef70cafe956af53",
+              "dataClass": "Observed"
+            }
+          ]
+        },
+        "measurementPeriod": [
+          {
+            "stationId": "06-067-5003",
+            "start": "2020-06-09T00:00:00-08:00",
+            "end": "2020-06-14T23:00:00-08:00",
+            "basis": "first and last supplied hourly measurements; intervening gaps remain missing"
+          },
+          {
+            "stationId": "06-067-0006",
+            "start": "2020-06-09T00:00:00-08:00",
+            "end": "2020-06-14T23:00:00-08:00",
+            "basis": "first and last supplied hourly measurements; intervening gaps remain missing"
+          },
+          {
+            "stationId": "06-061-0006",
+            "start": "2020-06-09T00:00:00-08:00",
+            "end": "2020-06-14T23:00:00-08:00",
+            "basis": "first and last supplied hourly measurements; intervening gaps remain missing"
+          }
+        ],
+        "periodStatus": "source_supplied",
+        "sourceUrls": [
+          "https://aqs.epa.gov/aqsweb/airdata/hourly_88101_2020.zip",
+          "https://aqs.epa.gov/aqsweb/airdata/hourly_88502_2020.zip"
+        ],
+        "catalogIdentityVerified": true
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-22T00:56:45.150511+00:00"
+    },
+    "hms": {
+      "status": "available",
+      "reason": "Independent NOAA daily-file checks completed",
+      "dayStatuses": {
+        "available": 6
+      },
+      "scope": {
+        "fireId": "frap:2020:793f45e0-e862-41c0-a129-762acda3242c",
+        "boundarySource": {
+          "status": "available",
+          "sourceUrl": "https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/California_Historic_Fire_Perimeters/FeatureServer/0/query?f=geojson&where=GlobalID%3D%27793f45e0-e862-41c0-a129-762acda3242c%27&outFields=GlobalID%2CFIRE_NAME%2CYEAR_%2CALARM_DATE&outSR=4326&returnGeometry=true",
+          "retrievedAt": "2026-10-21T09:05:55.301910+00:00",
+          "bytes": 8276,
+          "sha256": "9e9dd202572b6bd1b13b039c5c507b76e7485a23cd108a6da5b0b7349090b1ed"
+        },
+        "spatialRelationship": "medium/heavy polygons intersecting the existing fire footprint",
+        "analysisWindow": {
+          "start": "2020-06-09",
+          "end": "2020-06-14"
+        },
+        "measurementPeriod": [
+          {
+            "start": "2020-06-09T12:00:00+00:00",
+            "end": "2020-06-10T02:00:00+00:00"
+          },
+          {
+            "start": "2020-06-10T12:00:00+00:00",
+            "end": "2020-06-11T02:30:00+00:00"
+          },
+          {
+            "start": "2020-06-11T11:00:00+00:00",
+            "end": "2020-06-12T01:36:00+00:00"
+          },
+          {
+            "start": "2020-06-12T12:30:00+00:00",
+            "end": "2020-06-13T07:00:00+00:00"
+          },
+          {
+            "start": "2020-06-13T16:30:00+00:00",
+            "end": "2020-06-14T02:00:00+00:00"
+          },
+          {
+            "start": "2020-06-14T12:00:00+00:00",
+            "end": "2020-06-15T02:10:00+00:00"
+          }
+        ],
+        "periodStatus": "source_supplied",
+        "sourceUrls": [
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/06/hms_smoke20200609.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/06/hms_smoke20200610.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/06/hms_smoke20200611.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/06/hms_smoke20200612.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/06/hms_smoke20200613.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/06/hms_smoke20200614.kml"
+        ],
+        "catalogIdentityVerified": true
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-22T01:24:28.688984+00:00"
+    },
+    "context": {
+      "status": "available",
+      "reason": "Original 3DEP windows processed and checked"
+    },
+    "rain": {
+      "status": "no_match",
+      "sourceUrl": "https://www.usgs.gov/programs/landslide-hazards/science/postfire-debris-flow-hazard-assessment-data",
+      "candidates": [],
+      "reason": "Completed assessment catalog and annual attachment-index search; no verified fire-to-release link. No nearby assessment was substituted.",
+      "scope": {
+        "fireId": "frap:2020:793f45e0-e862-41c0-a129-762acda3242c",
+        "catalogIdentityVerified": true
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-22T02:21:39.036098+00:00"
+    },
+    "thresholds": {
+      "status": "no_match",
+      "sourceUrl": "https://www.usgs.gov/programs/landslide-hazards/science/postfire-debris-flow-hazard-assessment-data",
+      "candidates": [],
+      "reason": "Completed assessment catalog and annual attachment-index search; no verified fire-to-release link. No nearby assessment was substituted.",
+      "scope": {
+        "fireId": "frap:2020:793f45e0-e862-41c0-a129-762acda3242c",
+        "catalogIdentityVerified": true
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-22T02:25:45.130973+00:00"
+    },
+    "travel": {
+      "status": "no_match",
+      "candidates": [],
+      "sources": [
+        {
+          "sourceUrl": "https://www.sciencebase.gov/catalog/items?filter=parentId%3D6851e986d4be027dac17f0ae&format=json&max=100&offset=0",
+          "retrievedAt": "2026-10-18T22:25:21.238826+00:00",
+          "sha256": "35337b3b272ff46974bb3a5229ca3fac3bd4cf93b920a2dd5172bd81c9d4e8b8",
+          "bytes": 17621,
+          "originalReceipt": {
+            "url": "https://www.sciencebase.gov/catalog/items?filter=parentId%3D6851e986d4be027dac17f0ae&format=json&max=100&offset=0",
+            "retrieved": "2026-10-18T22:25:21.238826+00:00",
+            "bytes": 17621,
+            "sha256": "35337b3b272ff46974bb3a5229ca3fac3bd4cf93b920a2dd5172bd81c9d4e8b8"
+          },
+          "importedFrom": "data\\raw\\runout-catalog\\collection-0.json"
+        }
+      ],
+      "reason": "Complete official runout collection checked; no verified release link for this fire.",
+      "scope": {
+        "fireId": "frap:2020:793f45e0-e862-41c0-a129-762acda3242c",
+        "catalogIdentityVerified": true
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-22T02:28:44.459191+00:00"
+    },
+    "water": {
+      "status": "match_unresolved",
+      "reason": "The verified notice catalog has no fire-to-provider link for this record. No complete historical notice registry or service-area crosswalk is supplied; this is not evidence that no notice existed. Unrelated provider pages were not requested.",
+      "notices": [],
+      "failures": [],
+      "completeHistory": false,
+      "scope": {
+        "fireId": "frap:2020:793f45e0-e862-41c0-a129-762acda3242c",
+        "boundarySource": null,
+        "spatialRelationship": "Provider notice territory, not the fire footprint or every property inside it.",
+        "measurementPeriod": null,
+        "periodStatus": "not_supplied",
+        "sourceUrls": [],
+        "blockedBy": "provider_link",
+        "indexChecked": "Existing verified provider-notice catalog",
+        "catalogIdentityVerified": true
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-22T02:31:23.826704+00:00"
+    },
+    "power": {
+      "status": "available",
+      "dataClass": "Historical",
+      "relationship": "nearby_time_matched",
+      "unit": "reported customers without power",
+      "sourceUrl": "https://figshare.com/articles/dataset/The_Environment_for_Analysis_of_Geo-Located_Energy_Information_s_Recorded_Electricity_Outages_2014-2022/24237376",
+      "retrievedAt": "2026-10-25T18:19:47.861172+00:00",
+      "license": "CC BY 4.0; ORNL EAGLE-I / DOE-CESER",
+      "seriesUrl": "/data/historical-fires/power/frap-2020-793f45e0-e862-41c0-a129-762acda3242c.json",
+      "countyCount": 1,
+      "recordCount": 4388,
+      "scope": {
+        "fireId": "frap:2020:793f45e0-e862-41c0-a129-762acda3242c",
+        "boundarySource": {
+          "status": "available",
+          "sourceUrl": "https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/California_Historic_Fire_Perimeters/FeatureServer/0/query?f=geojson&where=GlobalID%3D%27793f45e0-e862-41c0-a129-762acda3242c%27&outFields=GlobalID%2CFIRE_NAME%2CYEAR_%2CALARM_DATE&outSR=4326&returnGeometry=true",
+          "retrievedAt": "2026-10-25T17:57:29.198633+00:00",
+          "bytes": 8276,
+          "sha256": "9e9dd202572b6bd1b13b039c5c507b76e7485a23cd108a6da5b0b7349090b1ed",
+          "md5": "c269f66f43230f007ba5fca3a63e3056"
+        },
+        "spatialRelationship": "County-wide context in counties intersecting the fire; not outages inside the perimeter or attributed to the fire.",
+        "measurementPeriod": [
+          {
+            "countyId": "06067",
+            "start": "2020-06-09T00:00:00+00:00",
+            "end": "2020-08-07T23:45:00+00:00"
+          }
+        ],
+        "periodStatus": "source_supplied",
+        "sourceUrls": [
+          "https://ndownloader.figshare.com/files/42547894"
+        ],
+        "preflightVerified": true,
+        "countyBoundarySource": {
+          "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?f=geojson&where=STATE%3D%2706%27&outFields=STATE%2CCOUNTY%2CGEOID%2CNAME&returnGeometry=true&outSR=4326&resultRecordCount=1000",
+          "retrievedAt": "2026-10-25T17:56:26.362096+00:00",
+          "bytes": 10816969,
+          "sha256": "f51dd64302c7fe4df11c3f9bb11d2b3b13f35cf66bc2b252d49f8b6d572f9b14",
+          "md5": "fca119c0d3d508d9fa76ce3b320fde7a"
+        },
+        "countyIds": [
+          "06067"
+        ],
+        "analysisWindow": {
+          "countyIds": [
+            "06067"
+          ],
+          "start": "2020-06-09T00:00:00+00:00",
+          "endExclusive": "2020-08-08T00:00:00+00:00"
+        },
+        "catalogIdentityVerified": true
+      },
+      "missingRecordCount": 18,
+      "reason": "",
+      "attempts": 1,
+      "checkedAt": "2026-10-25T18:20:33.526624+00:00"
+    },
+    "case_severity": {
+      "status": "no_match",
+      "reason": "The original observation-display crop catalog has no verified severity crop for this fire; fire-wide numeric severity is checked separately",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:28:18.168172+00:00"
+    },
+    "damage": {
+      "status": "available",
+      "reason": "Previously reviewed recovery evidence retained unchanged.",
+      "sourceUrl": "https://publish.data.ca.gov/dataset/cal-fire-damage-inspection-dins-data",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:14:54.777223+00:00"
+    },
+    "dnbr": {
+      "status": "access_failed",
+      "reason": "Verified MTBS product identity, but the checked original-raster interface requires an emailed processing request; no request sent",
+      "mtbs": {
+        "map_id": 10020664,
+        "incid_name": "GRANT",
+        "incid_type": "Wildfire",
+        "event_id": "CA3852112120220200612",
+        "ig_date": "2020-06-12Z",
+        "asmt_type": "Initial",
+        "burnbndac": 5185,
+        "burnbndlat": 38.56717310996494,
+        "burnbndlon": -121.1544788733948,
+        "post_id": "804403320200622",
+        "updated_at": "2025-11-30T22:14:00Z",
+        "asmnt_type": "Initial",
+        "pre_id": null
+      },
+      "sources": [
+        {
+          "sourceUrl": "https://burnseverity.cr.usgs.gov/viewer/",
+          "retrievedAt": "2026-10-21T23:10:57.851818+00:00",
+          "bytes": 1722,
+          "sha256": "87f576910f5e586e7a81dccc2d13c966b8f59ccf512c4460bea1048c7bfb1a86"
+        },
+        {
+          "sourceUrl": "https://burnseverity.cr.usgs.gov/viewer/main.e04713e0ed3bd08cbc93.js",
+          "retrievedAt": "2026-10-21T22:44:44.815483+00:00",
+          "bytes": 406661,
+          "sha256": "121491bd66003bea13b40f0df1c483b089cff84614605e1ac43976075c875c25"
+        }
+      ],
+      "baerCheck": {
+        "status": "no_match",
+        "reason": "Checked BAER index has no exact name/day candidate",
+        "sources": [
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=0&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:36.072753+00:00",
+            "bytes": 36489,
+            "sha256": "4bafff091f8a37a9e171970f2af30c730c385835c1cc8b6c9877b1664f9c4fe5"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=100&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:36.937190+00:00",
+            "bytes": 34956,
+            "sha256": "a039830d37ec57767dde8c382436651534eb54909c41265e8a92fdf9f94dfda1"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=200&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:37.999924+00:00",
+            "bytes": 35588,
+            "sha256": "2ce4ee102033e494563df7ba0a442fbda7f3b528b8ac509e13015f3786e4d4c9"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=300&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:38.986579+00:00",
+            "bytes": 34691,
+            "sha256": "43f7a5013359105da9263242194bdd9c54056ea5cb030b373ed1a264ffb64cd8"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=400&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:39.878707+00:00",
+            "bytes": 35592,
+            "sha256": "3f53e644c3b10db1074e58043115b5075e750ec9a89259363bd1ce6b42eb6c83"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=500&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:40.957829+00:00",
+            "bytes": 35208,
+            "sha256": "88cd48b9baa0f3030246d11cf7b760fc2794f45bc7705f398064768acf1241f2"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=600&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:41.979952+00:00",
+            "bytes": 33949,
+            "sha256": "a49ea913284b2441d002035c373f5082d6afd933a3798ee0726bd4075ddd0248"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=700&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:42.761479+00:00",
+            "bytes": 8435,
+            "sha256": "544c283f9a7d2a2e969b3d13571ffac541fd3eb12b02f43bf7de54cbe033d24f"
+          }
+        ]
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:36:31.708533+00:00"
+    },
+    "goes": {
+      "status": "coverage_limited",
+      "reason": "Checked GOES-18 product index does not list this year",
+      "source": {
+        "sourceUrl": "https://noaa-goes18.s3.amazonaws.com/?list-type=2&prefix=ABI-L2-ADPC%2F&delimiter=%2F",
+        "retrievedAt": "2026-10-21T21:49:24.733793+00:00",
+        "bytes": 613,
+        "sha256": "78cb996d56b316b0e4b76246c6a7d71831e7873de7695817d42a10db5cc59736"
+      },
+      "scope": {
+        "fireId": "frap:2020:793f45e0-e862-41c0-a129-762acda3242c",
+        "catalogIdentityVerified": true
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-22T02:07:04.217207+00:00"
+    },
+    "health": {
+      "status": "coverage_limited",
+      "reason": "The approved limited-study registry was checked. This fire has no documented study link; regional health findings and other fires' soil results are not transferred.",
+      "scope": "Approved reviewed health and chemical-sampling studies only",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:16:46.417384+00:00"
+    },
+    "imagery": {
+      "status": "access_failed",
+      "reason": "Verified MTBS product identity, but the checked original-raster interface requires an emailed processing request; no request sent",
+      "mtbs": {
+        "map_id": 10020664,
+        "incid_name": "GRANT",
+        "incid_type": "Wildfire",
+        "event_id": "CA3852112120220200612",
+        "ig_date": "2020-06-12Z",
+        "asmt_type": "Initial",
+        "burnbndac": 5185,
+        "burnbndlat": 38.56717310996494,
+        "burnbndlon": -121.1544788733948,
+        "post_id": "804403320200622",
+        "updated_at": "2025-11-30T22:14:00Z",
+        "asmnt_type": "Initial",
+        "pre_id": null
+      },
+      "sources": [
+        {
+          "sourceUrl": "https://burnseverity.cr.usgs.gov/viewer/",
+          "retrievedAt": "2026-10-21T23:10:57.851818+00:00",
+          "bytes": 1722,
+          "sha256": "87f576910f5e586e7a81dccc2d13c966b8f59ccf512c4460bea1048c7bfb1a86"
+        },
+        {
+          "sourceUrl": "https://burnseverity.cr.usgs.gov/viewer/main.e04713e0ed3bd08cbc93.js",
+          "retrievedAt": "2026-10-21T22:44:44.815483+00:00",
+          "bytes": 406661,
+          "sha256": "121491bd66003bea13b40f0df1c483b089cff84614605e1ac43976075c875c25"
+        }
+      ],
+      "baerCheck": {
+        "status": "no_match",
+        "reason": "Checked BAER index has no exact name/day candidate",
+        "sources": [
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=0&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:36.072753+00:00",
+            "bytes": 36489,
+            "sha256": "4bafff091f8a37a9e171970f2af30c730c385835c1cc8b6c9877b1664f9c4fe5"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=100&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:36.937190+00:00",
+            "bytes": 34956,
+            "sha256": "a039830d37ec57767dde8c382436651534eb54909c41265e8a92fdf9f94dfda1"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=200&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:37.999924+00:00",
+            "bytes": 35588,
+            "sha256": "2ce4ee102033e494563df7ba0a442fbda7f3b528b8ac509e13015f3786e4d4c9"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=300&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:38.986579+00:00",
+            "bytes": 34691,
+            "sha256": "43f7a5013359105da9263242194bdd9c54056ea5cb030b373ed1a264ffb64cd8"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=400&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:39.878707+00:00",
+            "bytes": 35592,
+            "sha256": "3f53e644c3b10db1074e58043115b5075e750ec9a89259363bd1ce6b42eb6c83"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=500&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:40.957829+00:00",
+            "bytes": 35208,
+            "sha256": "88cd48b9baa0f3030246d11cf7b760fc2794f45bc7705f398064768acf1241f2"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=600&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:41.979952+00:00",
+            "bytes": 33949,
+            "sha256": "a49ea913284b2441d002035c373f5082d6afd933a3798ee0726bd4075ddd0248"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=700&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:42.761479+00:00",
+            "bytes": 8435,
+            "sha256": "544c283f9a7d2a2e969b3d13571ffac541fd3eb12b02f43bf7de54cbe033d24f"
+          }
+        ]
+      },
+      "scope": {
+        "fireId": "frap:2020:793f45e0-e862-41c0-a129-762acda3242c",
+        "catalogIdentityVerified": true
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-22T01:44:57.830675+00:00"
+    },
+    "measured_rain": {
+      "status": "no_match",
+      "sourceUrl": "https://www.sciencebase.gov/catalog/item/69612c8ed4be02298529c522",
+      "candidates": [],
+      "reason": "Completed public-inventory search; no verified export for this fire. Other inventories are outside this check.",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:21:38.775847+00:00"
+    },
+    "observations": {
+      "status": "no_match",
+      "sourceUrl": "https://www.sciencebase.gov/catalog/item/69612c8ed4be02298529c522",
+      "candidates": [],
+      "reason": "Completed public-inventory search; no verified export for this fire. Other inventories are outside this check.",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:20:33.261391+00:00"
+    },
+    "severity": {
+      "status": "available",
+      "reason": "Existing numeric MTBS summary retained unchanged",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:16:59.084613+00:00"
+    },
+    "soil": {
+      "status": "coverage_limited",
+      "reason": "The approved limited-study registry was checked. This fire has no documented study link; regional health findings and other fires' soil results are not transferred.",
+      "scope": "Approved reviewed health and chemical-sampling studies only",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:18:09.570410+00:00"
+    },
+    "soil_followup": {
+      "status": "coverage_limited",
+      "reason": "The approved limited-study registry was checked. This fire has no documented study link; regional health findings and other fires' soil results are not transferred.",
+      "scope": "Approved reviewed health and chemical-sampling studies only",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:19:14.603223+00:00"
+    },
+    "unresolved_rain": {
+      "status": "no_match",
+      "sourceUrl": "https://www.sciencebase.gov/catalog/item/69612c8ed4be02298529c522",
+      "candidates": [],
+      "reason": "Completed public-inventory search; no verified export for this fire. Other inventories are outside this check.",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:23:01.401039+00:00"
+    }
+  },
+  "recovery": {
+    "schemaVersion": 1,
+    "fireId": "frap:2020:793f45e0-e862-41c0-a129-762acda3242c",
+    "builtAt": "2026-10-21T09:05:55.818163+00:00",
+    "damage": {
+      "status": "available",
+      "sourceUrl": "https://publish.data.ca.gov/dataset/cal-fire-damage-inspection-dins-data",
+      "retrievedAt": "2026-10-21T09:05:55.818163+00:00",
+      "dataClass": "Historical",
+      "incidentId": "CAAEU 016543",
+      "incidentDate": "2020-06-12",
+      "recordDatesSupplied": true,
+      "sourceDates": [
+        "2020-06-12"
+      ],
+      "match": {
+        "method": "Exact incident identifier, name and published source day"
+      },
+      "categories": [
+        {
+          "label": "Destroyed (>50%)",
+          "count": 0,
+          "color": "#a44136"
+        },
+        {
+          "label": "Major (25-50%)",
+          "count": 1,
+          "color": "#c8723c"
+        },
+        {
+          "label": "Minor (10-25%)",
+          "count": 0,
+          "color": "#dca963"
+        },
+        {
+          "label": "Affected (>0-10%)",
+          "count": 0,
+          "color": "#e2ca92"
+        },
+        {
+          "label": "Inaccessible",
+          "count": 0,
+          "color": "#8c8499"
+        },
+        {
+          "label": "No Damage",
+          "count": 0,
+          "color": "#7e9c91"
+        },
+        {
+          "label": "Not supplied",
+          "count": 0,
+          "color": "#a6aeae"
+        }
+      ],
+      "total": 1,
+      "geometryUrl": "/data/historical-fires/recovery/frap-2020-793f45e0-e862-41c0-a129-762acda3242c-damage.geojson",
+      "mappedCount": 1,
+      "audit": {
+        "duplicates": 0,
+        "dateConflicts": 0,
+        "missingGeometry": 0,
+        "inside": 1,
+        "outside": 0
+      },
+      "spatialChecked": true,
+      "sourceUpdatedAt": "2026-01-06",
+      "inspectionDate": null,
+      "publicationDate": null,
+      "license": "Creative Commons Attribution; no restrictions on public use",
+      "receipts": [
+        {
+          "request": {
+            "url": "https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/POSTFIRE_MASTER_DATA_SHARE/FeatureServer/0/query",
+            "parameters": {
+              "f": "json",
+              "where": "HAZARDTYPE='Fire' AND INCIDENTNUM='CAAEU 016543'",
+              "outFields": "OBJECTID,GLOBALID,DAMAGE,STRUCTURETYPE,INCIDENTNUM,INCIDENTNAME,INCIDENTSTARTDATE",
+              "returnGeometry": "true",
+              "outSR": "4326",
+              "orderByFields": "OBJECTID",
+              "resultOffset": 0,
+              "resultRecordCount": 1000
+            }
+          },
+          "retrievedAt": "2026-10-21T09:05:55.818163+00:00",
+          "bytes": 3315,
+          "sha256": "4c0042c8542a92903c81474d3e3159c11569b55d8ee6f000adf2f3e0a90c6a43"
+        },
+        {
+          "request": {
+            "url": "https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/POSTFIRE_MASTER_DATA_SHARE/FeatureServer/0?f=json",
+            "parameters": null
+          },
+          "retrievedAt": "2026-10-21T06:18:09.229005+00:00",
+          "bytes": 54937,
+          "sha256": "fdce068b320485557ee9a14941e5c17c7efc8225fbaa5c75fdac40020a151f9e"
+        }
+      ]
+    },
+    "water": {
+      "status": "match_unresolved",
+      "reason": "The verified notice catalog has no fire-to-provider link for this record. No complete historical notice registry or service-area crosswalk is supplied; this is not evidence that no notice existed. Unrelated provider pages were not requested.",
+      "notices": [],
+      "failures": [],
+      "completeHistory": false,
+      "scope": {
+        "fireId": "frap:2020:793f45e0-e862-41c0-a129-762acda3242c",
+        "boundarySource": null,
+        "spatialRelationship": "Provider notice territory, not the fire footprint or every property inside it.",
+        "measurementPeriod": null,
+        "periodStatus": "not_supplied",
+        "sourceUrls": [],
+        "blockedBy": "provider_link",
+        "indexChecked": "Existing verified provider-notice catalog"
+      }
+    },
+    "power": {
+      "status": "available",
+      "dataClass": "Historical",
+      "relationship": "nearby_time_matched",
+      "unit": "reported customers without power",
+      "sourceUrl": "https://figshare.com/articles/dataset/The_Environment_for_Analysis_of_Geo-Located_Energy_Information_s_Recorded_Electricity_Outages_2014-2022/24237376",
+      "retrievedAt": "2026-10-25T18:19:47.861172+00:00",
+      "license": "CC BY 4.0; ORNL EAGLE-I / DOE-CESER",
+      "seriesUrl": "/data/historical-fires/power/frap-2020-793f45e0-e862-41c0-a129-762acda3242c.json",
+      "countyCount": 1,
+      "recordCount": 4388,
+      "scope": {
+        "fireId": "frap:2020:793f45e0-e862-41c0-a129-762acda3242c",
+        "boundarySource": {
+          "status": "available",
+          "sourceUrl": "https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/California_Historic_Fire_Perimeters/FeatureServer/0/query?f=geojson&where=GlobalID%3D%27793f45e0-e862-41c0-a129-762acda3242c%27&outFields=GlobalID%2CFIRE_NAME%2CYEAR_%2CALARM_DATE&outSR=4326&returnGeometry=true",
+          "retrievedAt": "2026-10-25T17:57:29.198633+00:00",
+          "bytes": 8276,
+          "sha256": "9e9dd202572b6bd1b13b039c5c507b76e7485a23cd108a6da5b0b7349090b1ed",
+          "md5": "c269f66f43230f007ba5fca3a63e3056"
+        },
+        "spatialRelationship": "County-wide context in counties intersecting the fire; not outages inside the perimeter or attributed to the fire.",
+        "measurementPeriod": [
+          {
+            "countyId": "06067",
+            "start": "2020-06-09T00:00:00+00:00",
+            "end": "2020-08-07T23:45:00+00:00"
+          }
+        ],
+        "periodStatus": "source_supplied",
+        "sourceUrls": [
+          "https://ndownloader.figshare.com/files/42547894"
+        ],
+        "preflightVerified": true,
+        "countyBoundarySource": {
+          "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?f=geojson&where=STATE%3D%2706%27&outFields=STATE%2CCOUNTY%2CGEOID%2CNAME&returnGeometry=true&outSR=4326&resultRecordCount=1000",
+          "retrievedAt": "2026-10-25T17:56:26.362096+00:00",
+          "bytes": 10816969,
+          "sha256": "f51dd64302c7fe4df11c3f9bb11d2b3b13f35cf66bc2b252d49f8b6d572f9b14",
+          "md5": "fca119c0d3d508d9fa76ce3b320fde7a"
+        },
+        "countyIds": [
+          "06067"
+        ],
+        "analysisWindow": {
+          "countyIds": [
+            "06067"
+          ],
+          "start": "2020-06-09T00:00:00+00:00",
+          "endExclusive": "2020-08-08T00:00:00+00:00"
+        }
+      },
+      "missingRecordCount": 18,
+      "reason": ""
+    }
+  },
+  "perimeter": {
+    "status": "available",
+    "sourceUrl": "https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/California_Historic_Fire_Perimeters/FeatureServer/0/query?f=geojson&where=GlobalID%3D%27793f45e0-e862-41c0-a129-762acda3242c%27&outFields=GlobalID%2CFIRE_NAME%2CYEAR_%2CALARM_DATE&outSR=4326&returnGeometry=true",
+    "retrievedAt": "2026-10-21T09:05:55.301910+00:00",
+    "bytes": 8276,
+    "sha256": "9e9dd202572b6bd1b13b039c5c507b76e7485a23cd108a6da5b0b7349090b1ed",
+    "value": {
+      "type": "FeatureCollection",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "EPSG:4326"
+        }
+      },
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -121.186882043438,
+                  38.5347364538976
+                ],
+                [
+                  -121.187025774782,
+                  38.5350877978933
+                ],
+                [
+                  -121.186962892712,
+                  38.5358396682789
+                ],
+                [
+                  -121.186504751917,
+                  38.5365774766705
+                ],
+                [
+                  -121.184465575323,
+                  38.539205422322
+                ],
+                [
+                  -121.181869445051,
+                  38.5420862127504
+                ],
+                [
+                  -121.182318602693,
+                  38.5427747750082
+                ],
+                [
+                  -121.181896394509,
+                  38.5433649659823
+                ],
+                [
+                  -121.181986226038,
+                  38.544165932403
+                ],
+                [
+                  -121.181797579828,
+                  38.5445664112143
+                ],
+                [
+                  -121.181788597573,
+                  38.5450933552479
+                ],
+                [
+                  -121.181438253714,
+                  38.5454657262068
+                ],
+                [
+                  -121.181510118937,
+                  38.5459224035339
+                ],
+                [
+                  -121.181752664064,
+                  38.5461683069681
+                ],
+                [
+                  -121.181968259732,
+                  38.5461612811874
+                ],
+                [
+                  -121.182282670081,
+                  38.5463720543087
+                ],
+                [
+                  -121.182435384578,
+                  38.5469692414639
+                ],
+                [
+                  -121.182237753419,
+                  38.5473697053666
+                ],
+                [
+                  -121.182291653234,
+                  38.5484375982038
+                ],
+                [
+                  -121.182552164667,
+                  38.5488872325485
+                ],
+                [
+                  -121.182067074413,
+                  38.5497654172221
+                ],
+                [
+                  -121.182040124955,
+                  38.5502571948584
+                ],
+                [
+                  -121.181411304256,
+                  38.5510861850155
+                ],
+                [
+                  -121.181087911652,
+                  38.5524701564613
+                ],
+                [
+                  -121.180504005819,
+                  38.5535871482504
+                ],
+                [
+                  -121.180593837347,
+                  38.5537557486807
+                ],
+                [
+                  -121.181797579828,
+                  38.553783850236
+                ],
+                [
+                  -121.182354534406,
+                  38.5539665002431
+                ],
+                [
+                  -121.182381484763,
+                  38.5541280747815
+                ],
+                [
+                  -121.177737194744,
+                  38.5541140254775
+                ],
+                [
+                  -121.17813245257,
+                  38.5542755996843
+                ],
+                [
+                  -121.178330082831,
+                  38.5545495737006
+                ],
+                [
+                  -121.17820431959,
+                  38.554760322936
+                ],
+                [
+                  -121.17841991436,
+                  38.5553152904143
+                ],
+                [
+                  -121.178321100577,
+                  38.5556454600273
+                ],
+                [
+                  -121.178788224524,
+                  38.5562847189264
+                ],
+                [
+                  -121.178958904428,
+                  38.5568396753391
+                ],
+                [
+                  -121.178851105696,
+                  38.5581181662131
+                ],
+                [
+                  -121.178994836141,
+                  38.5585536908787
+                ],
+                [
+                  -121.178878055155,
+                  38.5596916615243
+                ],
+                [
+                  -121.179003818396,
+                  38.5615109733508
+                ],
+                [
+                  -121.178761273269,
+                  38.563021179322
+                ],
+                [
+                  -121.178806189932,
+                  38.5640607435592
+                ],
+                [
+                  -121.179057718211,
+                  38.5647631426123
+                ],
+                [
+                  -121.179479925497,
+                  38.5651424356257
+                ],
+                [
+                  -121.180629769959,
+                  38.5680362356377
+                ],
+                [
+                  -121.180575870143,
+                  38.5687456194076
+                ],
+                [
+                  -121.180153662858,
+                  38.5694549975787
+                ],
+                [
+                  -121.180045865922,
+                  38.5703680473785
+                ],
+                [
+                  -121.179857218814,
+                  38.5703820942078
+                ],
+                [
+                  -121.17981230305,
+                  38.5709369410691
+                ],
+                [
+                  -121.179596706484,
+                  38.5712670375172
+                ],
+                [
+                  -121.177557532585,
+                  38.5724048082645
+                ],
+                [
+                  -121.176811930001,
+                  38.5726295508336
+                ],
+                [
+                  -121.17273357951,
+                  38.5728472702294
+                ],
+                [
+                  -121.172266454663,
+                  38.5731001033108
+                ],
+                [
+                  -121.169113368016,
+                  38.5758741933284
+                ],
+                [
+                  -121.167837759414,
+                  38.5759795357054
+                ],
+                [
+                  -121.167810810854,
+                  38.5761199936065
+                ],
+                [
+                  -121.167496400505,
+                  38.5761270157569
+                ],
+                [
+                  -121.167900641484,
+                  38.5763447252556
+                ],
+                [
+                  -121.168206069579,
+                  38.576759069691
+                ],
+                [
+                  -121.168062339134,
+                  38.5770821180342
+                ],
+                [
+                  -121.164927218792,
+                  38.5799473472663
+                ],
+                [
+                  -121.163723476311,
+                  38.5799543683403
+                ],
+                [
+                  -121.163148555428,
+                  38.5802633567161
+                ],
+                [
+                  -121.162564649595,
+                  38.5835919213314
+                ],
+                [
+                  -121.161666334311,
+                  38.5839781356273
+                ],
+                [
+                  -121.161459721795,
+                  38.5842590191707
+                ],
+                [
+                  -121.16077700218,
+                  38.5865130641873
+                ],
+                [
+                  -121.16062428948,
+                  38.5874961146223
+                ],
+                [
+                  -121.16077700218,
+                  38.5877980488401
+                ],
+                [
+                  -121.160669204345,
+                  38.5878682659181
+                ],
+                [
+                  -121.157740697418,
+                  38.5893077015867
+                ],
+                [
+                  -121.156887296999,
+                  38.5892374852142
+                ],
+                [
+                  -121.15653695314,
+                  38.5893919603005
+                ],
+                [
+                  -121.156024914327,
+                  38.5899255958227
+                ],
+                [
+                  -121.155414059933,
+                  38.5899677248294
+                ],
+                [
+                  -121.153931839715,
+                  38.5904732716836
+                ],
+                [
+                  -121.153491665225,
+                  38.5905013574766
+                ],
+                [
+                  -121.153258103251,
+                  38.590627743409
+                ],
+                [
+                  -121.153240136946,
+                  38.5907962569373
+                ],
+                [
+                  -121.146359041869,
+                  38.5907330641472
+                ],
+                [
+                  -121.14598174945,
+                  38.5910420061477
+                ],
+                [
+                  -121.145972765399,
+                  38.5979507253994
+                ],
+                [
+                  -121.146915997346,
+                  38.5986317325458
+                ],
+                [
+                  -121.147032778333,
+                  38.5988423510853
+                ],
+                [
+                  -121.146915997346,
+                  38.5990319078743
+                ],
+                [
+                  -121.145559541267,
+                  38.5992495472354
+                ],
+                [
+                  -121.144580377607,
+                  38.5995584518839
+                ],
+                [
+                  -121.143340702515,
+                  38.5993057112414
+                ],
+                [
+                  -121.143161039458,
+                  38.5984702566732
+                ],
+                [
+                  -121.142900528026,
+                  38.5980911403301
+                ],
+                [
+                  -121.142577135422,
+                  38.5981613473414
+                ],
+                [
+                  -121.141588988609,
+                  38.5979788082671
+                ],
+                [
+                  -121.139154553291,
+                  38.5981051810357
+                ],
+                [
+                  -121.137151310207,
+                  38.598428133358
+                ],
+                [
+                  -121.136774017788,
+                  38.5980841196251
+                ],
+                [
+                  -121.135812819536,
+                  38.5980700782133
+                ],
+                [
+                  -121.135731972058,
+                  38.5981894287225
+                ],
+                [
+                  -121.135929600522,
+                  38.5984491946677
+                ],
+                [
+                  -121.135561292154,
+                  38.5992776295949
+                ],
+                [
+                  -121.133324487097,
+                  38.6017979766179
+                ],
+                [
+                  -121.132911262066,
+                  38.6025982897371
+                ],
+                [
+                  -121.132300408571,
+                  38.6030124848018
+                ],
+                [
+                  -121.131554805987,
+                  38.6045920176333
+                ],
+                [
+                  -121.131060733479,
+                  38.6051957409985
+                ],
+                [
+                  -121.129695293349,
+                  38.6051185208513
+                ],
+                [
+                  -121.129183254535,
+                  38.6046060577692
+                ],
+                [
+                  -121.129228168503,
+                  38.6040163696944
+                ],
+                [
+                  -121.128958675714,
+                  38.6036794029046
+                ],
+                [
+                  -121.128635281314,
+                  38.6034828375111
+                ],
+                [
+                  -121.128284937455,
+                  38.6036232423211
+                ],
+                [
+                  -121.128015443768,
+                  38.6040093502711
+                ],
+                [
+                  -121.127862730169,
+                  38.6036513222673
+                ],
+                [
+                  -121.128195106825,
+                  38.6026333924511
+                ],
+                [
+                  -121.12912935472,
+                  38.601650549285
+                ],
+                [
+                  -121.12887782644,
+                  38.6015382234947
+                ],
+                [
+                  -121.128734095995,
+                  38.6016224664498
+                ],
+                [
+                  -121.128671213925,
+                  38.6014890802041
+                ],
+                [
+                  -121.128904775899,
+                  38.6013135706846
+                ],
+                [
+                  -121.129650378483,
+                  38.6001271150755
+                ],
+                [
+                  -121.129839023794,
+                  38.6000077656821
+                ],
+                [
+                  -121.130710390518,
+                  38.6003166684715
+                ],
+                [
+                  -121.130979884205,
+                  38.6002464635684
+                ],
+                [
+                  -121.130593608633,
+                  38.5997690677041
+                ],
+                [
+                  -121.130710390518,
+                  38.5995093086418
+                ],
+                [
+                  -121.132156676329,
+                  38.5990950933594
+                ],
+                [
+                  -121.133486183848,
+                  38.598898516112
+                ],
+                [
+                  -121.134115005445,
+                  38.5984351526252
+                ],
+                [
+                  -121.134941455507,
+                  38.5981753880333
+                ],
+                [
+                  -121.135651124581,
+                  38.5981894294246
+                ],
+                [
+                  -121.135543325849,
+                  38.5980630568042
+                ],
+                [
+                  -121.1326956655,
+                  38.5980419953813
+                ],
+                [
+                  -121.132147694973,
+                  38.5978524352759
+                ],
+                [
+                  -121.131177513568,
+                  38.5971363167545
+                ],
+                [
+                  -121.130009704597,
+                  38.5945877225563
+                ],
+                [
+                  -121.129273085165,
+                  38.5933028587139
+                ],
+                [
+                  -121.129183254535,
+                  38.5926147811756
+                ],
+                [
+                  -121.129309017777,
+                  38.591779248732
+                ],
+                [
+                  -121.130342080354,
+                  38.5884721299542
+                ],
+                [
+                  -121.130638524397,
+                  38.5866675437304
+                ],
+                [
+                  -121.130485810799,
+                  38.5826790388988
+                ],
+                [
+                  -121.130207332163,
+                  38.5800737503704
+                ],
+                [
+                  -121.129210203096,
+                  38.5770610497541
+                ],
+                [
+                  -121.12934494949,
+                  38.5757196898659
+                ],
+                [
+                  -121.12976715947,
+                  38.5740271529051
+                ],
+                [
+                  -121.129848006947,
+                  38.5725803884567
+                ],
+                [
+                  -121.130467843595,
+                  38.5705857722228
+                ],
+                [
+                  -121.130503776206,
+                  38.568429557884
+                ],
+                [
+                  -121.130306147742,
+                  38.5676780275315
+                ],
+                [
+                  -121.129398849305,
+                  38.5667438729454
+                ],
+                [
+                  -121.129147321026,
+                  38.5662662557257
+                ],
+                [
+                  -121.128177141417,
+                  38.563716563768
+                ],
+                [
+                  -121.128338836372,
+                  38.5634004808269
+                ],
+                [
+                  -121.128060359532,
+                  38.5629017675487
+                ],
+                [
+                  -121.128428669697,
+                  38.562234470661
+                ],
+                [
+                  -121.129291050573,
+                  38.5616514602401
+                ],
+                [
+                  -121.130162416398,
+                  38.5613634639991
+                ],
+                [
+                  -121.130656490703,
+                  38.5612651237948
+                ],
+                [
+                  -121.131348192573,
+                  38.561384537585
+                ],
+                [
+                  -121.131779385707,
+                  38.5613002453118
+                ],
+                [
+                  -121.132075828852,
+                  38.5598953712458
+                ],
+                [
+                  -121.132174644432,
+                  38.5599866888945
+                ],
+                [
+                  -121.132686683245,
+                  38.5598462001561
+                ],
+                [
+                  -121.132983126391,
+                  38.5594949764063
+                ],
+                [
+                  -121.134007207611,
+                  38.5589821883776
+                ],
+                [
+                  -121.134716875787,
+                  38.5581673377824
+                ],
+                [
+                  -121.13504026929,
+                  38.557991723074
+                ],
+                [
+                  -121.135992482592,
+                  38.557949574609
+                ],
+                [
+                  -121.138004709727,
+                  38.5570574418749
+                ],
+                [
+                  -121.138471834573,
+                  38.5566851309457
+                ],
+                [
+                  -121.138795227177,
+                  38.5569028979497
+                ],
+                [
+                  -121.139486929946,
+                  38.555919428823
+                ],
+                [
+                  -121.139639643544,
+                  38.5560669500498
+                ],
+                [
+                  -121.139828290652,
+                  38.5557508327646
+                ],
+                [
+                  -121.139963037945,
+                  38.5557438079202
+                ],
+                [
+                  -121.139998970556,
+                  38.5553012413423
+                ],
+                [
+                  -121.139621677239,
+                  38.5549570210092
+                ],
+                [
+                  -121.140007952811,
+                  38.5544301499603
+                ],
+                [
+                  -121.140070835779,
+                  38.5534887967045
+                ],
+                [
+                  -121.141310509973,
+                  38.5526106589131
+                ],
+                [
+                  -121.14184051599,
+                  38.5524701564613
+                ],
+                [
+                  -121.142325605345,
+                  38.55212592187
+                ],
+                [
+                  -121.143520365572,
+                  38.5516201058189
+                ],
+                [
+                  -121.143762910698,
+                  38.5505311841881
+                ],
+                [
+                  -121.144005456723,
+                  38.5502150432636
+                ],
+                [
+                  -121.14610751359,
+                  38.5485148793069
+                ],
+                [
+                  -121.148928223582,
+                  38.5476577569702
+                ],
+                [
+                  -121.150176882725,
+                  38.5468849329897
+                ],
+                [
+                  -121.151075197111,
+                  38.5465758017745
+                ],
+                [
+                  -121.154372014204,
+                  38.5448123185825
+                ],
+                [
+                  -121.155216431469,
+                  38.5447701630934
+                ],
+                [
+                  -121.156087795498,
+                  38.5442923984536
+                ],
+                [
+                  -121.157884427863,
+                  38.5438005793206
+                ],
+                [
+                  -121.15881867486,
+                  38.542971505871
+                ],
+                [
+                  -121.160094282564,
+                  38.5425850704405
+                ],
+                [
+                  -121.163570762713,
+                  38.5411587511265
+                ],
+                [
+                  -121.164558910424,
+                  38.5413344076551
+                ],
+                [
+                  -121.166112994967,
+                  38.5407371744101
+                ],
+                [
+                  -121.166696899902,
+                  38.5407160954743
+                ],
+                [
+                  -121.168224035885,
+                  38.5400837245273
+                ],
+                [
+                  -121.168718109291,
+                  38.5402031720961
+                ],
+                [
+                  -121.171071695336,
+                  38.5392405539135
+                ],
+                [
+                  -121.171422037398,
+                  38.5391421834467
+                ],
+                [
+                  -121.171880179091,
+                  38.5392897390964
+                ],
+                [
+                  -121.172778494375,
+                  38.5390648915686
+                ],
+                [
+                  -121.173371382463,
+                  38.5387978857535
+                ],
+                [
+                  -121.173748674882,
+                  38.5383973741185
+                ],
+                [
+                  -121.174251730543,
+                  38.5384044013603
+                ],
+                [
+                  -121.18164710034,
+                  38.5353912094576
+                ],
+                [
+                  -121.184733743995,
+                  38.5342580709921
+                ],
+                [
+                  -121.185880353624,
+                  38.5334142003622
+                ],
+                [
+                  -121.186168504421,
+                  38.5340711680981
+                ],
+                [
+                  -121.186676525969,
+                  38.5339590809391
+                ],
+                [
+                  -121.187169505227,
+                  38.5344342973917
+                ],
+                [
+                  -121.186882043438,
+                  38.5347364538976
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "GlobalID": "793f45e0-e862-41c0-a129-762acda3242c",
+            "FIRE_NAME": "GRANT",
+            "YEAR_": 2020,
+            "ALARM_DATE": 1591920000000
+          }
+        }
+      ]
+    }
+  },
+  "plumeCoverage": {
+    "2020-06-09": false,
+    "2020-06-10": false,
+    "2020-06-11": false,
+    "2020-06-12": false,
+    "2020-06-13": false,
+    "2020-06-14": false
+  },
+  "context": {
+    "status": "available",
+    "fireId": "frap:2020:793f45e0-e862-41c0-a129-762acda3242c",
+    "slope": {
+      "status": "available",
+      "file": "/data/waves/frap-2020-793f45e0-e862-41c0-a129-762acda3242c-slope-940ce85a7abf.png",
+      "bounds": [
+        -121.22251816224704,
+        38.50482158732653,
+        -121.09175304495878,
+        38.63363566231317
+      ],
+      "width": 1270,
+      "height": 1600,
+      "thresholdDegrees": 23.0,
+      "pixelSizeMetres": 10,
+      "colors": {
+        "below": "#e0e7e1",
+        "atOrAbove": "#4d7778"
+      },
+      "minimumDegrees": 0.0,
+      "maximumDegrees": 37.918856769135324,
+      "nativeValidPercent": 100.0,
+      "fireSteepPercent": 0.012864923072524811,
+      "fireValidPercent": 100.0,
+      "fireValidCells": 209873,
+      "sourceUrl": "https://www.usgs.gov/3d-elevation-program",
+      "license": "Public domain (USGS 3DEP); elevation metres, NAVD88; horizontal NAD83.",
+      "retrievedAt": "2026-10-23T02:28:05.105695+00:00",
+      "sources": [
+        {
+          "sourceUrl": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/13/TIFF/historical/n39w122/USGS_13_n39w122_20250520.tif",
+          "catalogUrl": "https://tnmaccess.nationalmap.gov/api/v1/products?bbox=-121.22251816224704%2C38.50482158732653%2C-121.09175304495878%2C38.63363566231317&datasets=National+Elevation+Dataset+%28NED%29+1%2F3+arc-second&max=1000",
+          "retrievedAt": "2026-10-23T02:28:05.105695+00:00",
+          "license": "Public domain (USGS 3DEP); elevation metres, NAVD88; horizontal NAD83.",
+          "publicationDate": "2025-07-08",
+          "title": "USGS 1/3 Arc Second n39w122 20250520",
+          "bytes": 6954954,
+          "sha256": "d0d0ee992aa3abcdf5cf0646698a6214bf1df6c67afac0b3f1554482dbcd6c21",
+          "footprint": [
+            -121.22251816224704,
+            38.50482158732653,
+            -121.09175304495878,
+            38.63363566231317
+          ],
+          "processing": "Native-grid window plus 20-cell derivative buffer; not a complete copy of the source tile."
+        }
+      ],
+      "waterSource": {
+        "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Hydro/MapServer/1/query?f=geojson&where=1%3D1&geometry=-121.22251816224704%2C38.50482158732653%2C-121.09175304495878%2C38.63363566231317&geometryType=esriGeometryEnvelope&inSR=4326&outSR=4326&spatialRel=esriSpatialRelIntersects&outFields=%2A&returnGeometry=true&resultRecordCount=100000",
+        "retrievedAt": "2026-10-23T02:28:05.932444+00:00",
+        "bytes": 16819,
+        "sha256": "a3bc7bc87c3090174009b9cb21e1d99276e474253d0551d3b1ef7bb35ec6ecdf",
+        "md5": "b2b8ec6c4abea2cc51cdc6d00216b069",
+        "usedFeatureCount": 6,
+        "excludedInvalidFeatureIds": []
+      },
+      "dataClass": "Historical",
+      "processing": "Native elevation windows; bilinear reprojection to a metre-based 10 m NAD83 UTM grid; central-difference slope in degrees; 0-90 degree check before thresholding; rectangle extending 3 km past each edge of the fire's projected bounding box; nearest-neighbor class rendering to Web Mercator PNG. Water and no-data transparent.",
+      "contextBufferMetres": 3000,
+      "contextShape": "rectangle",
+      "outsideAlpha": 64,
+      "inputFootprint": [
+        -121.1874,
+        38.5333,
+        -121.1277,
+        38.6052
+      ],
+      "limitation": "Elevation editions are not fire-date measurements. Display is resampled; no extra spatial detail is created. Census water is not date-matched; invalid water polygons are omitted and listed in the water source record. This is terrain, not a watershed or a debris-flow estimate.",
+      "analysisMask": "Rectangle extending 3 km past each edge of the verified fire boundary's projected bounding box"
+    },
+    "imagery": {
+      "status": "not_checked",
+      "reason": "No verified fire-level dated imagery archive has been retrieved. MTBS maps are checked separately."
+    },
+    "boundarySource": {
+      "status": "available",
+      "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10020664",
+      "retrievedAt": "2026-10-22T00:20:00.717233+00:00",
+      "bytes": 43876,
+      "sha256": "90bab01cc152186296289d3f47627b1e092afbec62ef5f3c63416486572f329c",
+      "md5": "e42f1c8f20d25f222ac9261fadf29698",
+      "displayFootprintChoice": {
+        "policy": {
+          "useVerifiedMtbsBoundaryExtent": true,
+          "approvedAt": "2026-10-21",
+          "reason": "User approved the exact verified MTBS boundary extent for new ground products without an established raster footprint. No padding; area statistics remain within that MTBS boundary. Existing footprints and reviewed values are retained."
+        },
+        "mapId": 10020664,
+        "bounds": [
+          -121.1874,
+          38.5333,
+          -121.1277,
+          38.6052
+        ],
+        "padding": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+frontend/public/
+data/
+.interface-deps/
+.git/
+tmp/
+output/
+outputs/
+archive/

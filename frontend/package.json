@@ -1,0 +1,30 @@
+{
+  "name": "wildfire-explorer",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "preview": "vite preview --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css}\" \"*Proxy.ts\" vite.config.ts index.html \"../scripts/*.{mjs,mts}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx,css}\" \"*Proxy.ts\" vite.config.ts index.html \"../scripts/*.{mjs,mts}\""
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.118.0",
+    "maplibre-gl": "^6.14.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "playwright": "1.64.1",
+    "prettier": "^3.9.10",
+    "tsx": "4.23.15",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.0"
+  }
+}

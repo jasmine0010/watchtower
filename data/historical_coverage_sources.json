@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "legacyAssessmentGuidePolicy": {
+    "useSameBundleVolumeDefinition": true,
+    "approvedAt": "2026-10-21",
+    "reason": "User approved volume units verified from each original bundle's own PDF guide. Retain the existing per-layer XML/filename/stored-value rule for 15-minute rainfall accumulation and explicitly disclose the conflicting guide intensity wording. Invalid source values remain withheld. Reuse the already-installed pypdf reader."
+  },
+  "goesBaselinePolicy": {
+    "detectionsOnlyApproved": true,
+    "approvedAt": "2026-10-21",
+    "sourceUrl": "https://www.ospo.noaa.gov/operations/goes/product-quality-overview/ps-pvr/goes-18/ABI/Aerosol%20Detection/Full/GOES-18_ABI_L2_ADP_Full_ReadMe.pdf",
+    "reason": "User approved a separately labeled Baseline GOES-18 reader: Smoke=1, good retrieval, medium/high source confidence, valid solar/view angles. All other pixels remain unknown; no nondetection or clear-air interpretation. Existing Enterprise products and rules remain unchanged."
+  },
+  "baerEventIdComparison": {
+    "ignoreLetterCase": true,
+    "approvedAt": "2026-10-21",
+    "reason": "User approved letter-case-only comparison of the official index and release-page event IDs. Retain both originals; all digits, exact name/day, polygon containment, version and unique-match requirements remain unchanged."
+  },
+  "groundFootprintPolicy": {
+    "useVerifiedMtbsBoundaryExtent": true,
+    "approvedAt": "2026-10-21",
+    "reason": "User approved the exact verified MTBS boundary extent for new ground products without an established raster footprint. No padding; area statistics remain within that MTBS boundary. Existing footprints and reviewed values are retained."
+  },
+  "evidenceBoundaryPolicy": {
+    "useVerifiedMtbsIfPreferredInvalid": true,
+    "approvedAt": "2026-10-21",
+    "reason": "User extended the verified MTBS boundary fallback to smoke, NOAA and recovery checks. Use only an already-linked MTBS boundary when the preferred boundary is invalid, record both sources, and never replace a reviewed boundary result."
+  },
+  "groundBoundaryPolicy": {
+    "useVerifiedAlternativeIfPreferredInvalid": true,
+    "approvedAt": "2026-10-21",
+    "reason": "User approved an already-linked valid source boundary for new ground products when the preferred boundary is invalid. Record the rejected and chosen sources; never repair geometry or replace reviewed products."
+  },
+  "reflectanceValidation": {
+    "approvedSensorFamilies": ["Landsat", "Sentinel-2"],
+    "withholdIfMedianExceedsDeclaredScale": true,
+    "approvedAt": "2026-10-21",
+    "reason": "User approved withholding a new image for review when a documented RGB band's median native DN exceeds its declared reflectance scale. This conservative check is not proof the source is wrong."
+  },
+  "approvedRasterExclusions": [
+    {
+      "archiveSha256": "6f375d967ff3368289897725958a28f0252aee57f487d009db83fecb1639bd20",
+      "product": "dnbr",
+      "band": 1,
+      "value": -32768,
+      "approvedAt": "2026-10-21",
+      "reason": "User approved excluding the undeclared -32768 cells outside the source-documented -2000 to 2000 dNBR range. They remain transparent and are never filled; valid source values are unchanged."
+    }
+  ],
+  "auditNotes": {
+    "smoke": "The bulk run used --cached-only, mainly covering 2024-2026. Listed older hourly archives were not downloaded. An exact ignition day and usable perimeter are needed for the historical window and distance checks. This was an execution limitation, not evidence that older EPA measurements are unavailable.",
+    "hms": "Daily checks followed the prepared smoke windows. There was no independent catalog-wide HMS campaign. Deferred EPA builds, missing dates and failed perimeter checks therefore also left NOAA unchecked; that does not establish that NOAA files are absent.",
+    "goes": "Only short, verified replay windows were prepared. Other fires were left to the on-demand animation builder; their archive slots and usable pixels were not exhaustively inspected. No multi-month or statewide imagery archive was downloaded.",
+    "health": "These are two shared studies, not a source of one estimate per fire. The other catalog fires were not individually matched to health studies. Their fallback status does not mean thousands of missing studies or that the selected historical health figures apply to them.",
+    "soil": "Verified chemical sampling products remain limited to the linked LA County/EPA case studies. Approved sources were searched, but there was no comprehensive per-fire chemical-study or sampling-geometry search across the catalog. Burn severity was not substituted for chemistry.",
+    "damage": "The statewide inspection index was searched using exact incident/name/source-day rules. Most fires did not receive a verified export. The legacy Not checked total includes completed index searches with unresolved matches; it must not be read as an untouched source or as no damage.",
+    "water": "Only explicitly linked, dated official notices were prepared. No comprehensive fire-to-water-provider/service-area crosswalk or historical notice search was completed for all fires. Inspection-index searches do not check water history.",
+    "power": "Only the accessible partial-year 2014 export was verified and matched. Other years were not processed; the 2025 release is separately access-failed because credentials were required. Publication metadata alone was not counted as outage measurements.",
+    "observations": "The public USGS inventory was searched before outcomes were read for eligible rows. Fires without a qualifying export still inherit Not checked in this legacy table, even though that source search was completed. Unresolved identity/date/spatial joins are not proof that no observations exist, and wider inventories were not searched exhaustively.",
+    "rain": "The count covers locally prepared archive-based scenario geometry, not every streamed agency map. Most catalog fires have no verified assessment-download link in the current identity pipeline, so their archives were not retrieved. Linked legacy layouts that need another reader are separately Not processed.",
+    "measured_rain": "Peak assignments come from matched public inventory observations, not a catalog-wide gauge archive search. No matched inventory file, missing peaks or unverified gauge identity prevent a verified gauge-storm export. Raw rainfall time series were not retrieved; a curve was never constructed from a peak.",
+    "unresolved_rain": "This is a bookkeeping category for numeric peaks whose gauge identity is unresolved, not a separate dataset awaiting retrieval. Fires with verified assignments only, missing peaks or no matched inventory file can all inherit Not checked here.",
+    "thresholds": "Verification was driven by inventory basin/segment IDs and the existing original assessment archives. It was not a catalog-wide extraction of every assessed basin. Missing archives and failed contributing-area/containment checks left thresholds unverified; a published design storm was never substituted.",
+    "travel": "Only explicitly linked and compatible travel/companion releases were prepared. Other fires did not receive an exhaustive travel-release search or geometry build. A standard likelihood/volume assessment alone does not establish that travel contours exist.",
+    "imagery": "Existing dated case crops were retained. Additional per-fire MTBS/BAER scene archives were not bulk-downloaded, date/scale/mask checked and rendered. A catalog entry or display map is not a verified before/after acquisition pair.",
+    "dnbr": "Existing verified continuous dNBR crops were retained. A catalog-wide source-raster retrieval, scaling/mask check and rendering campaign was not run. A categorical severity map does not establish that a continuous dNBR product was retrieved.",
+    "severity": "Only existing numeric summaries and already cached annual mosaics were processed. Fires without an MTBS identity were not given a substitute product; other mosaics were not downloaded. Some Not checked entries actually have recorded topology, coverage or no-assessed-cell exclusions, listed separately below.",
+    "case_severity": "This row counts categorical raster crops assigned to the original observation displays, not fire-wide numeric summaries or remotely streamed maps. No catalog-wide crop build was run, even where another form of severity data may exist.",
+    "slope": "Terrain crops are prepared on demand. Most fires did not receive a native-elevation window download, projected slope calculation and quality check. No prepared PNG does not mean USGS 3DEP is absent. Terrain editions are not fire-date measurements.",
+    "soil_followup": "The retained EPA cleanup-follow-up percentages describe one specific study population. No comparable follow-up study was linked for other fires. This is not a statewide follow-up database or thousands of uncompleted individual assessments."
+  },
+  "categories": {
+    "smoke": {"provider": "EPA AQS", "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/download_files.html", "unit": "station-hour", "relationship": "nearby_time_matched", "license": "Public US EPA data; retain AQS provenance and informational quality flags", "processing": "Existing nearest-site/instrument audit, signed readings, missing-hour gaps, 75% daily coverage and three-year reference rules."},
+    "hms": {"provider": "NOAA HMS", "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/", "unit": "dated polygon", "relationship": "nearby_time_matched", "license": "Public NOAA data; acknowledge NOAA/NESDIS", "processing": "Medium/heavy only; exact perimeter intersection and monitor containment checked independently. Missing files remain unknown."},
+    "goes": {"provider": "NOAA GOES-18", "sourceUrl": "https://noaa-goes18.s3.amazonaws.com/", "unit": "dated satellite frame", "relationship": "nearby_time_matched", "license": "Public NOAA data; acknowledge NOAA", "processing": "Short dated windows only; existing Enterprise confidence/cloud/unknown flags. Large products are on demand."},
+    "health": {"provider": "CDC / published California study", "sourceUrl": "https://www.cdc.gov/mmwr/volumes/74/wr/mm7403a2.htm", "unit": "published study estimate", "relationship": "general_research_context", "license": "Retain the existing attributed study figures and confidence intervals", "processing": "Shared studies counted once. LA January 2025 is regional context only for documented relevant LA cases, not an individual-fire estimate."},
+    "soil": {"provider": "LA County Public Health / EPA", "sourceUrl": "https://publichealth.lacounty.gov/media/wildfire/", "unit": "chemical by sampling grid", "relationship": "fire_specific", "license": "Existing checked source terms retained per product", "processing": "Exact sampling IDs only. Reference-only cells and cleanup-study populations remain separate."},
+    "damage": {"provider": "CAL FIRE DINS", "sourceUrl": "https://publish.data.ca.gov/dataset/cal-fire-damage-inspection-dins-data", "unit": "incident-linked inspected structure", "relationship": "fire_specific", "license": "Statewide release: Creative Commons Attribution. Dedicated public layers retain their own terms.", "processing": "Exact incident/name/source day; explicit reviewed links remain separate. Outside-perimeter records retained; conflicting duplicates rejected."},
+    "water": {"provider": "Official water providers / State Water Board", "sourceUrl": "https://waterboards.ca.gov/", "unit": "dated notice event", "relationship": "fire_specific", "license": "Attributed official notice facts; source-specific scope retained", "processing": "Documented fire/provider links only; publication, notice and lifting dates remain separate."},
+    "power": {"provider": "ORNL EAGLE-I", "sourceUrl": "https://doi.org/10.6084/m9.figshare.24237376", "unit": "county-time outage snapshot", "relationship": "nearby_time_matched", "license": "CC BY 4.0; verified for the paper-linked public annual release and the retained 2014 alternative export", "processing": "UTC county records joined to exact Census county IDs and the unchanged fire window. Shared annual files retain published checksums, version and actual timestamps. Blank counts stay unknown and separate from numeric series. Original positive-only limitations and reviewed partial-export values remain unchanged. Off-grid timestamps fail the existing exact-grid rule; no rounding, filling, fire attribution or household status."},
+    "observations": {"provider": "USGS inventory", "sourceUrl": "https://doi.org/10.5066/P1R9VXC4", "unit": "observation", "relationship": "fire_specific", "license": "CC0 1.0; retain original observation source", "processing": "Identity/date/geometry eligibility before outcome values; no reserved-study files. Shared gauge-storm measurements counted once."},
+    "rain": {"provider": "USGS assessment releases", "sourceUrl": "https://www.usgs.gov/programs/landslide-hazards/science/postfire-debris-flow-hazard-assessment-data", "unit": "assessment geometry feature (basin or stream)", "relationship": "fire_specific", "license": "Verify release-specific XML reuse terms before preparing products", "processing": "One feature counted once within its release, not once per rainfall step or estimated field. Exact official release link. Versions and supplied steps kept separate; no interpolation. Thresholds require separate duration/probability/unit/geometry verification."},
+    "context": {"provider": "USGS / USFS MTBS and USGS 3DEP", "sourceUrl": "https://www.mtbs.gov/", "unit": "dated raster product or terrain crop", "relationship": "fire_specific", "license": "Public USGS/USFS products; retain product-specific provenance", "processing": "Exact fire/product identity and footprint; categorical severity is distinct from continuous dNBR. Terrain is not fire-date evidence. Large products are on demand."}
+  }
+}

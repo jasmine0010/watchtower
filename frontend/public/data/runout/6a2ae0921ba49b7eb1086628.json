@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "assessmentId": "6a2ae0921ba49b7eb1086628",
+  "name": "Border 2",
+  "ignition": "2025-01-23",
+  "assessmentDate": "2026-06-11",
+  "publicationDate": "2026-06-11",
+  "assessmentVersion": "1.0.0",
+  "sourceUrl": "https://www.sciencebase.gov/catalog/item/6a2ae0921ba49b7eb1086628",
+  "license": "CC0 1.0",
+  "provisional": true,
+  "bounds": [
+    -116.90971723296566,
+    32.57869469812281,
+    -116.8274328599697,
+    32.644908765558945
+  ],
+  "studyBounds": [
+    -116.98082920292791,
+    32.54436551089697,
+    -116.77166480542692,
+    32.70875128755173
+  ],
+  "match": null,
+  "agencyMatch": {
+    "OBJECTID": 591,
+    "fire": "Border 2",
+    "lat": 32.614872870289666,
+    "lon": -116.87608952396702,
+    "location": "Otay Mountain Wilderness",
+    "size": 27.8893472214873,
+    "status": "Most Recent Version: 1.0",
+    "disclaimer": null,
+    "Fire_ID": "bor2025",
+    "Rainfall": "24mm",
+    "start_date": 1737590400000,
+    "assessment_date": 1738540800000,
+    "download_url": " https://www.sciencebase.gov/catalog/file/get/6838d13ad4be025925747183?f=__disk__da%2F4a%2Fe1%2Fda4ae1613b833ac331af91dfae6bdb0863fee34d",
+    "ScienceBaseURL": " https://www.sciencebase.gov/catalog/item/6838d13ad4be025925747183"
+  },
+  "model": "Ursa v1.0.0",
+  "terrain": "USGS National Map 1/3rd arc-second DEM",
+  "depthCutoffMetres": 0.0,
+  "assessmentAgeDays": 504,
+  "sourceCrs": "urn:ogc:def:crs:EPSG::26911",
+  "displayCrs": "EPSG:4326",
+  "scenarios": [
+    {
+      "intensity": 25,
+      "url": "/data/runout/border-2-25-6b26ee0cc124.geojson",
+      "bytes": 9951,
+      "sha256": "6b26ee0cc1240ede3ecb21773d6686320f3fc685f6df87093d583a6c40718d9a"
+    },
+    {
+      "intensity": 50,
+      "url": "/data/runout/border-2-50-139569b7ff77.geojson",
+      "bytes": 105149,
+      "sha256": "139569b7ff77e1060f1455b6e4d4563d4caa98c1f27fe355b118df6e93679dda"
+    },
+    {
+      "intensity": 75,
+      "url": "/data/runout/border-2-75-b39a17f6541d.geojson",
+      "bytes": 156195,
+      "sha256": "b39a17f6541dcf6edfa40ddc99fa25daab538a954c81a34308d37df1c95e9643"
+    }
+  ],
+  "sources": {
+    "release": {
+      "url": "https://www.sciencebase.gov/catalog/item/6a2ae0921ba49b7eb1086628?format=json",
+      "retrieved": "2026-10-18T22:22:19.217506+00:00",
+      "bytes": 14009,
+      "sha256": "178c7900342ccf5658f6506f7aaf12f16c5fb70c6f2df0022e70f0ccd8509d6e"
+    },
+    "locations": {
+      "url": "https://earthquake.usgs.gov/arcgis/rest/services/ls/pwfdf/MapServer/0/query?f=json&where=1%3D1&outFields=%2A&returnGeometry=false&resultRecordCount=2000",
+      "retrieved": "2026-10-18T22:22:48.219590+00:00",
+      "bytes": 420134,
+      "sha256": "85286c45b58c94d9d3c4bb800364f0e0f050300de4650b783c3b10a4eacf988e"
+    },
+    "metadata.json": {
+      "url": "https://www.sciencebase.gov/catalog/file/get/6a2ae0921ba49b7eb1086628?f=__disk__8b%2F5a%2F2f%2F8b5a2fdf8ea7b162c67ff3d1577136036bbaa689",
+      "retrieved": "2026-10-18T22:22:19.447637+00:00",
+      "bytes": 5429,
+      "sha256": "0ec247f028099ccd064d669ed485e9713acebd8e7bd19c3f7733a1f948b59439"
+    },
+    "GeoJSON.zip": {
+      "url": "https://www.sciencebase.gov/catalog/file/get/6a2ae0921ba49b7eb1086628?f=__disk__bf%2Fe4%2F54%2Fbfe454ad07293bd195c25771d912e6b880f30011",
+      "retrieved": "2026-10-18T22:22:48.463380+00:00",
+      "bytes": 52337,
+      "sha256": "8962e64cbfd2d754df3ccf01f94c47164bcfb66b1aae169964927f9adc4b1153"
+    },
+    "config.yml": {
+      "url": "https://www.sciencebase.gov/catalog/file/get/6a2ae0921ba49b7eb1086628?f=__disk__28%2Fee%2Fcd%2F28eecd00a267924204a028afc0fefdd7234de9ad",
+      "retrieved": "2026-10-18T22:22:48.623018+00:00",
+      "bytes": 2060,
+      "sha256": "b6037bd2f37723f4654e4f2bee4c50f9b29ed33300eeb51306ffaa21fab1ace0"
+    },
+    "version.txt": {
+      "url": "https://www.sciencebase.gov/catalog/file/get/6a2ae0921ba49b7eb1086628?f=__disk__d2%2Fb3%2F6d%2Fd2b36dd1a40d0d6fca4fc45854eace01a0c21387",
+      "retrieved": "2026-10-18T22:22:48.790820+00:00",
+      "bytes": 936,
+      "sha256": "9ce03ac92a2c708adad63a22f5936965daab5bd4f4fce32f48e7fef2a5a52202"
+    },
+    "mtbs": {
+      "url": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=incid_name%3D%27BORDER+2%27",
+      "retrieved": "2026-10-18T22:22:49.198130+00:00",
+      "bytes": 39823,
+      "sha256": "993584c5070e3fd2e7afee99ba1652ca5811fc935dcf80d5bec7637b66531c29"
+    }
+  },
+  "audit": {
+    "runoutFeatures": 9,
+    "invalidRunoutFeatures": 0,
+    "basinFeatures": 42,
+    "invalidBasinFeatures": 9,
+    "basinsDisplayed": false,
+    "withinScenarioNested": true,
+    "crossScenarioNested": false,
+    "note": "Fire-level identities only; no watershed crosswalk or live-assessment version join."
+  }
+}

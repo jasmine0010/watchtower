@@ -1,0 +1,786 @@
+{
+  "caseId": "eaton",
+  "dataClass": "Historical",
+  "product": "GOES-18 ABI ADPC Enterprise",
+  "bounds": [
+    -118.7,
+    33.8,
+    -117.7,
+    34.6
+  ],
+  "resolution": "2 km at nadir; larger off-nadir",
+  "coverageDefinition": "Counts on original source-grid crop; Eaton uses pixel centers inside its polygon, not area weighting. Region is the enclosing source-grid rectangle, not the rendered geographic rectangle.",
+  "window": "January 8, 2025, noon-3 p.m. PST",
+  "guideUrl": "https://www.star.nesdis.noaa.gov/atmospheric-composition-training/documents/ABI_ADP_Users_Guide.pdf",
+  "builtAt": "2026-10-19T10:11:03.719517+00:00",
+  "processing": "Smoke=1 requires high/medium smoke confidence. Smoke=0 requires high/medium none/unknown/clear-sky confidence. Cloud, snow/ice, invalid coordinates and out-of-range angles excluded. Unknown gray, detected smoke purple, usable nondetection transparent (not clean air). Nearest-neighbor Mercator rendering. No interpolation or fire attribution.",
+  "frames": [
+    {
+      "slot": "2025-01-08T20:00:00Z",
+      "status": "available",
+      "reason": null,
+      "sourceUrl": "https://noaa-goes18.s3.amazonaws.com/ABI-L2-ADPC/2025/008/20/OR_ABI-L2-ADPC-M6_G18_s20250082001173_e20250082003546_c20250082006546.nc",
+      "retrievedAt": "2026-10-19T10:02:15.462748+00:00",
+      "bytes": 814707,
+      "sha256": "f7a5a028f146622051e173f573f790336820975c725983d2708de9503d47704e",
+      "start": "2025-01-08T20:01:17.3Z",
+      "end": "2025-01-08T20:03:54.6Z",
+      "publishedAt": "2025-01-08T20:06:54.6Z",
+      "coverage": {
+        "region": {
+          "pixels": 1700,
+          "usable": 1254,
+          "smoke": 6
+        },
+        "eaton": {
+          "pixels": 10,
+          "usable": 5,
+          "smoke": 0
+        },
+        "eatonFlags": {
+          "Smoke": {
+            "0": 10
+          },
+          "Cloud": {
+            "0": 5,
+            "1": 5
+          },
+          "SnowIce": {
+            "0": 10
+          },
+          "DQF": {
+            "63": 5,
+            "243": 1,
+            "251": 4
+          },
+          "PQI1": {
+            "0": 10
+          }
+        }
+      },
+      "image": "/data/waves/goes-eaton/2000.png"
+    },
+    {
+      "slot": "2025-01-08T20:10:00Z",
+      "status": "available",
+      "reason": null,
+      "sourceUrl": "https://noaa-goes18.s3.amazonaws.com/ABI-L2-ADPC/2025/008/20/OR_ABI-L2-ADPC-M6_G18_s20250082011173_e20250082013546_c20250082016451.nc",
+      "retrievedAt": "2026-10-19T10:02:16.219126+00:00",
+      "bytes": 815498,
+      "sha256": "a6392716a177b91f2fbb95c1d2c3d630c60c90070f8404604ca074414a2cc7ae",
+      "start": "2025-01-08T20:11:17.3Z",
+      "end": "2025-01-08T20:13:54.6Z",
+      "publishedAt": "2025-01-08T20:16:45.1Z",
+      "coverage": {
+        "region": {
+          "pixels": 1700,
+          "usable": 1294,
+          "smoke": 0
+        },
+        "eaton": {
+          "pixels": 10,
+          "usable": 7,
+          "smoke": 0
+        },
+        "eatonFlags": {
+          "Smoke": {
+            "0": 10
+          },
+          "Cloud": {
+            "0": 10
+          },
+          "SnowIce": {
+            "0": 10
+          },
+          "DQF": {
+            "63": 7,
+            "255": 3
+          },
+          "PQI1": {
+            "0": 10
+          }
+        }
+      },
+      "image": "/data/waves/goes-eaton/2010.png"
+    },
+    {
+      "slot": "2025-01-08T20:20:00Z",
+      "status": "available",
+      "reason": null,
+      "sourceUrl": "https://noaa-goes18.s3.amazonaws.com/ABI-L2-ADPC/2025/008/20/OR_ABI-L2-ADPC-M6_G18_s20250082021173_e20250082023546_c20250082026363.nc",
+      "retrievedAt": "2026-10-19T10:02:17.098597+00:00",
+      "bytes": 816103,
+      "sha256": "375c949284990ad77d519fe1ea226e1b9500262acbd38d0749997946b89a1b2b",
+      "start": "2025-01-08T20:21:17.3Z",
+      "end": "2025-01-08T20:23:54.6Z",
+      "publishedAt": "2025-01-08T20:26:36.3Z",
+      "coverage": {
+        "region": {
+          "pixels": 1700,
+          "usable": 1343,
+          "smoke": 18
+        },
+        "eaton": {
+          "pixels": 10,
+          "usable": 7,
+          "smoke": 0
+        },
+        "eatonFlags": {
+          "Smoke": {
+            "0": 10
+          },
+          "Cloud": {
+            "0": 10
+          },
+          "SnowIce": {
+            "0": 10
+          },
+          "DQF": {
+            "63": 7,
+            "255": 3
+          },
+          "PQI1": {
+            "0": 10
+          }
+        }
+      },
+      "image": "/data/waves/goes-eaton/2020.png"
+    },
+    {
+      "slot": "2025-01-08T20:30:00Z",
+      "status": "available",
+      "reason": null,
+      "sourceUrl": "https://noaa-goes18.s3.amazonaws.com/ABI-L2-ADPC/2025/008/20/OR_ABI-L2-ADPC-M6_G18_s20250082031173_e20250082033546_c20250082036298.nc",
+      "retrievedAt": "2026-10-19T10:02:18.035709+00:00",
+      "bytes": 813614,
+      "sha256": "dd7cea9dffbd01262837a7846ec788b209112ee7c359a2578daf4bf6fd2f01a5",
+      "start": "2025-01-08T20:31:17.3Z",
+      "end": "2025-01-08T20:33:54.6Z",
+      "publishedAt": "2025-01-08T20:36:29.8Z",
+      "coverage": {
+        "region": {
+          "pixels": 1700,
+          "usable": 1279,
+          "smoke": 14
+        },
+        "eaton": {
+          "pixels": 10,
+          "usable": 8,
+          "smoke": 0
+        },
+        "eatonFlags": {
+          "Smoke": {
+            "0": 10
+          },
+          "Cloud": {
+            "0": 10
+          },
+          "SnowIce": {
+            "0": 10
+          },
+          "DQF": {
+            "63": 8,
+            "255": 2
+          },
+          "PQI1": {
+            "0": 10
+          }
+        }
+      },
+      "image": "/data/waves/goes-eaton/2030.png"
+    },
+    {
+      "slot": "2025-01-08T20:40:00Z",
+      "status": "available",
+      "reason": null,
+      "sourceUrl": "https://noaa-goes18.s3.amazonaws.com/ABI-L2-ADPC/2025/008/20/OR_ABI-L2-ADPC-M6_G18_s20250082041173_e20250082043546_c20250082046334.nc",
+      "retrievedAt": "2026-10-19T10:02:18.868629+00:00",
+      "bytes": 809861,
+      "sha256": "91512b53c245a54732cb7404e25b53cdad5c8752af3bb9f09fbad144519b22c9",
+      "start": "2025-01-08T20:41:17.3Z",
+      "end": "2025-01-08T20:43:54.6Z",
+      "publishedAt": "2025-01-08T20:46:33.4Z",
+      "coverage": {
+        "region": {
+          "pixels": 1700,
+          "usable": 1262,
+          "smoke": 15
+        },
+        "eaton": {
+          "pixels": 10,
+          "usable": 9,
+          "smoke": 0
+        },
+        "eatonFlags": {
+          "Smoke": {
+            "0": 10
+          },
+          "Cloud": {
+            "0": 10
+          },
+          "SnowIce": {
+            "0": 10
+          },
+          "DQF": {
+            "63": 9,
+            "255": 1
+          },
+          "PQI1": {
+            "0": 10
+          }
+        }
+      },
+      "image": "/data/waves/goes-eaton/2040.png"
+    },
+    {
+      "slot": "2025-01-08T20:50:00Z",
+      "status": "available",
+      "reason": null,
+      "sourceUrl": "https://noaa-goes18.s3.amazonaws.com/ABI-L2-ADPC/2025/008/20/OR_ABI-L2-ADPC-M6_G18_s20250082051173_e20250082053546_c20250082056170.nc",
+      "retrievedAt": "2026-10-19T10:02:19.835766+00:00",
+      "bytes": 807328,
+      "sha256": "1d61a53b01e88acc024458edc0a2e435fc8e7553cc109115e49a6a94c4029437",
+      "start": "2025-01-08T20:51:17.3Z",
+      "end": "2025-01-08T20:53:54.6Z",
+      "publishedAt": "2025-01-08T20:56:17.0Z",
+      "coverage": {
+        "region": {
+          "pixels": 1700,
+          "usable": 1224,
+          "smoke": 0
+        },
+        "eaton": {
+          "pixels": 10,
+          "usable": 5,
+          "smoke": 0
+        },
+        "eatonFlags": {
+          "Smoke": {
+            "0": 10
+          },
+          "Cloud": {
+            "0": 6,
+            "1": 4
+          },
+          "SnowIce": {
+            "0": 10
+          },
+          "DQF": {
+            "63": 5,
+            "243": 1,
+            "251": 3,
+            "255": 1
+          },
+          "PQI1": {
+            "0": 10
+          }
+        }
+      },
+      "image": "/data/waves/goes-eaton/2050.png"
+    },
+    {
+      "slot": "2025-01-08T21:00:00Z",
+      "status": "available",
+      "reason": null,
+      "sourceUrl": "https://noaa-goes18.s3.amazonaws.com/ABI-L2-ADPC/2025/008/21/OR_ABI-L2-ADPC-M6_G18_s20250082101173_e20250082103546_c20250082107014.nc",
+      "retrievedAt": "2026-10-19T10:02:20.735752+00:00",
+      "bytes": 803512,
+      "sha256": "12a6a55da10883cb3e269a22f98983b98ab2cbde953cd47d2a1a9130edaa3d32",
+      "start": "2025-01-08T21:01:17.3Z",
+      "end": "2025-01-08T21:03:54.6Z",
+      "publishedAt": "2025-01-08T21:07:01.4Z",
+      "coverage": {
+        "region": {
+          "pixels": 1700,
+          "usable": 1281,
+          "smoke": 20
+        },
+        "eaton": {
+          "pixels": 10,
+          "usable": 10,
+          "smoke": 0
+        },
+        "eatonFlags": {
+          "Smoke": {
+            "0": 10
+          },
+          "Cloud": {
+            "0": 10
+          },
+          "SnowIce": {
+            "0": 10
+          },
+          "DQF": {
+            "63": 10
+          },
+          "PQI1": {
+            "0": 10
+          }
+        }
+      },
+      "image": "/data/waves/goes-eaton/2100.png"
+    },
+    {
+      "slot": "2025-01-08T21:10:00Z",
+      "status": "available",
+      "reason": null,
+      "sourceUrl": "https://noaa-goes18.s3.amazonaws.com/ABI-L2-ADPC/2025/008/21/OR_ABI-L2-ADPC-M6_G18_s20250082111173_e20250082113546_c20250082116457.nc",
+      "retrievedAt": "2026-10-19T10:02:21.802330+00:00",
+      "bytes": 800116,
+      "sha256": "6c0fbc79c99d343f17d4c41cd2cdfe412a2597b3b92e74f7faaee4f7bb9229ff",
+      "start": "2025-01-08T21:11:17.3Z",
+      "end": "2025-01-08T21:13:54.6Z",
+      "publishedAt": "2025-01-08T21:16:45.7Z",
+      "coverage": {
+        "region": {
+          "pixels": 1700,
+          "usable": 1275,
+          "smoke": 32
+        },
+        "eaton": {
+          "pixels": 10,
+          "usable": 10,
+          "smoke": 0
+        },
+        "eatonFlags": {
+          "Smoke": {
+            "0": 10
+          },
+          "Cloud": {
+            "0": 10
+          },
+          "SnowIce": {
+            "0": 10
+          },
+          "DQF": {
+            "63": 10
+          },
+          "PQI1": {
+            "0": 10
+          }
+        }
+      },
+      "image": "/data/waves/goes-eaton/2110.png"
+    },
+    {
+      "slot": "2025-01-08T21:20:00Z",
+      "status": "available",
+      "reason": null,
+      "sourceUrl": "https://noaa-goes18.s3.amazonaws.com/ABI-L2-ADPC/2025/008/21/OR_ABI-L2-ADPC-M6_G18_s20250082121173_e20250082123546_c20250082126270.nc",
+      "retrievedAt": "2026-10-19T10:02:22.678607+00:00",
+      "bytes": 797141,
+      "sha256": "30c43c8b439c912697714cd7354f8990fc14673681798f6d8550620ac2188e15",
+      "start": "2025-01-08T21:21:17.3Z",
+      "end": "2025-01-08T21:23:54.6Z",
+      "publishedAt": "2025-01-08T21:26:27.0Z",
+      "coverage": {
+        "region": {
+          "pixels": 1700,
+          "usable": 1282,
+          "smoke": 31
+        },
+        "eaton": {
+          "pixels": 10,
+          "usable": 10,
+          "smoke": 0
+        },
+        "eatonFlags": {
+          "Smoke": {
+            "0": 10
+          },
+          "Cloud": {
+            "0": 10
+          },
+          "SnowIce": {
+            "0": 10
+          },
+          "DQF": {
+            "63": 10
+          },
+          "PQI1": {
+            "0": 10
+          }
+        }
+      },
+      "image": "/data/waves/goes-eaton/2120.png"
+    },
+    {
+      "slot": "2025-01-08T21:30:00Z",
+      "status": "available",
+      "reason": null,
+      "sourceUrl": "https://noaa-goes18.s3.amazonaws.com/ABI-L2-ADPC/2025/008/21/OR_ABI-L2-ADPC-M6_G18_s20250082131173_e20250082133546_c20250082136460.nc",
+      "retrievedAt": "2026-10-19T10:02:23.619082+00:00",
+      "bytes": 800054,
+      "sha256": "b8b2080335489b5f004472acc4c1090b11913860a9f4c234aa37db9e24040795",
+      "start": "2025-01-08T21:31:17.3Z",
+      "end": "2025-01-08T21:33:54.6Z",
+      "publishedAt": "2025-01-08T21:36:46.0Z",
+      "coverage": {
+        "region": {
+          "pixels": 1700,
+          "usable": 1256,
+          "smoke": 24
+        },
+        "eaton": {
+          "pixels": 10,
+          "usable": 10,
+          "smoke": 0
+        },
+        "eatonFlags": {
+          "Smoke": {
+            "0": 10
+          },
+          "Cloud": {
+            "0": 10
+          },
+          "SnowIce": {
+            "0": 10
+          },
+          "DQF": {
+            "63": 10
+          },
+          "PQI1": {
+            "0": 10
+          }
+        }
+      },
+      "image": "/data/waves/goes-eaton/2130.png"
+    },
+    {
+      "slot": "2025-01-08T21:40:00Z",
+      "status": "available",
+      "reason": null,
+      "sourceUrl": "https://noaa-goes18.s3.amazonaws.com/ABI-L2-ADPC/2025/008/21/OR_ABI-L2-ADPC-M6_G18_s20250082141173_e20250082143546_c20250082146412.nc",
+      "retrievedAt": "2026-10-19T10:02:24.514963+00:00",
+      "bytes": 797103,
+      "sha256": "ad8abb3e964eff4e1409c92870617660742f2089f4698623866708bd3f30bdea",
+      "start": "2025-01-08T21:41:17.3Z",
+      "end": "2025-01-08T21:43:54.6Z",
+      "publishedAt": "2025-01-08T21:46:41.2Z",
+      "coverage": {
+        "region": {
+          "pixels": 1700,
+          "usable": 1279,
+          "smoke": 30
+        },
+        "eaton": {
+          "pixels": 10,
+          "usable": 10,
+          "smoke": 0
+        },
+        "eatonFlags": {
+          "Smoke": {
+            "0": 10
+          },
+          "Cloud": {
+            "0": 10
+          },
+          "SnowIce": {
+            "0": 10
+          },
+          "DQF": {
+            "63": 10
+          },
+          "PQI1": {
+            "0": 10
+          }
+        }
+      },
+      "image": "/data/waves/goes-eaton/2140.png"
+    },
+    {
+      "slot": "2025-01-08T21:50:00Z",
+      "status": "available",
+      "reason": null,
+      "sourceUrl": "https://noaa-goes18.s3.amazonaws.com/ABI-L2-ADPC/2025/008/21/OR_ABI-L2-ADPC-M6_G18_s20250082151173_e20250082153546_c20250082156258.nc",
+      "retrievedAt": "2026-10-19T10:02:27.018988+00:00",
+      "bytes": 799607,
+      "sha256": "401a9162375ecd2643fd568ba5ae31ec5164b35e50a274230a7006761d72189c",
+      "start": "2025-01-08T21:51:17.3Z",
+      "end": "2025-01-08T21:53:54.6Z",
+      "publishedAt": "2025-01-08T21:56:25.8Z",
+      "coverage": {
+        "region": {
+          "pixels": 1700,
+          "usable": 1242,
+          "smoke": 30
+        },
+        "eaton": {
+          "pixels": 10,
+          "usable": 10,
+          "smoke": 0
+        },
+        "eatonFlags": {
+          "Smoke": {
+            "0": 10
+          },
+          "Cloud": {
+            "0": 10
+          },
+          "SnowIce": {
+            "0": 10
+          },
+          "DQF": {
+            "63": 10
+          },
+          "PQI1": {
+            "0": 10
+          }
+        }
+      },
+      "image": "/data/waves/goes-eaton/2150.png"
+    },
+    {
+      "slot": "2025-01-08T22:00:00Z",
+      "status": "available",
+      "reason": null,
+      "sourceUrl": "https://noaa-goes18.s3.amazonaws.com/ABI-L2-ADPC/2025/008/22/OR_ABI-L2-ADPC-M6_G18_s20250082201173_e20250082203546_c20250082206445.nc",
+      "retrievedAt": "2026-10-19T10:02:29.843837+00:00",
+      "bytes": 801910,
+      "sha256": "f4df3f914ab31fca6bcb920207d138285fe2d341759aec3458cc8fcac78bd6ed",
+      "start": "2025-01-08T22:01:17.3Z",
+      "end": "2025-01-08T22:03:54.6Z",
+      "publishedAt": "2025-01-08T22:06:44.5Z",
+      "coverage": {
+        "region": {
+          "pixels": 1700,
+          "usable": 1263,
+          "smoke": 37
+        },
+        "eaton": {
+          "pixels": 10,
+          "usable": 10,
+          "smoke": 0
+        },
+        "eatonFlags": {
+          "Smoke": {
+            "0": 10
+          },
+          "Cloud": {
+            "0": 10
+          },
+          "SnowIce": {
+            "0": 10
+          },
+          "DQF": {
+            "63": 10
+          },
+          "PQI1": {
+            "0": 10
+          }
+        }
+      },
+      "image": "/data/waves/goes-eaton/2200.png"
+    },
+    {
+      "slot": "2025-01-08T22:10:00Z",
+      "status": "available",
+      "reason": null,
+      "sourceUrl": "https://noaa-goes18.s3.amazonaws.com/ABI-L2-ADPC/2025/008/22/OR_ABI-L2-ADPC-M6_G18_s20250082211173_e20250082213547_c20250082216437.nc",
+      "retrievedAt": "2026-10-19T10:02:30.735082+00:00",
+      "bytes": 805541,
+      "sha256": "744a1eeaf90f6c4be84841f89affeb17f0ff4f6c6f69801541d7d16856d588aa",
+      "start": "2025-01-08T22:11:17.3Z",
+      "end": "2025-01-08T22:13:54.7Z",
+      "publishedAt": "2025-01-08T22:16:43.7Z",
+      "coverage": {
+        "region": {
+          "pixels": 1700,
+          "usable": 1248,
+          "smoke": 34
+        },
+        "eaton": {
+          "pixels": 10,
+          "usable": 10,
+          "smoke": 0
+        },
+        "eatonFlags": {
+          "Smoke": {
+            "0": 10
+          },
+          "Cloud": {
+            "0": 10
+          },
+          "SnowIce": {
+            "0": 10
+          },
+          "DQF": {
+            "63": 10
+          },
+          "PQI1": {
+            "0": 10
+          }
+        }
+      },
+      "image": "/data/waves/goes-eaton/2210.png"
+    },
+    {
+      "slot": "2025-01-08T22:20:00Z",
+      "status": "available",
+      "reason": null,
+      "sourceUrl": "https://noaa-goes18.s3.amazonaws.com/ABI-L2-ADPC/2025/008/22/OR_ABI-L2-ADPC-M6_G18_s20250082221173_e20250082223547_c20250082226449.nc",
+      "retrievedAt": "2026-10-19T10:02:31.717943+00:00",
+      "bytes": 807812,
+      "sha256": "6bc84bf5c36595f84dd4fddda36f01189e1c4e80f0d563db38e7066cdb1b798d",
+      "start": "2025-01-08T22:21:17.3Z",
+      "end": "2025-01-08T22:23:54.7Z",
+      "publishedAt": "2025-01-08T22:26:44.9Z",
+      "coverage": {
+        "region": {
+          "pixels": 1700,
+          "usable": 1258,
+          "smoke": 50
+        },
+        "eaton": {
+          "pixels": 10,
+          "usable": 10,
+          "smoke": 0
+        },
+        "eatonFlags": {
+          "Smoke": {
+            "0": 10
+          },
+          "Cloud": {
+            "0": 10
+          },
+          "SnowIce": {
+            "0": 10
+          },
+          "DQF": {
+            "63": 10
+          },
+          "PQI1": {
+            "0": 10
+          }
+        }
+      },
+      "image": "/data/waves/goes-eaton/2220.png"
+    },
+    {
+      "slot": "2025-01-08T22:30:00Z",
+      "status": "available",
+      "reason": null,
+      "sourceUrl": "https://noaa-goes18.s3.amazonaws.com/ABI-L2-ADPC/2025/008/22/OR_ABI-L2-ADPC-M6_G18_s20250082231173_e20250082233546_c20250082237172.nc",
+      "retrievedAt": "2026-10-19T10:02:32.636895+00:00",
+      "bytes": 811102,
+      "sha256": "85e2e747b3729c2b1fb0a904d1a9e824b4720208a1822400e6c453dd2e62655e",
+      "start": "2025-01-08T22:31:17.3Z",
+      "end": "2025-01-08T22:33:54.6Z",
+      "publishedAt": "2025-01-08T22:37:17.2Z",
+      "coverage": {
+        "region": {
+          "pixels": 1700,
+          "usable": 1288,
+          "smoke": 53
+        },
+        "eaton": {
+          "pixels": 10,
+          "usable": 10,
+          "smoke": 0
+        },
+        "eatonFlags": {
+          "Smoke": {
+            "0": 10
+          },
+          "Cloud": {
+            "0": 10
+          },
+          "SnowIce": {
+            "0": 10
+          },
+          "DQF": {
+            "63": 10
+          },
+          "PQI1": {
+            "0": 10
+          }
+        }
+      },
+      "image": "/data/waves/goes-eaton/2230.png"
+    },
+    {
+      "slot": "2025-01-08T22:40:00Z",
+      "status": "available",
+      "reason": null,
+      "sourceUrl": "https://noaa-goes18.s3.amazonaws.com/ABI-L2-ADPC/2025/008/22/OR_ABI-L2-ADPC-M6_G18_s20250082241173_e20250082243547_c20250082247002.nc",
+      "retrievedAt": "2026-10-19T10:02:33.551604+00:00",
+      "bytes": 813407,
+      "sha256": "0e57c2c0b6c4187e21adeffeba5b2a54a58d288870fe427cff32963ba16ef319",
+      "start": "2025-01-08T22:41:17.3Z",
+      "end": "2025-01-08T22:43:54.7Z",
+      "publishedAt": "2025-01-08T22:47:00.2Z",
+      "coverage": {
+        "region": {
+          "pixels": 1700,
+          "usable": 1413,
+          "smoke": 72
+        },
+        "eaton": {
+          "pixels": 10,
+          "usable": 10,
+          "smoke": 0
+        },
+        "eatonFlags": {
+          "Smoke": {
+            "0": 10
+          },
+          "Cloud": {
+            "0": 10
+          },
+          "SnowIce": {
+            "0": 10
+          },
+          "DQF": {
+            "63": 10
+          },
+          "PQI1": {
+            "0": 10
+          }
+        }
+      },
+      "image": "/data/waves/goes-eaton/2240.png"
+    },
+    {
+      "slot": "2025-01-08T22:50:00Z",
+      "status": "available",
+      "reason": null,
+      "sourceUrl": "https://noaa-goes18.s3.amazonaws.com/ABI-L2-ADPC/2025/008/22/OR_ABI-L2-ADPC-M6_G18_s20250082251173_e20250082253547_c20250082256480.nc",
+      "retrievedAt": "2026-10-19T10:02:34.534396+00:00",
+      "bytes": 813204,
+      "sha256": "639467ea27ccfb9c4392993371a8acc3d63133d1426352fa3e9e2d944c828519",
+      "start": "2025-01-08T22:51:17.3Z",
+      "end": "2025-01-08T22:53:54.7Z",
+      "publishedAt": "2025-01-08T22:56:48.0Z",
+      "coverage": {
+        "region": {
+          "pixels": 1700,
+          "usable": 1346,
+          "smoke": 85
+        },
+        "eaton": {
+          "pixels": 10,
+          "usable": 10,
+          "smoke": 0
+        },
+        "eatonFlags": {
+          "Smoke": {
+            "0": 10
+          },
+          "Cloud": {
+            "0": 10
+          },
+          "SnowIce": {
+            "0": 10
+          },
+          "DQF": {
+            "63": 10
+          },
+          "PQI1": {
+            "0": 10
+          }
+        }
+      },
+      "image": "/data/waves/goes-eaton/2250.png"
+    }
+  ]
+}

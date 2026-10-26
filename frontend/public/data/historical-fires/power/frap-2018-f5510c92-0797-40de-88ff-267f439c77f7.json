@@ -1,0 +1,1054 @@
+{
+  "schemaVersion": 1,
+  "fireId": "frap:2018:f5510c92-0797-40de-88ff-267f439c77f7",
+  "dataClass": "Historical",
+  "relationship": "nearby_time_matched",
+  "unit": "reported customers without power",
+  "timezone": "UTC",
+  "sourceUrl": "https://figshare.com/articles/dataset/The_Environment_for_Analysis_of_Geo-Located_Energy_Information_s_Recorded_Electricity_Outages_2014-2022/24237376",
+  "methodsUrl": "https://www.nature.com/articles/s41597-024-03095-5",
+  "license": "CC BY 4.0; ORNL EAGLE-I / DOE-CESER",
+  "retrievedAt": "2026-10-25T18:25:08.769408+00:00",
+  "sourceUpdatedAt": "2026-02-25T18:52:23Z",
+  "publicationDate": "2026-02-25T18:52:23Z",
+  "source": {
+    "sourceUrl": "https://ndownloader.figshare.com/files/42547879",
+    "retrievedAt": "2026-10-25T18:25:08.769408+00:00",
+    "bytes": 999210542,
+    "sha256": "85e0a864aa272e75892e181f1da4754ed78f7bf0bef75a279d8ab381baa7db70",
+    "md5": "726543e4a392e220108b035ba4c52e43"
+  },
+  "countySource": {
+    "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?f=geojson&where=STATE%3D%2706%27&outFields=STATE%2CCOUNTY%2CGEOID%2CNAME&returnGeometry=true&outSR=4326&resultRecordCount=1000",
+    "retrievedAt": "2026-10-25T17:56:26.362096+00:00",
+    "bytes": 10816969,
+    "sha256": "f51dd64302c7fe4df11c3f9bb11d2b3b13f35cf66bc2b252d49f8b6d572f9b14",
+    "md5": "fca119c0d3d508d9fa76ce3b320fde7a"
+  },
+  "window": {
+    "start": "2018-09-01T00:00:00+00:00",
+    "endExclusive": "2018-10-31T00:00:00+00:00"
+  },
+  "fileTimestampRange": {
+    "start": "2018-01-01T00:00:00+00:00",
+    "end": "2018-12-31T00:00:00+00:00"
+  },
+  "counties": [
+    {
+      "id": "06105",
+      "name": "Trinity County",
+      "series": [
+        {
+          "timestamp": "2018-09-12T17:00:00+00:00",
+          "customersOut": 33
+        },
+        {
+          "timestamp": "2018-09-12T17:15:00+00:00",
+          "customersOut": 33
+        },
+        {
+          "timestamp": "2018-09-12T17:30:00+00:00",
+          "customersOut": 33
+        },
+        {
+          "timestamp": "2018-09-12T17:45:00+00:00",
+          "customersOut": 33
+        },
+        {
+          "timestamp": "2018-09-12T18:00:00+00:00",
+          "customersOut": 33
+        },
+        {
+          "timestamp": "2018-09-12T18:15:00+00:00",
+          "customersOut": 33
+        },
+        {
+          "timestamp": "2018-09-12T18:30:00+00:00",
+          "customersOut": 33
+        },
+        {
+          "timestamp": "2018-09-12T18:45:00+00:00",
+          "customersOut": 33
+        },
+        {
+          "timestamp": "2018-09-12T19:00:00+00:00",
+          "customersOut": 33
+        },
+        {
+          "timestamp": "2018-09-12T19:15:00+00:00",
+          "customersOut": 33
+        },
+        {
+          "timestamp": "2018-09-12T19:30:00+00:00",
+          "customersOut": 33
+        },
+        {
+          "timestamp": "2018-09-12T19:45:00+00:00",
+          "customersOut": 33
+        },
+        {
+          "timestamp": "2018-09-13T15:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2018-09-13T15:15:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2018-09-13T15:30:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2018-09-13T15:45:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2018-09-13T16:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2018-09-13T16:15:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2018-09-13T16:30:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2018-09-13T16:45:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2018-09-13T17:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2018-09-13T17:15:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2018-09-13T17:30:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2018-09-13T17:45:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2018-09-13T18:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2018-09-13T18:15:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2018-09-21T14:30:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T14:45:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T15:00:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T15:15:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T15:30:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T15:45:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T16:00:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T16:15:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T16:30:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T16:45:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T17:00:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T17:15:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T17:30:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T17:45:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T18:00:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T18:15:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T18:30:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T18:45:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T19:00:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T19:15:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T19:30:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T19:45:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T20:00:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T20:15:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T20:30:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T20:45:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T21:00:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T21:15:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T21:30:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T21:45:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T22:00:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T22:15:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-21T22:30:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2018-09-24T19:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-09-24T19:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-09-25T20:00:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2018-09-25T20:15:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2018-09-25T20:30:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2018-09-25T20:45:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2018-09-25T21:00:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2018-09-25T21:15:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2018-09-25T21:30:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2018-09-25T21:45:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2018-09-25T22:00:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2018-09-25T22:15:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2018-09-25T22:30:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2018-09-25T22:45:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2018-09-25T23:00:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2018-09-25T23:15:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2018-09-25T23:30:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2018-09-25T23:45:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2018-09-26T00:00:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2018-09-26T00:15:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2018-09-26T00:30:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2018-09-26T00:45:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2018-09-26T01:00:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2018-09-26T01:15:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2018-09-26T01:30:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2018-09-26T01:45:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2018-10-10T21:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-10T21:15:00+00:00",
+          "customersOut": 69
+        },
+        {
+          "timestamp": "2018-10-10T22:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-10T22:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-10T23:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-10T23:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-10T23:30:00+00:00",
+          "customersOut": 417
+        },
+        {
+          "timestamp": "2018-10-10T23:45:00+00:00",
+          "customersOut": 417
+        },
+        {
+          "timestamp": "2018-10-11T00:00:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T00:15:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T00:30:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T00:45:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T01:00:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T01:15:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T01:30:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T01:45:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T02:00:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T02:15:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T02:30:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T02:45:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T03:00:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T03:15:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T03:30:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T03:45:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T04:00:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T04:15:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T04:30:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T04:45:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T05:00:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T05:15:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T05:30:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T05:45:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T06:00:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T06:15:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T06:30:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T06:45:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T07:00:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T07:15:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T07:30:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T07:45:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T08:00:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T08:15:00+00:00",
+          "customersOut": 327
+        },
+        {
+          "timestamp": "2018-10-11T08:30:00+00:00",
+          "customersOut": 417
+        },
+        {
+          "timestamp": "2018-10-11T08:45:00+00:00",
+          "customersOut": 417
+        },
+        {
+          "timestamp": "2018-10-12T18:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-12T19:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-12T19:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-12T19:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-12T19:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-12T20:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-12T20:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-12T20:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-12T20:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-12T21:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-12T21:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-12T21:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-12T21:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-12T22:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-12T22:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-12T22:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-12T22:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-12T23:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-12T23:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-12T23:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-12T23:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-25T15:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-25T16:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-25T16:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-25T16:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-25T16:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-25T17:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-25T18:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-25T18:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-25T19:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-25T19:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-25T19:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-25T19:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-25T20:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-25T20:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2018-10-25T20:30:00+00:00",
+          "customersOut": 1
+        }
+      ],
+      "daily": [
+        {
+          "dateUtc": "2018-09-12",
+          "maximumReported": 33,
+          "reportedSlots": 12
+        },
+        {
+          "dateUtc": "2018-09-13",
+          "maximumReported": 8,
+          "reportedSlots": 14
+        },
+        {
+          "dateUtc": "2018-09-21",
+          "maximumReported": 2,
+          "reportedSlots": 33
+        },
+        {
+          "dateUtc": "2018-09-24",
+          "maximumReported": 1,
+          "reportedSlots": 2
+        },
+        {
+          "dateUtc": "2018-09-25",
+          "maximumReported": 9,
+          "reportedSlots": 16
+        },
+        {
+          "dateUtc": "2018-09-26",
+          "maximumReported": 9,
+          "reportedSlots": 8
+        },
+        {
+          "dateUtc": "2018-10-10",
+          "maximumReported": 417,
+          "reportedSlots": 8
+        },
+        {
+          "dateUtc": "2018-10-11",
+          "maximumReported": 417,
+          "reportedSlots": 36
+        },
+        {
+          "dateUtc": "2018-10-12",
+          "maximumReported": 1,
+          "reportedSlots": 21
+        },
+        {
+          "dateUtc": "2018-10-25",
+          "maximumReported": 1,
+          "reportedSlots": 15
+        }
+      ],
+      "missingRecords": [
+        {
+          "timestamp": "2018-09-02T05:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-09-06T17:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-09-09T06:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-09-09T07:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-09-09T07:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-09-09T07:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-09-09T07:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-09-09T08:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-09-09T08:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-09-09T08:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-09-14T21:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-09-17T17:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-09-21T01:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-09-23T08:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-09-23T14:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-09-23T17:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-09-23T18:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-09-23T20:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-09-23T23:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-09-24T02:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-09-24T03:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-09-25T15:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-10-02T15:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-10-05T09:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-10-05T12:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-10-06T11:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-10-06T11:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-10-06T12:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-10-06T13:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-10-06T13:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-10-06T13:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-10-06T13:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-10-06T14:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-10-11T18:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-10-17T06:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-10-17T06:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-10-17T07:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-10-23T09:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-10-23T09:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-10-23T10:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-10-23T11:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-10-25T17:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-10-25T17:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-10-25T17:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-10-25T18:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2018-10-25T18:15:00+00:00",
+          "customersOut": null
+        }
+      ],
+      "missingDays": [
+        {
+          "dateUtc": "2018-09-02",
+          "maximumReported": null,
+          "reportedSlots": 0,
+          "missingSlots": 1
+        },
+        {
+          "dateUtc": "2018-09-06",
+          "maximumReported": null,
+          "reportedSlots": 0,
+          "missingSlots": 1
+        },
+        {
+          "dateUtc": "2018-09-09",
+          "maximumReported": null,
+          "reportedSlots": 0,
+          "missingSlots": 8
+        },
+        {
+          "dateUtc": "2018-09-14",
+          "maximumReported": null,
+          "reportedSlots": 0,
+          "missingSlots": 1
+        },
+        {
+          "dateUtc": "2018-09-17",
+          "maximumReported": null,
+          "reportedSlots": 0,
+          "missingSlots": 1
+        },
+        {
+          "dateUtc": "2018-09-23",
+          "maximumReported": null,
+          "reportedSlots": 0,
+          "missingSlots": 6
+        },
+        {
+          "dateUtc": "2018-10-02",
+          "maximumReported": null,
+          "reportedSlots": 0,
+          "missingSlots": 1
+        },
+        {
+          "dateUtc": "2018-10-05",
+          "maximumReported": null,
+          "reportedSlots": 0,
+          "missingSlots": 2
+        },
+        {
+          "dateUtc": "2018-10-06",
+          "maximumReported": null,
+          "reportedSlots": 0,
+          "missingSlots": 8
+        },
+        {
+          "dateUtc": "2018-10-17",
+          "maximumReported": null,
+          "reportedSlots": 0,
+          "missingSlots": 3
+        },
+        {
+          "dateUtc": "2018-10-23",
+          "maximumReported": null,
+          "reportedSlots": 0,
+          "missingSlots": 4
+        }
+      ]
+    }
+  ],
+  "limitation": "County-wide context, not fire-caused outages or household service status. Reported zero counts are retained; absent rows may mean zero or a collection gap. No missing row is filled. Current Census county geometry links the fire to counties, not a historical outage footprint. Daily maxima are maxima of available reports, not unique affected customers or complete-day peaks.",
+  "releaseVersion": 4,
+  "sourceMissingness": "Blank source counts are retained as unknown records, separate from numeric series. No zero is substituted.",
+  "scope": {
+    "fireId": "frap:2018:f5510c92-0797-40de-88ff-267f439c77f7",
+    "boundarySource": {
+      "status": "available",
+      "sourceUrl": "https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/California_Historic_Fire_Perimeters/FeatureServer/0/query?f=geojson&where=GlobalID%3D%27f5510c92-0797-40de-88ff-267f439c77f7%27&outFields=GlobalID%2CFIRE_NAME%2CYEAR_%2CALARM_DATE&outSR=4326&returnGeometry=true",
+      "retrievedAt": "2026-10-25T17:58:03.867616+00:00",
+      "bytes": 63791,
+      "sha256": "39613d749b3a724d922772a3a90227abdb26ea91c6109e806a2e6ed9217d66a2",
+      "md5": "272ded4a438db25e3f75c4460e6b1cf8"
+    },
+    "spatialRelationship": "County-wide context in counties intersecting the fire; not outages inside the perimeter or attributed to the fire.",
+    "measurementPeriod": [
+      {
+        "countyId": "06105",
+        "start": "2018-09-02T05:30:00+00:00",
+        "end": "2018-10-25T20:30:00+00:00"
+      }
+    ],
+    "periodStatus": "source_supplied",
+    "sourceUrls": [
+      "https://ndownloader.figshare.com/files/42547879"
+    ],
+    "preflightVerified": true,
+    "countyBoundarySource": {
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?f=geojson&where=STATE%3D%2706%27&outFields=STATE%2CCOUNTY%2CGEOID%2CNAME&returnGeometry=true&outSR=4326&resultRecordCount=1000",
+      "retrievedAt": "2026-10-25T17:56:26.362096+00:00",
+      "bytes": 10816969,
+      "sha256": "f51dd64302c7fe4df11c3f9bb11d2b3b13f35cf66bc2b252d49f8b6d572f9b14",
+      "md5": "fca119c0d3d508d9fa76ce3b320fde7a"
+    },
+    "countyIds": [
+      "06105"
+    ],
+    "analysisWindow": {
+      "countyIds": [
+        "06105"
+      ],
+      "start": "2018-09-01T00:00:00+00:00",
+      "endExclusive": "2018-10-31T00:00:00+00:00"
+    }
+  }
+}

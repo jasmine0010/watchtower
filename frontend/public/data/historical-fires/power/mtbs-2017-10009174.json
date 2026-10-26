@@ -1,0 +1,1030 @@
+{
+  "schemaVersion": 1,
+  "fireId": "mtbs:2017:10009174",
+  "dataClass": "Historical",
+  "relationship": "nearby_time_matched",
+  "unit": "reported customers without power",
+  "timezone": "UTC",
+  "sourceUrl": "https://figshare.com/articles/dataset/The_Environment_for_Analysis_of_Geo-Located_Energy_Information_s_Recorded_Electricity_Outages_2014-2022/24237376",
+  "methodsUrl": "https://www.nature.com/articles/s41597-024-03095-5",
+  "license": "CC BY 4.0; ORNL EAGLE-I / DOE-CESER",
+  "retrievedAt": "2026-10-25T18:27:09.637614+00:00",
+  "sourceUpdatedAt": "2026-02-25T18:52:23Z",
+  "publicationDate": "2026-02-25T18:52:23Z",
+  "source": {
+    "sourceUrl": "https://ndownloader.figshare.com/files/42547828",
+    "retrievedAt": "2026-10-25T18:27:09.637614+00:00",
+    "bytes": 698796929,
+    "sha256": "47479c4fd645ec69685447f90baa51f08a85e776cedf612279b3e41c13147c8d",
+    "md5": "4faaeeb3b3e8e2d13d0e9238617ce3ce"
+  },
+  "countySource": {
+    "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?f=geojson&where=STATE%3D%2706%27&outFields=STATE%2CCOUNTY%2CGEOID%2CNAME&returnGeometry=true&outSR=4326&resultRecordCount=1000",
+    "retrievedAt": "2026-10-25T17:56:26.362096+00:00",
+    "bytes": 10816969,
+    "sha256": "f51dd64302c7fe4df11c3f9bb11d2b3b13f35cf66bc2b252d49f8b6d572f9b14",
+    "md5": "fca119c0d3d508d9fa76ce3b320fde7a"
+  },
+  "window": {
+    "start": "2017-05-15T00:00:00+00:00",
+    "endExclusive": "2017-07-14T00:00:00+00:00"
+  },
+  "fileTimestampRange": {
+    "start": "2017-01-01T00:00:00+00:00",
+    "end": "2017-12-31T00:00:00+00:00"
+  },
+  "counties": [
+    {
+      "id": "06019",
+      "name": "Fresno County",
+      "series": [
+        {
+          "timestamp": "2017-05-16T17:15:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2017-05-31T17:00:00+00:00",
+          "customersOut": 80
+        },
+        {
+          "timestamp": "2017-05-31T17:15:00+00:00",
+          "customersOut": 162
+        },
+        {
+          "timestamp": "2017-05-31T17:30:00+00:00",
+          "customersOut": 162
+        },
+        {
+          "timestamp": "2017-05-31T17:45:00+00:00",
+          "customersOut": 162
+        },
+        {
+          "timestamp": "2017-05-31T18:00:00+00:00",
+          "customersOut": 162
+        },
+        {
+          "timestamp": "2017-05-31T18:15:00+00:00",
+          "customersOut": 162
+        },
+        {
+          "timestamp": "2017-05-31T18:30:00+00:00",
+          "customersOut": 162
+        },
+        {
+          "timestamp": "2017-05-31T18:45:00+00:00",
+          "customersOut": 162
+        },
+        {
+          "timestamp": "2017-05-31T19:00:00+00:00",
+          "customersOut": 162
+        },
+        {
+          "timestamp": "2017-05-31T19:15:00+00:00",
+          "customersOut": 162
+        },
+        {
+          "timestamp": "2017-05-31T19:30:00+00:00",
+          "customersOut": 162
+        },
+        {
+          "timestamp": "2017-05-31T19:45:00+00:00",
+          "customersOut": 162
+        },
+        {
+          "timestamp": "2017-05-31T20:00:00+00:00",
+          "customersOut": 162
+        },
+        {
+          "timestamp": "2017-05-31T20:15:00+00:00",
+          "customersOut": 162
+        },
+        {
+          "timestamp": "2017-05-31T20:30:00+00:00",
+          "customersOut": 162
+        },
+        {
+          "timestamp": "2017-05-31T20:45:00+00:00",
+          "customersOut": 162
+        },
+        {
+          "timestamp": "2017-05-31T21:00:00+00:00",
+          "customersOut": 162
+        },
+        {
+          "timestamp": "2017-05-31T21:15:00+00:00",
+          "customersOut": 162
+        },
+        {
+          "timestamp": "2017-05-31T21:30:00+00:00",
+          "customersOut": 162
+        },
+        {
+          "timestamp": "2017-05-31T21:45:00+00:00",
+          "customersOut": 162
+        },
+        {
+          "timestamp": "2017-05-31T22:00:00+00:00",
+          "customersOut": 162
+        },
+        {
+          "timestamp": "2017-05-31T22:15:00+00:00",
+          "customersOut": 162
+        },
+        {
+          "timestamp": "2017-06-08T17:30:00+00:00",
+          "customersOut": 14
+        },
+        {
+          "timestamp": "2017-06-08T17:45:00+00:00",
+          "customersOut": 14
+        },
+        {
+          "timestamp": "2017-06-08T18:00:00+00:00",
+          "customersOut": 14
+        },
+        {
+          "timestamp": "2017-06-08T18:15:00+00:00",
+          "customersOut": 14
+        },
+        {
+          "timestamp": "2017-06-08T18:30:00+00:00",
+          "customersOut": 14
+        },
+        {
+          "timestamp": "2017-06-08T18:45:00+00:00",
+          "customersOut": 14
+        },
+        {
+          "timestamp": "2017-06-08T19:00:00+00:00",
+          "customersOut": 14
+        },
+        {
+          "timestamp": "2017-06-08T19:15:00+00:00",
+          "customersOut": 14
+        },
+        {
+          "timestamp": "2017-06-08T19:30:00+00:00",
+          "customersOut": 14
+        },
+        {
+          "timestamp": "2017-06-08T19:45:00+00:00",
+          "customersOut": 14
+        },
+        {
+          "timestamp": "2017-06-08T20:00:00+00:00",
+          "customersOut": 14
+        },
+        {
+          "timestamp": "2017-06-08T20:15:00+00:00",
+          "customersOut": 14
+        },
+        {
+          "timestamp": "2017-06-12T17:15:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2017-06-14T14:30:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T14:45:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T15:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T15:15:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T15:30:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T15:45:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T16:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T16:15:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T16:30:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T16:45:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T17:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T17:15:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T17:30:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T17:45:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T18:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T18:15:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T18:30:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T18:45:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T19:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T19:15:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T19:30:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T19:45:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T20:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T20:15:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T20:30:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T20:45:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T21:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T21:15:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T21:30:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T21:45:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T22:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T22:15:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T22:30:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T22:45:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T23:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T23:15:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T23:30:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-14T23:45:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-15T00:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-15T00:15:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-15T00:30:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-15T00:45:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2017-06-15T14:45:00+00:00",
+          "customersOut": 1021
+        },
+        {
+          "timestamp": "2017-06-15T15:00:00+00:00",
+          "customersOut": 832
+        },
+        {
+          "timestamp": "2017-06-15T15:15:00+00:00",
+          "customersOut": 695
+        },
+        {
+          "timestamp": "2017-06-15T15:30:00+00:00",
+          "customersOut": 695
+        },
+        {
+          "timestamp": "2017-06-15T15:45:00+00:00",
+          "customersOut": 695
+        },
+        {
+          "timestamp": "2017-06-15T16:00:00+00:00",
+          "customersOut": 695
+        },
+        {
+          "timestamp": "2017-06-15T16:15:00+00:00",
+          "customersOut": 695
+        },
+        {
+          "timestamp": "2017-06-15T16:30:00+00:00",
+          "customersOut": 695
+        },
+        {
+          "timestamp": "2017-06-15T16:45:00+00:00",
+          "customersOut": 695
+        },
+        {
+          "timestamp": "2017-06-15T17:00:00+00:00",
+          "customersOut": 695
+        },
+        {
+          "timestamp": "2017-06-15T17:15:00+00:00",
+          "customersOut": 695
+        },
+        {
+          "timestamp": "2017-06-15T17:30:00+00:00",
+          "customersOut": 695
+        },
+        {
+          "timestamp": "2017-06-15T17:45:00+00:00",
+          "customersOut": 695
+        },
+        {
+          "timestamp": "2017-06-15T18:00:00+00:00",
+          "customersOut": 695
+        },
+        {
+          "timestamp": "2017-06-15T18:15:00+00:00",
+          "customersOut": 695
+        },
+        {
+          "timestamp": "2017-06-15T18:30:00+00:00",
+          "customersOut": 695
+        },
+        {
+          "timestamp": "2017-06-15T18:45:00+00:00",
+          "customersOut": 695
+        },
+        {
+          "timestamp": "2017-06-15T19:00:00+00:00",
+          "customersOut": 695
+        },
+        {
+          "timestamp": "2017-06-15T19:15:00+00:00",
+          "customersOut": 695
+        },
+        {
+          "timestamp": "2017-06-15T19:30:00+00:00",
+          "customersOut": 695
+        },
+        {
+          "timestamp": "2017-06-15T19:45:00+00:00",
+          "customersOut": 695
+        },
+        {
+          "timestamp": "2017-06-15T20:00:00+00:00",
+          "customersOut": 695
+        },
+        {
+          "timestamp": "2017-06-15T20:15:00+00:00",
+          "customersOut": 695
+        },
+        {
+          "timestamp": "2017-06-15T20:30:00+00:00",
+          "customersOut": 695
+        },
+        {
+          "timestamp": "2017-06-15T20:45:00+00:00",
+          "customersOut": 695
+        },
+        {
+          "timestamp": "2017-06-15T21:00:00+00:00",
+          "customersOut": 695
+        },
+        {
+          "timestamp": "2017-06-15T21:15:00+00:00",
+          "customersOut": 695
+        },
+        {
+          "timestamp": "2017-06-15T21:30:00+00:00",
+          "customersOut": 695
+        },
+        {
+          "timestamp": "2017-06-15T21:45:00+00:00",
+          "customersOut": 198
+        },
+        {
+          "timestamp": "2017-06-15T22:00:00+00:00",
+          "customersOut": 198
+        },
+        {
+          "timestamp": "2017-06-15T22:15:00+00:00",
+          "customersOut": 198
+        },
+        {
+          "timestamp": "2017-06-15T22:30:00+00:00",
+          "customersOut": 198
+        },
+        {
+          "timestamp": "2017-06-28T14:45:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T15:00:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T15:15:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T15:30:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T15:45:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T16:00:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T16:15:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T16:30:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T16:45:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T17:00:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T17:15:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T17:30:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T17:45:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T18:00:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T18:15:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T18:30:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T18:45:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T19:00:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T19:15:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T19:30:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T19:45:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T20:00:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T20:15:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T20:30:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T20:45:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T21:00:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T21:15:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T21:30:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T21:45:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T22:00:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T22:15:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T22:30:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-06-28T22:45:00+00:00",
+          "customersOut": 16
+        },
+        {
+          "timestamp": "2017-07-05T15:45:00+00:00",
+          "customersOut": 20
+        },
+        {
+          "timestamp": "2017-07-05T16:00:00+00:00",
+          "customersOut": 20
+        },
+        {
+          "timestamp": "2017-07-05T16:15:00+00:00",
+          "customersOut": 20
+        },
+        {
+          "timestamp": "2017-07-05T16:30:00+00:00",
+          "customersOut": 20
+        },
+        {
+          "timestamp": "2017-07-05T16:45:00+00:00",
+          "customersOut": 20
+        },
+        {
+          "timestamp": "2017-07-05T17:00:00+00:00",
+          "customersOut": 20
+        },
+        {
+          "timestamp": "2017-07-05T17:15:00+00:00",
+          "customersOut": 20
+        },
+        {
+          "timestamp": "2017-07-05T17:30:00+00:00",
+          "customersOut": 20
+        },
+        {
+          "timestamp": "2017-07-05T17:45:00+00:00",
+          "customersOut": 20
+        },
+        {
+          "timestamp": "2017-07-05T18:00:00+00:00",
+          "customersOut": 20
+        },
+        {
+          "timestamp": "2017-07-05T18:15:00+00:00",
+          "customersOut": 20
+        },
+        {
+          "timestamp": "2017-07-05T18:30:00+00:00",
+          "customersOut": 20
+        },
+        {
+          "timestamp": "2017-07-05T18:45:00+00:00",
+          "customersOut": 20
+        },
+        {
+          "timestamp": "2017-07-05T19:00:00+00:00",
+          "customersOut": 20
+        },
+        {
+          "timestamp": "2017-07-05T19:15:00+00:00",
+          "customersOut": 20
+        },
+        {
+          "timestamp": "2017-07-05T19:30:00+00:00",
+          "customersOut": 20
+        },
+        {
+          "timestamp": "2017-07-05T19:45:00+00:00",
+          "customersOut": 20
+        },
+        {
+          "timestamp": "2017-07-05T20:00:00+00:00",
+          "customersOut": 20
+        },
+        {
+          "timestamp": "2017-07-05T20:15:00+00:00",
+          "customersOut": 20
+        },
+        {
+          "timestamp": "2017-07-05T20:30:00+00:00",
+          "customersOut": 20
+        },
+        {
+          "timestamp": "2017-07-05T20:45:00+00:00",
+          "customersOut": 20
+        },
+        {
+          "timestamp": "2017-07-05T21:00:00+00:00",
+          "customersOut": 20
+        },
+        {
+          "timestamp": "2017-07-05T21:15:00+00:00",
+          "customersOut": 20
+        },
+        {
+          "timestamp": "2017-07-05T21:30:00+00:00",
+          "customersOut": 20
+        },
+        {
+          "timestamp": "2017-07-05T21:45:00+00:00",
+          "customersOut": 20
+        },
+        {
+          "timestamp": "2017-07-05T22:00:00+00:00",
+          "customersOut": 20
+        },
+        {
+          "timestamp": "2017-07-05T22:15:00+00:00",
+          "customersOut": 20
+        },
+        {
+          "timestamp": "2017-07-06T16:45:00+00:00",
+          "customersOut": 50
+        },
+        {
+          "timestamp": "2017-07-06T17:00:00+00:00",
+          "customersOut": 50
+        },
+        {
+          "timestamp": "2017-07-06T17:15:00+00:00",
+          "customersOut": 50
+        },
+        {
+          "timestamp": "2017-07-06T17:30:00+00:00",
+          "customersOut": 50
+        },
+        {
+          "timestamp": "2017-07-06T17:45:00+00:00",
+          "customersOut": 50
+        },
+        {
+          "timestamp": "2017-07-06T18:00:00+00:00",
+          "customersOut": 50
+        },
+        {
+          "timestamp": "2017-07-06T18:15:00+00:00",
+          "customersOut": 50
+        },
+        {
+          "timestamp": "2017-07-06T18:30:00+00:00",
+          "customersOut": 50
+        },
+        {
+          "timestamp": "2017-07-06T18:45:00+00:00",
+          "customersOut": 50
+        },
+        {
+          "timestamp": "2017-07-06T19:00:00+00:00",
+          "customersOut": 50
+        },
+        {
+          "timestamp": "2017-07-06T19:15:00+00:00",
+          "customersOut": 50
+        },
+        {
+          "timestamp": "2017-07-06T19:30:00+00:00",
+          "customersOut": 50
+        },
+        {
+          "timestamp": "2017-07-06T19:45:00+00:00",
+          "customersOut": 50
+        },
+        {
+          "timestamp": "2017-07-06T20:00:00+00:00",
+          "customersOut": 50
+        },
+        {
+          "timestamp": "2017-07-06T20:15:00+00:00",
+          "customersOut": 50
+        },
+        {
+          "timestamp": "2017-07-06T20:30:00+00:00",
+          "customersOut": 50
+        },
+        {
+          "timestamp": "2017-07-06T20:45:00+00:00",
+          "customersOut": 50
+        },
+        {
+          "timestamp": "2017-07-06T21:00:00+00:00",
+          "customersOut": 50
+        },
+        {
+          "timestamp": "2017-07-06T21:15:00+00:00",
+          "customersOut": 50
+        },
+        {
+          "timestamp": "2017-07-06T21:30:00+00:00",
+          "customersOut": 50
+        },
+        {
+          "timestamp": "2017-07-06T21:45:00+00:00",
+          "customersOut": 50
+        },
+        {
+          "timestamp": "2017-07-06T22:00:00+00:00",
+          "customersOut": 50
+        },
+        {
+          "timestamp": "2017-07-06T22:15:00+00:00",
+          "customersOut": 50
+        },
+        {
+          "timestamp": "2017-07-06T22:30:00+00:00",
+          "customersOut": 50
+        },
+        {
+          "timestamp": "2017-07-11T15:15:00+00:00",
+          "customersOut": 6
+        },
+        {
+          "timestamp": "2017-07-11T15:30:00+00:00",
+          "customersOut": 6
+        },
+        {
+          "timestamp": "2017-07-11T15:45:00+00:00",
+          "customersOut": 6
+        },
+        {
+          "timestamp": "2017-07-11T16:00:00+00:00",
+          "customersOut": 6
+        },
+        {
+          "timestamp": "2017-07-11T16:15:00+00:00",
+          "customersOut": 6
+        },
+        {
+          "timestamp": "2017-07-11T16:30:00+00:00",
+          "customersOut": 6
+        },
+        {
+          "timestamp": "2017-07-11T16:45:00+00:00",
+          "customersOut": 6
+        },
+        {
+          "timestamp": "2017-07-11T17:00:00+00:00",
+          "customersOut": 6
+        },
+        {
+          "timestamp": "2017-07-11T17:15:00+00:00",
+          "customersOut": 6
+        },
+        {
+          "timestamp": "2017-07-11T17:30:00+00:00",
+          "customersOut": 6
+        },
+        {
+          "timestamp": "2017-07-11T17:45:00+00:00",
+          "customersOut": 6
+        },
+        {
+          "timestamp": "2017-07-11T18:00:00+00:00",
+          "customersOut": 6
+        },
+        {
+          "timestamp": "2017-07-11T18:15:00+00:00",
+          "customersOut": 6
+        },
+        {
+          "timestamp": "2017-07-11T18:30:00+00:00",
+          "customersOut": 6
+        },
+        {
+          "timestamp": "2017-07-11T18:45:00+00:00",
+          "customersOut": 6
+        },
+        {
+          "timestamp": "2017-07-11T19:00:00+00:00",
+          "customersOut": 6
+        },
+        {
+          "timestamp": "2017-07-11T19:15:00+00:00",
+          "customersOut": 6
+        },
+        {
+          "timestamp": "2017-07-11T19:30:00+00:00",
+          "customersOut": 6
+        },
+        {
+          "timestamp": "2017-07-11T19:45:00+00:00",
+          "customersOut": 6
+        },
+        {
+          "timestamp": "2017-07-11T20:00:00+00:00",
+          "customersOut": 6
+        },
+        {
+          "timestamp": "2017-07-11T20:15:00+00:00",
+          "customersOut": 6
+        },
+        {
+          "timestamp": "2017-07-11T20:30:00+00:00",
+          "customersOut": 6
+        },
+        {
+          "timestamp": "2017-07-11T20:45:00+00:00",
+          "customersOut": 6
+        },
+        {
+          "timestamp": "2017-07-11T21:00:00+00:00",
+          "customersOut": 6
+        },
+        {
+          "timestamp": "2017-07-11T21:15:00+00:00",
+          "customersOut": 6
+        },
+        {
+          "timestamp": "2017-07-11T21:30:00+00:00",
+          "customersOut": 6
+        },
+        {
+          "timestamp": "2017-07-11T21:45:00+00:00",
+          "customersOut": 6
+        },
+        {
+          "timestamp": "2017-07-11T22:00:00+00:00",
+          "customersOut": 6
+        }
+      ],
+      "daily": [
+        {
+          "dateUtc": "2017-05-16",
+          "maximumReported": 3,
+          "reportedSlots": 1
+        },
+        {
+          "dateUtc": "2017-05-31",
+          "maximumReported": 162,
+          "reportedSlots": 22
+        },
+        {
+          "dateUtc": "2017-06-08",
+          "maximumReported": 14,
+          "reportedSlots": 12
+        },
+        {
+          "dateUtc": "2017-06-12",
+          "maximumReported": 9,
+          "reportedSlots": 1
+        },
+        {
+          "dateUtc": "2017-06-14",
+          "maximumReported": 8,
+          "reportedSlots": 38
+        },
+        {
+          "dateUtc": "2017-06-15",
+          "maximumReported": 1021,
+          "reportedSlots": 36
+        },
+        {
+          "dateUtc": "2017-06-28",
+          "maximumReported": 16,
+          "reportedSlots": 33
+        },
+        {
+          "dateUtc": "2017-07-05",
+          "maximumReported": 20,
+          "reportedSlots": 27
+        },
+        {
+          "dateUtc": "2017-07-06",
+          "maximumReported": 50,
+          "reportedSlots": 24
+        },
+        {
+          "dateUtc": "2017-07-11",
+          "maximumReported": 6,
+          "reportedSlots": 28
+        }
+      ],
+      "missingRecords": [],
+      "missingDays": []
+    }
+  ],
+  "limitation": "County-wide context, not fire-caused outages or household service status. Reported zero counts are retained; absent rows may mean zero or a collection gap. No missing row is filled. Current Census county geometry links the fire to counties, not a historical outage footprint. Daily maxima are maxima of available reports, not unique affected customers or complete-day peaks.",
+  "releaseVersion": 4,
+  "sourceMissingness": "Blank source counts are retained as unknown records, separate from numeric series. No zero is substituted.",
+  "scope": {
+    "fireId": "mtbs:2017:10009174",
+    "boundarySource": {
+      "status": "available",
+      "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10009174",
+      "retrievedAt": "2026-10-25T17:58:40.821099+00:00",
+      "bytes": 14200,
+      "sha256": "0950a8ac6e3bf6cc0e86371894632aea35f93869acf1d592783720fe1b6d1991",
+      "md5": "c316ac1bfa33b26c35daaa2e697475da"
+    },
+    "spatialRelationship": "County-wide context in counties intersecting the fire; not outages inside the perimeter or attributed to the fire.",
+    "measurementPeriod": [
+      {
+        "countyId": "06019",
+        "start": "2017-05-16T17:15:00+00:00",
+        "end": "2017-07-11T22:00:00+00:00"
+      }
+    ],
+    "periodStatus": "source_supplied",
+    "sourceUrls": [
+      "https://ndownloader.figshare.com/files/42547828"
+    ],
+    "preflightVerified": true,
+    "countyBoundarySource": {
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?f=geojson&where=STATE%3D%2706%27&outFields=STATE%2CCOUNTY%2CGEOID%2CNAME&returnGeometry=true&outSR=4326&resultRecordCount=1000",
+      "retrievedAt": "2026-10-25T17:56:26.362096+00:00",
+      "bytes": 10816969,
+      "sha256": "f51dd64302c7fe4df11c3f9bb11d2b3b13f35cf66bc2b252d49f8b6d572f9b14",
+      "md5": "fca119c0d3d508d9fa76ce3b320fde7a"
+    },
+    "countyIds": [
+      "06019"
+    ],
+    "analysisWindow": {
+      "countyIds": [
+        "06019"
+      ],
+      "start": "2017-05-15T00:00:00+00:00",
+      "endExclusive": "2017-07-14T00:00:00+00:00"
+    }
+  }
+}

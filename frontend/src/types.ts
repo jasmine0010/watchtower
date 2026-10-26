@@ -1,0 +1,64 @@
+import type { FeatureCollection } from "geojson";
+import type { BuiltCase } from "./fireProducts";
+import type { RainfallThreshold } from "./RainfallThreshold";
+export type Summary<T> =
+  { status: "available"; value: T } | { status: "unavailable"; reason: string };
+export type Catalog = { version: 1; defaultCaseId: string; cases: CaseData[] };
+export type CaseData = {
+  rainfallThreshold?: RainfallThreshold;
+  products?: BuiltCase | null;
+  productReason?: string;
+  summaries?: { burn: Summary<BurnSummary>; slope: Summary<SlopeData> };
+  county: string;
+  assessmentPublished: string;
+  baerIgnition: string;
+  mapBounds: [[number, number], [number, number]];
+  mapCenter: [number, number];
+  inventory: Record<string, string>;
+  geometryEvidence: { attributes: { BASIN_ID: number; State_Name: string } };
+  id: string;
+  observationId: string;
+  rain: number;
+  hm23: number;
+  area: number;
+  mappedArea: number | null;
+  storm: string;
+  preDate: string;
+  postDate: string;
+  ignition: string;
+  observedDate: string;
+  outcome: string;
+  bounds: [number, number, number, number];
+  retrieved: string;
+  coverage: Record<string, { basinNonNodataPercent: number; windowNonNodataPercent: number }>;
+  history?: {
+    hasImagery: boolean;
+    modelScope: string;
+    sourceUrl: string;
+    archive: string;
+    archiveSha256: string;
+    evidence: Record<string, string | number | boolean | null>;
+    watersheds: FeatureCollection;
+    segments: FeatureCollection;
+    pourPoints: FeatureCollection;
+    fire: FeatureCollection;
+  };
+};
+export type BurnSummary = {
+  status: string;
+  moderateHighPercent: number;
+  shares: { label: string; pixels: number; percent: number }[];
+  coveragePercent: number;
+  method: string;
+};
+export type SlopeData = {
+  bounds: CaseData["bounds"];
+  thresholdDegrees: number;
+  watershedSteeperPercent?: number;
+  manifest?: string;
+  pixelSizeMetres: number;
+  source: string;
+  sourceUrl: string;
+  sourceEdition: string;
+  colors: { below: string; atOrAbove: string };
+};

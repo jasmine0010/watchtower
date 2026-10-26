@@ -1,0 +1,2963 @@
+{
+  "schemaVersion": 1,
+  "fireId": "mtbs:2020:10020757",
+  "dataClass": "Historical",
+  "relationship": "nearby_time_matched",
+  "unit": "reported customers without power",
+  "timezone": "UTC",
+  "sourceUrl": "https://figshare.com/articles/dataset/The_Environment_for_Analysis_of_Geo-Located_Energy_Information_s_Recorded_Electricity_Outages_2014-2022/24237376",
+  "methodsUrl": "https://www.nature.com/articles/s41597-024-03095-5",
+  "license": "CC BY 4.0; ORNL EAGLE-I / DOE-CESER",
+  "retrievedAt": "2026-10-25T18:19:47.861172+00:00",
+  "sourceUpdatedAt": "2026-02-25T18:52:23Z",
+  "publicationDate": "2026-02-25T18:52:23Z",
+  "source": {
+    "sourceUrl": "https://ndownloader.figshare.com/files/42547894",
+    "retrievedAt": "2026-10-25T18:19:47.861172+00:00",
+    "bytes": 1170699724,
+    "sha256": "2a20b62e5245b1b9d4fcedc1bdbaf691bb1e17f75094975c8c6cb854f52e721a",
+    "md5": "3b1e76e7ff0445da2b9a2fe4819c0e88"
+  },
+  "countySource": {
+    "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?f=geojson&where=STATE%3D%2706%27&outFields=STATE%2CCOUNTY%2CGEOID%2CNAME&returnGeometry=true&outSR=4326&resultRecordCount=1000",
+    "retrievedAt": "2026-10-25T17:56:26.362096+00:00",
+    "bytes": 10816969,
+    "sha256": "f51dd64302c7fe4df11c3f9bb11d2b3b13f35cf66bc2b252d49f8b6d572f9b14",
+    "md5": "fca119c0d3d508d9fa76ce3b320fde7a"
+  },
+  "window": {
+    "start": "2020-08-18T00:00:00+00:00",
+    "endExclusive": "2020-10-17T00:00:00+00:00"
+  },
+  "fileTimestampRange": {
+    "start": "2020-01-01T00:00:00+00:00",
+    "end": "2020-12-31T00:00:00+00:00"
+  },
+  "counties": [
+    {
+      "id": "06027",
+      "name": "Inyo County",
+      "series": [
+        {
+          "timestamp": "2020-08-18T17:00:00+00:00",
+          "customersOut": 63
+        },
+        {
+          "timestamp": "2020-08-18T17:15:00+00:00",
+          "customersOut": 63
+        },
+        {
+          "timestamp": "2020-08-18T17:30:00+00:00",
+          "customersOut": 63
+        },
+        {
+          "timestamp": "2020-08-18T17:45:00+00:00",
+          "customersOut": 63
+        },
+        {
+          "timestamp": "2020-08-18T18:00:00+00:00",
+          "customersOut": 63
+        },
+        {
+          "timestamp": "2020-08-18T18:15:00+00:00",
+          "customersOut": 63
+        },
+        {
+          "timestamp": "2020-08-18T18:30:00+00:00",
+          "customersOut": 63
+        },
+        {
+          "timestamp": "2020-08-18T18:45:00+00:00",
+          "customersOut": 63
+        },
+        {
+          "timestamp": "2020-08-18T19:00:00+00:00",
+          "customersOut": 63
+        },
+        {
+          "timestamp": "2020-08-18T19:15:00+00:00",
+          "customersOut": 63
+        },
+        {
+          "timestamp": "2020-08-18T19:30:00+00:00",
+          "customersOut": 63
+        },
+        {
+          "timestamp": "2020-08-18T19:45:00+00:00",
+          "customersOut": 63
+        },
+        {
+          "timestamp": "2020-08-18T20:00:00+00:00",
+          "customersOut": 63
+        },
+        {
+          "timestamp": "2020-08-18T20:15:00+00:00",
+          "customersOut": 63
+        },
+        {
+          "timestamp": "2020-08-18T20:30:00+00:00",
+          "customersOut": 63
+        },
+        {
+          "timestamp": "2020-08-18T20:45:00+00:00",
+          "customersOut": 63
+        },
+        {
+          "timestamp": "2020-08-18T21:00:00+00:00",
+          "customersOut": 63
+        },
+        {
+          "timestamp": "2020-08-18T21:15:00+00:00",
+          "customersOut": 63
+        },
+        {
+          "timestamp": "2020-08-18T21:30:00+00:00",
+          "customersOut": 63
+        },
+        {
+          "timestamp": "2020-08-20T17:30:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-08-20T17:45:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-08-20T18:00:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-08-20T18:15:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-08-20T18:30:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-08-20T18:45:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-08-20T19:00:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-08-25T19:45:00+00:00",
+          "customersOut": 4
+        },
+        {
+          "timestamp": "2020-08-25T20:00:00+00:00",
+          "customersOut": 4
+        },
+        {
+          "timestamp": "2020-08-26T15:15:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-08-26T15:30:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-08-26T15:45:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-08-26T16:00:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-08-26T16:15:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-08-26T16:30:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-08-26T16:45:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-08-26T17:00:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-08-26T17:15:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-08-26T17:30:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-08-26T17:45:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-08-26T18:00:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-08-26T18:15:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-08-26T18:30:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-08-26T18:45:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-08-26T19:00:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-08-26T19:15:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-08-26T19:30:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-08-26T19:45:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-08-26T20:00:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-08-26T20:15:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-08-26T20:30:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-08-27T15:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-08-27T15:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-08-27T16:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-08-27T16:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-08-27T16:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-08-27T16:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-08-27T17:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-08-27T17:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-08-27T17:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-08-27T17:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-08-27T18:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-08-27T18:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-08-27T18:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-08-27T18:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-08-27T19:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-08-27T19:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-08-27T19:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-08-27T19:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-08-27T20:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-08-27T20:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-08-27T20:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-01T16:15:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-09-01T16:30:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-09-01T16:45:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-09-01T17:00:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-09-01T17:15:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-09-03T08:30:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-09-03T08:45:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-09-03T09:00:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-09-03T09:15:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-09-03T09:30:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-09-03T09:45:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-09-03T10:00:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-09-03T10:15:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-09-03T10:30:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-09-03T10:45:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-09-03T11:00:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-09-03T11:15:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-09-03T11:30:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-09-03T11:45:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-09-03T12:00:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-09-03T12:15:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-09-03T12:30:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-09-03T12:45:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-09-03T13:00:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-09-05T16:30:00+00:00",
+          "customersOut": 49
+        },
+        {
+          "timestamp": "2020-09-05T16:45:00+00:00",
+          "customersOut": 49
+        },
+        {
+          "timestamp": "2020-09-05T17:00:00+00:00",
+          "customersOut": 49
+        },
+        {
+          "timestamp": "2020-09-05T17:15:00+00:00",
+          "customersOut": 49
+        },
+        {
+          "timestamp": "2020-09-05T17:30:00+00:00",
+          "customersOut": 49
+        },
+        {
+          "timestamp": "2020-09-05T17:45:00+00:00",
+          "customersOut": 49
+        },
+        {
+          "timestamp": "2020-09-05T18:00:00+00:00",
+          "customersOut": 49
+        },
+        {
+          "timestamp": "2020-09-05T18:15:00+00:00",
+          "customersOut": 49
+        },
+        {
+          "timestamp": "2020-09-05T18:30:00+00:00",
+          "customersOut": 49
+        },
+        {
+          "timestamp": "2020-09-05T18:45:00+00:00",
+          "customersOut": 49
+        },
+        {
+          "timestamp": "2020-09-05T19:00:00+00:00",
+          "customersOut": 49
+        },
+        {
+          "timestamp": "2020-09-05T19:15:00+00:00",
+          "customersOut": 49
+        },
+        {
+          "timestamp": "2020-09-05T19:30:00+00:00",
+          "customersOut": 49
+        },
+        {
+          "timestamp": "2020-09-05T19:45:00+00:00",
+          "customersOut": 49
+        },
+        {
+          "timestamp": "2020-09-05T20:00:00+00:00",
+          "customersOut": 49
+        },
+        {
+          "timestamp": "2020-09-05T20:15:00+00:00",
+          "customersOut": 49
+        },
+        {
+          "timestamp": "2020-09-05T20:30:00+00:00",
+          "customersOut": 49
+        },
+        {
+          "timestamp": "2020-09-05T20:45:00+00:00",
+          "customersOut": 49
+        },
+        {
+          "timestamp": "2020-09-05T21:00:00+00:00",
+          "customersOut": 49
+        },
+        {
+          "timestamp": "2020-09-05T21:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-05T21:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-05T22:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-05T22:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-05T22:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-05T22:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-05T23:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-05T23:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-05T23:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-05T23:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T00:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T00:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T00:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T00:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T01:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T01:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T01:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T01:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T02:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T02:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T02:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T02:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T03:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T03:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T03:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T03:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T04:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T04:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T04:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T04:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T05:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T05:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T05:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T05:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T06:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T06:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T06:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T06:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T07:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T07:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T07:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T07:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T08:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T08:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T08:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T08:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T09:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T09:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T09:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T09:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T10:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T10:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T10:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T10:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T11:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T11:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T11:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T11:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T12:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T12:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T12:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T12:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T13:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T13:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T13:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T13:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T14:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T14:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T14:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T14:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T15:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T15:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T15:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T15:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T16:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T16:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T16:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T16:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T17:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T17:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T17:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T17:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T18:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T18:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T18:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T18:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T19:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T19:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T19:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T19:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T20:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T20:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T20:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T20:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T21:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T21:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T21:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T21:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T22:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T22:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T22:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T22:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T23:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T23:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T23:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-06T23:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T00:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T00:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T00:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T00:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T01:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T01:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T01:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T01:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T02:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T02:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T02:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T02:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T03:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T03:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T03:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T03:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T04:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T04:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T04:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T04:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T05:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T05:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T05:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T05:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T06:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T06:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T06:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T06:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T07:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T07:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T07:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T07:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T08:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T08:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T08:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T08:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T09:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T09:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T09:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T09:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T10:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T10:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T10:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T10:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T11:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T11:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T11:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T11:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T12:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T12:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T12:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T12:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T13:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T13:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T13:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T13:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T14:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T14:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T14:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T14:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T15:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T15:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T15:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T15:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T16:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T16:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T16:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T16:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T17:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T17:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T17:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T17:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T18:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T18:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T18:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T18:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T19:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T19:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T19:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T19:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T20:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T20:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T20:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T20:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T21:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T21:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T21:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T21:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T22:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T22:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T22:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T22:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T23:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T23:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T23:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-07T23:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-08T00:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-08T00:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-08T00:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-08T00:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-08T01:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-08T01:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-08T01:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-08T01:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-08T02:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-08T02:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-08T02:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-08T02:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-08T03:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-08T03:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-08T03:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-08T03:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-08T04:00:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-08T04:15:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-08T04:30:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-08T04:45:00+00:00",
+          "customersOut": 1
+        },
+        {
+          "timestamp": "2020-09-09T16:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-09T16:15:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-09T16:30:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-09T16:45:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-09T17:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-09T17:15:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-09T17:30:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-09T17:45:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-09T18:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-09T18:15:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-09T18:30:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-09T18:45:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-09T19:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-09T19:15:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-09T19:30:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-09T19:45:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-09T20:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-09T20:15:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-09T20:30:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-09T20:45:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-09T21:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-09T21:15:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-17T01:15:00+00:00",
+          "customersOut": 5
+        },
+        {
+          "timestamp": "2020-09-17T01:30:00+00:00",
+          "customersOut": 5
+        },
+        {
+          "timestamp": "2020-09-17T01:45:00+00:00",
+          "customersOut": 5
+        },
+        {
+          "timestamp": "2020-09-23T15:30:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T15:45:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T16:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T16:15:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T16:30:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T16:45:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T17:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T17:15:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T17:30:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T17:45:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T18:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T18:15:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T18:30:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T18:45:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T19:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T19:15:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T19:30:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T19:45:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T20:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T20:15:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T20:30:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T20:45:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T21:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T21:15:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T21:30:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T21:45:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T22:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T22:15:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T22:30:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T22:45:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-23T23:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-09-24T19:30:00+00:00",
+          "customersOut": 4
+        },
+        {
+          "timestamp": "2020-09-24T19:45:00+00:00",
+          "customersOut": 4
+        },
+        {
+          "timestamp": "2020-09-24T21:00:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-09-24T21:15:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-09-24T21:30:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-09-24T21:45:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-09-24T22:00:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-09-24T22:15:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-09-24T22:30:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-09-24T22:45:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-09-24T23:00:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-09-24T23:15:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-09-24T23:30:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-09-24T23:45:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-09-25T00:00:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-09-25T00:15:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-09-25T00:30:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-09-25T00:45:00+00:00",
+          "customersOut": 3
+        },
+        {
+          "timestamp": "2020-09-30T15:15:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T15:30:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T15:45:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T16:00:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T16:15:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T16:30:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T16:45:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T17:00:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T17:15:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T17:30:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T17:45:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T18:00:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T18:15:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T18:30:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T18:45:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T19:00:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T19:15:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T19:30:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T19:45:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T20:00:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T20:15:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T20:30:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T20:45:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T21:00:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T21:15:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T21:30:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T21:45:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T22:00:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T22:15:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T22:30:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T22:45:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T23:00:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T23:15:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T23:30:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-09-30T23:45:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-10-01T00:00:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-10-01T00:15:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-10-01T00:30:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-10-01T00:45:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-10-01T01:00:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-10-01T01:15:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-10-01T01:30:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-10-01T01:45:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-10-01T02:00:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-10-01T02:15:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-10-01T02:30:00+00:00",
+          "customersOut": 32
+        },
+        {
+          "timestamp": "2020-10-01T16:30:00+00:00",
+          "customersOut": 10
+        },
+        {
+          "timestamp": "2020-10-01T16:45:00+00:00",
+          "customersOut": 10
+        },
+        {
+          "timestamp": "2020-10-01T17:00:00+00:00",
+          "customersOut": 10
+        },
+        {
+          "timestamp": "2020-10-01T17:15:00+00:00",
+          "customersOut": 10
+        },
+        {
+          "timestamp": "2020-10-01T17:30:00+00:00",
+          "customersOut": 10
+        },
+        {
+          "timestamp": "2020-10-01T17:45:00+00:00",
+          "customersOut": 10
+        },
+        {
+          "timestamp": "2020-10-01T18:00:00+00:00",
+          "customersOut": 10
+        },
+        {
+          "timestamp": "2020-10-01T20:15:00+00:00",
+          "customersOut": 5
+        },
+        {
+          "timestamp": "2020-10-01T20:30:00+00:00",
+          "customersOut": 5
+        },
+        {
+          "timestamp": "2020-10-01T20:45:00+00:00",
+          "customersOut": 5
+        },
+        {
+          "timestamp": "2020-10-01T21:00:00+00:00",
+          "customersOut": 5
+        },
+        {
+          "timestamp": "2020-10-02T17:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-10-02T17:15:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-10-02T17:30:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-10-02T17:45:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-10-02T18:00:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-10-02T18:15:00+00:00",
+          "customersOut": 8
+        },
+        {
+          "timestamp": "2020-10-06T16:30:00+00:00",
+          "customersOut": 4
+        },
+        {
+          "timestamp": "2020-10-06T16:45:00+00:00",
+          "customersOut": 4
+        },
+        {
+          "timestamp": "2020-10-06T17:00:00+00:00",
+          "customersOut": 4
+        },
+        {
+          "timestamp": "2020-10-06T17:15:00+00:00",
+          "customersOut": 4
+        },
+        {
+          "timestamp": "2020-10-06T17:30:00+00:00",
+          "customersOut": 4
+        },
+        {
+          "timestamp": "2020-10-06T17:45:00+00:00",
+          "customersOut": 4
+        },
+        {
+          "timestamp": "2020-10-06T18:00:00+00:00",
+          "customersOut": 4
+        },
+        {
+          "timestamp": "2020-10-06T18:15:00+00:00",
+          "customersOut": 4
+        },
+        {
+          "timestamp": "2020-10-07T05:30:00+00:00",
+          "customersOut": 36
+        },
+        {
+          "timestamp": "2020-10-09T15:30:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-10-09T15:45:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-10-09T16:00:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-10-09T16:15:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-10-09T16:30:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-10-09T16:45:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-10-09T17:00:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-10-09T17:15:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-10-09T17:30:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-10-09T17:45:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-10-09T18:00:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-10-09T18:15:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-10-09T18:30:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-10-09T18:45:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-10-09T19:00:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-10-09T19:15:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-10-09T19:30:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-10-09T19:45:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-10-09T20:00:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-10-09T20:15:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-10-09T20:30:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-10-09T20:45:00+00:00",
+          "customersOut": 2
+        },
+        {
+          "timestamp": "2020-10-11T15:45:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T16:00:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T16:15:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T16:30:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T16:45:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T17:00:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T17:15:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T17:30:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T17:45:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T18:00:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T18:15:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T18:30:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T18:45:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T19:00:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T19:15:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T19:30:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T19:45:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T20:00:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T20:15:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T20:30:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T20:45:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T21:00:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T21:15:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T21:30:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T21:45:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T22:00:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T22:15:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T22:30:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T22:45:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T23:00:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-11T23:15:00+00:00",
+          "customersOut": 9
+        },
+        {
+          "timestamp": "2020-10-12T15:30:00+00:00",
+          "customersOut": 64
+        },
+        {
+          "timestamp": "2020-10-12T15:45:00+00:00",
+          "customersOut": 64
+        },
+        {
+          "timestamp": "2020-10-12T16:00:00+00:00",
+          "customersOut": 64
+        },
+        {
+          "timestamp": "2020-10-12T16:15:00+00:00",
+          "customersOut": 64
+        },
+        {
+          "timestamp": "2020-10-12T16:30:00+00:00",
+          "customersOut": 64
+        },
+        {
+          "timestamp": "2020-10-12T16:45:00+00:00",
+          "customersOut": 64
+        },
+        {
+          "timestamp": "2020-10-12T17:00:00+00:00",
+          "customersOut": 64
+        },
+        {
+          "timestamp": "2020-10-12T17:15:00+00:00",
+          "customersOut": 64
+        },
+        {
+          "timestamp": "2020-10-12T17:30:00+00:00",
+          "customersOut": 64
+        },
+        {
+          "timestamp": "2020-10-12T17:45:00+00:00",
+          "customersOut": 64
+        },
+        {
+          "timestamp": "2020-10-12T18:00:00+00:00",
+          "customersOut": 64
+        },
+        {
+          "timestamp": "2020-10-12T18:15:00+00:00",
+          "customersOut": 64
+        },
+        {
+          "timestamp": "2020-10-12T18:30:00+00:00",
+          "customersOut": 64
+        },
+        {
+          "timestamp": "2020-10-12T18:45:00+00:00",
+          "customersOut": 64
+        },
+        {
+          "timestamp": "2020-10-12T19:00:00+00:00",
+          "customersOut": 65
+        },
+        {
+          "timestamp": "2020-10-12T19:15:00+00:00",
+          "customersOut": 65
+        },
+        {
+          "timestamp": "2020-10-12T19:30:00+00:00",
+          "customersOut": 65
+        },
+        {
+          "timestamp": "2020-10-12T19:45:00+00:00",
+          "customersOut": 65
+        },
+        {
+          "timestamp": "2020-10-12T20:00:00+00:00",
+          "customersOut": 65
+        },
+        {
+          "timestamp": "2020-10-12T20:15:00+00:00",
+          "customersOut": 65
+        },
+        {
+          "timestamp": "2020-10-12T20:30:00+00:00",
+          "customersOut": 65
+        },
+        {
+          "timestamp": "2020-10-12T20:45:00+00:00",
+          "customersOut": 65
+        },
+        {
+          "timestamp": "2020-10-12T21:00:00+00:00",
+          "customersOut": 65
+        },
+        {
+          "timestamp": "2020-10-12T21:15:00+00:00",
+          "customersOut": 65
+        },
+        {
+          "timestamp": "2020-10-12T21:30:00+00:00",
+          "customersOut": 71
+        },
+        {
+          "timestamp": "2020-10-12T21:45:00+00:00",
+          "customersOut": 71
+        },
+        {
+          "timestamp": "2020-10-12T22:00:00+00:00",
+          "customersOut": 71
+        },
+        {
+          "timestamp": "2020-10-12T22:15:00+00:00",
+          "customersOut": 71
+        },
+        {
+          "timestamp": "2020-10-12T22:30:00+00:00",
+          "customersOut": 71
+        },
+        {
+          "timestamp": "2020-10-12T22:45:00+00:00",
+          "customersOut": 65
+        },
+        {
+          "timestamp": "2020-10-12T23:00:00+00:00",
+          "customersOut": 65
+        },
+        {
+          "timestamp": "2020-10-12T23:15:00+00:00",
+          "customersOut": 65
+        },
+        {
+          "timestamp": "2020-10-12T23:30:00+00:00",
+          "customersOut": 65
+        },
+        {
+          "timestamp": "2020-10-12T23:45:00+00:00",
+          "customersOut": 65
+        },
+        {
+          "timestamp": "2020-10-13T00:00:00+00:00",
+          "customersOut": 65
+        },
+        {
+          "timestamp": "2020-10-13T00:15:00+00:00",
+          "customersOut": 65
+        },
+        {
+          "timestamp": "2020-10-13T00:30:00+00:00",
+          "customersOut": 65
+        },
+        {
+          "timestamp": "2020-10-13T00:45:00+00:00",
+          "customersOut": 65
+        },
+        {
+          "timestamp": "2020-10-13T01:00:00+00:00",
+          "customersOut": 65
+        },
+        {
+          "timestamp": "2020-10-13T01:15:00+00:00",
+          "customersOut": 65
+        },
+        {
+          "timestamp": "2020-10-13T01:30:00+00:00",
+          "customersOut": 65
+        },
+        {
+          "timestamp": "2020-10-13T01:45:00+00:00",
+          "customersOut": 65
+        },
+        {
+          "timestamp": "2020-10-13T02:00:00+00:00",
+          "customersOut": 65
+        }
+      ],
+      "daily": [
+        {
+          "dateUtc": "2020-08-18",
+          "maximumReported": 63,
+          "reportedSlots": 19
+        },
+        {
+          "dateUtc": "2020-08-20",
+          "maximumReported": 3,
+          "reportedSlots": 7
+        },
+        {
+          "dateUtc": "2020-08-25",
+          "maximumReported": 4,
+          "reportedSlots": 2
+        },
+        {
+          "dateUtc": "2020-08-26",
+          "maximumReported": 3,
+          "reportedSlots": 22
+        },
+        {
+          "dateUtc": "2020-08-27",
+          "maximumReported": 1,
+          "reportedSlots": 21
+        },
+        {
+          "dateUtc": "2020-09-01",
+          "maximumReported": 3,
+          "reportedSlots": 5
+        },
+        {
+          "dateUtc": "2020-09-03",
+          "maximumReported": 2,
+          "reportedSlots": 19
+        },
+        {
+          "dateUtc": "2020-09-05",
+          "maximumReported": 49,
+          "reportedSlots": 29
+        },
+        {
+          "dateUtc": "2020-09-06",
+          "maximumReported": 1,
+          "reportedSlots": 96
+        },
+        {
+          "dateUtc": "2020-09-07",
+          "maximumReported": 1,
+          "reportedSlots": 96
+        },
+        {
+          "dateUtc": "2020-09-08",
+          "maximumReported": 1,
+          "reportedSlots": 20
+        },
+        {
+          "dateUtc": "2020-09-09",
+          "maximumReported": 8,
+          "reportedSlots": 22
+        },
+        {
+          "dateUtc": "2020-09-17",
+          "maximumReported": 5,
+          "reportedSlots": 3
+        },
+        {
+          "dateUtc": "2020-09-23",
+          "maximumReported": 8,
+          "reportedSlots": 31
+        },
+        {
+          "dateUtc": "2020-09-24",
+          "maximumReported": 4,
+          "reportedSlots": 14
+        },
+        {
+          "dateUtc": "2020-09-25",
+          "maximumReported": 3,
+          "reportedSlots": 4
+        },
+        {
+          "dateUtc": "2020-09-30",
+          "maximumReported": 32,
+          "reportedSlots": 35
+        },
+        {
+          "dateUtc": "2020-10-01",
+          "maximumReported": 32,
+          "reportedSlots": 22
+        },
+        {
+          "dateUtc": "2020-10-02",
+          "maximumReported": 8,
+          "reportedSlots": 6
+        },
+        {
+          "dateUtc": "2020-10-06",
+          "maximumReported": 4,
+          "reportedSlots": 8
+        },
+        {
+          "dateUtc": "2020-10-07",
+          "maximumReported": 36,
+          "reportedSlots": 1
+        },
+        {
+          "dateUtc": "2020-10-09",
+          "maximumReported": 2,
+          "reportedSlots": 22
+        },
+        {
+          "dateUtc": "2020-10-11",
+          "maximumReported": 9,
+          "reportedSlots": 31
+        },
+        {
+          "dateUtc": "2020-10-12",
+          "maximumReported": 71,
+          "reportedSlots": 34
+        },
+        {
+          "dateUtc": "2020-10-13",
+          "maximumReported": 65,
+          "reportedSlots": 9
+        }
+      ],
+      "missingRecords": [
+        {
+          "timestamp": "2020-08-25T22:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-08-28T15:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-08-30T14:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-08-31T00:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-02T06:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T05:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T05:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T05:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T06:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T06:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T06:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T06:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T07:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T07:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T07:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T07:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T08:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T08:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T08:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T08:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T09:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T09:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T09:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T09:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T10:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T10:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T10:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T10:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T11:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T11:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T11:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T11:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T12:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T12:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T12:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T12:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T13:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T13:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T13:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-18T13:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-21T08:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-21T08:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-09-21T08:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-04T05:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-04T05:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-04T05:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-11T06:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-11T06:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-11T07:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-11T07:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-11T07:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-11T07:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-11T08:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-11T08:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-11T08:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-11T08:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-11T09:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-11T09:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-11T09:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-11T09:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-11T10:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-11T10:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-11T10:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-13T17:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T05:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T05:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T06:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T06:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T06:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T06:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T07:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T07:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T07:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T07:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T08:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T08:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T08:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T08:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T09:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T09:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T09:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T09:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T10:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T10:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T10:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T10:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T11:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T11:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T11:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T11:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T12:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T12:15:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T12:30:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T12:45:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T13:00:00+00:00",
+          "customersOut": null
+        },
+        {
+          "timestamp": "2020-10-16T13:15:00+00:00",
+          "customersOut": null
+        }
+      ],
+      "missingDays": [
+        {
+          "dateUtc": "2020-08-28",
+          "maximumReported": null,
+          "reportedSlots": 0,
+          "missingSlots": 1
+        },
+        {
+          "dateUtc": "2020-08-30",
+          "maximumReported": null,
+          "reportedSlots": 0,
+          "missingSlots": 1
+        },
+        {
+          "dateUtc": "2020-08-31",
+          "maximumReported": null,
+          "reportedSlots": 0,
+          "missingSlots": 1
+        },
+        {
+          "dateUtc": "2020-09-02",
+          "maximumReported": null,
+          "reportedSlots": 0,
+          "missingSlots": 1
+        },
+        {
+          "dateUtc": "2020-09-18",
+          "maximumReported": null,
+          "reportedSlots": 0,
+          "missingSlots": 35
+        },
+        {
+          "dateUtc": "2020-09-21",
+          "maximumReported": null,
+          "reportedSlots": 0,
+          "missingSlots": 3
+        },
+        {
+          "dateUtc": "2020-10-04",
+          "maximumReported": null,
+          "reportedSlots": 0,
+          "missingSlots": 3
+        },
+        {
+          "dateUtc": "2020-10-16",
+          "maximumReported": null,
+          "reportedSlots": 0,
+          "missingSlots": 32
+        }
+      ]
+    }
+  ],
+  "limitation": "County-wide context, not fire-caused outages or household service status. Reported zero counts are retained; absent rows may mean zero or a collection gap. No missing row is filled. Current Census county geometry links the fire to counties, not a historical outage footprint. Daily maxima are maxima of available reports, not unique affected customers or complete-day peaks.",
+  "releaseVersion": 4,
+  "sourceMissingness": "Blank source counts are retained as unknown records, separate from numeric series. No zero is substituted.",
+  "scope": {
+    "fireId": "mtbs:2020:10020757",
+    "boundarySource": {
+      "status": "available",
+      "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10020757",
+      "retrievedAt": "2026-10-25T17:57:37.572704+00:00",
+      "bytes": 208413,
+      "sha256": "33b03dc058fd03e81906f6a312ad205f4b267021cf03100198498ae822e3b61d",
+      "md5": "e8b3abbc1249900dee0495d04b0c1943"
+    },
+    "spatialRelationship": "County-wide context in counties intersecting the fire; not outages inside the perimeter or attributed to the fire.",
+    "measurementPeriod": [
+      {
+        "countyId": "06027",
+        "start": "2020-08-18T17:00:00+00:00",
+        "end": "2020-10-16T13:15:00+00:00"
+      }
+    ],
+    "periodStatus": "source_supplied",
+    "sourceUrls": [
+      "https://ndownloader.figshare.com/files/42547894"
+    ],
+    "preflightVerified": true,
+    "countyBoundarySource": {
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?f=geojson&where=STATE%3D%2706%27&outFields=STATE%2CCOUNTY%2CGEOID%2CNAME&returnGeometry=true&outSR=4326&resultRecordCount=1000",
+      "retrievedAt": "2026-10-25T17:56:26.362096+00:00",
+      "bytes": 10816969,
+      "sha256": "f51dd64302c7fe4df11c3f9bb11d2b3b13f35cf66bc2b252d49f8b6d572f9b14",
+      "md5": "fca119c0d3d508d9fa76ce3b320fde7a"
+    },
+    "countyIds": [
+      "06027"
+    ],
+    "analysisWindow": {
+      "countyIds": [
+        "06027"
+      ],
+      "start": "2020-08-18T00:00:00+00:00",
+      "endExclusive": "2020-10-17T00:00:00+00:00"
+    }
+  }
+}

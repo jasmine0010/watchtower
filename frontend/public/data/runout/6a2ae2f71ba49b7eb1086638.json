@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "assessmentId": "6a2ae2f71ba49b7eb1086638",
+  "name": "Monte",
+  "ignition": "2025-06-17",
+  "assessmentDate": "2026-06-10",
+  "publicationDate": "2026-06-11",
+  "assessmentVersion": "1.0.0",
+  "sourceUrl": "https://www.sciencebase.gov/catalog/item/6a2ae2f71ba49b7eb1086638",
+  "license": "CC0 1.0",
+  "provisional": true,
+  "bounds": [
+    -116.8493521395237,
+    32.88361957443027,
+    -116.81675927670533,
+    32.90457841441051
+  ],
+  "studyBounds": [
+    -116.91024617733207,
+    32.83477997097689,
+    -116.7431816646599,
+    32.96670994065242
+  ],
+  "match": null,
+  "agencyMatch": {
+    "OBJECTID": 598,
+    "fire": "Monte",
+    "lat": 32.90055500533566,
+    "lon": -116.82635797105193,
+    "location": "Cleveland National Forest, San Diego County",
+    "size": 4.2574,
+    "status": "Most Recent Version: 1.0",
+    "disclaimer": null,
+    "Fire_ID": "Monte_2025-06-17_v1.0",
+    "Rainfall": "24mm",
+    "start_date": 1750118400000,
+    "assessment_date": 1750896000000,
+    "download_url": " https://www.sciencebase.gov/catalog/file/get/685db120d4be02077e8f59fc?f=__disk__8b%2F4d%2F6f%2F8b4d6fc43236c3113fa326bf0953636a58df048d",
+    "ScienceBaseURL": " https://www.sciencebase.gov/catalog/item/685db120d4be02077e8f59fc"
+  },
+  "model": "Ursa v1.0.0",
+  "terrain": "USGS National Map 1/3rd arc-second DEM",
+  "depthCutoffMetres": 0.0,
+  "assessmentAgeDays": 358,
+  "sourceCrs": "urn:ogc:def:crs:EPSG::26911",
+  "displayCrs": "EPSG:4326",
+  "scenarios": [
+    {
+      "intensity": 25,
+      "url": "/data/runout/monte-25-d4214d83b5bc.geojson",
+      "bytes": 19198,
+      "sha256": "d4214d83b5bcd03cd0d4dab9c13ed64f8325a110371341f5945dffc2cee1cd73"
+    },
+    {
+      "intensity": 50,
+      "url": "/data/runout/monte-50-6c8f9d7cbe80.geojson",
+      "bytes": 75762,
+      "sha256": "6c8f9d7cbe80d23eb6cf607f00e8c97abc4c818593440905ffbfbc9afb1069b2"
+    },
+    {
+      "intensity": 75,
+      "url": "/data/runout/monte-75-5f911436aab6.geojson",
+      "bytes": 105864,
+      "sha256": "5f911436aab68d75fc3debeadf656e8bb8ec933c4f8493822af7d1ea472e35d6"
+    }
+  ],
+  "sources": {
+    "release": {
+      "url": "https://www.sciencebase.gov/catalog/item/6a2ae2f71ba49b7eb1086638?format=json",
+      "retrieved": "2026-10-18T22:22:20.165703+00:00",
+      "bytes": 14022,
+      "sha256": "6c3e44e65bfe6586dc4d1a5d7556d99f396e15034f354bd3d870da3881e4224e"
+    },
+    "locations": {
+      "url": "https://earthquake.usgs.gov/arcgis/rest/services/ls/pwfdf/MapServer/0/query?f=json&where=1%3D1&outFields=%2A&returnGeometry=false&resultRecordCount=2000",
+      "retrieved": "2026-10-18T22:22:48.219590+00:00",
+      "bytes": 420134,
+      "sha256": "85286c45b58c94d9d3c4bb800364f0e0f050300de4650b783c3b10a4eacf988e"
+    },
+    "metadata.json": {
+      "url": "https://www.sciencebase.gov/catalog/file/get/6a2ae2f71ba49b7eb1086638?f=__disk__ed%2Fe5%2F40%2Fede540c1f02d6c65dce4ac28b88439886137778b",
+      "retrieved": "2026-10-18T22:22:20.362187+00:00",
+      "bytes": 5524,
+      "sha256": "d941bc3d0a8baf51969e1ed8ed0ba305fef1d101ca741f31f41d3164be53b173"
+    },
+    "GeoJSON.zip": {
+      "url": "https://www.sciencebase.gov/catalog/file/get/6a2ae2f71ba49b7eb1086638?f=__disk__5b%2Fe9%2F2c%2F5be92cc7f662d688c5d2f0b29078bd8101b4d071",
+      "retrieved": "2026-10-18T22:22:49.423634+00:00",
+      "bytes": 26796,
+      "sha256": "18f3eba299d8717c4bc785f2c2ec60424f1e37034692163bf90ba59ef9588160"
+    },
+    "config.yml": {
+      "url": "https://www.sciencebase.gov/catalog/file/get/6a2ae2f71ba49b7eb1086638?f=__disk__9e%2Faa%2F25%2F9eaa25b0b049bf2db34dde8b43140ee667370086",
+      "retrieved": "2026-10-18T22:22:49.648030+00:00",
+      "bytes": 2060,
+      "sha256": "be51f68b66c6bef3786e47116ed80e9b7f78274c18df951db1570de9955c1ee4"
+    },
+    "version.txt": {
+      "url": "https://www.sciencebase.gov/catalog/file/get/6a2ae2f71ba49b7eb1086638?f=__disk__01%2F4f%2F8a%2F014f8a01318f41942aacf4748b340492343f48e8",
+      "retrieved": "2026-10-18T22:22:49.855132+00:00",
+      "bytes": 936,
+      "sha256": "43ce0614f20fdc32450de426e6382cddf0a663f35fb5877e706a25db70b6f0c1"
+    },
+    "mtbs": {
+      "url": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=incid_name%3D%27MONTE%27",
+      "retrieved": "2026-10-18T22:22:50.198383+00:00",
+      "bytes": 33864,
+      "sha256": "2238d4bbd96dc734fb489fdd38e82b2ef42add6cc822903b62eac79ed087a3b0"
+    }
+  },
+  "audit": {
+    "runoutFeatures": 9,
+    "invalidRunoutFeatures": 0,
+    "basinFeatures": 14,
+    "invalidBasinFeatures": 3,
+    "basinsDisplayed": false,
+    "withinScenarioNested": true,
+    "crossScenarioNested": false,
+    "note": "Fire-level identities only; no watershed crosswalk or live-assessment version join."
+  }
+}

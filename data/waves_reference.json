@@ -1,0 +1,120 @@
+{
+  "rightNowPlaces": [
+    {
+      "name": "Burbank",
+      "zipcode": "91502",
+      "reportingArea": "E San Fernando Vly",
+      "latitude": 34.1738,
+      "longitude": -118.3056,
+      "sourceUrl": "https://files.airnowtech.org/airnow/today/cityzipcodes.csv",
+      "retrievedAt": "2026-10-19T05:04:52.131400+00:00",
+      "dataClass": "Historical"
+    },
+    {
+      "name": "Glendale",
+      "zipcode": "91206",
+      "reportingArea": "E San Fernando Vly",
+      "latitude": 34.152,
+      "longitude": -118.2465,
+      "sourceUrl": "https://files.airnowtech.org/airnow/today/cityzipcodes.csv",
+      "retrievedAt": "2026-10-19T05:04:52.131400+00:00",
+      "dataClass": "Historical"
+    },
+    {
+      "name": "Pasadena",
+      "zipcode": "91101",
+      "reportingArea": "W San Gabriel Vly",
+      "latitude": 34.1433,
+      "longitude": -118.1392,
+      "sourceUrl": "https://files.airnowtech.org/airnow/today/cityzipcodes.csv",
+      "retrievedAt": "2026-10-19T05:04:52.131400+00:00",
+      "dataClass": "Historical"
+    },
+    {
+      "name": "Altadena",
+      "zipcode": "91001",
+      "reportingArea": "W San Gabriel Vly",
+      "latitude": 34.187,
+      "longitude": -118.1334,
+      "sourceUrl": "https://files.airnowtech.org/airnow/today/cityzipcodes.csv",
+      "retrievedAt": "2026-10-19T05:04:52.131400+00:00",
+      "dataClass": "Historical"
+    },
+    {
+      "name": "La Cañada Flintridge",
+      "zipcode": "91011",
+      "reportingArea": "W San Gabriel Vly",
+      "latitude": 34.2085,
+      "longitude": -118.2021,
+      "sourceUrl": "https://files.airnowtech.org/airnow/today/cityzipcodes.csv",
+      "retrievedAt": "2026-10-19T05:04:52.131400+00:00",
+      "dataClass": "Historical"
+    },
+    {
+      "name": "Pacific Palisades",
+      "zipcode": "90272",
+      "reportingArea": "NW Coastal LA",
+      "latitude": 34.046,
+      "longitude": -118.5304,
+      "sourceUrl": "https://files.airnowtech.org/airnow/today/cityzipcodes.csv",
+      "retrievedAt": "2026-10-19T05:04:52.131400+00:00",
+      "dataClass": "Historical"
+    },
+    {
+      "name": "Malibu",
+      "zipcode": "90265",
+      "reportingArea": "NW Coastal LA",
+      "latitude": 34.0238,
+      "longitude": -118.791,
+      "sourceUrl": "https://files.airnowtech.org/airnow/today/cityzipcodes.csv",
+      "retrievedAt": "2026-10-19T05:04:52.131400+00:00",
+      "dataClass": "Historical"
+    }
+  ],
+  "aqiReference": {
+    "bands": [
+      {
+        "name": "Good",
+        "low": 0,
+        "high": 9,
+        "color": "#00e400"
+      },
+      {
+        "name": "Moderate",
+        "low": 9.1,
+        "high": 35.4,
+        "color": "#ffff00"
+      },
+      {
+        "name": "Unhealthy for sensitive groups",
+        "low": 35.5,
+        "high": 55.4,
+        "color": "#ff7e00"
+      },
+      {
+        "name": "Unhealthy",
+        "low": 55.5,
+        "high": 125.4,
+        "color": "#ff0000"
+      },
+      {
+        "name": "Very unhealthy",
+        "low": 125.5,
+        "high": 225.4,
+        "color": "#8f3f97"
+      },
+      {
+        "name": "Hazardous",
+        "low": 225.5,
+        "high": 325.4,
+        "color": "#7e0023"
+      }
+    ],
+    "averagingHours": 24,
+    "sourceUrl": "https://aqs.epa.gov/aqsweb/documents/codetables/aqi_breakpoints.csv",
+    "retrievedAt": "2026-10-19T02:57:31.110041+00:00",
+    "bytes": 6494,
+    "sha256": "00460436574eb146f0b1293cf591a831c272c3d2a5be1fbef76b98193f9ff3c4",
+    "dataClass": "Historical"
+  }
+}

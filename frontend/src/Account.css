@@ -1,0 +1,234 @@
+html:has(.account-dialog[open]) {
+  overflow: hidden;
+}
+.account-dialog {
+  width: min(440px, calc(100vw - 32px));
+  max-height: calc(100dvh - 32px);
+  margin: auto;
+  padding: 0;
+  color: inherit;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+.account-dialog::backdrop {
+  background: #263b3470;
+}
+.account-content {
+  position: relative;
+  padding: 40px 28px 28px;
+}
+.account-dialog h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.account-brand-icon {
+  display: inline-flex;
+  color: var(--live-fire);
+}
+.account-brand-icon svg {
+  width: 64px;
+  height: 64px;
+}
+.account-intro,
+.account-muted {
+  color: var(--muted);
+  font-size: 14px;
+}
+.account-intro {
+  margin: 0 0 24px;
+  text-align: center;
+}
+.account-options {
+  display: grid;
+  gap: 12px;
+}
+.account-options button,
+.account-form > button {
+  width: 100%;
+  min-height: 48px;
+}
+.account-primary {
+  color: white;
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.account-primary:hover {
+  color: white;
+  background: var(--control-active-hover-background);
+  border-color: var(--control-active-hover-background);
+}
+.account-secondary {
+  background: #edf3ee;
+}
+.account-close {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  border: 0;
+  background: transparent;
+  font-size: 24px;
+}
+.account-form {
+  display: grid;
+  gap: 12px;
+}
+.account-form > input {
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 12px;
+  color: inherit;
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-control);
+}
+.account-form fieldset {
+  margin: 8px 0 0;
+  padding: 0;
+  border: 0;
+}
+.account-form legend {
+  margin-bottom: 12px;
+}
+.account-check {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 0;
+}
+.account-check input {
+  width: 18px;
+  height: 18px;
+  flex: none;
+  margin: 2px 0;
+  accent-color: var(--accent);
+}
+.account-form p {
+  margin: 0;
+}
+.account-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+.account-footer button {
+  font-size: 13px;
+}
+.account-message {
+  color: var(--accent);
+}
+.account-email-options {
+  margin-top: 20px;
+}
+.account-profile-button {
+  grid-column: 1;
+  justify-self: start;
+  pointer-events: auto;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  background: var(--accent);
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+.account-profile-button:hover {
+  background: var(--control-hover-background);
+  border-color: var(--control-hover-border);
+}
+.account-profile-button img,
+.account-avatar img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.account-profile-summary {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.account-avatar {
+  display: grid;
+  flex: 0 0 56px;
+  width: 56px;
+  height: 56px;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 50%;
+  background: var(--accent);
+  color: white;
+  font-weight: 600;
+}
+.account-profile-summary h2 {
+  margin: 0 0 4px;
+  overflow-wrap: anywhere;
+}
+.account-profile-summary p {
+  margin: 0;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+.waves-live-map .maplibregl-ctrl-top-left {
+  top: 64px;
+  left: 6px;
+}
+.waves-live-map .maplibregl-ctrl-geolocate {
+  width: 44px;
+  height: 44px;
+}
+.waves-live-map .maplibregl-ctrl-group {
+  border: 1px solid var(--border);
+  box-shadow: none;
+}
+@media (max-width: 600px) {
+  .account-profile-button {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: center;
+  }
+  .account-dialog {
+    width: 100vw;
+    max-width: 100vw;
+    height: 100dvh;
+    max-height: none;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    background: #edf1ec;
+  }
+  .account-dialog[data-view="welcome"] .account-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+  }
+  .account-dialog[data-view="welcome"] .account-close {
+    display: none;
+  }
+  .account-content {
+    padding: 64px 24px 32px;
+  }
+  .account-dialog[data-view="welcome"] h2,
+  .account-dialog[data-view="welcome"] .account-intro {
+    text-align: center;
+  }
+  .account-options {
+    width: 100%;
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

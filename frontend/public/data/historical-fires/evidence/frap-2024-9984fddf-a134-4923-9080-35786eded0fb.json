@@ -1,0 +1,2150 @@
+{
+  "schemaVersion": 1,
+  "fireId": "frap:2024:9984fddf-a134-4923-9080-35786eded0fb",
+  "builtAt": "2026-10-25T18:32:49.876920+00:00",
+  "smoke": {
+    "status": "available",
+    "relationship": "nearby_time_matched",
+    "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88101_2024.zip",
+    "retrievedAt": "2026-10-21T09:27:17.233506+00:00",
+    "bytes": 66347589,
+    "sha256": "d5cae2dc878c6b97c2d80e7583bc6c930562012ff129df9db604262fda465c38",
+    "dataClass": "Observed",
+    "stations": [
+      {
+        "id": "06-053-0008",
+        "parameter": 88101,
+        "poc": 3,
+        "method": 170,
+        "methodName": "Met One BAM-1020 Mass Monitor w/VSCC - Beta Attenuation",
+        "longitude": -121.126371,
+        "latitude": 36.209286,
+        "distanceKm": 12.128946672106572,
+        "missingHours": 0,
+        "referenceDayCounts": [
+          92,
+          91,
+          92
+        ],
+        "referenceSources": [
+          {
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88101_2021.zip",
+            "retrievedAt": "2026-10-21T09:54:30.242947+00:00",
+            "bytes": 9003762,
+            "sha256": "c3f876f8cd898c3bd921db45e1a2dd39c52ed7f5bb48e82a600066a434f6afd4",
+            "dataClass": "Observed"
+          },
+          {
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88101_2022.zip",
+            "retrievedAt": "2026-10-19T05:00:09.694779+00:00",
+            "bytes": 9687295,
+            "sha256": "82f5035943a447f8edebf1f0b3f774e08b81a250a86295871a8574726d6b2f94",
+            "dataClass": "Observed"
+          },
+          {
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88101_2023.zip",
+            "retrievedAt": "2026-10-19T05:00:09.451912+00:00",
+            "bytes": 9919616,
+            "sha256": "4b40502e8147419643a1120c666c4aa952633094f21f65475844172bcc78833b",
+            "dataClass": "Observed"
+          }
+        ],
+        "thresholdUgM3": 12.858333199999999,
+        "windowEnd": "2024-07-25",
+        "coverageFraction": 0.9944444444444445,
+        "name": "King City 2",
+        "color": "#254c46",
+        "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88101_2024.zip",
+        "retrievedAt": "2026-10-21T09:27:17.233506+00:00",
+        "bytes": 66347589,
+        "sha256": "d5cae2dc878c6b97c2d80e7583bc6c930562012ff129df9db604262fda465c38",
+        "dataClass": "Observed",
+        "series": [
+          {
+            "timestamp": "2024-07-20T00:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-20T01:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-20T02:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-20T03:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-20T04:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-20T05:00:00-08:00",
+            "value": 9.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-20T06:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-20T07:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-20T08:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-20T09:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-20T10:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-20T11:00:00-08:00",
+            "value": 9.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-20T12:00:00-08:00",
+            "value": 11.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-20T13:00:00-08:00",
+            "value": 10.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-20T14:00:00-08:00",
+            "value": 15.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-20T15:00:00-08:00",
+            "value": 11.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-20T16:00:00-08:00",
+            "value": 13.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-20T17:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-20T18:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-20T19:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-20T20:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-20T21:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-20T22:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-20T23:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-21T00:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-21T01:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-21T02:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-21T03:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-21T04:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-21T05:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-21T06:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-21T07:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-21T08:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-21T09:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-21T10:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-21T11:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-21T12:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-21T13:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-21T14:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-21T15:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-21T16:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-21T17:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-21T18:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-21T19:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-21T20:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-21T21:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-21T22:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-21T23:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-22T00:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-22T01:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-22T02:00:00-08:00",
+            "value": 12.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-22T03:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-22T04:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-22T05:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-22T06:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-22T07:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-22T08:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-22T09:00:00-08:00",
+            "value": 9.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-22T10:00:00-08:00",
+            "value": 11.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-22T11:00:00-08:00",
+            "value": 13.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-22T12:00:00-08:00",
+            "value": 12.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-22T13:00:00-08:00",
+            "value": 11.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-22T14:00:00-08:00",
+            "value": 10.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-22T15:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-22T16:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-22T17:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-22T18:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-22T19:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-22T20:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-22T21:00:00-08:00",
+            "value": 9.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-22T22:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-22T23:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-23T00:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-23T01:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-23T02:00:00-08:00",
+            "value": 10.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-23T03:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-23T04:00:00-08:00",
+            "value": 9.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-23T05:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-23T06:00:00-08:00",
+            "value": 10.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-23T07:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-23T08:00:00-08:00",
+            "value": 10.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-23T09:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-23T10:00:00-08:00",
+            "value": 9.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-23T11:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-23T12:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-23T13:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-23T14:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-23T15:00:00-08:00",
+            "value": 9.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-23T16:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-23T17:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-23T18:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-23T19:00:00-08:00",
+            "value": -1.0,
+            "qualifier": null,
+            "reason": "Signed negative source reading retained"
+          },
+          {
+            "timestamp": "2024-07-23T20:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-23T21:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-23T22:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-23T23:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-24T00:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-24T01:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-24T02:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-24T03:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-24T04:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-24T05:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-24T06:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-24T07:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-24T08:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-24T09:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-24T10:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-24T11:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-24T12:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-24T13:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-24T14:00:00-08:00",
+            "value": 15.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-24T15:00:00-08:00",
+            "value": 17.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-24T16:00:00-08:00",
+            "value": 14.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-24T17:00:00-08:00",
+            "value": 17.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-24T18:00:00-08:00",
+            "value": 19.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-24T19:00:00-08:00",
+            "value": 16.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-24T20:00:00-08:00",
+            "value": 14.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-24T21:00:00-08:00",
+            "value": 11.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-24T22:00:00-08:00",
+            "value": 16.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-24T23:00:00-08:00",
+            "value": 17.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-25T00:00:00-08:00",
+            "value": 16.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-25T01:00:00-08:00",
+            "value": 13.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-25T02:00:00-08:00",
+            "value": 14.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-25T03:00:00-08:00",
+            "value": 11.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-25T04:00:00-08:00",
+            "value": 9.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-25T05:00:00-08:00",
+            "value": 9.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-25T06:00:00-08:00",
+            "value": 21.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-25T07:00:00-08:00",
+            "value": 16.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-25T08:00:00-08:00",
+            "value": 21.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-25T09:00:00-08:00",
+            "value": 15.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-25T10:00:00-08:00",
+            "value": 18.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-25T11:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-25T12:00:00-08:00",
+            "value": 9.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-25T13:00:00-08:00",
+            "value": 10.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-25T14:00:00-08:00",
+            "value": 13.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-25T15:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-25T16:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-25T17:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-25T18:00:00-08:00",
+            "value": 15.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-25T19:00:00-08:00",
+            "value": 10.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-25T20:00:00-08:00",
+            "value": 9.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-25T21:00:00-08:00",
+            "value": 10.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-25T22:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2024-07-25T23:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          }
+        ],
+        "expectedHours": 144,
+        "negativeHours": 1,
+        "dailyMeans": [
+          {
+            "date": "2024-07-20",
+            "hours": 24,
+            "value": 7.416666666666667,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88101_2024.zip",
+            "retrievedAt": "2026-10-21T09:27:17.233506+00:00",
+            "bytes": 66347589,
+            "sha256": "d5cae2dc878c6b97c2d80e7583bc6c930562012ff129df9db604262fda465c38",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2024-07-21",
+            "hours": 24,
+            "value": 3.75,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88101_2024.zip",
+            "retrievedAt": "2026-10-21T09:27:17.233506+00:00",
+            "bytes": 66347589,
+            "sha256": "d5cae2dc878c6b97c2d80e7583bc6c930562012ff129df9db604262fda465c38",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2024-07-22",
+            "hours": 24,
+            "value": 7.958333333333333,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88101_2024.zip",
+            "retrievedAt": "2026-10-21T09:27:17.233506+00:00",
+            "bytes": 66347589,
+            "sha256": "d5cae2dc878c6b97c2d80e7583bc6c930562012ff129df9db604262fda465c38",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2024-07-23",
+            "hours": 24,
+            "value": 5.958333333333333,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88101_2024.zip",
+            "retrievedAt": "2026-10-21T09:27:17.233506+00:00",
+            "bytes": 66347589,
+            "sha256": "d5cae2dc878c6b97c2d80e7583bc6c930562012ff129df9db604262fda465c38",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2024-07-24",
+            "hours": 24,
+            "value": 9.166666666666666,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88101_2024.zip",
+            "retrievedAt": "2026-10-21T09:27:17.233506+00:00",
+            "bytes": 66347589,
+            "sha256": "d5cae2dc878c6b97c2d80e7583bc6c930562012ff129df9db604262fda465c38",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2024-07-25",
+            "hours": 24,
+            "value": 11.666666666666666,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88101_2024.zip",
+            "retrievedAt": "2026-10-21T09:27:17.233506+00:00",
+            "bytes": 66347589,
+            "sha256": "d5cae2dc878c6b97c2d80e7583bc6c930562012ff129df9db604262fda465c38",
+            "dataClass": "Observed"
+          }
+        ],
+        "nonnegativeSensitivityEnd": "2024-07-25"
+      }
+    ],
+    "timezone": "Pacific standard time (UTC−08:00)",
+    "window": {
+      "start": "2024-07-20",
+      "end": "2024-07-25",
+      "referenceYears": [
+        2021,
+        2022,
+        2023
+      ],
+      "referenceMonths": [
+        7,
+        8,
+        9
+      ],
+      "minimumHoursPerDay": 18,
+      "referenceSources": [
+        {
+          "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88101_2021.zip",
+          "retrievedAt": "2026-10-21T09:54:30.242947+00:00",
+          "bytes": 9003762,
+          "sha256": "c3f876f8cd898c3bd921db45e1a2dd39c52ed7f5bb48e82a600066a434f6afd4",
+          "dataClass": "Observed"
+        },
+        {
+          "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88101_2022.zip",
+          "retrievedAt": "2026-10-19T05:00:09.694779+00:00",
+          "bytes": 9687295,
+          "sha256": "82f5035943a447f8edebf1f0b3f774e08b81a250a86295871a8574726d6b2f94",
+          "dataClass": "Observed"
+        },
+        {
+          "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88101_2023.zip",
+          "retrievedAt": "2026-10-19T05:00:09.451912+00:00",
+          "bytes": 9919616,
+          "sha256": "4b40502e8147419643a1120c666c4aa952633094f21f65475844172bcc78833b",
+          "dataClass": "Observed"
+        }
+      ]
+    },
+    "plumes": {
+      "days": [
+        {
+          "dateUtc": "2024-07-20",
+          "status": "available",
+          "path": "/data/waves/plumes/2024-07-20.json",
+          "monitorCoverage": {
+            "06-053-0008": false
+          },
+          "measurementPeriod": {
+            "start": "2024-07-20T11:00:00+00:00",
+            "end": "2024-07-20T23:10:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2024/07/hms_smoke20240720.kml",
+          "retrievedAt": "2026-10-21T09:55:42.853107+00:00",
+          "bytes": 74012,
+          "sha256": "698eec6be4e514a53a2a9a8a0854ce6a7e85483bf31dda2cb4581fb0ddf13700",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 32,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2024-07-21",
+          "status": "available",
+          "path": "/data/waves/plumes/2024-07-21.json",
+          "monitorCoverage": {
+            "06-053-0008": false
+          },
+          "measurementPeriod": {
+            "start": "2024-07-21T11:00:00+00:00",
+            "end": "2024-07-21T23:40:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2024/07/hms_smoke20240721.kml",
+          "retrievedAt": "2026-10-21T09:55:43.598876+00:00",
+          "bytes": 34306,
+          "sha256": "acc9d2cc1b98eecedce0f665e9900bba87262ab633988db2f727f0ad96bbfd25",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 9,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2024-07-22",
+          "status": "available",
+          "path": "/data/waves/plumes/2024-07-22.json",
+          "monitorCoverage": {
+            "06-053-0008": false
+          },
+          "measurementPeriod": {
+            "start": "2024-07-22T11:00:00+00:00",
+            "end": "2024-07-22T23:30:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2024/07/hms_smoke20240722.kml",
+          "retrievedAt": "2026-10-21T09:55:44.229510+00:00",
+          "bytes": 71115,
+          "sha256": "4ad67a93513862ba809bd7c6c4c693218a6cc44dd3631b72e9d0c223882c772e",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 7,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2024-07-23",
+          "status": "available",
+          "path": "/data/waves/plumes/2024-07-23.json",
+          "monitorCoverage": {
+            "06-053-0008": false
+          },
+          "measurementPeriod": {
+            "start": "2024-07-23T11:00:00+00:00",
+            "end": "2024-07-23T23:30:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2024/07/hms_smoke20240723.kml",
+          "retrievedAt": "2026-10-21T09:55:44.869457+00:00",
+          "bytes": 99876,
+          "sha256": "174a166d44ed2b52225c63cdf192c4d82a5172d76eedf33fdee9ae0d676b9c88",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 29,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2024-07-24",
+          "status": "available",
+          "path": "/data/waves/plumes/2024-07-24.json",
+          "monitorCoverage": {
+            "06-053-0008": true
+          },
+          "measurementPeriod": {
+            "start": "2024-07-24T09:00:00+00:00",
+            "end": "2024-07-24T23:30:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2024/07/hms_smoke20240724.kml",
+          "retrievedAt": "2026-10-21T09:55:45.748110+00:00",
+          "bytes": 65769,
+          "sha256": "86a53295f713844d6d91e2026fc5e9b8ead1ec7fb283577fb4c05817885ac8fa",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 6,
+          "firePolygonCount": 1
+        },
+        {
+          "dateUtc": "2024-07-25",
+          "status": "available",
+          "path": "/data/waves/plumes/2024-07-25.json",
+          "monitorCoverage": {
+            "06-053-0008": false
+          },
+          "measurementPeriod": {
+            "start": "2024-07-25T11:00:00+00:00",
+            "end": "2024-07-25T23:20:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2024/07/hms_smoke20240725.kml",
+          "retrievedAt": "2026-10-21T09:55:46.432560+00:00",
+          "bytes": 71388,
+          "sha256": "2c1da34344f5b8dedfceb1b8cd22a226c104f8450241381fdadce9defdefa8c3",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 10,
+          "firePolygonCount": 0
+        }
+      ]
+    },
+    "exclusions": [],
+    "health": [],
+    "aqiReference": {
+      "bands": [
+        {
+          "name": "Good",
+          "low": 0,
+          "high": 9,
+          "color": "#00e400"
+        },
+        {
+          "name": "Moderate",
+          "low": 9.1,
+          "high": 35.4,
+          "color": "#ffff00"
+        },
+        {
+          "name": "Unhealthy for sensitive groups",
+          "low": 35.5,
+          "high": 55.4,
+          "color": "#ff7e00"
+        },
+        {
+          "name": "Unhealthy",
+          "low": 55.5,
+          "high": 125.4,
+          "color": "#ff0000"
+        },
+        {
+          "name": "Very unhealthy",
+          "low": 125.5,
+          "high": 225.4,
+          "color": "#8f3f97"
+        },
+        {
+          "name": "Hazardous",
+          "low": 225.5,
+          "high": 325.4,
+          "color": "#7e0023"
+        }
+      ],
+      "averagingHours": 24,
+      "sourceUrl": "https://aqs.epa.gov/aqsweb/documents/codetables/aqi_breakpoints.csv",
+      "retrievedAt": "2026-10-19T02:57:31.110041+00:00",
+      "bytes": 6494,
+      "sha256": "00460436574eb146f0b1293cf591a831c272c3d2a5be1fbef76b98193f9ff3c4",
+      "dataClass": "Historical"
+    },
+    "limitedCoverage": false,
+    "selectionRule": "Nearest three distinct sites among five audited within 50 km, preferring >=75% hourly coverage over 60 days. If none qualify, show partial records with gaps. Prefer comparable reference instrument within each site. Not fire-attributed smoke.",
+    "checkedAt": "2026-10-22T01:06:26.869154+00:00"
+  },
+  "checks": {
+    "ash": {
+      "status": "not_checked",
+      "reason": "No reviewed soil study is linked. Wider sampling-study availability has not been checked."
+    },
+    "smoke": {
+      "status": "available",
+      "reason": "Existing verified EPA values retained unchanged",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T22:52:50.070234+00:00"
+    },
+    "recovery": {
+      "status": "checked",
+      "reason": "Products checked separately; power is county/time context."
+    },
+    "damage": {
+      "status": "match_unresolved",
+      "sourceUrl": "https://publish.data.ca.gov/dataset/cal-fire-damage-inspection-dins-data",
+      "retrievedAt": "2026-10-21T06:13:31.534013+00:00",
+      "reason": "CAL FIRE inspection index checked; no unique exact incident/name/day link was confirmed.",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:11:37.415146+00:00"
+    },
+    "rain": {
+      "status": "no_match",
+      "sourceUrl": "https://www.usgs.gov/programs/landslide-hazards/science/postfire-debris-flow-hazard-assessment-data",
+      "candidates": [],
+      "reason": "Completed assessment catalog and annual attachment-index search; no verified fire-to-release link. No nearby assessment was substituted.",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:23:49.881587+00:00"
+    },
+    "water": {
+      "status": "match_unresolved",
+      "reason": "Official provider notice pages were checked, but no verified fire-to-provider notice link exists for this catalog record. No complete historical notice registry or service-area crosswalk is supplied; this is not evidence that no notice existed.",
+      "notices": [],
+      "failures": [],
+      "completeHistory": false,
+      "archiveChecks": [
+        {
+          "status": "available",
+          "bytes": 56681,
+          "sourceUrl": "https://waterboards.ca.gov/press_room/press_releases/2025/pr20250509-la-wildfire-recovery.html",
+          "retrievedAt": "2026-10-21T06:13:47.057870+00:00",
+          "sha256": "5c6e9007e0894fc8806babd657fb2c92a03142cf5f9f5b8a776ae799bdf233a5"
+        },
+        {
+          "status": "available",
+          "bytes": 110488,
+          "sourceUrl": "https://www.cityofpasadena.net/city-manager/news/pasadena-confirms-safe-drinking-water-quality-for-all-pwp-water-customers-lifts-do-not-drink-water-notice/",
+          "retrievedAt": "2026-10-21T06:13:46.847790+00:00",
+          "sha256": "c5e1fc1af498d123a9f9b9e8b30e8258efe68363d18acc3374c5aeaa971da594"
+        },
+        {
+          "status": "available",
+          "bytes": 128940,
+          "sourceUrl": "https://www.ladwp.com/who-we-are/water-system/water-quality/water-quality-restoration-pacific-palisades",
+          "retrievedAt": "2026-10-21T06:14:33.787115+00:00",
+          "sha256": "3e4d7bea381096047599cfb08fdc3ecb45f8e42e7b0055da6646ebc31fbe2671"
+        },
+        {
+          "status": "available",
+          "bytes": 1090640,
+          "sourceUrl": "https://www.waterboards.ca.gov/board_info/agendas/2018/nov/final_ed_rpt_112818.pdf",
+          "retrievedAt": "2026-10-21T09:18:55.983813+00:00",
+          "sha256": "622562fbe0bf20e18d2dc1a4c137dfaf5432860775be52caac5ba305266fe2cc"
+        }
+      ],
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:41:46.777366+00:00"
+    },
+    "hms": {
+      "status": "available",
+      "reason": "Independent NOAA daily-file checks completed",
+      "dayStatuses": {
+        "available": 6
+      },
+      "scope": {
+        "fireId": "frap:2024:9984fddf-a134-4923-9080-35786eded0fb",
+        "boundarySource": {
+          "status": "available",
+          "sourceUrl": "https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/California_Historic_Fire_Perimeters/FeatureServer/0/query?f=geojson&where=GlobalID%3D%279984fddf-a134-4923-9080-35786eded0fb%27&outFields=GlobalID%2CFIRE_NAME%2CYEAR_%2CALARM_DATE&outSR=4326&returnGeometry=true",
+          "retrievedAt": "2026-10-21T10:22:51.798662+00:00",
+          "bytes": 1906,
+          "sha256": "eb698eb5ddae6aac8edca1d0abca36a83009c37c1a7dc44e7fb3272ab2badaa0"
+        },
+        "spatialRelationship": "medium/heavy polygons intersecting the existing fire footprint",
+        "analysisWindow": {
+          "start": "2024-07-20",
+          "end": "2024-07-25"
+        },
+        "measurementPeriod": [
+          {
+            "start": "2024-07-20T11:00:00+00:00",
+            "end": "2024-07-20T23:10:00+00:00"
+          },
+          {
+            "start": "2024-07-21T11:00:00+00:00",
+            "end": "2024-07-21T23:40:00+00:00"
+          },
+          {
+            "start": "2024-07-22T11:00:00+00:00",
+            "end": "2024-07-22T23:30:00+00:00"
+          },
+          {
+            "start": "2024-07-23T11:00:00+00:00",
+            "end": "2024-07-23T23:30:00+00:00"
+          },
+          {
+            "start": "2024-07-24T09:00:00+00:00",
+            "end": "2024-07-24T23:30:00+00:00"
+          },
+          {
+            "start": "2024-07-25T11:00:00+00:00",
+            "end": "2024-07-25T23:20:00+00:00"
+          }
+        ],
+        "periodStatus": "source_supplied",
+        "sourceUrls": [
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2024/07/hms_smoke20240720.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2024/07/hms_smoke20240721.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2024/07/hms_smoke20240722.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2024/07/hms_smoke20240723.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2024/07/hms_smoke20240724.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2024/07/hms_smoke20240725.kml"
+        ],
+        "catalogIdentityVerified": true
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-22T01:06:27.140511+00:00"
+    },
+    "goes": {
+      "status": "available",
+      "reason": "",
+      "fireId": "frap:2024:9984fddf-a134-4923-9080-35786eded0fb",
+      "preparedUrl": "/data/historical-fires/evidence/frap-2024-9984fddf-a134-4923-9080-35786eded0fb.json",
+      "scope": {
+        "fireId": "frap:2024:9984fddf-a134-4923-9080-35786eded0fb",
+        "catalogIdentityVerified": true
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-22T01:53:37.082685+00:00"
+    },
+    "context": {
+      "status": "available",
+      "reason": "Original 3DEP windows processed and checked"
+    },
+    "thresholds": {
+      "status": "no_match",
+      "sourceUrl": "https://www.usgs.gov/programs/landslide-hazards/science/postfire-debris-flow-hazard-assessment-data",
+      "candidates": [],
+      "reason": "Completed assessment catalog and annual attachment-index search; no verified fire-to-release link. No nearby assessment was substituted.",
+      "scope": {
+        "fireId": "frap:2024:9984fddf-a134-4923-9080-35786eded0fb",
+        "catalogIdentityVerified": true
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-22T02:25:01.220019+00:00"
+    },
+    "power": {
+      "status": "available",
+      "dataClass": "Historical",
+      "relationship": "nearby_time_matched",
+      "unit": "reported customers without power",
+      "sourceUrl": "https://figshare.com/articles/dataset/The_Environment_for_Analysis_of_Geo-Located_Energy_Information_s_Recorded_Electricity_Outages_2014-2022/24237376",
+      "retrievedAt": "2026-10-25T18:03:42.209694+00:00",
+      "license": "CC BY 4.0; ORNL EAGLE-I / DOE-CESER",
+      "seriesUrl": "/data/historical-fires/power/frap-2024-9984fddf-a134-4923-9080-35786eded0fb.json",
+      "countyCount": 1,
+      "recordCount": 4871,
+      "scope": {
+        "fireId": "frap:2024:9984fddf-a134-4923-9080-35786eded0fb",
+        "boundarySource": {
+          "status": "available",
+          "sourceUrl": "https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/California_Historic_Fire_Perimeters/FeatureServer/0/query?f=geojson&where=GlobalID%3D%279984fddf-a134-4923-9080-35786eded0fb%27&outFields=GlobalID%2CFIRE_NAME%2CYEAR_%2CALARM_DATE&outSR=4326&returnGeometry=true",
+          "retrievedAt": "2026-10-25T17:56:39.664270+00:00",
+          "bytes": 1906,
+          "sha256": "eb698eb5ddae6aac8edca1d0abca36a83009c37c1a7dc44e7fb3272ab2badaa0",
+          "md5": "641484bb5df4b014dc071df9795f22bd"
+        },
+        "spatialRelationship": "County-wide context in counties intersecting the fire; not outages inside the perimeter or attributed to the fire.",
+        "measurementPeriod": [
+          {
+            "countyId": "06053",
+            "start": "2024-07-20T00:00:00+00:00",
+            "end": "2024-09-17T23:45:00+00:00"
+          }
+        ],
+        "periodStatus": "source_supplied",
+        "sourceUrls": [
+          "https://ndownloader.figshare.com/files/53581661"
+        ],
+        "preflightVerified": true,
+        "countyBoundarySource": {
+          "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?f=geojson&where=STATE%3D%2706%27&outFields=STATE%2CCOUNTY%2CGEOID%2CNAME&returnGeometry=true&outSR=4326&resultRecordCount=1000",
+          "retrievedAt": "2026-10-25T17:56:26.362096+00:00",
+          "bytes": 10816969,
+          "sha256": "f51dd64302c7fe4df11c3f9bb11d2b3b13f35cf66bc2b252d49f8b6d572f9b14",
+          "md5": "fca119c0d3d508d9fa76ce3b320fde7a"
+        },
+        "countyIds": [
+          "06053"
+        ],
+        "analysisWindow": {
+          "countyIds": [
+            "06053"
+          ],
+          "start": "2024-07-20T00:00:00+00:00",
+          "endExclusive": "2024-09-18T00:00:00+00:00"
+        },
+        "catalogIdentityVerified": true
+      },
+      "missingRecordCount": 0,
+      "reason": "",
+      "attempts": 2,
+      "previousChecks": [
+        {
+          "status": "quality_failed",
+          "nextAction": "Check complete",
+          "result": {
+            "status": "quality_failed",
+            "reason": "Unexpected nonpositive or fractional customer count",
+            "scope": {
+              "fireId": "frap:2024:9984fddf-a134-4923-9080-35786eded0fb",
+              "catalogIdentityVerified": true
+            },
+            "attempts": 1,
+            "checkedAt": "2026-10-25T18:04:32.143573+00:00"
+          }
+        }
+      ],
+      "checkedAt": "2026-10-25T18:12:13.345811+00:00"
+    },
+    "case_severity": {
+      "status": "no_match",
+      "reason": "The original observation-display crop catalog has no verified severity crop for this fire; fire-wide numeric severity is checked separately",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:28:14.843201+00:00"
+    },
+    "dnbr": {
+      "status": "access_failed",
+      "reason": "Verified MTBS product identity, but the checked original-raster interface requires an emailed processing request; no request sent",
+      "mtbs": {
+        "map_id": 10033844,
+        "incid_name": "METZ",
+        "incid_type": "Wildfire",
+        "event_id": "CA3634012120020240723",
+        "ig_date": "2024-07-23Z",
+        "asmt_type": "Initial",
+        "burnbndac": 1019,
+        "burnbndlat": 36.329911998636476,
+        "burnbndlon": -121.17882421110346,
+        "post_id": "B10SFF20240727_30m",
+        "updated_at": "2026-02-13T22:19:05Z",
+        "asmnt_type": "Initial",
+        "pre_id": null
+      },
+      "sources": [
+        {
+          "sourceUrl": "https://burnseverity.cr.usgs.gov/viewer/",
+          "retrievedAt": "2026-10-21T23:10:57.851818+00:00",
+          "bytes": 1722,
+          "sha256": "87f576910f5e586e7a81dccc2d13c966b8f59ccf512c4460bea1048c7bfb1a86"
+        },
+        {
+          "sourceUrl": "https://burnseverity.cr.usgs.gov/viewer/main.e04713e0ed3bd08cbc93.js",
+          "retrievedAt": "2026-10-21T22:44:44.815483+00:00",
+          "bytes": 406661,
+          "sha256": "121491bd66003bea13b40f0df1c483b089cff84614605e1ac43976075c875c25"
+        }
+      ],
+      "baerCheck": {
+        "status": "no_match",
+        "reason": "Checked BAER index has no exact name/day candidate",
+        "sources": [
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=0&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:36.072753+00:00",
+            "bytes": 36489,
+            "sha256": "4bafff091f8a37a9e171970f2af30c730c385835c1cc8b6c9877b1664f9c4fe5"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=100&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:36.937190+00:00",
+            "bytes": 34956,
+            "sha256": "a039830d37ec57767dde8c382436651534eb54909c41265e8a92fdf9f94dfda1"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=200&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:37.999924+00:00",
+            "bytes": 35588,
+            "sha256": "2ce4ee102033e494563df7ba0a442fbda7f3b528b8ac509e13015f3786e4d4c9"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=300&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:38.986579+00:00",
+            "bytes": 34691,
+            "sha256": "43f7a5013359105da9263242194bdd9c54056ea5cb030b373ed1a264ffb64cd8"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=400&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:39.878707+00:00",
+            "bytes": 35592,
+            "sha256": "3f53e644c3b10db1074e58043115b5075e750ec9a89259363bd1ce6b42eb6c83"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=500&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:40.957829+00:00",
+            "bytes": 35208,
+            "sha256": "88cd48b9baa0f3030246d11cf7b760fc2794f45bc7705f398064768acf1241f2"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=600&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:41.979952+00:00",
+            "bytes": 33949,
+            "sha256": "a49ea913284b2441d002035c373f5082d6afd933a3798ee0726bd4075ddd0248"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=700&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:42.761479+00:00",
+            "bytes": 8435,
+            "sha256": "544c283f9a7d2a2e969b3d13571ffac541fd3eb12b02f43bf7de54cbe033d24f"
+          }
+        ]
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:23:00.349144+00:00"
+    },
+    "health": {
+      "status": "coverage_limited",
+      "reason": "The approved limited-study registry was checked. This fire has no documented study link; regional health findings and other fires' soil results are not transferred.",
+      "scope": "Approved reviewed health and chemical-sampling studies only",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:16:39.201501+00:00"
+    },
+    "imagery": {
+      "status": "access_failed",
+      "reason": "Verified MTBS product identity, but the checked original-raster interface requires an emailed processing request; no request sent",
+      "mtbs": {
+        "map_id": 10033844,
+        "incid_name": "METZ",
+        "incid_type": "Wildfire",
+        "event_id": "CA3634012120020240723",
+        "ig_date": "2024-07-23Z",
+        "asmt_type": "Initial",
+        "burnbndac": 1019,
+        "burnbndlat": 36.329911998636476,
+        "burnbndlon": -121.17882421110346,
+        "post_id": "B10SFF20240727_30m",
+        "updated_at": "2026-02-13T22:19:05Z",
+        "asmnt_type": "Initial",
+        "pre_id": null
+      },
+      "sources": [
+        {
+          "sourceUrl": "https://burnseverity.cr.usgs.gov/viewer/",
+          "retrievedAt": "2026-10-21T23:10:57.851818+00:00",
+          "bytes": 1722,
+          "sha256": "87f576910f5e586e7a81dccc2d13c966b8f59ccf512c4460bea1048c7bfb1a86"
+        },
+        {
+          "sourceUrl": "https://burnseverity.cr.usgs.gov/viewer/main.e04713e0ed3bd08cbc93.js",
+          "retrievedAt": "2026-10-21T22:44:44.815483+00:00",
+          "bytes": 406661,
+          "sha256": "121491bd66003bea13b40f0df1c483b089cff84614605e1ac43976075c875c25"
+        }
+      ],
+      "baerCheck": {
+        "status": "no_match",
+        "reason": "Checked BAER index has no exact name/day candidate",
+        "sources": [
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=0&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:36.072753+00:00",
+            "bytes": 36489,
+            "sha256": "4bafff091f8a37a9e171970f2af30c730c385835c1cc8b6c9877b1664f9c4fe5"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=100&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:36.937190+00:00",
+            "bytes": 34956,
+            "sha256": "a039830d37ec57767dde8c382436651534eb54909c41265e8a92fdf9f94dfda1"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=200&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:37.999924+00:00",
+            "bytes": 35588,
+            "sha256": "2ce4ee102033e494563df7ba0a442fbda7f3b528b8ac509e13015f3786e4d4c9"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=300&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:38.986579+00:00",
+            "bytes": 34691,
+            "sha256": "43f7a5013359105da9263242194bdd9c54056ea5cb030b373ed1a264ffb64cd8"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=400&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:39.878707+00:00",
+            "bytes": 35592,
+            "sha256": "3f53e644c3b10db1074e58043115b5075e750ec9a89259363bd1ce6b42eb6c83"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=500&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:40.957829+00:00",
+            "bytes": 35208,
+            "sha256": "88cd48b9baa0f3030246d11cf7b760fc2794f45bc7705f398064768acf1241f2"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=600&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:41.979952+00:00",
+            "bytes": 33949,
+            "sha256": "a49ea913284b2441d002035c373f5082d6afd933a3798ee0726bd4075ddd0248"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=700&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:42.761479+00:00",
+            "bytes": 8435,
+            "sha256": "544c283f9a7d2a2e969b3d13571ffac541fd3eb12b02f43bf7de54cbe033d24f"
+          }
+        ]
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:36:40.539449+00:00"
+    },
+    "measured_rain": {
+      "status": "no_match",
+      "sourceUrl": "https://www.sciencebase.gov/catalog/item/69612c8ed4be02298529c522",
+      "candidates": [],
+      "reason": "Completed public-inventory search; no verified export for this fire. Other inventories are outside this check.",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:21:34.703923+00:00"
+    },
+    "observations": {
+      "status": "no_match",
+      "sourceUrl": "https://www.sciencebase.gov/catalog/item/69612c8ed4be02298529c522",
+      "candidates": [],
+      "reason": "Completed public-inventory search; no verified export for this fire. Other inventories are outside this check.",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:20:26.267823+00:00"
+    },
+    "severity": {
+      "status": "coverage_limited",
+      "reason": "Checked numeric mosaic has no assessed cells inside the source boundary",
+      "source": {
+        "url": "https://www.sciencebase.gov/catalog/file/get/671fe4dcd34ed0f827eaa2d3?f=__disk__40%2Fba%2F94%2F40ba945a685e7de13b4844598ae341afdcea1904",
+        "retrieved": "2026-10-18T09:42:39.611664+00:00",
+        "bytes": 4184366,
+        "sha256": "7ef037aebd13bc7c4aae808515a20260099d36efa30fbadcf68e871ca39eddbd",
+        "license": "Public domain; USGS / USDA Forest Service MTBS; acknowledge source and limitations",
+        "title": "Monitoring Trends in Burn Severity Thematic Burn Severity Mosaic for 2024 (ver. 12.0, April 2025)",
+        "year": 2024,
+        "rasterSha256": "690a9a62564b2479791f6c1aaa2c52c9523cc4f1c57f304edc41e1e543c8cdc5",
+        "metadataUrl": "https://www.sciencebase.gov/catalog/item/671fe4dcd34ed0f827eaa2d3"
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:06:02.796352+00:00"
+    },
+    "soil": {
+      "status": "coverage_limited",
+      "reason": "The approved limited-study registry was checked. This fire has no documented study link; regional health findings and other fires' soil results are not transferred.",
+      "scope": "Approved reviewed health and chemical-sampling studies only",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:18:05.642825+00:00"
+    },
+    "soil_followup": {
+      "status": "coverage_limited",
+      "reason": "The approved limited-study registry was checked. This fire has no documented study link; regional health findings and other fires' soil results are not transferred.",
+      "scope": "Approved reviewed health and chemical-sampling studies only",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:19:10.111083+00:00"
+    },
+    "travel": {
+      "status": "no_match",
+      "candidates": [],
+      "sources": [
+        {
+          "sourceUrl": "https://www.sciencebase.gov/catalog/items?filter=parentId%3D6851e986d4be027dac17f0ae&format=json&max=100&offset=0",
+          "retrievedAt": "2026-10-18T22:25:21.238826+00:00",
+          "sha256": "35337b3b272ff46974bb3a5229ca3fac3bd4cf93b920a2dd5172bd81c9d4e8b8",
+          "bytes": 17621,
+          "originalReceipt": {
+            "url": "https://www.sciencebase.gov/catalog/items?filter=parentId%3D6851e986d4be027dac17f0ae&format=json&max=100&offset=0",
+            "retrieved": "2026-10-18T22:25:21.238826+00:00",
+            "bytes": 17621,
+            "sha256": "35337b3b272ff46974bb3a5229ca3fac3bd4cf93b920a2dd5172bd81c9d4e8b8"
+          },
+          "importedFrom": "data\\raw\\runout-catalog\\collection-0.json"
+        }
+      ],
+      "reason": "Complete official runout collection checked; no verified release link for this fire.",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:42:27.955243+00:00"
+    },
+    "unresolved_rain": {
+      "status": "no_match",
+      "sourceUrl": "https://www.sciencebase.gov/catalog/item/69612c8ed4be02298529c522",
+      "candidates": [],
+      "reason": "Completed public-inventory search; no verified export for this fire. Other inventories are outside this check.",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:22:54.017687+00:00"
+    },
+    "hrrr": {
+      "status": "available",
+      "reason": "Archived NOAA model frames prepared.",
+      "fireId": "frap:2024:9984fddf-a134-4923-9080-35786eded0fb",
+      "preparedUrl": "/data/historical-fires/evidence/frap-2024-9984fddf-a134-4923-9080-35786eded0fb.json",
+      "scope": {
+        "fireId": "frap:2024:9984fddf-a134-4923-9080-35786eded0fb",
+        "catalogIdentityVerified": true
+      }
+    }
+  },
+  "perimeter": {
+    "status": "available",
+    "sourceUrl": "https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/California_Historic_Fire_Perimeters/FeatureServer/0/query?f=geojson&where=GlobalID%3D%279984fddf-a134-4923-9080-35786eded0fb%27&outFields=GlobalID%2CFIRE_NAME%2CYEAR_%2CALARM_DATE&outSR=4326&returnGeometry=true",
+    "retrievedAt": "2026-10-21T10:22:51.798662+00:00",
+    "bytes": 1906,
+    "sha256": "eb698eb5ddae6aac8edca1d0abca36a83009c37c1a7dc44e7fb3272ab2badaa0",
+    "value": {
+      "type": "FeatureCollection",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "EPSG:4326"
+        }
+      },
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -121.200983788683,
+                  36.3447841176121
+                ],
+                [
+                  -121.192964098747,
+                  36.3426999199101
+                ],
+                [
+                  -121.191068584327,
+                  36.3413542304
+                ],
+                [
+                  -121.18710392911,
+                  36.3389823360351
+                ],
+                [
+                  -121.185454022173,
+                  36.3384271760949
+                ],
+                [
+                  -121.179920927334,
+                  36.3374595312541
+                ],
+                [
+                  -121.176406142123,
+                  36.3367604524818
+                ],
+                [
+                  -121.174530578387,
+                  36.3375252476705
+                ],
+                [
+                  -121.171908761687,
+                  36.3376275477916
+                ],
+                [
+                  -121.170513748119,
+                  36.3364995608834
+                ],
+                [
+                  -121.16950286854,
+                  36.3348959066085
+                ],
+                [
+                  -121.168394079782,
+                  36.3336430899528
+                ],
+                [
+                  -121.167569369757,
+                  36.33265069174
+                ],
+                [
+                  -121.167110706143,
+                  36.3286924179675
+                ],
+                [
+                  -121.166764636468,
+                  36.3270363021677
+                ],
+                [
+                  -121.165515866832,
+                  36.3261279055599
+                ],
+                [
+                  -121.166312636556,
+                  36.3246199722399
+                ],
+                [
+                  -121.166651977849,
+                  36.3235074026965
+                ],
+                [
+                  -121.166803300856,
+                  36.3221486034322
+                ],
+                [
+                  -121.166744902277,
+                  36.3207941325941
+                ],
+                [
+                  -121.167390171129,
+                  36.3185648266605
+                ],
+                [
+                  -121.169789737441,
+                  36.3175866084641
+                ],
+                [
+                  -121.170752449355,
+                  36.3163389219205
+                ],
+                [
+                  -121.169555829616,
+                  36.3148965976737
+                ],
+                [
+                  -121.169872867538,
+                  36.3127649042016
+                ],
+                [
+                  -121.17113584942,
+                  36.3146007444056
+                ],
+                [
+                  -121.174233815441,
+                  36.3168719267511
+                ],
+                [
+                  -121.176982867722,
+                  36.3185149043427
+                ],
+                [
+                  -121.17847893547,
+                  36.3197122827416
+                ],
+                [
+                  -121.179392868864,
+                  36.3200949050048
+                ],
+                [
+                  -121.181185450725,
+                  36.3198197770349
+                ],
+                [
+                  -121.181829063982,
+                  36.3200658259669
+                ],
+                [
+                  -121.182322867894,
+                  36.3210449047489
+                ],
+                [
+                  -121.182453429935,
+                  36.3228355302941
+                ],
+                [
+                  -121.182978031688,
+                  36.3236007487905
+                ],
+                [
+                  -121.184878628776,
+                  36.3269159412643
+                ],
+                [
+                  -121.186667597613,
+                  36.3303235780951
+                ],
+                [
+                  -121.18839113047,
+                  36.3331532864118
+                ],
+                [
+                  -121.190523498291,
+                  36.3351231320787
+                ],
+                [
+                  -121.193003552754,
+                  36.3360602515782
+                ],
+                [
+                  -121.194480164791,
+                  36.3363497559376
+                ],
+                [
+                  -121.197838994384,
+                  36.3375183630617
+                ],
+                [
+                  -121.199167540706,
+                  36.3391948160872
+                ],
+                [
+                  -121.200983788683,
+                  36.3447841176121
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "GlobalID": "9984fddf-a134-4923-9080-35786eded0fb",
+            "FIRE_NAME": "METZ",
+            "YEAR_": 2024,
+            "ALARM_DATE": 1721692800000
+          }
+        }
+      ]
+    }
+  },
+  "plumeCoverage": {
+    "2024-07-20": false,
+    "2024-07-21": false,
+    "2024-07-22": false,
+    "2024-07-23": false,
+    "2024-07-24": true,
+    "2024-07-25": false
+  },
+  "recovery": {
+    "schemaVersion": 1,
+    "fireId": "frap:2024:9984fddf-a134-4923-9080-35786eded0fb",
+    "damage": {
+      "status": "match_unresolved",
+      "sourceUrl": "https://publish.data.ca.gov/dataset/cal-fire-damage-inspection-dins-data",
+      "retrievedAt": "2026-10-21T06:13:31.534013+00:00",
+      "reason": "CAL FIRE inspection index checked; no unique exact incident/name/day link was confirmed."
+    },
+    "builtAt": "2026-10-21T23:11:37.177780+00:00",
+    "power": {
+      "status": "available",
+      "dataClass": "Historical",
+      "relationship": "nearby_time_matched",
+      "unit": "reported customers without power",
+      "sourceUrl": "https://figshare.com/articles/dataset/The_Environment_for_Analysis_of_Geo-Located_Energy_Information_s_Recorded_Electricity_Outages_2014-2022/24237376",
+      "retrievedAt": "2026-10-25T18:03:42.209694+00:00",
+      "license": "CC BY 4.0; ORNL EAGLE-I / DOE-CESER",
+      "seriesUrl": "/data/historical-fires/power/frap-2024-9984fddf-a134-4923-9080-35786eded0fb.json",
+      "countyCount": 1,
+      "recordCount": 4871,
+      "scope": {
+        "fireId": "frap:2024:9984fddf-a134-4923-9080-35786eded0fb",
+        "boundarySource": {
+          "status": "available",
+          "sourceUrl": "https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/California_Historic_Fire_Perimeters/FeatureServer/0/query?f=geojson&where=GlobalID%3D%279984fddf-a134-4923-9080-35786eded0fb%27&outFields=GlobalID%2CFIRE_NAME%2CYEAR_%2CALARM_DATE&outSR=4326&returnGeometry=true",
+          "retrievedAt": "2026-10-25T17:56:39.664270+00:00",
+          "bytes": 1906,
+          "sha256": "eb698eb5ddae6aac8edca1d0abca36a83009c37c1a7dc44e7fb3272ab2badaa0",
+          "md5": "641484bb5df4b014dc071df9795f22bd"
+        },
+        "spatialRelationship": "County-wide context in counties intersecting the fire; not outages inside the perimeter or attributed to the fire.",
+        "measurementPeriod": [
+          {
+            "countyId": "06053",
+            "start": "2024-07-20T00:00:00+00:00",
+            "end": "2024-09-17T23:45:00+00:00"
+          }
+        ],
+        "periodStatus": "source_supplied",
+        "sourceUrls": [
+          "https://ndownloader.figshare.com/files/53581661"
+        ],
+        "preflightVerified": true,
+        "countyBoundarySource": {
+          "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?f=geojson&where=STATE%3D%2706%27&outFields=STATE%2CCOUNTY%2CGEOID%2CNAME&returnGeometry=true&outSR=4326&resultRecordCount=1000",
+          "retrievedAt": "2026-10-25T17:56:26.362096+00:00",
+          "bytes": 10816969,
+          "sha256": "f51dd64302c7fe4df11c3f9bb11d2b3b13f35cf66bc2b252d49f8b6d572f9b14",
+          "md5": "fca119c0d3d508d9fa76ce3b320fde7a"
+        },
+        "countyIds": [
+          "06053"
+        ],
+        "analysisWindow": {
+          "countyIds": [
+            "06053"
+          ],
+          "start": "2024-07-20T00:00:00+00:00",
+          "endExclusive": "2024-09-18T00:00:00+00:00"
+        }
+      },
+      "missingRecordCount": 0,
+      "reason": ""
+    },
+    "water": {
+      "status": "match_unresolved",
+      "reason": "Official provider notice pages were checked, but no verified fire-to-provider notice link exists for this catalog record. No complete historical notice registry or service-area crosswalk is supplied; this is not evidence that no notice existed.",
+      "notices": [],
+      "failures": [],
+      "completeHistory": false,
+      "archiveChecks": [
+        {
+          "status": "available",
+          "bytes": 56681,
+          "sourceUrl": "https://waterboards.ca.gov/press_room/press_releases/2025/pr20250509-la-wildfire-recovery.html",
+          "retrievedAt": "2026-10-21T06:13:47.057870+00:00",
+          "sha256": "5c6e9007e0894fc8806babd657fb2c92a03142cf5f9f5b8a776ae799bdf233a5"
+        },
+        {
+          "status": "available",
+          "bytes": 110488,
+          "sourceUrl": "https://www.cityofpasadena.net/city-manager/news/pasadena-confirms-safe-drinking-water-quality-for-all-pwp-water-customers-lifts-do-not-drink-water-notice/",
+          "retrievedAt": "2026-10-21T06:13:46.847790+00:00",
+          "sha256": "c5e1fc1af498d123a9f9b9e8b30e8258efe68363d18acc3374c5aeaa971da594"
+        },
+        {
+          "status": "available",
+          "bytes": 128940,
+          "sourceUrl": "https://www.ladwp.com/who-we-are/water-system/water-quality/water-quality-restoration-pacific-palisades",
+          "retrievedAt": "2026-10-21T06:14:33.787115+00:00",
+          "sha256": "3e4d7bea381096047599cfb08fdc3ecb45f8e42e7b0055da6646ebc31fbe2671"
+        },
+        {
+          "status": "available",
+          "bytes": 1090640,
+          "sourceUrl": "https://www.waterboards.ca.gov/board_info/agendas/2018/nov/final_ed_rpt_112818.pdf",
+          "retrievedAt": "2026-10-21T09:18:55.983813+00:00",
+          "sha256": "622562fbe0bf20e18d2dc1a4c137dfaf5432860775be52caac5ba305266fe2cc"
+        }
+      ]
+    }
+  },
+  "goes": {
+    "status": "available",
+    "manifest": "/data/waves/goes-frap-2024-9984fddf-a134-4923-9080-35786eded0fb/manifest.json",
+    "coverageKey": "fire",
+    "timezone": "America/Los_Angeles",
+    "cadenceMinutes": 10,
+    "caseId": "frap:2024:9984fddf-a134-4923-9080-35786eded0fb"
+  },
+  "context": {
+    "status": "available",
+    "fireId": "frap:2024:9984fddf-a134-4923-9080-35786eded0fb",
+    "slope": {
+      "status": "available",
+      "file": "/data/waves/frap-2024-9984fddf-a134-4923-9080-35786eded0fb-slope-eaa5104a701b.png",
+      "bounds": [
+        -121.2347481299216,
+        36.28588593673074,
+        -121.13116088424441,
+        36.369645128869145
+      ],
+      "width": 1594,
+      "height": 1600,
+      "thresholdDegrees": 23.0,
+      "pixelSizeMetres": 10,
+      "colors": {
+        "below": "#e0e7e1",
+        "atOrAbove": "#4d7778"
+      },
+      "minimumDegrees": 0.0,
+      "maximumDegrees": 49.695877955110106,
+      "nativeValidPercent": 100.0,
+      "fireSteepPercent": 16.964957866873892,
+      "fireValidPercent": 100.0,
+      "fireValidCells": 41179,
+      "sourceUrl": "https://www.usgs.gov/3d-elevation-program",
+      "license": "Public domain (USGS 3DEP); elevation metres, NAVD88; horizontal NAD83.",
+      "retrievedAt": "2026-10-23T02:24:22.896983+00:00",
+      "sources": [
+        {
+          "sourceUrl": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/13/TIFF/historical/n37w122/USGS_13_n37w122_20250826.tif",
+          "catalogUrl": "https://tnmaccess.nationalmap.gov/api/v1/products?bbox=-121.2347481299216%2C36.28588593673074%2C-121.13116088424441%2C36.369645128869145&datasets=National+Elevation+Dataset+%28NED%29+1%2F3+arc-second&max=1000",
+          "retrievedAt": "2026-10-23T02:24:22.896983+00:00",
+          "license": "Public domain (USGS 3DEP); elevation metres, NAVD88; horizontal NAD83.",
+          "publicationDate": "2025-08-27",
+          "title": "USGS 1/3 Arc Second n37w122 20250826",
+          "bytes": 3620455,
+          "sha256": "452e467a632310fa8ad965d6db931628b5d1b26f19ce257d6075a9d5471c95f5",
+          "footprint": [
+            -121.2347481299216,
+            36.28588593673074,
+            -121.13116088424441,
+            36.369645128869145
+          ],
+          "processing": "Native-grid window plus 20-cell derivative buffer; not a complete copy of the source tile."
+        }
+      ],
+      "waterSource": {
+        "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Hydro/MapServer/1/query?f=geojson&where=1%3D1&geometry=-121.2347481299216%2C36.28588593673074%2C-121.13116088424441%2C36.369645128869145&geometryType=esriGeometryEnvelope&inSR=4326&outSR=4326&spatialRel=esriSpatialRelIntersects&outFields=%2A&returnGeometry=true&resultRecordCount=100000",
+        "retrievedAt": "2026-10-23T02:24:23.873697+00:00",
+        "bytes": 72793,
+        "sha256": "5e7e2036430a42c37bbd9396587d134144e86d150293f0f1430c03c90a9076b2",
+        "md5": "48944e7055cab5d39623326671979af2",
+        "usedFeatureCount": 20,
+        "excludedInvalidFeatureIds": []
+      },
+      "dataClass": "Historical",
+      "processing": "Native elevation windows; bilinear reprojection to a metre-based 10 m NAD83 UTM grid; central-difference slope in degrees; 0-90 degree check before thresholding; rectangle extending 3 km past each edge of the fire's projected bounding box; nearest-neighbor class rendering to Web Mercator PNG. Water and no-data transparent.",
+      "contextBufferMetres": 3000,
+      "contextShape": "rectangle",
+      "outsideAlpha": 64,
+      "inputFootprint": [
+        -121.2001,
+        36.3135,
+        -121.1656,
+        36.342
+      ],
+      "limitation": "Elevation editions are not fire-date measurements. Display is resampled; no extra spatial detail is created. Census water is not date-matched; invalid water polygons are omitted and listed in the water source record. This is terrain, not a watershed or a debris-flow estimate.",
+      "analysisMask": "Rectangle extending 3 km past each edge of the verified fire boundary's projected bounding box"
+    },
+    "imagery": {
+      "status": "not_checked",
+      "reason": "No verified fire-level dated imagery archive has been retrieved. MTBS maps are checked separately."
+    },
+    "boundarySource": {
+      "status": "available",
+      "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10033844",
+      "retrievedAt": "2026-10-21T23:06:02.340344+00:00",
+      "bytes": 28326,
+      "sha256": "54451b4b982aabce4a7e67296849ff52f6c36dd9b61f19f072285fb47c4a1eb4",
+      "displayFootprintChoice": {
+        "policy": {
+          "useVerifiedMtbsBoundaryExtent": true,
+          "approvedAt": "2026-10-21",
+          "reason": "User approved the exact verified MTBS boundary extent for new ground products without an established raster footprint. No padding; area statistics remain within that MTBS boundary. Existing footprints and reviewed values are retained."
+        },
+        "mapId": 10033844,
+        "bounds": [
+          -121.2001,
+          36.3135,
+          -121.1656,
+          36.342
+        ],
+        "padding": 0
+      }
+    }
+  },
+  "hrrr": {
+    "status": "available",
+    "caseId": "frap:2024:9984fddf-a134-4923-9080-35786eded0fb",
+    "manifest": "/data/waves/hrrr-frap-2024-9984fddf-a134-4923-9080-35786eded0fb/manifest.json",
+    "forecastLeadHours": 1,
+    "timezone": "America/Los_Angeles",
+    "reason": "Archived NOAA model frames prepared."
+  }
+}

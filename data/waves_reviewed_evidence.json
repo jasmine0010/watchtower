@@ -1,0 +1,368 @@
+{
+  "note": "Reviewed transcriptions for the original Eaton replay only. These are not defaults for other fires.",
+  "health": [
+    {
+      "value": 0.52,
+      "sourceUrl": "https://www.cdc.gov/mmwr/volumes/74/wr/mm7403a2.htm",
+      "retrievedAt": "2026-10-18T19:57:31.903877-07:00",
+      "bytes": 99825,
+      "sha256": "f865a9f39edc9630c8b2a7b179f2b216c3485c085a5468cfd493df0b932c5814",
+      "dataClass": "Historical",
+      "title": "LA County / wildfire-associated ED encounters",
+      "unit": "%",
+      "baseline": 0.06,
+      "period": "Jan 7-12, 2025",
+      "publicationDate": "2025-02-06",
+      "ci": null
+    },
+    {
+      "value": -9,
+      "sourceUrl": "https://www.cdc.gov/mmwr/volumes/74/wr/mm7403a2.htm",
+      "retrievedAt": "2026-10-18T19:57:31.903877-07:00",
+      "bytes": 99825,
+      "sha256": "f865a9f39edc9630c8b2a7b179f2b216c3485c085a5468cfd493df0b932c5814",
+      "dataClass": "Historical",
+      "title": "LA County / all-cause ED encounters",
+      "unit": "% change",
+      "period": "Jan 7-12, 2025 vs Dec 17-Jan 6",
+      "publicationDate": "2025-02-06",
+      "ci": null
+    },
+    {
+      "value": 15.17,
+      "sourceUrl": "https://doi.org/10.1088/2752-5309/ad976d",
+      "retrievedAt": "2026-10-18T19:57:50.05805-07:00",
+      "bytes": 7228,
+      "sha256": "a3cda08978bd42962f0523073022fdccb8956563885986d9d14494998a8b9c8b",
+      "dataClass": "Historical",
+      "retrievalUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:39670153%20AND%20SRC:MED&format=json&resultType=core",
+      "title": "California / respiratory ED visits",
+      "unit": "% increase",
+      "period": "May-Nov 2012-2019",
+      "publicationDate": "2024-11-26",
+      "ci": [
+        12.86,
+        17.52
+      ],
+      "contrast": "Seven-day cumulative association; 95th percentile wildfire PM2.5 versus no exposure; not an Eaton estimate"
+    },
+    {
+      "value": 1.04,
+      "sourceUrl": "https://doi.org/10.1088/2752-5309/ad976d",
+      "retrievedAt": "2026-10-18T19:57:50.05805-07:00",
+      "bytes": 7228,
+      "sha256": "a3cda08978bd42962f0523073022fdccb8956563885986d9d14494998a8b9c8b",
+      "dataClass": "Historical",
+      "retrievalUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:39670153%20AND%20SRC:MED&format=json&resultType=core",
+      "title": "California / all-cause ED visits",
+      "unit": "% increase",
+      "period": "May-Nov 2012-2019",
+      "publicationDate": "2024-11-26",
+      "ci": [
+        0.32,
+        1.71
+      ],
+      "contrast": "Seven-day cumulative association; 95th percentile wildfire PM2.5 versus no exposure; not an Eaton estimate"
+    }
+  ],
+  "grids": [
+    {
+      "value": 16.3,
+      "sourceUrl": "https://publichealth.lacounty.gov/media/wildfire/docs/Roux_Community_Soil_Sampling_and_Human_Health_Screening_Report_Eaton_and_Palisades_Fire_Regions.pdf",
+      "retrievedAt": "2026-10-18T19:57:56.336387-07:00",
+      "bytes": 49759705,
+      "sha256": "49ad1926a16d2d0fdcba12ccb1a5b96eb4fa4a947d1da9e71387ef9275a2357b",
+      "dataClass": "Historical",
+      "id": "C1",
+      "unit": "mg/kg",
+      "statistic": "Geometric mean"
+    },
+    {
+      "value": 59.2,
+      "sourceUrl": "https://publichealth.lacounty.gov/media/wildfire/docs/Roux_Community_Soil_Sampling_and_Human_Health_Screening_Report_Eaton_and_Palisades_Fire_Regions.pdf",
+      "retrievedAt": "2026-10-18T19:57:56.336387-07:00",
+      "bytes": 49759705,
+      "sha256": "49ad1926a16d2d0fdcba12ccb1a5b96eb4fa4a947d1da9e71387ef9275a2357b",
+      "dataClass": "Historical",
+      "id": "C2",
+      "unit": "mg/kg",
+      "statistic": "Geometric mean"
+    },
+    {
+      "value": 90.4,
+      "sourceUrl": "https://publichealth.lacounty.gov/media/wildfire/docs/Roux_Community_Soil_Sampling_and_Human_Health_Screening_Report_Eaton_and_Palisades_Fire_Regions.pdf",
+      "retrievedAt": "2026-10-18T19:57:56.336387-07:00",
+      "bytes": 49759705,
+      "sha256": "49ad1926a16d2d0fdcba12ccb1a5b96eb4fa4a947d1da9e71387ef9275a2357b",
+      "dataClass": "Historical",
+      "id": "D1",
+      "unit": "mg/kg",
+      "statistic": "Geometric mean"
+    },
+    {
+      "value": 65.3,
+      "sourceUrl": "https://publichealth.lacounty.gov/media/wildfire/docs/Roux_Community_Soil_Sampling_and_Human_Health_Screening_Report_Eaton_and_Palisades_Fire_Regions.pdf",
+      "retrievedAt": "2026-10-18T19:57:56.336387-07:00",
+      "bytes": 49759705,
+      "sha256": "49ad1926a16d2d0fdcba12ccb1a5b96eb4fa4a947d1da9e71387ef9275a2357b",
+      "dataClass": "Historical",
+      "id": "D2",
+      "unit": "mg/kg",
+      "statistic": "Geometric mean"
+    },
+    {
+      "value": 65.6,
+      "sourceUrl": "https://publichealth.lacounty.gov/media/wildfire/docs/Roux_Community_Soil_Sampling_and_Human_Health_Screening_Report_Eaton_and_Palisades_Fire_Regions.pdf",
+      "retrievedAt": "2026-10-18T19:57:56.336387-07:00",
+      "bytes": 49759705,
+      "sha256": "49ad1926a16d2d0fdcba12ccb1a5b96eb4fa4a947d1da9e71387ef9275a2357b",
+      "dataClass": "Historical",
+      "id": "D3",
+      "unit": "mg/kg",
+      "statistic": "Geometric mean"
+    },
+    {
+      "value": 44.5,
+      "sourceUrl": "https://publichealth.lacounty.gov/media/wildfire/docs/Roux_Community_Soil_Sampling_and_Human_Health_Screening_Report_Eaton_and_Palisades_Fire_Regions.pdf",
+      "retrievedAt": "2026-10-18T19:57:56.336387-07:00",
+      "bytes": 49759705,
+      "sha256": "49ad1926a16d2d0fdcba12ccb1a5b96eb4fa4a947d1da9e71387ef9275a2357b",
+      "dataClass": "Historical",
+      "id": "D4",
+      "unit": "mg/kg",
+      "statistic": "Geometric mean"
+    },
+    {
+      "value": 98,
+      "sourceUrl": "https://publichealth.lacounty.gov/media/wildfire/docs/Roux_Community_Soil_Sampling_and_Human_Health_Screening_Report_Eaton_and_Palisades_Fire_Regions.pdf",
+      "retrievedAt": "2026-10-18T19:57:56.336387-07:00",
+      "bytes": 49759705,
+      "sha256": "49ad1926a16d2d0fdcba12ccb1a5b96eb4fa4a947d1da9e71387ef9275a2357b",
+      "dataClass": "Historical",
+      "id": "E1",
+      "unit": "mg/kg",
+      "statistic": "Geometric mean"
+    },
+    {
+      "value": 86.7,
+      "sourceUrl": "https://publichealth.lacounty.gov/media/wildfire/docs/Roux_Community_Soil_Sampling_and_Human_Health_Screening_Report_Eaton_and_Palisades_Fire_Regions.pdf",
+      "retrievedAt": "2026-10-18T19:57:56.336387-07:00",
+      "bytes": 49759705,
+      "sha256": "49ad1926a16d2d0fdcba12ccb1a5b96eb4fa4a947d1da9e71387ef9275a2357b",
+      "dataClass": "Historical",
+      "id": "E2",
+      "unit": "mg/kg",
+      "statistic": "Geometric mean"
+    },
+    {
+      "value": 80.2,
+      "sourceUrl": "https://publichealth.lacounty.gov/media/wildfire/docs/Roux_Community_Soil_Sampling_and_Human_Health_Screening_Report_Eaton_and_Palisades_Fire_Regions.pdf",
+      "retrievedAt": "2026-10-18T19:57:56.336387-07:00",
+      "bytes": 49759705,
+      "sha256": "49ad1926a16d2d0fdcba12ccb1a5b96eb4fa4a947d1da9e71387ef9275a2357b",
+      "dataClass": "Historical",
+      "id": "E3",
+      "unit": "mg/kg",
+      "statistic": "Geometric mean"
+    },
+    {
+      "value": 66.6,
+      "sourceUrl": "https://publichealth.lacounty.gov/media/wildfire/docs/Roux_Community_Soil_Sampling_and_Human_Health_Screening_Report_Eaton_and_Palisades_Fire_Regions.pdf",
+      "retrievedAt": "2026-10-18T19:57:56.336387-07:00",
+      "bytes": 49759705,
+      "sha256": "49ad1926a16d2d0fdcba12ccb1a5b96eb4fa4a947d1da9e71387ef9275a2357b",
+      "dataClass": "Historical",
+      "id": "E4",
+      "unit": "mg/kg",
+      "statistic": "Geometric mean"
+    },
+    {
+      "value": 58.8,
+      "sourceUrl": "https://publichealth.lacounty.gov/media/wildfire/docs/Roux_Community_Soil_Sampling_and_Human_Health_Screening_Report_Eaton_and_Palisades_Fire_Regions.pdf",
+      "retrievedAt": "2026-10-18T19:57:56.336387-07:00",
+      "bytes": 49759705,
+      "sha256": "49ad1926a16d2d0fdcba12ccb1a5b96eb4fa4a947d1da9e71387ef9275a2357b",
+      "dataClass": "Historical",
+      "id": "E5",
+      "unit": "mg/kg",
+      "statistic": "Geometric mean"
+    },
+    {
+      "value": 137.4,
+      "sourceUrl": "https://publichealth.lacounty.gov/media/wildfire/docs/Roux_Community_Soil_Sampling_and_Human_Health_Screening_Report_Eaton_and_Palisades_Fire_Regions.pdf",
+      "retrievedAt": "2026-10-18T19:57:56.336387-07:00",
+      "bytes": 49759705,
+      "sha256": "49ad1926a16d2d0fdcba12ccb1a5b96eb4fa4a947d1da9e71387ef9275a2357b",
+      "dataClass": "Historical",
+      "id": "F1",
+      "unit": "mg/kg",
+      "statistic": "Geometric mean"
+    },
+    {
+      "value": 167,
+      "sourceUrl": "https://publichealth.lacounty.gov/media/wildfire/docs/Roux_Community_Soil_Sampling_and_Human_Health_Screening_Report_Eaton_and_Palisades_Fire_Regions.pdf",
+      "retrievedAt": "2026-10-18T19:57:56.336387-07:00",
+      "bytes": 49759705,
+      "sha256": "49ad1926a16d2d0fdcba12ccb1a5b96eb4fa4a947d1da9e71387ef9275a2357b",
+      "dataClass": "Historical",
+      "id": "F2",
+      "unit": "mg/kg",
+      "statistic": "Geometric mean"
+    },
+    {
+      "value": 130.9,
+      "sourceUrl": "https://publichealth.lacounty.gov/media/wildfire/docs/Roux_Community_Soil_Sampling_and_Human_Health_Screening_Report_Eaton_and_Palisades_Fire_Regions.pdf",
+      "retrievedAt": "2026-10-18T19:57:56.336387-07:00",
+      "bytes": 49759705,
+      "sha256": "49ad1926a16d2d0fdcba12ccb1a5b96eb4fa4a947d1da9e71387ef9275a2357b",
+      "dataClass": "Historical",
+      "id": "F3",
+      "unit": "mg/kg",
+      "statistic": "Geometric mean"
+    },
+    {
+      "value": 98.5,
+      "sourceUrl": "https://publichealth.lacounty.gov/media/wildfire/docs/Roux_Community_Soil_Sampling_and_Human_Health_Screening_Report_Eaton_and_Palisades_Fire_Regions.pdf",
+      "retrievedAt": "2026-10-18T19:57:56.336387-07:00",
+      "bytes": 49759705,
+      "sha256": "49ad1926a16d2d0fdcba12ccb1a5b96eb4fa4a947d1da9e71387ef9275a2357b",
+      "dataClass": "Historical",
+      "id": "F4",
+      "unit": "mg/kg",
+      "statistic": "Geometric mean"
+    },
+    {
+      "value": 76.8,
+      "sourceUrl": "https://publichealth.lacounty.gov/media/wildfire/docs/Roux_Community_Soil_Sampling_and_Human_Health_Screening_Report_Eaton_and_Palisades_Fire_Regions.pdf",
+      "retrievedAt": "2026-10-18T19:57:56.336387-07:00",
+      "bytes": 49759705,
+      "sha256": "49ad1926a16d2d0fdcba12ccb1a5b96eb4fa4a947d1da9e71387ef9275a2357b",
+      "dataClass": "Historical",
+      "id": "F5",
+      "unit": "mg/kg",
+      "statistic": "Geometric mean"
+    },
+    {
+      "value": 29.7,
+      "sourceUrl": "https://publichealth.lacounty.gov/media/wildfire/docs/Roux_Community_Soil_Sampling_and_Human_Health_Screening_Report_Eaton_and_Palisades_Fire_Regions.pdf",
+      "retrievedAt": "2026-10-18T19:57:56.336387-07:00",
+      "bytes": 49759705,
+      "sha256": "49ad1926a16d2d0fdcba12ccb1a5b96eb4fa4a947d1da9e71387ef9275a2357b",
+      "dataClass": "Historical",
+      "id": "F6",
+      "unit": "mg/kg",
+      "statistic": "Geometric mean"
+    },
+    {
+      "value": 30.9,
+      "sourceUrl": "https://publichealth.lacounty.gov/media/wildfire/docs/Roux_Community_Soil_Sampling_and_Human_Health_Screening_Report_Eaton_and_Palisades_Fire_Regions.pdf",
+      "retrievedAt": "2026-10-18T19:57:56.336387-07:00",
+      "bytes": 49759705,
+      "sha256": "49ad1926a16d2d0fdcba12ccb1a5b96eb4fa4a947d1da9e71387ef9275a2357b",
+      "dataClass": "Historical",
+      "id": "F7",
+      "unit": "mg/kg",
+      "statistic": "Geometric mean"
+    },
+    {
+      "value": 35.3,
+      "sourceUrl": "https://publichealth.lacounty.gov/media/wildfire/docs/Roux_Community_Soil_Sampling_and_Human_Health_Screening_Report_Eaton_and_Palisades_Fire_Regions.pdf",
+      "retrievedAt": "2026-10-18T19:57:56.336387-07:00",
+      "bytes": 49759705,
+      "sha256": "49ad1926a16d2d0fdcba12ccb1a5b96eb4fa4a947d1da9e71387ef9275a2357b",
+      "dataClass": "Historical",
+      "id": "F9",
+      "unit": "mg/kg",
+      "statistic": "Geometric mean"
+    },
+    {
+      "value": 35.5,
+      "sourceUrl": "https://publichealth.lacounty.gov/media/wildfire/docs/Roux_Community_Soil_Sampling_and_Human_Health_Screening_Report_Eaton_and_Palisades_Fire_Regions.pdf",
+      "retrievedAt": "2026-10-18T19:57:56.336387-07:00",
+      "bytes": 49759705,
+      "sha256": "49ad1926a16d2d0fdcba12ccb1a5b96eb4fa4a947d1da9e71387ef9275a2357b",
+      "dataClass": "Historical",
+      "id": "F10",
+      "unit": "mg/kg",
+      "statistic": "Geometric mean"
+    },
+    {
+      "value": 83.8,
+      "sourceUrl": "https://publichealth.lacounty.gov/media/wildfire/docs/Roux_Community_Soil_Sampling_and_Human_Health_Screening_Report_Eaton_and_Palisades_Fire_Regions.pdf",
+      "retrievedAt": "2026-10-18T19:57:56.336387-07:00",
+      "bytes": 49759705,
+      "sha256": "49ad1926a16d2d0fdcba12ccb1a5b96eb4fa4a947d1da9e71387ef9275a2357b",
+      "dataClass": "Historical",
+      "id": "G5",
+      "unit": "mg/kg",
+      "statistic": "Geometric mean"
+    },
+    {
+      "value": 55.2,
+      "sourceUrl": "https://publichealth.lacounty.gov/media/wildfire/docs/Roux_Community_Soil_Sampling_and_Human_Health_Screening_Report_Eaton_and_Palisades_Fire_Regions.pdf",
+      "retrievedAt": "2026-10-18T19:57:56.336387-07:00",
+      "bytes": 49759705,
+      "sha256": "49ad1926a16d2d0fdcba12ccb1a5b96eb4fa4a947d1da9e71387ef9275a2357b",
+      "dataClass": "Historical",
+      "id": "G6",
+      "unit": "mg/kg",
+      "statistic": "Geometric mean"
+    },
+    {
+      "value": 96.4,
+      "sourceUrl": "https://publichealth.lacounty.gov/media/wildfire/docs/Roux_Community_Soil_Sampling_and_Human_Health_Screening_Report_Eaton_and_Palisades_Fire_Regions.pdf",
+      "retrievedAt": "2026-10-18T19:57:56.336387-07:00",
+      "bytes": 49759705,
+      "sha256": "49ad1926a16d2d0fdcba12ccb1a5b96eb4fa4a947d1da9e71387ef9275a2357b",
+      "dataClass": "Historical",
+      "id": "G8",
+      "unit": "mg/kg",
+      "statistic": "Geometric mean"
+    }
+  ],
+  "county": {
+    "value": 10,
+    "sourceUrl": "https://content.govdelivery.com/accounts/CALACOUNTY/bulletins/3f26c76",
+    "retrievedAt": "2026-10-18T19:57:50.520144-07:00",
+    "bytes": 29653,
+    "sha256": "9e0335d1b30d3122d1f9902b86d827dc66f30039e887f9e04466912c13626b51",
+    "dataClass": "Historical",
+    "total": 23,
+    "screeningMgKg": 80,
+    "date": "2025-09-12",
+    "title": "23 of 70 Eaton grids, those containing intact-home parcels",
+    "measurementPeriod": "2025-02-18 to 2025-03-26",
+    "publicationDate": "2025-09-12",
+    "reportDate": "2025-09-05"
+  },
+  "followup": [
+    {
+      "value": 95,
+      "sourceUrl": "https://www.epa.gov/newsreleases/epas-eaton-fire-soil-sampling-confirms-federal-cleanup-protocols-effectively",
+      "retrievedAt": "2026-10-18T19:57:50.885182-07:00",
+      "bytes": 57486,
+      "sha256": "6b746e083281a0a2313a99cdb6d8bf3ff13a98fab15e32db3f8abb128b4e1083",
+      "dataClass": "Historical",
+      "title": "Surface / 0-1 inch",
+      "unit": "% below 200 mg/kg",
+      "total": 100,
+      "date": "2026-05-19",
+      "publicationDate": "2026-05-19",
+      "measurementPeriod": null
+    },
+    {
+      "value": 98,
+      "sourceUrl": "https://www.epa.gov/newsreleases/epas-eaton-fire-soil-sampling-confirms-federal-cleanup-protocols-effectively",
+      "retrievedAt": "2026-10-18T19:57:50.885182-07:00",
+      "bytes": 57486,
+      "sha256": "6b746e083281a0a2313a99cdb6d8bf3ff13a98fab15e32db3f8abb128b4e1083",
+      "dataClass": "Historical",
+      "title": "Subsurface / 6-7 inches",
+      "unit": "% below 200 mg/kg",
+      "total": 100,
+      "date": "2026-05-19",
+      "publicationDate": "2026-05-19",
+      "measurementPeriod": null
+    }
+  ]
+}

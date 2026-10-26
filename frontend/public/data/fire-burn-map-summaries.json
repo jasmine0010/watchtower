@@ -1,0 +1,820 @@
+{
+  "schemaVersion": 1,
+  "builtAt": "2026-10-22T23:50:54.966Z",
+  "scopeBuiltAt": "2026-10-22T00:28:26.804886+00:00",
+  "eligibleFireCount": 177,
+  "nativeSummaryCount": 157,
+  "method": "Categorical MTBS WMS pixels clipped to the exact verified boundary; Web Mercator pixels weighted by ground area.",
+  "validation": [
+    {
+      "mapId": 10007754,
+      "name": "UKONOM",
+      "mapAreaKm2": 17.0311191715521,
+      "nativeAreaKm2": 17.118,
+      "largestShareDifferencePoints": 1.3931195735597655
+    },
+    {
+      "mapId": 10021937,
+      "name": "MOJAVE",
+      "mapAreaKm2": 10.069375092106126,
+      "nativeAreaKm2": 10.1178,
+      "largestShareDifferencePoints": 1.0277050982960874
+    },
+    {
+      "mapId": 10030149,
+      "name": "CORRAL",
+      "mapAreaKm2": 65.0696230577896,
+      "nativeAreaKm2": 65.3013,
+      "largestShareDifferencePoints": 0.494818203987327
+    }
+  ],
+  "records": [
+    {
+      "fireId": "frap:2025:484d5bef-ccd9-4d01-9667-880c6562630b",
+      "mapId": 10035545,
+      "eventId": "CA3352711678820250716",
+      "ignition": "2025-07-16",
+      "postId": "904003720250803",
+      "updatedAt": "2026-07-20T17:12:04Z",
+      "geometrySha256": "86e6775b3687b1f00d371602732c01572f577320292c144f5136f709eb7781fc",
+      "boundarySource": {
+        "status": "available",
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10035545",
+        "retrievedAt": "2026-10-21T23:03:11.499505+00:00",
+        "bytes": 7366,
+        "sha256": "01257f7ecf9d19ac808ac952ef8c9c0abe9a19becf9485e5093af07f27de5f86"
+      },
+      "source": {
+        "url": "https://edcintl.cr.usgs.gov/geoserver/wms?service=WMS&version=1.1.1&request=GetMap&layers=mtbs%3Amtbs_CONUS_2025&styles=&format=image%2Fpng&transparent=true&srs=EPSG%3A3857&bbox=-13000635.9754268%2C3963235.2965642465%2C-12992921.534714831%2C3964543.7762311455&width=1536&height=261",
+        "retrievedAt": "2026-10-22T23:45:10.832Z",
+        "sha256": "f68c370246fcf8956eeca668e0da55e04313e3b51d968300f31c56ccacab9b08",
+        "width": 1536,
+        "height": 261,
+        "cacheFile": "burn-map-10035545.png"
+      },
+      "status": "available",
+      "area": {
+        "areasKm2": [
+          0.06852314594310525,
+          0.1685121230911849,
+          4.123715419573063,
+          0.09491404651044531,
+          0,
+          0,
+          0
+        ],
+        "unknownAreaKm2": 0,
+        "unknownPercent": 0,
+        "pixelCount": 254573
+      }
+    },
+    {
+      "fireId": "frap:2025:6817a72c-90cf-4cd4-8f26-2b9622f1f140",
+      "mapId": 10034738,
+      "eventId": "CA3609912031120250902",
+      "ignition": "2025-09-02",
+      "postId": "804203520250926",
+      "updatedAt": "2026-07-20T17:09:47Z",
+      "geometrySha256": "2dfbfbd7baa2a97cefce1667fa45b88bb73d92490f5f6ac8a860fe84e38985b1",
+      "boundarySource": {
+        "status": "available",
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10034738",
+        "retrievedAt": "2026-10-21T23:03:17.886910+00:00",
+        "bytes": 75579,
+        "sha256": "b6127d397d97834a792c4a92452c611fa1d8aa64ba79bd082ea0e2b6f929591a"
+      },
+      "source": {
+        "url": "https://edcintl.cr.usgs.gov/geoserver/wms?service=WMS&version=1.1.1&request=GetMap&layers=mtbs%3Amtbs_CONUS_2025&styles=&format=image%2Fpng&transparent=true&srs=EPSG%3A3857&bbox=-13404892.706242574%2C4292011.123839238%2C-13385768.01772429%2C4307668.701992023&width=1536&height=1258",
+        "retrievedAt": "2026-10-22T23:45:27.366Z",
+        "sha256": "b6376e415c0c9bcca07ef524be86d5dc7a05da77cf61dd5383dd1c4352b87535",
+        "width": 1536,
+        "height": 1258,
+        "cacheFile": "burn-map-10034738.png"
+      },
+      "status": "available",
+      "area": {
+        "areasKm2": [
+          0.5218210559495656,
+          13.515894123136105,
+          65.95453822408331,
+          23.060879158209758,
+          4.01399235398354,
+          0.002942623640478525,
+          0
+        ],
+        "unknownAreaKm2": 0,
+        "unknownPercent": 0,
+        "pixelCount": 1055397
+      }
+    },
+    {
+      "fireId": "frap:2025:73730f90-5d60-4850-98c2-2431c4284cd7",
+      "mapId": 10037057,
+      "eventId": "CA3406811855120250107",
+      "ignition": "2025-01-07",
+      "postId": "904103620250420",
+      "updatedAt": "2026-09-16T21:53:29Z",
+      "geometrySha256": "721bd9185bf3962bd0daf81ad3852834727333734e3133620a85d0e8509cb9d7",
+      "boundarySource": {
+        "status": "available",
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10037057",
+        "retrievedAt": "2026-10-21T23:03:18.744769+00:00",
+        "bytes": 29357,
+        "sha256": "4b7273bc5cf1a1b9456cca5e14db6d559dfa9455bbd13b068fbcd1f6de1fd70c"
+      },
+      "source": {
+        "url": "https://edcintl.cr.usgs.gov/geoserver/wms?service=WMS&version=1.1.1&request=GetMap&layers=mtbs%3Amtbs_CONUS_2025&styles=&format=image%2Fpng&transparent=true&srs=EPSG%3A3857&bbox=-13212087.348188626%2C4032817.5725610824%2C-13191248.339512125%2C4046230.891448372&width=1536&height=989",
+        "retrievedAt": "2026-10-22T23:45:28.006Z",
+        "sha256": "7166699c3557db17041704fd51a88ecfc7a51bd57c4f442c166b415797940b2a",
+        "width": 1536,
+        "height": 989,
+        "cacheFile": "burn-map-10037057.png"
+      },
+      "status": "available",
+      "area": {
+        "areasKm2": [
+          0.22761293742426264,
+          9.726816412831031,
+          19.059423237806527,
+          37.17595119834862,
+          31.365069209905727,
+          0.15115499999262308,
+          0.08433470083435443
+        ],
+        "unknownAreaKm2": 0,
+        "unknownPercent": 0,
+        "pixelCount": 774572
+      }
+    },
+    {
+      "fireId": "frap:2025:d8dcb0e7-0ad6-46a4-901a-86d777bb09af",
+      "mapId": 10037055,
+      "eventId": "CA3419211810520250108",
+      "ignition": "2025-01-08",
+      "postId": "904103620250420",
+      "updatedAt": "2026-09-16T21:48:19Z",
+      "geometrySha256": "bd88afa686dfbc31af50441f68cb66bd646b420d4de788ff28421f2d4ecb31cc",
+      "boundarySource": {
+        "status": "available",
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10037055",
+        "retrievedAt": "2026-10-18T21:52:26.111549+00:00",
+        "sha256": "47c1331c503b75a039ca7ae779bac7472d6164870d4153cd86137a7713bed003",
+        "bytes": 25803,
+        "originalReceipt": {
+          "url": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10037055",
+          "retrieved": "2026-10-18T21:52:26.111549+00:00",
+          "bytes": 25803,
+          "sha256": "47c1331c503b75a039ca7ae779bac7472d6164870d4153cd86137a7713bed003"
+        },
+        "importedFrom": "data\\raw\\eaton-runout\\mtbs-eaton.json"
+      },
+      "source": {
+        "url": "https://edcintl.cr.usgs.gov/geoserver/wms?service=WMS&version=1.1.1&request=GetMap&layers=mtbs%3Amtbs_CONUS_2025&styles=&format=image%2Fpng&transparent=true&srs=EPSG%3A3857&bbox=-13153755.93501295%2C4050548.5596146574%2C-13137180.462833833%2C4060616.043119118&width=1536&height=933",
+        "retrievedAt": "2026-10-22T23:45:28.583Z",
+        "sha256": "15fa413b69bd10c8508945fd9a9e18eec970114057eb42ef9a07058aa7d9e1b8",
+        "width": 1536,
+        "height": 933,
+        "cacheFile": "burn-map-10037055.png"
+      },
+      "status": "available",
+      "area": {
+        "areasKm2": [
+          0.22600037691558805,
+          6.521160091291974,
+          15.061279695063359,
+          16.758752411159147,
+          19.58930225208334,
+          0.06127654942116432,
+          0
+        ],
+        "unknownAreaKm2": 0,
+        "unknownPercent": 0,
+        "pixelCount": 730887
+      }
+    },
+    {
+      "fireId": "mtbs:2025:10034741",
+      "mapId": 10034741,
+      "eventId": "CA3622612010420250902",
+      "ignition": "2025-09-02",
+      "postId": "804203520250926",
+      "updatedAt": "2026-07-20T17:09:47Z",
+      "geometrySha256": "89df77d6fd5bacf46e8e08cbda2280e69c8e11709bcac8daad1d630de94d0151",
+      "boundarySource": {
+        "status": "available",
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10034741",
+        "retrievedAt": "2026-10-21T09:53:53.054162+00:00",
+        "bytes": 187655,
+        "sha256": "92b80307206ab15f6c4b52452dbf0e97260733ebe703c1d10adb4a9d75d71fc8"
+      },
+      "source": {
+        "url": "https://edcintl.cr.usgs.gov/geoserver/wms?service=WMS&version=1.1.1&request=GetMap&layers=mtbs%3Amtbs_CONUS_2025&styles=&format=image%2Fpng&transparent=true&srs=EPSG%3A3857&bbox=-13369838.198591774%2C4329803.997996823%2C-13365775.03717782%2C4334868.683332136&width=1232&height=1536",
+        "retrievedAt": "2026-10-22T23:45:29.413Z",
+        "sha256": "a8115e0f2712a9885b6461a0dabe01220f0c2ec4a7b448bc550c65ff33fba003",
+        "width": 1232,
+        "height": 1536,
+        "cacheFile": "burn-map-10034741.png"
+      },
+      "status": "available",
+      "area": {
+        "areasKm2": [
+          0.0993346478264237,
+          0.4142788085766464,
+          3.7019665235931547,
+          0,
+          0,
+          0,
+          0
+        ],
+        "unknownAreaKm2": 0,
+        "unknownPercent": 0,
+        "pixelCount": 595848
+      }
+    },
+    {
+      "fireId": "frap:2024:0d30178b-3237-4c2a-baf1-62eb7e4add69",
+      "mapId": 10033676,
+      "eventId": "CA3475611940920240724",
+      "ignition": "2024-07-24",
+      "postId": "804203620240806",
+      "updatedAt": "2026-02-13T22:20:59Z",
+      "geometrySha256": "97cb01132ae2789ac3440aa4fe97a412d5fa613a9356e0a0dcbab7ebb8977a91",
+      "boundarySource": {
+        "status": "available",
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10033676",
+        "retrievedAt": "2026-10-21T23:03:22.779489+00:00",
+        "bytes": 5199,
+        "sha256": "766aa50d3a211e8bd04c4fe02948353b6af8b489e249a96bf37dbe712c2a9568"
+      },
+      "source": {
+        "url": "https://edcintl.cr.usgs.gov/geoserver/wms?service=WMS&version=1.1.1&request=GetMap&layers=mtbs%3Amtbs_CONUS_2024&styles=&format=image%2Fpng&transparent=true&srs=EPSG%3A3857&bbox=-13293818.118329048%2C4129593.02992614%2C-13288296.671585701%2C4132899.204380068&width=1536&height=920",
+        "retrievedAt": "2026-10-22T23:45:29.973Z",
+        "sha256": "e79f7266fe13bdd605b25b8fc3a973a130000c20222249b88b30c1a353031bc4",
+        "width": 1536,
+        "height": 920,
+        "cacheFile": "burn-map-10033676.png"
+      },
+      "status": "available",
+      "area": {
+        "areasKm2": [
+          0.06848037548796256,
+          0.12747346458115455,
+          1.1942739672147065,
+          4.24554223208406,
+          0.5209490276102345,
+          0,
+          0
+        ],
+        "unknownAreaKm2": 0,
+        "unknownPercent": 0,
+        "pixelCount": 706093
+      }
+    },
+    {
+      "fireId": "frap:2024:2e6ff118-242b-42bd-8ac9-bd5309a3d5f4",
+      "mapId": 10034725,
+      "eventId": "CA4076612364320240716",
+      "ignition": "2024-07-16",
+      "postId": "804503220250627",
+      "updatedAt": "2026-07-20T17:09:45Z",
+      "geometrySha256": "196320db091a1201d35db7b592a76680bada4c0d2bab30492d219c6be00d33aa",
+      "boundarySource": {
+        "status": "available",
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10034725",
+        "retrievedAt": "2026-10-21T23:05:09.632315+00:00",
+        "bytes": 38850,
+        "sha256": "2c6784079a6cdb305a7753df7129e58f3af76a552d7297cb20c545aaa0f2d7fb"
+      },
+      "source": {
+        "url": "https://edcintl.cr.usgs.gov/geoserver/wms?service=WMS&version=1.1.1&request=GetMap&layers=mtbs%3Amtbs_CONUS_2024&styles=&format=image%2Fpng&transparent=true&srs=EPSG%3A3857&bbox=-13769185.739863563%2C4974963.2969858665%2C-13759333.964928357%2C4987063.556780771&width=1251&height=1536",
+        "retrievedAt": "2026-10-22T23:45:30.740Z",
+        "sha256": "5c1f7b311b73eb6e79764a017f742840e29a0695f43dd319d2ada0945c67055c",
+        "width": 1251,
+        "height": 1536,
+        "cacheFile": "burn-map-10034725.png"
+      },
+      "status": "available",
+      "area": {
+        "areasKm2": [
+          0.17151013860459674,
+          3.21201532076414,
+          10.693604840693101,
+          5.774475462819966,
+          9.07349623893767,
+          0.028040972580257683,
+          0
+        ],
+        "unknownAreaKm2": 0,
+        "unknownPercent": 0,
+        "pixelCount": 813927
+      }
+    },
+    {
+      "fireId": "frap:2024:4aa4ff07-8ae0-4290-a0c0-b9d0549f8fce",
+      "mapId": 10033698,
+      "eventId": "CA3504811932820240502",
+      "ignition": "2024-05-02",
+      "postId": "904203620240526",
+      "updatedAt": "2026-02-13T22:20:05Z",
+      "geometrySha256": "69007fcd1ba63e6f38d748bebe27e05649d36ec4f4955df030052b0733f50089",
+      "boundarySource": {
+        "status": "available",
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10033698",
+        "retrievedAt": "2026-10-21T23:05:11.865160+00:00",
+        "bytes": 3194,
+        "sha256": "cb1431f79c6aeab0d644907c7d3f8fa3ed11ba28ef928410be660ca6a140638a"
+      },
+      "source": {
+        "url": "https://edcintl.cr.usgs.gov/geoserver/wms?service=WMS&version=1.1.1&request=GetMap&layers=mtbs%3Amtbs_CONUS_2024&styles=&format=image%2Fpng&transparent=true&srs=EPSG%3A3857&bbox=-13284623.128389524%2C4165620.7490152605%2C-13280782.605957152%2C4170378.8719277414&width=1240&height=1536",
+        "retrievedAt": "2026-10-22T23:45:31.458Z",
+        "sha256": "5925067611fd7d72a4ea4e61be08f16aa83be71f2d8e54862cbd47be438b1f1a",
+        "width": 1240,
+        "height": 1536,
+        "cacheFile": "burn-map-10033698.png"
+      },
+      "status": "available",
+      "area": {
+        "areasKm2": [
+          0.06330329063699455,
+          0.15104828631426798,
+          5.961983182382059,
+          0,
+          0,
+          0,
+          0
+        ],
+        "unknownAreaKm2": 0,
+        "unknownPercent": 0,
+        "pixelCount": 960116
+      }
+    },
+    {
+      "fireId": "frap:2024:5181b3f1-ebe7-45ca-adb9-91c670336044",
+      "mapId": 10033784,
+      "eventId": "CA3671612125520240702",
+      "ignition": "2024-07-02",
+      "postId": "B10SFF20240704_30m",
+      "updatedAt": "2026-02-13T22:19:59Z",
+      "geometrySha256": "e17db26926cbc42911f94f6206ed81ab3090a926377dc429dd9d3002759dd9ad",
+      "boundarySource": {
+        "status": "available",
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10033784",
+        "retrievedAt": "2026-10-21T23:05:18.561518+00:00",
+        "bytes": 37506,
+        "sha256": "23d2503985cf43b69fb53d43674dc1fdedd0ee45a1dfcfb9d68fd7de20044025"
+      },
+      "source": {
+        "url": "https://edcintl.cr.usgs.gov/geoserver/wms?service=WMS&version=1.1.1&request=GetMap&layers=mtbs%3Amtbs_CONUS_2024&styles=&format=image%2Fpng&transparent=true&srs=EPSG%3A3857&bbox=-13497410.335040864%2C4390710.446094901%2C-13492890.763714656%2C4395984.422780841&width=1316&height=1536",
+        "retrievedAt": "2026-10-22T23:45:32.120Z",
+        "sha256": "1bcf9bfed851c13021be055a6f118dbe9c83ead62071a8aa30cbc47baaa5833b",
+        "width": 1316,
+        "height": 1536,
+        "cacheFile": "burn-map-10033784.png"
+      },
+      "status": "available",
+      "area": {
+        "areasKm2": [
+          0.07185122627919877,
+          0.2404587945258955,
+          4.553416123092635,
+          0.46098600959607644,
+          0,
+          0,
+          0.12759374567721946
+        ],
+        "unknownAreaKm2": 0,
+        "unknownPercent": 0,
+        "pixelCount": 718958
+      }
+    },
+    {
+      "fireId": "frap:2024:540bb6c9-9242-4d98-9d4f-b84dad7f9840",
+      "mapId": 10034115,
+      "eventId": "CA3478712005220240705",
+      "ignition": "2024-07-05",
+      "postId": "B11SKU20250420_30m",
+      "updatedAt": "2026-02-13T22:18:35Z",
+      "geometrySha256": "c01735dc07cf3e700b4cfa7e995fb7d30fb05bdd9971862e14e979098b4af101",
+      "boundarySource": {
+        "status": "available",
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10034115",
+        "retrievedAt": "2026-10-21T23:05:25.355785+00:00",
+        "bytes": 83298,
+        "sha256": "57244612976b79f0554f56eba41fd0f8f4d3a11cabd2658b0076b0e79158ecfc"
+      },
+      "source": {
+        "url": "https://edcintl.cr.usgs.gov/geoserver/wms?service=WMS&version=1.1.1&request=GetMap&layers=mtbs%3Amtbs_CONUS_2024&styles=&format=image%2Fpng&transparent=true&srs=EPSG%3A3857&bbox=-13376328.124905024%2C4120397.7869956326%2C-13348064.106192611%2C4142837.162469258&width=1536&height=1219",
+        "retrievedAt": "2026-10-22T23:45:32.858Z",
+        "sha256": "441683edca4a8abeb2e5c0459f308b86f9e76ad5559b16a58542b90f06821d02",
+        "width": 1536,
+        "height": 1219,
+        "cacheFile": "burn-map-10034115.png"
+      },
+      "status": "available",
+      "area": {
+        "areasKm2": [
+          0.3364593702949252,
+          52.12790222780581,
+          53.529564669162326,
+          44.992565393286064,
+          13.888906561125117,
+          1.0945873763055385,
+          0.13322269679374593
+        ],
+        "unknownAreaKm2": 0,
+        "unknownPercent": 0,
+        "pixelCount": 726512
+      }
+    },
+    {
+      "fireId": "frap:2024:5f5c5d8f-4ba8-4fa3-8a5e-d4d3848caac2",
+      "mapId": 10034242,
+      "eventId": "CA3423111775820240908",
+      "ignition": "2024-09-08",
+      "postId": "804003620250608",
+      "updatedAt": "2026-03-31T19:59:27Z",
+      "geometrySha256": "b8ce55af86686b97f4a1ccda4a1013fb4521e395498505f3aaeb52eb0aec357d",
+      "boundarySource": {
+        "status": "available",
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10034242",
+        "retrievedAt": "2026-10-21T23:05:36.380030+00:00",
+        "bytes": 29956,
+        "sha256": "0714a529afb9dc65f49a9c24d3a80f187943b06aaefb70c16fa14c009fc6076a"
+      },
+      "source": {
+        "url": "https://edcintl.cr.usgs.gov/geoserver/wms?service=WMS&version=1.1.1&request=GetMap&layers=mtbs%3Amtbs_CONUS_2024&styles=&format=image%2Fpng&transparent=true&srs=EPSG%3A3857&bbox=-13113001.869433533%2C4055527.3482146063%2C-13093287.187614044%2C4085554.07214868&width=1008&height=1536",
+        "retrievedAt": "2026-10-22T23:45:33.448Z",
+        "sha256": "3ebe683ad578ebc6041afc98ce535213506933039b398b9ea3597c04dfede803",
+        "width": 1008,
+        "height": 1536,
+        "cacheFile": "burn-map-10034242.png"
+      },
+      "status": "available",
+      "area": {
+        "areasKm2": [
+          0.24859606792302708,
+          26.23330504567392,
+          89.66569971804269,
+          89.62562058299723,
+          14.136005940619633,
+          0.08437437673100195,
+          0.029962786388594623
+        ],
+        "unknownAreaKm2": 0,
+        "unknownPercent": 0,
+        "pixelCount": 843349
+      }
+    },
+    {
+      "fireId": "frap:2024:68dacb3c-9e37-485c-82c8-6774bb311b60",
+      "mapId": 10033693,
+      "eventId": "CA3511311948720240605",
+      "ignition": "2024-06-05",
+      "postId": "804203620240619",
+      "updatedAt": "2026-02-13T22:21:20Z",
+      "geometrySha256": "71674d3f14187c8f340ea41cece19198e736b7224a6cc4dbb8aaa0ff01563cb0",
+      "boundarySource": {
+        "status": "available",
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10033693",
+        "retrievedAt": "2026-10-21T23:05:46.106812+00:00",
+        "bytes": 3579,
+        "sha256": "0b5c8c0f8501bfca67ec17f8b098a62aced5eb98a63f514d2d43ae762b28e31d"
+      },
+      "source": {
+        "url": "https://edcintl.cr.usgs.gov/geoserver/wms?service=WMS&version=1.1.1&request=GetMap&layers=mtbs%3Amtbs_CONUS_2024&styles=&format=image%2Fpng&transparent=true&srs=EPSG%3A3857&bbox=-13303580.837671615%2C4174962.191566873%2C-13300308.044642294%2C4179492.969920983&width=1110&height=1536",
+        "retrievedAt": "2026-10-22T23:45:33.993Z",
+        "sha256": "f03165d5832a54c75c70c3725843d02acc0c4015a59200edbe1510883fbe390b",
+        "width": 1110,
+        "height": 1536,
+        "cacheFile": "burn-map-10033693.png"
+      },
+      "status": "available",
+      "area": {
+        "areasKm2": [
+          0.06394072455671286,
+          0.2134125793829313,
+          1.601823470827251,
+          2.7949850644924426,
+          0,
+          0,
+          0
+        ],
+        "unknownAreaKm2": 0,
+        "unknownPercent": 0,
+        "pixelCount": 802868
+      }
+    },
+    {
+      "fireId": "frap:2024:69719aba-43f8-4273-a9d6-62c065765736",
+      "mapId": 10033696,
+      "eventId": "CA3489611954320240528",
+      "ignition": "2024-05-28",
+      "postId": "904203620240611",
+      "updatedAt": "2026-02-13T22:19:40Z",
+      "geometrySha256": "14a9b840311d2a2291e7926bc7ed05ca2df12255a2d6d8ec20b0e87d4809d636",
+      "boundarySource": {
+        "status": "available",
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10033696",
+        "retrievedAt": "2026-10-21T23:05:50.795767+00:00",
+        "bytes": 3736,
+        "sha256": "9c8bef90a3fd95cec426c9a72ac880fc89078f85febe0902703fb9587bfb1a5f"
+      },
+      "source": {
+        "url": "https://edcintl.cr.usgs.gov/geoserver/wms?service=WMS&version=1.1.1&request=GetMap&layers=mtbs%3Amtbs_CONUS_2024&styles=&format=image%2Fpng&transparent=true&srs=EPSG%3A3857&bbox=-13312853.751254696%2C4145143.2733419193%2C-13309347.187294709%2C4149173.328848478&width=1336&height=1536",
+        "retrievedAt": "2026-10-22T23:45:34.686Z",
+        "sha256": "9fef249f0020e67b1ade61a08dad0aae5591504d9df5565d202ac7c6f801a5b0",
+        "width": 1336,
+        "height": 1536,
+        "cacheFile": "burn-map-10033696.png"
+      },
+      "status": "available",
+      "area": {
+        "areasKm2": [
+          0.055751915165004766,
+          0.12211286638246437,
+          3.612076671808827,
+          2.02104629582283,
+          0,
+          0,
+          0
+        ],
+        "unknownAreaKm2": 0,
+        "unknownPercent": 0,
+        "pixelCount": 1253755
+      }
+    },
+    {
+      "fireId": "frap:2024:6d7774fa-ce74-46b3-8e2f-2e9f9dce5c76",
+      "mapId": 10034188,
+      "eventId": "CA3430211759120240707",
+      "ignition": "2024-07-07",
+      "postId": "804103620250701",
+      "updatedAt": "2026-02-13T22:19:07Z",
+      "geometrySha256": "63b6c5ef9b809da947bf56c664e5e7f27e6a550cedf97d8f2809f8f2b21137fd",
+      "boundarySource": {
+        "status": "available",
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10034188",
+        "retrievedAt": "2026-10-21T23:05:52.650961+00:00",
+        "bytes": 15425,
+        "sha256": "763c0b14c40b9795be00b1099f9966f653725a5910ec7eb0cd7166b5c90fd311"
+      },
+      "source": {
+        "url": "https://edcintl.cr.usgs.gov/geoserver/wms?service=WMS&version=1.1.1&request=GetMap&layers=mtbs%3Amtbs_CONUS_2024&styles=&format=image%2Fpng&transparent=true&srs=EPSG%3A3857&bbox=-13094021.896253278%2C4064629.376257581%2C-13087398.386551082%2C4069263.985979727&width=1536&height=1075",
+        "retrievedAt": "2026-10-22T23:45:35.350Z",
+        "sha256": "e88c38a12c24ec86169abb5d1ac423eb3b48d011204552af9ac90c681dee221e",
+        "width": 1536,
+        "height": 1075,
+        "cacheFile": "burn-map-10034188.png"
+      },
+      "status": "available",
+      "area": {
+        "areasKm2": [
+          0.1090249516810907,
+          1.2390129127648857,
+          5.212393419902108,
+          4.3537885302018795,
+          0.7398718938655603,
+          0,
+          0
+        ],
+        "unknownAreaKm2": 0,
+        "unknownPercent": 0,
+        "pixelCount": 918237
+      }
+    },
+    {
+      "fireId": "frap:2024:851b940a-5d46-4301-86a3-ea55e4ac75ee",
+      "mapId": 10035366,
+      "eventId": "CA3545611810320241019",
+      "ignition": "2024-10-19",
+      "postId": "804103520241103",
+      "updatedAt": "2026-07-20T17:11:55Z",
+      "geometrySha256": "d0b8efc67c5d523dbcf3ebc317a57ce42aab0ae84c206c6c2a688806819cb371",
+      "boundarySource": {
+        "status": "available",
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10035366",
+        "retrievedAt": "2026-10-21T23:05:58.294935+00:00",
+        "bytes": 11883,
+        "sha256": "ae81a4ac397ce8a34286cb55625f5664dd6a412506abbb42e787ee13ec2b33a3"
+      },
+      "source": {
+        "url": "https://edcintl.cr.usgs.gov/geoserver/wms?service=WMS&version=1.1.1&request=GetMap&layers=mtbs%3Amtbs_CONUS_2024&styles=&format=image%2Fpng&transparent=true&srs=EPSG%3A3857&bbox=-13153266.129253458%2C4225026.106385353%2C-13146776.202940214%2C4226748.0250229975&width=1536&height=408",
+        "retrievedAt": "2026-10-22T23:45:35.760Z",
+        "sha256": "520af41a64843734e78e6ab7f766b271ec9071869078e9a10ce4da1b58448575",
+        "width": 1536,
+        "height": 408,
+        "cacheFile": "burn-map-10035366.png"
+      },
+      "status": "available",
+      "area": {
+        "areasKm2": [
+          0.050427381288637226,
+          0.052674987944344415,
+          2.9332972151254144,
+          1.0290481292844424,
+          0,
+          0,
+          0
+        ],
+        "unknownAreaKm2": 0,
+        "unknownPercent": 0,
+        "pixelCount": 343603
+      }
+    },
+    {
+      "fireId": "frap:2024:9984fddf-a134-4923-9080-35786eded0fb",
+      "mapId": 10033844,
+      "eventId": "CA3634012120020240723",
+      "ignition": "2024-07-23",
+      "postId": "B10SFF20240727_30m",
+      "updatedAt": "2026-02-13T22:19:05Z",
+      "geometrySha256": "d5e1fd7f8b8156f49938468bcf48649ac7285e8c8d3eb9a1e11e7f100df141ac",
+      "boundarySource": {
+        "status": "available",
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10033844",
+        "retrievedAt": "2026-10-21T23:06:02.340344+00:00",
+        "bytes": 28326,
+        "sha256": "54451b4b982aabce4a7e67296849ff52f6c36dd9b61f19f072285fb47c4a1eb4"
+      },
+      "source": {
+        "url": "https://edcintl.cr.usgs.gov/geoserver/wms?service=WMS&version=1.1.1&request=GetMap&layers=mtbs%3Amtbs_CONUS_2024&styles=&format=image%2Fpng&transparent=true&srs=EPSG%3A3857&bbox=-13491933.416093837%2C4343844.675497971%2C-13488092.893661467%2C4347782.662454294&width=1498&height=1536",
+        "retrievedAt": "2026-10-22T23:45:36.482Z",
+        "sha256": "c29c9d82b0cd92ff724e0e20945080f95565e2942c47971c4b8dc974fdea968e",
+        "width": 1498,
+        "height": 1536,
+        "cacheFile": "burn-map-10033844.png"
+      },
+      "status": "available",
+      "area": {
+        "areasKm2": [
+          0.05905127231882118,
+          0.10469695536456482,
+          3.9050585343798225,
+          0,
+          0,
+          0,
+          0.04591016784567185
+        ],
+        "unknownAreaKm2": 0,
+        "unknownPercent": 0,
+        "pixelCount": 964537
+      }
+    },
+    {
+      "fireId": "frap:2024:a4bf169f-d9aa-4f2b-bd3a-a1ddb11a8105",
+      "mapId": 10034731,
+      "eventId": "CA4125112351820240809",
+      "ignition": "2024-08-09",
+      "postId": "804503220250627",
+      "updatedAt": "2026-07-20T17:09:46Z",
+      "geometrySha256": "6653c90e4c2196694b52d9545ec991cdbae39f06bc4dcbe2e363c90a591565aa",
+      "boundarySource": {
+        "status": "available",
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10034731",
+        "retrievedAt": "2026-10-21T23:06:03.580868+00:00",
+        "bytes": 34287,
+        "sha256": "94f3a47bd53fdbe8fd9b3d59811d2956ee07893ccde5b418f91d60e5ca98ee0c"
+      },
+      "source": {
+        "url": "https://edcintl.cr.usgs.gov/geoserver/wms?service=WMS&version=1.1.1&request=GetMap&layers=mtbs%3Amtbs_CONUS_2024&styles=&format=image%2Fpng&transparent=true&srs=EPSG%3A3857&bbox=-13750651.044646483%2C5042596.710317123%2C-13735867.816269135%2C5055344.49908258&width=1536&height=1325",
+        "retrievedAt": "2026-10-22T23:45:37.300Z",
+        "sha256": "d383b257041f645f6e6c9b49c5c11bf4f262dfc4022356e66c928ebd9e701f07",
+        "width": 1536,
+        "height": 1325,
+        "cacheFile": "burn-map-10034731.png"
+      },
+      "status": "available",
+      "area": {
+        "areasKm2": [
+          0.25854069059752366,
+          6.561077210390698,
+          20.324681118973455,
+          13.458297706015243,
+          12.82500952176805,
+          0,
+          0
+        ],
+        "unknownAreaKm2": 0,
+        "unknownPercent": 0,
+        "pixelCount": 1020677
+      }
+    },
+    {
+      "fireId": "frap:2024:e6920a47-8fae-40d4-9373-ebfc60010315",
+      "mapId": 10034253,
+      "eventId": "CA3496211851520240713",
+      "ignition": "2024-07-13",
+      "postId": "804103620250530",
+      "updatedAt": "2026-07-20T17:08:25Z",
+      "geometrySha256": "7a0bdcfdc513f99279ef65a6c8c1c619428cc260224e67d5824ce26227a26154",
+      "boundarySource": {
+        "status": "available",
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10034253",
+        "retrievedAt": "2026-10-21T23:06:04.903727+00:00",
+        "bytes": 9954,
+        "sha256": "74c7df332e5d0a6df32bcbd3b9c9db6ff9344aeddaf02c9475835727c4237797"
+      },
+      "source": {
+        "url": "https://edcintl.cr.usgs.gov/geoserver/wms?service=WMS&version=1.1.1&request=GetMap&layers=mtbs%3Amtbs_CONUS_2024&styles=&format=image%2Fpng&transparent=true&srs=EPSG%3A3857&bbox=-13199508.245728984%2C4156314.3104620725%2C-13191070.228326857%2C4164084.9899411006&width=1536&height=1415",
+        "retrievedAt": "2026-10-22T23:45:38.011Z",
+        "sha256": "f9fda293d6bf82342efc23743f6f08b7f63484b45b15037d59cd5aedcd875c38",
+        "width": 1536,
+        "height": 1415,
+        "cacheFile": "burn-map-10034253.png"
+      },
+      "status": "available",
+      "area": {
+        "areasKm2": [
+          0.11807099755741407,
+          2.7431292190584142,
+          12.835486761437096,
+          6.477729027692911,
+          1.2732384746382268,
+          0.0393612379717307,
+          0
+        ],
+        "unknownAreaKm2": 0,
+        "unknownPercent": 0,
+        "pixelCount": 1159420
+      }
+    },
+    {
+      "fireId": "mtbs:2024:10033673",
+      "mapId": 10033673,
+      "eventId": "CA3583012081120240517",
+      "ignition": "2024-05-17",
+      "postId": "A10SFE20240523_30m",
+      "updatedAt": "2026-02-13T22:20:08Z",
+      "geometrySha256": "aae35dad309c04ffb9d8711441735762d2c3e97972f9c212f4531cc3e9b424ac",
+      "boundarySource": {
+        "status": "available",
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10033673",
+        "retrievedAt": "2026-10-21T10:37:46.968790+00:00",
+        "bytes": 41145,
+        "sha256": "461d52185e38e58c0b47ca411b1263e6b27e392cc00250ac314c22cc2eb3c8f7"
+      },
+      "source": {
+        "url": "https://edcintl.cr.usgs.gov/geoserver/wms?service=WMS&version=1.1.1&request=GetMap&layers=mtbs%3Amtbs_CONUS_2024&styles=&format=image%2Fpng&transparent=true&srs=EPSG%3A3857&bbox=-13451457.6492414%2C4269829.2097442%2C-13442852.652603082%2C4280632.95602687&width=1223&height=1536",
+        "retrievedAt": "2026-10-22T23:45:38.728Z",
+        "sha256": "be75b4531411cd022bfa3ad60979992014f97a61fece30797261b52c2ed53db2",
+        "width": 1223,
+        "height": 1536,
+        "cacheFile": "burn-map-10033673.png"
+      },
+      "status": "available",
+      "area": {
+        "areasKm2": [
+          0.13606274516079694,
+          2.032668368429806,
+          31.9015736557059,
+          0,
+          0,
+          0,
+          0
+        ],
+        "unknownAreaKm2": 0,
+        "unknownPercent": 0,
+        "pixelCount": 1046961
+      }
+    },
+    {
+      "fireId": "mtbs:2023:10031920",
+      "mapId": 10031920,
+      "eventId": "AZ3281311451120230629",
+      "ignition": "2023-06-29",
+      "postId": "803803720230707",
+      "updatedAt": "2026-02-13T22:19:52Z",
+      "geometrySha256": "6e8910f5af4938f0a3dbf6596bf2249ff8ad0275c87fac4f245c68e2284903ea",
+      "boundarySource": {
+        "status": "available",
+        "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10031920",
+        "retrievedAt": "2026-10-21T23:09:03.031583+00:00",
+        "bytes": 12269,
+        "sha256": "4d894805d56d7d122de141b03dfca6726735fd8748878d415d27e49220a26210"
+      },
+      "source": {
+        "url": "https://edcintl.cr.usgs.gov/geoserver/wms?service=WMS&version=1.1.1&request=GetMap&layers=mtbs%3Amtbs_CONUS_2023&styles=&format=image%2Fpng&transparent=true&srs=EPSG%3A3857&bbox=-12747962.99522423%2C3869899.7951918826%2C-12743654.93093053%2C3877849.263543976&width=832&height=1536",
+        "retrievedAt": "2026-10-22T23:45:39.193Z",
+        "sha256": "d74ea367e61b2dc9035220878615681f897f4b3352dcc2f7db7f328f7e781046",
+        "width": 832,
+        "height": 1536,
+        "cacheFile": "burn-map-10031920.png"
+      },
+      "status": "available",
+      "area": {
+        "areasKm2": [
+          0.10911707433194566,
+          0.5279580905280025,
+          2.79972621151786,
+          0.7078590873566437,
+          0,
+          0.002723000693690819,
+          0
+        ],
+        "unknownAreaKm2": 0,
+        "unknownPercent": 0,
+        "pixelCount": 219223
+      }
+    }
+  ]
+}

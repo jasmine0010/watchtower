@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "assessmentId": "6aa1d60a1ba49bf0b10fe0ad",
+  "name": "MP18",
+  "ignition": "2026-08-07",
+  "assessmentDate": "2026-09-09",
+  "publicationDate": "2026-09-09",
+  "assessmentVersion": "1.0.0",
+  "sourceUrl": "https://www.sciencebase.gov/catalog/item/6aa1d60a1ba49bf0b10fe0ad",
+  "license": "CC0 1.0",
+  "provisional": true,
+  "bounds": [
+    -123.69082695407582,
+    41.09682428402358,
+    -123.60369641921734,
+    41.160396369206914
+  ],
+  "studyBounds": [
+    -123.76347811528994,
+    41.03390477941706,
+    -123.53535117835702,
+    41.217130744019336
+  ],
+  "match": null,
+  "agencyMatch": {
+    "OBJECTID": 724,
+    "fire": "MP18",
+    "lat": 41.12565568688746,
+    "lon": -123.64886590190346,
+    "location": "Hoopa Valley Reservation",
+    "size": 30.7205,
+    "status": "Most Recent Version: 1.0",
+    "disclaimer": null,
+    "Fire_ID": "MP18_2026-08-07_v1.0",
+    "Rainfall": "28mm",
+    "start_date": 1786060800000,
+    "assessment_date": 1788566400000,
+    "download_url": "https://www.sciencebase.gov/catalog/file/get/6a9ccc171ba49b0f97e24bab?f=__disk__54%2F17%2F0f%2F54170f2be7db2f550aaf8dfc1bc646ce228dbab5",
+    "ScienceBaseURL": "https://www.sciencebase.gov/catalog/item/6a9ccc171ba49b0f97e24bab"
+  },
+  "model": "Ursa v1.0.0",
+  "terrain": "USGS National Map 1/3rd arc-second DEM",
+  "depthCutoffMetres": 0.0,
+  "assessmentAgeDays": 33,
+  "sourceCrs": "urn:ogc:def:crs:EPSG::26910",
+  "displayCrs": "EPSG:4326",
+  "scenarios": [
+    {
+      "intensity": 28,
+      "url": "/data/runout/mp18-28-1d1100612fa7.geojson",
+      "bytes": 23651,
+      "sha256": "1d1100612fa7e452e84f2a0707a112ab606f7d77e51456ceb31fbac413a365e9"
+    },
+    {
+      "intensity": 40,
+      "url": "/data/runout/mp18-40-6f0518766775.geojson",
+      "bytes": 151071,
+      "sha256": "6f0518766775434073c83c99de522ee4ec61d30f40100e34c087d4bf39084a0a"
+    },
+    {
+      "intensity": 60,
+      "url": "/data/runout/mp18-60-ea1c9570ec7d.geojson",
+      "bytes": 353846,
+      "sha256": "ea1c9570ec7d8c30631d2a4375b0c7a6d2f4bde3c85675f0ba056772070056b4"
+    },
+    {
+      "intensity": 80,
+      "url": "/data/runout/mp18-80-b3190b06c15e.geojson",
+      "bytes": 372625,
+      "sha256": "b3190b06c15e8e769540e607a9a7709790873dc29f82175ecd7fab418611da86"
+    }
+  ],
+  "sources": {
+    "release": {
+      "url": "https://www.sciencebase.gov/catalog/item/6aa1d60a1ba49bf0b10fe0ad?format=json",
+      "retrieved": "2026-10-18T22:22:19.682644+00:00",
+      "bytes": 11620,
+      "sha256": "a4772ec931f26355a15de84735c8d3b3281d6db1b903ebdb4dc5d1817e48be68"
+    },
+    "locations": {
+      "url": "https://earthquake.usgs.gov/arcgis/rest/services/ls/pwfdf/MapServer/0/query?f=json&where=1%3D1&outFields=%2A&returnGeometry=false&resultRecordCount=2000",
+      "retrieved": "2026-10-18T22:22:48.219590+00:00",
+      "bytes": 420134,
+      "sha256": "85286c45b58c94d9d3c4bb800364f0e0f050300de4650b783c3b10a4eacf988e"
+    },
+    "metadata.json": {
+      "url": "https://www.sciencebase.gov/catalog/file/get/6aa1d60a1ba49bf0b10fe0ad?f=__disk__62%2F37%2Fce%2F6237ce8ff8942bd7a6458c17e32f3008f6043b7b",
+      "retrieved": "2026-10-18T22:22:19.991302+00:00",
+      "bytes": 5272,
+      "sha256": "1255e3b93efc52c3831a0e7c9b6558a7e7553d5e242528df21c157093bf0bf5e"
+    },
+    "GeoJSON.zip": {
+      "url": "https://www.sciencebase.gov/catalog/file/get/6aa1d60a1ba49bf0b10fe0ad?f=__disk__fb%2F5b%2F94%2Ffb5b94db42476c638d38128e0f277dd8a5ce3de8",
+      "retrieved": "2026-10-18T22:22:50.553879+00:00",
+      "bytes": 113881,
+      "sha256": "39bf399624a8cc76554e63ff1202bf3376d4a69ea80eff970f7449ac5040af3b"
+    },
+    "config.yml": {
+      "url": "https://www.sciencebase.gov/catalog/file/get/6aa1d60a1ba49bf0b10fe0ad?f=__disk__9b%2F93%2Fa4%2F9b93a48e731a0a26eb49b2044fe3d64f2e0c94c7",
+      "retrieved": "2026-10-18T22:22:50.776461+00:00",
+      "bytes": 2228,
+      "sha256": "b14b962ad96c5c09df7ba038a04ac3fb46730a1acd1c3ed74e2455c9ce3b7364"
+    },
+    "version.txt": {
+      "url": "https://www.sciencebase.gov/catalog/file/get/6aa1d60a1ba49bf0b10fe0ad?f=__disk__53%2Fd7%2F1c%2F53d71c13f48ee5570217613e6c0278c6d603eddb",
+      "retrieved": "2026-10-18T22:22:50.980822+00:00",
+      "bytes": 1397,
+      "sha256": "6e5ca3fabf15c46024dd2158b9e0d6f5adeccc40fb4348c102b440e4884183f9"
+    },
+    "mtbs": {
+      "url": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=incid_name%3D%27MP18%27",
+      "retrieved": "2026-10-18T22:22:51.258267+00:00",
+      "bytes": 147,
+      "sha256": "e353dc594b39a56223d951ed720190e0883f5e940cd7df7de7f0fe742191981a"
+    }
+  },
+  "audit": {
+    "runoutFeatures": 12,
+    "invalidRunoutFeatures": 0,
+    "basinFeatures": 86,
+    "invalidBasinFeatures": 24,
+    "basinsDisplayed": false,
+    "withinScenarioNested": true,
+    "crossScenarioNested": false,
+    "note": "Fire-level identities only; no watershed crosswalk or live-assessment version join."
+  }
+}

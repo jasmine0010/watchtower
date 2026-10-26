@@ -1,0 +1,1 @@
+{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-124.283,51.812],[-124.418,51.821],[-124.581,51.857],[-124.652,51.907],[-124.531,51.895],[-124.275,51.833],[-124.283,51.812]]]},"properties":{"density":"medium","dateUtc":"2014-11-13","analysisStart":"2014-11-13T21:45:00+00:00","analysisEnd":"2014-11-13T23:45:00+00:00"}}]}

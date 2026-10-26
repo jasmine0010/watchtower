@@ -1,0 +1,5418 @@
+{
+  "schemaVersion": 1,
+  "fireId": "frap:2021:c62f887f-6203-4d10-a59a-d94b56a0b4ec",
+  "checks": {
+    "smoke": {
+      "status": "available",
+      "reason": "",
+      "preparedUrl": "/data/historical-fires/evidence/frap-2021-c62f887f-6203-4d10-a59a-d94b56a0b4ec.json",
+      "scope": {
+        "fireId": "frap:2021:c62f887f-6203-4d10-a59a-d94b56a0b4ec",
+        "boundarySource": {
+          "status": "available",
+          "sourceUrl": "https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/California_Historic_Fire_Perimeters/FeatureServer/0/query?f=geojson&where=GlobalID%3D%27c62f887f-6203-4d10-a59a-d94b56a0b4ec%27&outFields=GlobalID%2CFIRE_NAME%2CYEAR_%2CALARM_DATE&outSR=4326&returnGeometry=true",
+          "retrievedAt": "2026-10-22T00:55:34.840273+00:00",
+          "bytes": 22391,
+          "sha256": "c34e22c475c24c5c5324e25cb1b71a22b7a73028640799b46c8faf7e8c60e1fd",
+          "md5": "3a68b0341684d61e562c033471f0c123"
+        },
+        "spatialRelationship": "nearby ambient monitors; not fire-attributed exposure",
+        "analysisWindow": {
+          "start": "2021-07-28",
+          "end": "2021-08-02",
+          "referenceYears": [
+            2018,
+            2019,
+            2020
+          ],
+          "referenceMonths": [
+            7,
+            8,
+            9
+          ],
+          "minimumHoursPerDay": 18,
+          "referenceSources": [
+            {
+              "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88502_2018.zip",
+              "retrievedAt": "2026-10-21T21:25:46.531141+00:00",
+              "bytes": 2864638,
+              "sha256": "38f6b79cae0a40f1d47f443bb2c2121f2d9fc238f137f8e589ec9c192a443e37",
+              "dataClass": "Observed"
+            },
+            {
+              "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88502_2019.zip",
+              "retrievedAt": "2026-10-21T21:25:50.598602+00:00",
+              "bytes": 2646702,
+              "sha256": "1dcc4d3aeb71c1dd62c315ca846915b75f685f07b5badbaa21fa77c0f28c2c4d",
+              "dataClass": "Observed"
+            },
+            {
+              "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88502_2020.zip",
+              "retrievedAt": "2026-10-21T23:07:30.784116+00:00",
+              "bytes": 2553688,
+              "sha256": "580bce56a7a70e099eabc3b9a8351f9f2170d5ea525cf9f6a5975939f059bb9a",
+              "dataClass": "Observed"
+            }
+          ]
+        },
+        "measurementPeriod": [
+          {
+            "stationId": "06-043-1001",
+            "start": "2021-07-28T00:00:00-08:00",
+            "end": "2021-08-02T23:00:00-08:00",
+            "basis": "first and last supplied hourly measurements; intervening gaps remain missing"
+          },
+          {
+            "stationId": "06-051-0005",
+            "start": "2021-07-28T00:00:00-08:00",
+            "end": "2021-08-02T23:00:00-08:00",
+            "basis": "first and last supplied hourly measurements; intervening gaps remain missing"
+          }
+        ],
+        "periodStatus": "source_supplied",
+        "sourceUrls": [
+          "https://aqs.epa.gov/aqsweb/airdata/hourly_88101_2021.zip",
+          "https://aqs.epa.gov/aqsweb/airdata/hourly_88502_2021.zip"
+        ],
+        "catalogIdentityVerified": true
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-22T00:55:37.085963+00:00"
+    },
+    "hms": {
+      "status": "available",
+      "reason": "Independent NOAA daily-file checks completed",
+      "dayStatuses": {
+        "available": 6
+      },
+      "scope": {
+        "fireId": "frap:2021:c62f887f-6203-4d10-a59a-d94b56a0b4ec",
+        "boundarySource": {
+          "status": "available",
+          "sourceUrl": "https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/California_Historic_Fire_Perimeters/FeatureServer/0/query?f=geojson&where=GlobalID%3D%27c62f887f-6203-4d10-a59a-d94b56a0b4ec%27&outFields=GlobalID%2CFIRE_NAME%2CYEAR_%2CALARM_DATE&outSR=4326&returnGeometry=true",
+          "retrievedAt": "2026-10-22T00:55:34.840273+00:00",
+          "bytes": 22391,
+          "sha256": "c34e22c475c24c5c5324e25cb1b71a22b7a73028640799b46c8faf7e8c60e1fd",
+          "md5": "3a68b0341684d61e562c033471f0c123"
+        },
+        "spatialRelationship": "medium/heavy polygons intersecting the existing fire footprint",
+        "analysisWindow": {
+          "start": "2021-07-28",
+          "end": "2021-08-02"
+        },
+        "measurementPeriod": [
+          {
+            "start": "2021-07-28T11:00:00+00:00",
+            "end": "2021-07-28T21:50:00+00:00"
+          },
+          {
+            "start": "2021-07-29T10:00:00+00:00",
+            "end": "2021-07-29T22:30:00+00:00"
+          },
+          {
+            "start": "2021-07-30T11:00:00+00:00",
+            "end": "2021-07-31T04:10:00+00:00"
+          },
+          {
+            "start": "2021-07-31T13:40:00+00:00",
+            "end": "2021-08-01T06:51:00+00:00"
+          },
+          {
+            "start": "2021-08-01T11:00:00+00:00",
+            "end": "2021-08-02T02:50:00+00:00"
+          },
+          {
+            "start": "2021-08-02T11:50:00+00:00",
+            "end": "2021-08-03T02:00:00+00:00"
+          }
+        ],
+        "periodStatus": "source_supplied",
+        "sourceUrls": [
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2021/07/hms_smoke20210728.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2021/07/hms_smoke20210729.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2021/07/hms_smoke20210730.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2021/07/hms_smoke20210731.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2021/08/hms_smoke20210801.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2021/08/hms_smoke20210802.kml"
+        ],
+        "catalogIdentityVerified": true
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-22T01:19:15.549791+00:00"
+    },
+    "context": {
+      "status": "available",
+      "reason": "Original 3DEP windows processed and checked"
+    },
+    "rain": {
+      "status": "no_match",
+      "sourceUrl": "https://www.usgs.gov/programs/landslide-hazards/science/postfire-debris-flow-hazard-assessment-data",
+      "candidates": [],
+      "reason": "Completed assessment catalog and annual attachment-index search; no verified fire-to-release link. No nearby assessment was substituted.",
+      "scope": {
+        "fireId": "frap:2021:c62f887f-6203-4d10-a59a-d94b56a0b4ec",
+        "catalogIdentityVerified": true
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-22T02:21:08.528761+00:00"
+    },
+    "thresholds": {
+      "status": "no_match",
+      "sourceUrl": "https://www.usgs.gov/programs/landslide-hazards/science/postfire-debris-flow-hazard-assessment-data",
+      "candidates": [],
+      "reason": "Completed assessment catalog and annual attachment-index search; no verified fire-to-release link. No nearby assessment was substituted.",
+      "scope": {
+        "fireId": "frap:2021:c62f887f-6203-4d10-a59a-d94b56a0b4ec",
+        "catalogIdentityVerified": true
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-22T02:25:27.725264+00:00"
+    },
+    "travel": {
+      "status": "no_match",
+      "candidates": [],
+      "sources": [
+        {
+          "sourceUrl": "https://www.sciencebase.gov/catalog/items?filter=parentId%3D6851e986d4be027dac17f0ae&format=json&max=100&offset=0",
+          "retrievedAt": "2026-10-18T22:25:21.238826+00:00",
+          "sha256": "35337b3b272ff46974bb3a5229ca3fac3bd4cf93b920a2dd5172bd81c9d4e8b8",
+          "bytes": 17621,
+          "originalReceipt": {
+            "url": "https://www.sciencebase.gov/catalog/items?filter=parentId%3D6851e986d4be027dac17f0ae&format=json&max=100&offset=0",
+            "retrieved": "2026-10-18T22:25:21.238826+00:00",
+            "bytes": 17621,
+            "sha256": "35337b3b272ff46974bb3a5229ca3fac3bd4cf93b920a2dd5172bd81c9d4e8b8"
+          },
+          "importedFrom": "data\\raw\\runout-catalog\\collection-0.json"
+        }
+      ],
+      "reason": "Complete official runout collection checked; no verified release link for this fire.",
+      "scope": {
+        "fireId": "frap:2021:c62f887f-6203-4d10-a59a-d94b56a0b4ec",
+        "catalogIdentityVerified": true
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-22T02:28:31.300940+00:00"
+    },
+    "recovery": {
+      "status": "checked",
+      "reason": "Products checked separately; power is county/time context."
+    },
+    "water": {
+      "status": "match_unresolved",
+      "reason": "The verified notice catalog has no fire-to-provider link for this record. No complete historical notice registry or service-area crosswalk is supplied; this is not evidence that no notice existed. Unrelated provider pages were not requested.",
+      "notices": [],
+      "failures": [],
+      "completeHistory": false,
+      "scope": {
+        "fireId": "frap:2021:c62f887f-6203-4d10-a59a-d94b56a0b4ec",
+        "boundarySource": null,
+        "spatialRelationship": "Provider notice territory, not the fire footprint or every property inside it.",
+        "measurementPeriod": null,
+        "periodStatus": "not_supplied",
+        "sourceUrls": [],
+        "blockedBy": "provider_link",
+        "indexChecked": "Existing verified provider-notice catalog",
+        "catalogIdentityVerified": true
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-22T02:31:07.809254+00:00"
+    },
+    "power": {
+      "status": "available",
+      "dataClass": "Historical",
+      "relationship": "nearby_time_matched",
+      "unit": "reported customers without power",
+      "sourceUrl": "https://figshare.com/articles/dataset/The_Environment_for_Analysis_of_Geo-Located_Energy_Information_s_Recorded_Electricity_Outages_2014-2022/24237376",
+      "retrievedAt": "2026-10-25T18:17:07.814391+00:00",
+      "license": "CC BY 4.0; ORNL EAGLE-I / DOE-CESER",
+      "seriesUrl": "/data/historical-fires/power/frap-2021-c62f887f-6203-4d10-a59a-d94b56a0b4ec.json",
+      "countyCount": 1,
+      "recordCount": 2831,
+      "scope": {
+        "fireId": "frap:2021:c62f887f-6203-4d10-a59a-d94b56a0b4ec",
+        "boundarySource": {
+          "status": "available",
+          "sourceUrl": "https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/California_Historic_Fire_Perimeters/FeatureServer/0/query?f=geojson&where=GlobalID%3D%27c62f887f-6203-4d10-a59a-d94b56a0b4ec%27&outFields=GlobalID%2CFIRE_NAME%2CYEAR_%2CALARM_DATE&outSR=4326&returnGeometry=true",
+          "retrievedAt": "2026-10-25T17:57:14.141657+00:00",
+          "bytes": 22391,
+          "sha256": "c34e22c475c24c5c5324e25cb1b71a22b7a73028640799b46c8faf7e8c60e1fd",
+          "md5": "3a68b0341684d61e562c033471f0c123"
+        },
+        "spatialRelationship": "County-wide context in counties intersecting the fire; not outages inside the perimeter or attributed to the fire.",
+        "measurementPeriod": [
+          {
+            "countyId": "06109",
+            "start": "2021-07-28T03:45:00+00:00",
+            "end": "2021-09-25T23:45:00+00:00"
+          }
+        ],
+        "periodStatus": "source_supplied",
+        "sourceUrls": [
+          "https://ndownloader.figshare.com/files/42547891"
+        ],
+        "preflightVerified": true,
+        "countyBoundarySource": {
+          "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?f=geojson&where=STATE%3D%2706%27&outFields=STATE%2CCOUNTY%2CGEOID%2CNAME&returnGeometry=true&outSR=4326&resultRecordCount=1000",
+          "retrievedAt": "2026-10-25T17:56:26.362096+00:00",
+          "bytes": 10816969,
+          "sha256": "f51dd64302c7fe4df11c3f9bb11d2b3b13f35cf66bc2b252d49f8b6d572f9b14",
+          "md5": "fca119c0d3d508d9fa76ce3b320fde7a"
+        },
+        "countyIds": [
+          "06109"
+        ],
+        "analysisWindow": {
+          "countyIds": [
+            "06109"
+          ],
+          "start": "2021-07-28T00:00:00+00:00",
+          "endExclusive": "2021-09-26T00:00:00+00:00"
+        },
+        "catalogIdentityVerified": true
+      },
+      "missingRecordCount": 133,
+      "reason": "",
+      "attempts": 1,
+      "checkedAt": "2026-10-25T18:17:56.867717+00:00"
+    },
+    "case_severity": {
+      "status": "no_match",
+      "reason": "The original observation-display crop catalog has no verified severity crop for this fire; fire-wide numeric severity is checked separately",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:28:17.623974+00:00"
+    },
+    "damage": {
+      "status": "match_unresolved",
+      "sourceUrl": "https://publish.data.ca.gov/dataset/cal-fire-damage-inspection-dins-data",
+      "retrievedAt": "2026-10-21T06:13:31.534013+00:00",
+      "reason": "CAL FIRE inspection index checked; no unique exact incident/name/day link was confirmed.",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:14:43.895820+00:00"
+    },
+    "dnbr": {
+      "status": "access_failed",
+      "reason": "Verified MTBS product identity, but the checked original-raster interface requires an emailed processing request; no request sent",
+      "mtbs": {
+        "map_id": 10024041,
+        "incid_name": "TILTILL",
+        "incid_type": "Wildfire",
+        "event_id": "CA3797811972120210731",
+        "ig_date": "2021-07-31Z",
+        "asmt_type": "Extended",
+        "burnbndac": 2829,
+        "burnbndlat": 37.99740593092501,
+        "burnbndlon": -119.7005054862027,
+        "post_id": "804203420220716",
+        "updated_at": "2023-04-17T23:39:03Z",
+        "asmnt_type": "Extended",
+        "pre_id": null
+      },
+      "sources": [
+        {
+          "sourceUrl": "https://burnseverity.cr.usgs.gov/viewer/",
+          "retrievedAt": "2026-10-21T23:10:57.851818+00:00",
+          "bytes": 1722,
+          "sha256": "87f576910f5e586e7a81dccc2d13c966b8f59ccf512c4460bea1048c7bfb1a86"
+        },
+        {
+          "sourceUrl": "https://burnseverity.cr.usgs.gov/viewer/main.e04713e0ed3bd08cbc93.js",
+          "retrievedAt": "2026-10-21T22:44:44.815483+00:00",
+          "bytes": 406661,
+          "sha256": "121491bd66003bea13b40f0df1c483b089cff84614605e1ac43976075c875c25"
+        }
+      ],
+      "baerCheck": {
+        "status": "no_match",
+        "reason": "Checked BAER index has no exact name/day candidate",
+        "sources": [
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=0&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:36.072753+00:00",
+            "bytes": 36489,
+            "sha256": "4bafff091f8a37a9e171970f2af30c730c385835c1cc8b6c9877b1664f9c4fe5"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=100&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:36.937190+00:00",
+            "bytes": 34956,
+            "sha256": "a039830d37ec57767dde8c382436651534eb54909c41265e8a92fdf9f94dfda1"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=200&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:37.999924+00:00",
+            "bytes": 35588,
+            "sha256": "2ce4ee102033e494563df7ba0a442fbda7f3b528b8ac509e13015f3786e4d4c9"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=300&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:38.986579+00:00",
+            "bytes": 34691,
+            "sha256": "43f7a5013359105da9263242194bdd9c54056ea5cb030b373ed1a264ffb64cd8"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=400&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:39.878707+00:00",
+            "bytes": 35592,
+            "sha256": "3f53e644c3b10db1074e58043115b5075e750ec9a89259363bd1ce6b42eb6c83"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=500&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:40.957829+00:00",
+            "bytes": 35208,
+            "sha256": "88cd48b9baa0f3030246d11cf7b760fc2794f45bc7705f398064768acf1241f2"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=600&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:41.979952+00:00",
+            "bytes": 33949,
+            "sha256": "a49ea913284b2441d002035c373f5082d6afd933a3798ee0726bd4075ddd0248"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=700&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:42.761479+00:00",
+            "bytes": 8435,
+            "sha256": "544c283f9a7d2a2e969b3d13571ffac541fd3eb12b02f43bf7de54cbe033d24f"
+          }
+        ]
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:32:16.566408+00:00"
+    },
+    "goes": {
+      "status": "coverage_limited",
+      "reason": "Checked GOES-18 product index does not list this year",
+      "source": {
+        "sourceUrl": "https://noaa-goes18.s3.amazonaws.com/?list-type=2&prefix=ABI-L2-ADPC%2F&delimiter=%2F",
+        "retrievedAt": "2026-10-21T21:49:24.733793+00:00",
+        "bytes": 613,
+        "sha256": "78cb996d56b316b0e4b76246c6a7d71831e7873de7695817d42a10db5cc59736"
+      },
+      "scope": {
+        "fireId": "frap:2021:c62f887f-6203-4d10-a59a-d94b56a0b4ec",
+        "catalogIdentityVerified": true
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-22T02:07:03.711279+00:00"
+    },
+    "health": {
+      "status": "coverage_limited",
+      "reason": "The approved limited-study registry was checked. This fire has no documented study link; regional health findings and other fires' soil results are not transferred.",
+      "scope": "Approved reviewed health and chemical-sampling studies only",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:16:45.278740+00:00"
+    },
+    "imagery": {
+      "status": "access_failed",
+      "reason": "Verified MTBS product identity, but the checked original-raster interface requires an emailed processing request; no request sent",
+      "mtbs": {
+        "map_id": 10024041,
+        "incid_name": "TILTILL",
+        "incid_type": "Wildfire",
+        "event_id": "CA3797811972120210731",
+        "ig_date": "2021-07-31Z",
+        "asmt_type": "Extended",
+        "burnbndac": 2829,
+        "burnbndlat": 37.99740593092501,
+        "burnbndlon": -119.7005054862027,
+        "post_id": "804203420220716",
+        "updated_at": "2023-04-17T23:39:03Z",
+        "asmnt_type": "Extended",
+        "pre_id": null
+      },
+      "sources": [
+        {
+          "sourceUrl": "https://burnseverity.cr.usgs.gov/viewer/",
+          "retrievedAt": "2026-10-21T23:10:57.851818+00:00",
+          "bytes": 1722,
+          "sha256": "87f576910f5e586e7a81dccc2d13c966b8f59ccf512c4460bea1048c7bfb1a86"
+        },
+        {
+          "sourceUrl": "https://burnseverity.cr.usgs.gov/viewer/main.e04713e0ed3bd08cbc93.js",
+          "retrievedAt": "2026-10-21T22:44:44.815483+00:00",
+          "bytes": 406661,
+          "sha256": "121491bd66003bea13b40f0df1c483b089cff84614605e1ac43976075c875c25"
+        }
+      ],
+      "baerCheck": {
+        "status": "no_match",
+        "reason": "Checked BAER index has no exact name/day candidate",
+        "sources": [
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=0&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:36.072753+00:00",
+            "bytes": 36489,
+            "sha256": "4bafff091f8a37a9e171970f2af30c730c385835c1cc8b6c9877b1664f9c4fe5"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=100&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:36.937190+00:00",
+            "bytes": 34956,
+            "sha256": "a039830d37ec57767dde8c382436651534eb54909c41265e8a92fdf9f94dfda1"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=200&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:37.999924+00:00",
+            "bytes": 35588,
+            "sha256": "2ce4ee102033e494563df7ba0a442fbda7f3b528b8ac509e13015f3786e4d4c9"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=300&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:38.986579+00:00",
+            "bytes": 34691,
+            "sha256": "43f7a5013359105da9263242194bdd9c54056ea5cb030b373ed1a264ffb64cd8"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=400&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:39.878707+00:00",
+            "bytes": 35592,
+            "sha256": "3f53e644c3b10db1074e58043115b5075e750ec9a89259363bd1ce6b42eb6c83"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=500&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:40.957829+00:00",
+            "bytes": 35208,
+            "sha256": "88cd48b9baa0f3030246d11cf7b760fc2794f45bc7705f398064768acf1241f2"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=600&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:41.979952+00:00",
+            "bytes": 33949,
+            "sha256": "a49ea913284b2441d002035c373f5082d6afd933a3798ee0726bd4075ddd0248"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=700&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:42.761479+00:00",
+            "bytes": 8435,
+            "sha256": "544c283f9a7d2a2e969b3d13571ffac541fd3eb12b02f43bf7de54cbe033d24f"
+          }
+        ]
+      },
+      "scope": {
+        "fireId": "frap:2021:c62f887f-6203-4d10-a59a-d94b56a0b4ec",
+        "catalogIdentityVerified": true
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-22T01:44:49.179234+00:00"
+    },
+    "measured_rain": {
+      "status": "no_match",
+      "sourceUrl": "https://www.sciencebase.gov/catalog/item/69612c8ed4be02298529c522",
+      "candidates": [],
+      "reason": "Completed public-inventory search; no verified export for this fire. Other inventories are outside this check.",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:21:37.451543+00:00"
+    },
+    "observations": {
+      "status": "no_match",
+      "sourceUrl": "https://www.sciencebase.gov/catalog/item/69612c8ed4be02298529c522",
+      "candidates": [],
+      "reason": "Completed public-inventory search; no verified export for this fire. Other inventories are outside this check.",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:20:31.803255+00:00"
+    },
+    "severity": {
+      "status": "available",
+      "reason": "Numeric MTBS source cells checked",
+      "preparedUrl": "/data/fire-burn-summaries.json",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:14:14.261863+00:00"
+    },
+    "soil": {
+      "status": "coverage_limited",
+      "reason": "The approved limited-study registry was checked. This fire has no documented study link; regional health findings and other fires' soil results are not transferred.",
+      "scope": "Approved reviewed health and chemical-sampling studies only",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:18:08.628831+00:00"
+    },
+    "soil_followup": {
+      "status": "coverage_limited",
+      "reason": "The approved limited-study registry was checked. This fire has no documented study link; regional health findings and other fires' soil results are not transferred.",
+      "scope": "Approved reviewed health and chemical-sampling studies only",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:19:13.070610+00:00"
+    },
+    "unresolved_rain": {
+      "status": "no_match",
+      "sourceUrl": "https://www.sciencebase.gov/catalog/item/69612c8ed4be02298529c522",
+      "candidates": [],
+      "reason": "Completed public-inventory search; no verified export for this fire. Other inventories are outside this check.",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:22:59.988430+00:00"
+    },
+    "hrrr": {
+      "status": "available",
+      "reason": "Archived NOAA model frames prepared.",
+      "fireId": "frap:2021:c62f887f-6203-4d10-a59a-d94b56a0b4ec",
+      "preparedUrl": "/data/historical-fires/evidence/frap-2021-c62f887f-6203-4d10-a59a-d94b56a0b4ec.json",
+      "scope": {
+        "fireId": "frap:2021:c62f887f-6203-4d10-a59a-d94b56a0b4ec",
+        "catalogIdentityVerified": true
+      }
+    }
+  },
+  "smoke": {
+    "status": "available",
+    "epaStatus": "available",
+    "reason": "",
+    "checkedAt": "2026-10-22T00:55:36.869437+00:00",
+    "relationship": "nearby_time_matched",
+    "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88502_2021.zip",
+    "retrievedAt": "2026-10-22T00:55:10.249949+00:00",
+    "bytes": 19211140,
+    "sha256": "227ae022c522586a79f5a98d15117d976f6cac4d09fc9f892294e635c1840fc3",
+    "md5": "d6bb620c79e452bd64dc16811ed8385f",
+    "dataClass": "Observed",
+    "stations": [
+      {
+        "id": "06-043-1001",
+        "parameter": 88502,
+        "poc": 3,
+        "method": 731,
+        "methodName": "Met-One BAM-1020 W/PM2.5 SCC - Beta Attenuation",
+        "longitude": -119.587094,
+        "latitude": 37.748707,
+        "distanceKm": 27.038454568850923,
+        "missingHours": 0,
+        "referenceDayCounts": [
+          82,
+          81,
+          92
+        ],
+        "referenceSources": [
+          {
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88502_2018.zip",
+            "retrievedAt": "2026-10-21T21:25:46.531141+00:00",
+            "bytes": 2864638,
+            "sha256": "38f6b79cae0a40f1d47f443bb2c2121f2d9fc238f137f8e589ec9c192a443e37",
+            "dataClass": "Observed"
+          },
+          {
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88502_2019.zip",
+            "retrievedAt": "2026-10-21T21:25:50.598602+00:00",
+            "bytes": 2646702,
+            "sha256": "1dcc4d3aeb71c1dd62c315ca846915b75f685f07b5badbaa21fa77c0f28c2c4d",
+            "dataClass": "Observed"
+          },
+          {
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88502_2020.zip",
+            "retrievedAt": "2026-10-21T23:07:30.784116+00:00",
+            "bytes": 2553688,
+            "sha256": "580bce56a7a70e099eabc3b9a8351f9f2170d5ea525cf9f6a5975939f059bb9a",
+            "dataClass": "Observed"
+          }
+        ],
+        "thresholdUgM3": 128.9749998,
+        "windowEnd": "2021-08-02",
+        "coverageFraction": 0.9951388888888889,
+        "name": "Yosemite NP-Yosemite Village Vistor Center",
+        "color": "#254c46",
+        "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88502_2021.zip",
+        "retrievedAt": "2026-10-22T00:55:10.249949+00:00",
+        "bytes": 19211140,
+        "sha256": "227ae022c522586a79f5a98d15117d976f6cac4d09fc9f892294e635c1840fc3",
+        "md5": "d6bb620c79e452bd64dc16811ed8385f",
+        "dataClass": "Observed",
+        "series": [
+          {
+            "timestamp": "2021-07-28T00:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T01:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T02:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T03:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T04:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T05:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T06:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T07:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T08:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T09:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T10:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T11:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T12:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T13:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T14:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T15:00:00-08:00",
+            "value": 10.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T16:00:00-08:00",
+            "value": 9.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T17:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T18:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T19:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T20:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T21:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T22:00:00-08:00",
+            "value": 1.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T23:00:00-08:00",
+            "value": 0.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T00:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T01:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T02:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T03:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T04:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T05:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T06:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T07:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T08:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T09:00:00-08:00",
+            "value": 9.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T10:00:00-08:00",
+            "value": 9.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T11:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T12:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T13:00:00-08:00",
+            "value": 13.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T14:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T15:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T16:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T17:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T18:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T19:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T20:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T21:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T22:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T23:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T00:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T01:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T02:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T03:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T04:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T05:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T06:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T07:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T08:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T09:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T10:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T11:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T12:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T13:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T14:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T15:00:00-08:00",
+            "value": 16.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T16:00:00-08:00",
+            "value": 10.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T17:00:00-08:00",
+            "value": 12.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T18:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T19:00:00-08:00",
+            "value": 9.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T20:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T21:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T22:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T23:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T00:00:00-08:00",
+            "value": 14.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T01:00:00-08:00",
+            "value": 9.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T02:00:00-08:00",
+            "value": 10.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T03:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T04:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T05:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T06:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T07:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T08:00:00-08:00",
+            "value": 9.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T09:00:00-08:00",
+            "value": 9.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T10:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T11:00:00-08:00",
+            "value": 12.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T12:00:00-08:00",
+            "value": 11.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T13:00:00-08:00",
+            "value": 11.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T14:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T15:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T16:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T17:00:00-08:00",
+            "value": 11.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T18:00:00-08:00",
+            "value": 14.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T19:00:00-08:00",
+            "value": 12.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T20:00:00-08:00",
+            "value": 10.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T21:00:00-08:00",
+            "value": 10.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T22:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T23:00:00-08:00",
+            "value": 10.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T00:00:00-08:00",
+            "value": 11.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T01:00:00-08:00",
+            "value": 12.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T02:00:00-08:00",
+            "value": 10.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T03:00:00-08:00",
+            "value": 12.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T04:00:00-08:00",
+            "value": 10.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T05:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T06:00:00-08:00",
+            "value": 10.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T07:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T08:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T09:00:00-08:00",
+            "value": 11.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T10:00:00-08:00",
+            "value": 10.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T11:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T12:00:00-08:00",
+            "value": 9.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T13:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T14:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T15:00:00-08:00",
+            "value": 10.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T16:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T17:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T18:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T19:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T20:00:00-08:00",
+            "value": 25.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T21:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T22:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T23:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T00:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T01:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T02:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T03:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T04:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T05:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T06:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T07:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T08:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T09:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T10:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T11:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T12:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T13:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T14:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T15:00:00-08:00",
+            "value": 2.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T16:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T17:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T18:00:00-08:00",
+            "value": 9.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T19:00:00-08:00",
+            "value": 13.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T20:00:00-08:00",
+            "value": 24.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T21:00:00-08:00",
+            "value": 31.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T22:00:00-08:00",
+            "value": 8.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T23:00:00-08:00",
+            "value": 16.0,
+            "qualifier": null,
+            "reason": ""
+          }
+        ],
+        "expectedHours": 144,
+        "negativeHours": 0,
+        "dailyMeans": [
+          {
+            "date": "2021-07-28",
+            "hours": 24,
+            "value": 4.541666666666667,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88502_2021.zip",
+            "retrievedAt": "2026-10-22T00:55:10.249949+00:00",
+            "bytes": 19211140,
+            "sha256": "227ae022c522586a79f5a98d15117d976f6cac4d09fc9f892294e635c1840fc3",
+            "md5": "d6bb620c79e452bd64dc16811ed8385f",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2021-07-29",
+            "hours": 24,
+            "value": 6.5,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88502_2021.zip",
+            "retrievedAt": "2026-10-22T00:55:10.249949+00:00",
+            "bytes": 19211140,
+            "sha256": "227ae022c522586a79f5a98d15117d976f6cac4d09fc9f892294e635c1840fc3",
+            "md5": "d6bb620c79e452bd64dc16811ed8385f",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2021-07-30",
+            "hours": 24,
+            "value": 6.75,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88502_2021.zip",
+            "retrievedAt": "2026-10-22T00:55:10.249949+00:00",
+            "bytes": 19211140,
+            "sha256": "227ae022c522586a79f5a98d15117d976f6cac4d09fc9f892294e635c1840fc3",
+            "md5": "d6bb620c79e452bd64dc16811ed8385f",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2021-07-31",
+            "hours": 24,
+            "value": 9.208333333333334,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88502_2021.zip",
+            "retrievedAt": "2026-10-22T00:55:10.249949+00:00",
+            "bytes": 19211140,
+            "sha256": "227ae022c522586a79f5a98d15117d976f6cac4d09fc9f892294e635c1840fc3",
+            "md5": "d6bb620c79e452bd64dc16811ed8385f",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2021-08-01",
+            "hours": 24,
+            "value": 9.25,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88502_2021.zip",
+            "retrievedAt": "2026-10-22T00:55:10.249949+00:00",
+            "bytes": 19211140,
+            "sha256": "227ae022c522586a79f5a98d15117d976f6cac4d09fc9f892294e635c1840fc3",
+            "md5": "d6bb620c79e452bd64dc16811ed8385f",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2021-08-02",
+            "hours": 24,
+            "value": 7.75,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88502_2021.zip",
+            "retrievedAt": "2026-10-22T00:55:10.249949+00:00",
+            "bytes": 19211140,
+            "sha256": "227ae022c522586a79f5a98d15117d976f6cac4d09fc9f892294e635c1840fc3",
+            "md5": "d6bb620c79e452bd64dc16811ed8385f",
+            "dataClass": "Observed"
+          }
+        ],
+        "nonnegativeSensitivityEnd": "2021-08-02"
+      },
+      {
+        "id": "06-051-0005",
+        "parameter": 88101,
+        "poc": 24,
+        "method": 738,
+        "methodName": "Teledyne T640X at 16.67 LPM (Corrected) - Broadband spectroscopy",
+        "longitude": -119.120278,
+        "latitude": 37.962069,
+        "distanceKm": 49.43051582050377,
+        "missingHours": 3,
+        "referenceDayCounts": [
+          74,
+          90,
+          49
+        ],
+        "referenceSources": [
+          {
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88101_2018.zip",
+            "retrievedAt": "2026-10-21T21:25:08.532706+00:00",
+            "bytes": 6325876,
+            "sha256": "a82e60b1bd486ebd23adacedd4f1822a41cda0985194b3a21898e135cdf468e5",
+            "dataClass": "Observed"
+          },
+          {
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88101_2019.zip",
+            "retrievedAt": "2026-10-21T21:25:30.316044+00:00",
+            "bytes": 7315771,
+            "sha256": "88b9b0b1bbd0c7545ffc07959a5ecbd4c6fbe951c67ea648cef70cafe956af53",
+            "dataClass": "Observed"
+          },
+          {
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88101_2020.zip",
+            "retrievedAt": "2026-10-21T23:07:11.328103+00:00",
+            "bytes": 7911864,
+            "sha256": "18283fe4ffceb53e3091a7fa7de57a2d5b925ce3d56a08d3518021e00212a3ec",
+            "dataClass": "Observed"
+          }
+        ],
+        "thresholdUgM3": 13.379167000000013,
+        "windowEnd": "2021-08-02",
+        "coverageFraction": 0.9770833333333333,
+        "name": "Lee Vining",
+        "color": "#717b9b",
+        "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88101_2021.zip",
+        "retrievedAt": "2026-10-22T00:53:43.628324+00:00",
+        "bytes": 68868169,
+        "sha256": "3dc0aa79f90b694fe64488bd21b3a032199209c5048eed6d55cd28b13dc832b3",
+        "md5": "f3813023e73719a9e0ad15552162bd1c",
+        "dataClass": "Observed",
+        "series": [
+          {
+            "timestamp": "2021-07-28T00:00:00-08:00",
+            "value": 8.7,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T01:00:00-08:00",
+            "value": 11.9,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T02:00:00-08:00",
+            "value": 12.4,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T03:00:00-08:00",
+            "value": 12.9,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T04:00:00-08:00",
+            "value": 13.9,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T05:00:00-08:00",
+            "value": null,
+            "qualifier": null,
+            "reason": "Missing source hour"
+          },
+          {
+            "timestamp": "2021-07-28T06:00:00-08:00",
+            "value": null,
+            "qualifier": null,
+            "reason": "Missing source hour"
+          },
+          {
+            "timestamp": "2021-07-28T07:00:00-08:00",
+            "value": null,
+            "qualifier": null,
+            "reason": "Missing source hour"
+          },
+          {
+            "timestamp": "2021-07-28T08:00:00-08:00",
+            "value": 14.6,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T09:00:00-08:00",
+            "value": 15.4,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T10:00:00-08:00",
+            "value": 15.6,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T11:00:00-08:00",
+            "value": 9.2,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T12:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T13:00:00-08:00",
+            "value": 5.6,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T14:00:00-08:00",
+            "value": 5.3,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T15:00:00-08:00",
+            "value": 4.6,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T16:00:00-08:00",
+            "value": 4.3,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T17:00:00-08:00",
+            "value": 3.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T18:00:00-08:00",
+            "value": 2.7,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T19:00:00-08:00",
+            "value": 2.6,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T20:00:00-08:00",
+            "value": 2.8,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T21:00:00-08:00",
+            "value": 3.1,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T22:00:00-08:00",
+            "value": 3.2,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-28T23:00:00-08:00",
+            "value": 4.1,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T00:00:00-08:00",
+            "value": 4.7,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T01:00:00-08:00",
+            "value": 5.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T02:00:00-08:00",
+            "value": 4.7,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T03:00:00-08:00",
+            "value": 5.4,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T04:00:00-08:00",
+            "value": 5.3,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T05:00:00-08:00",
+            "value": 6.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T06:00:00-08:00",
+            "value": 6.7,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T07:00:00-08:00",
+            "value": 7.7,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T08:00:00-08:00",
+            "value": 7.9,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T09:00:00-08:00",
+            "value": 10.5,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T10:00:00-08:00",
+            "value": 11.8,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T11:00:00-08:00",
+            "value": 11.9,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T12:00:00-08:00",
+            "value": 10.4,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T13:00:00-08:00",
+            "value": 7.8,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T14:00:00-08:00",
+            "value": 7.1,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T15:00:00-08:00",
+            "value": 5.6,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T16:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T17:00:00-08:00",
+            "value": 3.5,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T18:00:00-08:00",
+            "value": 3.1,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T19:00:00-08:00",
+            "value": 2.8,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T20:00:00-08:00",
+            "value": 2.9,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T21:00:00-08:00",
+            "value": 3.4,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T22:00:00-08:00",
+            "value": 3.5,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-29T23:00:00-08:00",
+            "value": 3.3,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T00:00:00-08:00",
+            "value": 3.7,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T01:00:00-08:00",
+            "value": 3.7,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T02:00:00-08:00",
+            "value": 3.7,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T03:00:00-08:00",
+            "value": 3.9,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T04:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T05:00:00-08:00",
+            "value": 4.2,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T06:00:00-08:00",
+            "value": 4.2,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T07:00:00-08:00",
+            "value": 4.3,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T08:00:00-08:00",
+            "value": 4.4,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T09:00:00-08:00",
+            "value": 4.4,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T10:00:00-08:00",
+            "value": 4.4,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T11:00:00-08:00",
+            "value": 3.9,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T12:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T13:00:00-08:00",
+            "value": 5.4,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T14:00:00-08:00",
+            "value": 4.2,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T15:00:00-08:00",
+            "value": 4.5,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T16:00:00-08:00",
+            "value": 4.6,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T17:00:00-08:00",
+            "value": 4.4,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T18:00:00-08:00",
+            "value": 4.1,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T19:00:00-08:00",
+            "value": 4.4,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T20:00:00-08:00",
+            "value": 4.4,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T21:00:00-08:00",
+            "value": 4.2,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T22:00:00-08:00",
+            "value": 4.3,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-30T23:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T00:00:00-08:00",
+            "value": 3.9,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T01:00:00-08:00",
+            "value": 3.6,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T02:00:00-08:00",
+            "value": 3.5,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T03:00:00-08:00",
+            "value": 3.7,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T04:00:00-08:00",
+            "value": 3.7,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T05:00:00-08:00",
+            "value": 3.7,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T06:00:00-08:00",
+            "value": 3.7,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T07:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T08:00:00-08:00",
+            "value": 4.3,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T09:00:00-08:00",
+            "value": 4.3,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T10:00:00-08:00",
+            "value": 4.9,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T11:00:00-08:00",
+            "value": 6.3,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T12:00:00-08:00",
+            "value": 5.6,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T13:00:00-08:00",
+            "value": 6.3,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T14:00:00-08:00",
+            "value": 6.9,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T15:00:00-08:00",
+            "value": 7.4,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T16:00:00-08:00",
+            "value": 7.2,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T17:00:00-08:00",
+            "value": 6.6,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T18:00:00-08:00",
+            "value": 6.2,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T19:00:00-08:00",
+            "value": 6.6,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T20:00:00-08:00",
+            "value": 6.3,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T21:00:00-08:00",
+            "value": 6.2,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T22:00:00-08:00",
+            "value": 6.5,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-07-31T23:00:00-08:00",
+            "value": 6.1,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T00:00:00-08:00",
+            "value": 6.2,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T01:00:00-08:00",
+            "value": 6.4,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T02:00:00-08:00",
+            "value": 6.7,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T03:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T04:00:00-08:00",
+            "value": 7.2,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T05:00:00-08:00",
+            "value": 7.4,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T06:00:00-08:00",
+            "value": 8.1,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T07:00:00-08:00",
+            "value": 9.6,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T08:00:00-08:00",
+            "value": 9.7,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T09:00:00-08:00",
+            "value": 9.4,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T10:00:00-08:00",
+            "value": 10.2,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T11:00:00-08:00",
+            "value": 9.1,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T12:00:00-08:00",
+            "value": 8.5,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T13:00:00-08:00",
+            "value": 8.6,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T14:00:00-08:00",
+            "value": 8.3,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T15:00:00-08:00",
+            "value": 6.9,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T16:00:00-08:00",
+            "value": 7.6,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T17:00:00-08:00",
+            "value": 6.8,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T18:00:00-08:00",
+            "value": 7.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T19:00:00-08:00",
+            "value": 6.2,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T20:00:00-08:00",
+            "value": 6.5,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T21:00:00-08:00",
+            "value": 6.8,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T22:00:00-08:00",
+            "value": 7.2,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-01T23:00:00-08:00",
+            "value": 7.1,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T00:00:00-08:00",
+            "value": 6.9,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T01:00:00-08:00",
+            "value": 6.7,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T02:00:00-08:00",
+            "value": 7.6,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T03:00:00-08:00",
+            "value": 7.3,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T04:00:00-08:00",
+            "value": 7.2,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T05:00:00-08:00",
+            "value": 7.7,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T06:00:00-08:00",
+            "value": 7.8,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T07:00:00-08:00",
+            "value": 8.1,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T08:00:00-08:00",
+            "value": 8.6,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T09:00:00-08:00",
+            "value": 9.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T10:00:00-08:00",
+            "value": 8.7,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T11:00:00-08:00",
+            "value": 7.8,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T12:00:00-08:00",
+            "value": 6.7,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T13:00:00-08:00",
+            "value": 5.7,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T14:00:00-08:00",
+            "value": 4.9,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T15:00:00-08:00",
+            "value": 4.6,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T16:00:00-08:00",
+            "value": 4.1,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T17:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T18:00:00-08:00",
+            "value": 4.0,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T19:00:00-08:00",
+            "value": 6.5,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T20:00:00-08:00",
+            "value": 11.8,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T21:00:00-08:00",
+            "value": 14.8,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T22:00:00-08:00",
+            "value": 12.9,
+            "qualifier": null,
+            "reason": ""
+          },
+          {
+            "timestamp": "2021-08-02T23:00:00-08:00",
+            "value": 11.9,
+            "qualifier": null,
+            "reason": ""
+          }
+        ],
+        "expectedHours": 144,
+        "negativeHours": 0,
+        "dailyMeans": [
+          {
+            "date": "2021-07-28",
+            "hours": 21,
+            "value": 7.661904761904762,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88101_2021.zip",
+            "retrievedAt": "2026-10-22T00:53:43.628324+00:00",
+            "bytes": 68868169,
+            "sha256": "3dc0aa79f90b694fe64488bd21b3a032199209c5048eed6d55cd28b13dc832b3",
+            "md5": "f3813023e73719a9e0ad15552162bd1c",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2021-07-29",
+            "hours": 24,
+            "value": 6.041666666666667,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88101_2021.zip",
+            "retrievedAt": "2026-10-22T00:53:43.628324+00:00",
+            "bytes": 68868169,
+            "sha256": "3dc0aa79f90b694fe64488bd21b3a032199209c5048eed6d55cd28b13dc832b3",
+            "md5": "f3813023e73719a9e0ad15552162bd1c",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2021-07-30",
+            "hours": 24,
+            "value": 4.220833333333333,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88101_2021.zip",
+            "retrievedAt": "2026-10-22T00:53:43.628324+00:00",
+            "bytes": 68868169,
+            "sha256": "3dc0aa79f90b694fe64488bd21b3a032199209c5048eed6d55cd28b13dc832b3",
+            "md5": "f3813023e73719a9e0ad15552162bd1c",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2021-07-31",
+            "hours": 24,
+            "value": 5.3125,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88101_2021.zip",
+            "retrievedAt": "2026-10-22T00:53:43.628324+00:00",
+            "bytes": 68868169,
+            "sha256": "3dc0aa79f90b694fe64488bd21b3a032199209c5048eed6d55cd28b13dc832b3",
+            "md5": "f3813023e73719a9e0ad15552162bd1c",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2021-08-01",
+            "hours": 24,
+            "value": 7.6875,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88101_2021.zip",
+            "retrievedAt": "2026-10-22T00:53:43.628324+00:00",
+            "bytes": 68868169,
+            "sha256": "3dc0aa79f90b694fe64488bd21b3a032199209c5048eed6d55cd28b13dc832b3",
+            "md5": "f3813023e73719a9e0ad15552162bd1c",
+            "dataClass": "Observed"
+          },
+          {
+            "date": "2021-08-02",
+            "hours": 24,
+            "value": 7.720833333333334,
+            "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/hourly_88101_2021.zip",
+            "retrievedAt": "2026-10-22T00:53:43.628324+00:00",
+            "bytes": 68868169,
+            "sha256": "3dc0aa79f90b694fe64488bd21b3a032199209c5048eed6d55cd28b13dc832b3",
+            "md5": "f3813023e73719a9e0ad15552162bd1c",
+            "dataClass": "Observed"
+          }
+        ],
+        "nonnegativeSensitivityEnd": "2021-08-02"
+      }
+    ],
+    "timezone": "Pacific standard time (UTC−08:00)",
+    "window": {
+      "start": "2021-07-28",
+      "end": "2021-08-02",
+      "referenceYears": [
+        2018,
+        2019,
+        2020
+      ],
+      "referenceMonths": [
+        7,
+        8,
+        9
+      ],
+      "minimumHoursPerDay": 18,
+      "referenceSources": [
+        {
+          "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88502_2018.zip",
+          "retrievedAt": "2026-10-21T21:25:46.531141+00:00",
+          "bytes": 2864638,
+          "sha256": "38f6b79cae0a40f1d47f443bb2c2121f2d9fc238f137f8e589ec9c192a443e37",
+          "dataClass": "Observed"
+        },
+        {
+          "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88502_2019.zip",
+          "retrievedAt": "2026-10-21T21:25:50.598602+00:00",
+          "bytes": 2646702,
+          "sha256": "1dcc4d3aeb71c1dd62c315ca846915b75f685f07b5badbaa21fa77c0f28c2c4d",
+          "dataClass": "Observed"
+        },
+        {
+          "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/daily_88502_2020.zip",
+          "retrievedAt": "2026-10-21T23:07:30.784116+00:00",
+          "bytes": 2553688,
+          "sha256": "580bce56a7a70e099eabc3b9a8351f9f2170d5ea525cf9f6a5975939f059bb9a",
+          "dataClass": "Observed"
+        }
+      ]
+    },
+    "plumes": {
+      "days": [
+        {
+          "dateUtc": "2021-07-28",
+          "status": "available",
+          "path": "/data/waves/plumes/2021-07-28.json",
+          "monitorCoverage": {
+            "06-043-1001": false,
+            "06-051-0005": false
+          },
+          "measurementPeriod": {
+            "start": "2021-07-28T11:00:00+00:00",
+            "end": "2021-07-28T21:50:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2021/07/hms_smoke20210728.kml",
+          "retrievedAt": "2026-10-22T01:15:16.926989+00:00",
+          "bytes": 65321,
+          "sha256": "6d18add2bb29e0f7a6252175d7a23e413574ad9bc7b6308a8cdc6d2582d9e062",
+          "md5": "10d1764525003b27a5e43f102596e90d",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 23,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2021-07-29",
+          "status": "available",
+          "path": "/data/waves/plumes/2021-07-29.json",
+          "monitorCoverage": {
+            "06-043-1001": false,
+            "06-051-0005": false
+          },
+          "measurementPeriod": {
+            "start": "2021-07-29T10:00:00+00:00",
+            "end": "2021-07-29T22:30:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2021/07/hms_smoke20210729.kml",
+          "retrievedAt": "2026-10-22T01:15:18.540504+00:00",
+          "bytes": 108518,
+          "sha256": "84d6718fdc1809b2ff05b1210e02cc932b87178764c2278f94a3ca4bef39166e",
+          "md5": "5e8b8215beabc9747f3d595cf0396f3b",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 37,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2021-07-30",
+          "status": "available",
+          "path": "/data/waves/plumes/2021-07-30.json",
+          "monitorCoverage": {
+            "06-043-1001": false,
+            "06-051-0005": false
+          },
+          "measurementPeriod": {
+            "start": "2021-07-30T11:00:00+00:00",
+            "end": "2021-07-31T04:10:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2021/07/hms_smoke20210730.kml",
+          "retrievedAt": "2026-10-22T01:15:20.047949+00:00",
+          "bytes": 142907,
+          "sha256": "35071e96e9ea03170a0b8b6e3c34595bde4d293b14d3ef1a5f55a628281d5f19",
+          "md5": "b5de3e334d6866f198b69aae16e3dafe",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 72,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2021-07-31",
+          "status": "available",
+          "path": "/data/waves/plumes/2021-07-31.json",
+          "monitorCoverage": {
+            "06-043-1001": true,
+            "06-051-0005": true
+          },
+          "measurementPeriod": {
+            "start": "2021-07-31T13:40:00+00:00",
+            "end": "2021-08-01T06:51:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2021/07/hms_smoke20210731.kml",
+          "retrievedAt": "2026-10-22T01:15:21.509377+00:00",
+          "bytes": 167377,
+          "sha256": "1890ea4b421fb367cbdd16208590750998b4aff03b7e6ca6de57ce97497e6e4d",
+          "md5": "a9fc25cceeda9b710d15e89c31303cc0",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 96,
+          "firePolygonCount": 1
+        },
+        {
+          "dateUtc": "2021-08-01",
+          "status": "available",
+          "path": "/data/waves/plumes/2021-08-01.json",
+          "monitorCoverage": {
+            "06-043-1001": false,
+            "06-051-0005": false
+          },
+          "measurementPeriod": {
+            "start": "2021-08-01T11:00:00+00:00",
+            "end": "2021-08-02T02:50:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2021/08/hms_smoke20210801.kml",
+          "retrievedAt": "2026-10-22T01:15:22.797409+00:00",
+          "bytes": 105027,
+          "sha256": "ed2986aaa058c18347a1e34548dd6624909a5f3d9e48c4cda19735a7eaddc259",
+          "md5": "7ac4e22e0f65aa0a42ee82cba996c5d6",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 64,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2021-08-02",
+          "status": "available",
+          "path": "/data/waves/plumes/2021-08-02.json",
+          "monitorCoverage": {
+            "06-043-1001": true,
+            "06-051-0005": false
+          },
+          "measurementPeriod": {
+            "start": "2021-08-02T11:50:00+00:00",
+            "end": "2021-08-03T02:00:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2021/08/hms_smoke20210802.kml",
+          "retrievedAt": "2026-10-22T01:15:24.346768+00:00",
+          "bytes": 113570,
+          "sha256": "8eb0a19e68c37534838a2c4215b34342078c1fca02e5245d22a17b6fcb8b4554",
+          "md5": "648f1c2197b134e55c238babd46b5a77",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 63,
+          "firePolygonCount": 1
+        }
+      ]
+    },
+    "exclusions": [],
+    "health": [],
+    "aqiReference": {
+      "bands": [
+        {
+          "name": "Good",
+          "low": 0,
+          "high": 9,
+          "color": "#00e400"
+        },
+        {
+          "name": "Moderate",
+          "low": 9.1,
+          "high": 35.4,
+          "color": "#ffff00"
+        },
+        {
+          "name": "Unhealthy for sensitive groups",
+          "low": 35.5,
+          "high": 55.4,
+          "color": "#ff7e00"
+        },
+        {
+          "name": "Unhealthy",
+          "low": 55.5,
+          "high": 125.4,
+          "color": "#ff0000"
+        },
+        {
+          "name": "Very unhealthy",
+          "low": 125.5,
+          "high": 225.4,
+          "color": "#8f3f97"
+        },
+        {
+          "name": "Hazardous",
+          "low": 225.5,
+          "high": 325.4,
+          "color": "#7e0023"
+        }
+      ],
+      "averagingHours": 24,
+      "sourceUrl": "https://aqs.epa.gov/aqsweb/documents/codetables/aqi_breakpoints.csv",
+      "retrievedAt": "2026-10-19T02:57:31.110041+00:00",
+      "bytes": 6494,
+      "sha256": "00460436574eb146f0b1293cf591a831c272c3d2a5be1fbef76b98193f9ff3c4",
+      "dataClass": "Historical"
+    },
+    "limitedCoverage": false,
+    "selectionRule": "Nearest three distinct sites among five audited within 50 km, preferring >=75% hourly coverage over 60 days. If none qualify, show partial records with gaps. Prefer comparable reference instrument within each site. Not fire-attributed smoke."
+  },
+  "perimeter": {
+    "status": "available",
+    "sourceUrl": "https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/California_Historic_Fire_Perimeters/FeatureServer/0/query?f=geojson&where=GlobalID%3D%27c62f887f-6203-4d10-a59a-d94b56a0b4ec%27&outFields=GlobalID%2CFIRE_NAME%2CYEAR_%2CALARM_DATE&outSR=4326&returnGeometry=true",
+    "retrievedAt": "2026-10-22T00:55:34.840273+00:00",
+    "bytes": 22391,
+    "sha256": "c34e22c475c24c5c5324e25cb1b71a22b7a73028640799b46c8faf7e8c60e1fd",
+    "md5": "3a68b0341684d61e562c033471f0c123",
+    "value": {
+      "type": "FeatureCollection",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "EPSG:4326"
+        }
+      },
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -119.696909714082,
+                  38.0116321005483
+                ],
+                [
+                  -119.696732689377,
+                  38.0123838628887
+                ],
+                [
+                  -119.697782999607,
+                  38.0120690005947
+                ],
+                [
+                  -119.698210999229,
+                  38.0119729999149
+                ],
+                [
+                  -119.698436000258,
+                  38.0119330004793
+                ],
+                [
+                  -119.699140000963,
+                  38.0118520000514
+                ],
+                [
+                  -119.700336999791,
+                  38.0118129999182
+                ],
+                [
+                  -119.700568999595,
+                  38.0117960000351
+                ],
+                [
+                  -119.700801000297,
+                  38.0117539996411
+                ],
+                [
+                  -119.701026999354,
+                  38.0116930005762
+                ],
+                [
+                  -119.70125099966,
+                  38.0116179996491
+                ],
+                [
+                  -119.701464000096,
+                  38.0115340000484
+                ],
+                [
+                  -119.701665999762,
+                  38.0114319995949
+                ],
+                [
+                  -119.702065999795,
+                  38.0112019996061
+                ],
+                [
+                  -119.702538999623,
+                  38.0109940001148
+                ],
+                [
+                  -119.703315000298,
+                  38.0107350003657
+                ],
+                [
+                  -119.703573999866,
+                  38.0106399994468
+                ],
+                [
+                  -119.704050999892,
+                  38.0103860003414
+                ],
+                [
+                  -119.70428199987,
+                  38.0102409997636
+                ],
+                [
+                  -119.704727000109,
+                  38.0099350003659
+                ],
+                [
+                  -119.704928999776,
+                  38.009775999564
+                ],
+                [
+                  -119.705153000082,
+                  38.0096429997589
+                ],
+                [
+                  -119.70532305925,
+                  38.009574352686
+                ],
+                [
+                  -119.705523001774,
+                  38.0096410002549
+                ],
+                [
+                  -119.705712000123,
+                  38.0097240005044
+                ],
+                [
+                  -119.705865000284,
+                  38.0098240002964
+                ],
+                [
+                  -119.705958000171,
+                  38.0099369998619
+                ],
+                [
+                  -119.705994000156,
+                  38.0100540003621
+                ],
+                [
+                  -119.705989000133,
+                  38.0101770005596
+                ],
+                [
+                  -119.705909001564,
+                  38.0102879993868
+                ],
+                [
+                  -119.705769000025,
+                  38.0103830000541
+                ],
+                [
+                  -119.705593000298,
+                  38.0104610004057
+                ],
+                [
+                  -119.70522900025,
+                  38.0105909998635
+                ],
+                [
+                  -119.70505900037,
+                  38.0106630001499
+                ],
+                [
+                  -119.704907000933,
+                  38.0107509996963
+                ],
+                [
+                  -119.704772999242,
+                  38.0108509995029
+                ],
+                [
+                  -119.704420999788,
+                  38.0111589994942
+                ],
+                [
+                  -119.704175000639,
+                  38.0113280002494
+                ],
+                [
+                  -119.704040000021,
+                  38.0113959994843
+                ],
+                [
+                  -119.703629999942,
+                  38.0115390004486
+                ],
+                [
+                  -119.703393999941,
+                  38.0116569998859
+                ],
+                [
+                  -119.703291000009,
+                  38.0117279997558
+                ],
+                [
+                  -119.703206999445,
+                  38.011805999384
+                ],
+                [
+                  -119.703140999322,
+                  38.0118919995311
+                ],
+                [
+                  -119.703099000388,
+                  38.011973999989
+                ],
+                [
+                  -119.703083999421,
+                  38.0120569997204
+                ],
+                [
+                  -119.70309500019,
+                  38.0121349997062
+                ],
+                [
+                  -119.703126000152,
+                  38.0122029996081
+                ],
+                [
+                  -119.703323000694,
+                  38.0124059995747
+                ],
+                [
+                  -119.703369999651,
+                  38.0124860000312
+                ],
+                [
+                  -119.703392000291,
+                  38.012575000286
+                ],
+                [
+                  -119.703380000595,
+                  38.0126710001773
+                ],
+                [
+                  -119.703335999316,
+                  38.0127669999429
+                ],
+                [
+                  -119.703265998996,
+                  38.0128549997946
+                ],
+                [
+                  -119.703174999658,
+                  38.0129360005298
+                ],
+                [
+                  -119.702957000098,
+                  38.013077000495
+                ],
+                [
+                  -119.702719999373,
+                  38.0131780007251
+                ],
+                [
+                  -119.702483000445,
+                  38.0132519999994
+                ],
+                [
+                  -119.702359999523,
+                  38.0132690002526
+                ],
+                [
+                  -119.702002000221,
+                  38.0132769999956
+                ],
+                [
+                  -119.701892000616,
+                  38.013294000243
+                ],
+                [
+                  -119.701797000181,
+                  38.0133300001292
+                ],
+                [
+                  -119.701714000341,
+                  38.0133859996813
+                ],
+                [
+                  -119.701577000073,
+                  38.0135229999848
+                ],
+                [
+                  -119.70141899989,
+                  38.0136449999724
+                ],
+                [
+                  -119.701331000026,
+                  38.0136890000921
+                ],
+                [
+                  -119.701234998868,
+                  38.0137200002411
+                ],
+                [
+                  -119.701131999834,
+                  38.0137399998279
+                ],
+                [
+                  -119.700908999353,
+                  38.0137419999278
+                ],
+                [
+                  -119.700484999031,
+                  38.0136930002947
+                ],
+                [
+                  -119.70027400094,
+                  38.013704000143
+                ],
+                [
+                  -119.699894999925,
+                  38.013763999608
+                ],
+                [
+                  -119.699481000547,
+                  38.0139529995481
+                ],
+                [
+                  -119.699228999753,
+                  38.0140180004559
+                ],
+                [
+                  -119.699147000636,
+                  38.0140249993634
+                ],
+                [
+                  -119.698968999462,
+                  38.0140079999933
+                ],
+                [
+                  -119.698594999369,
+                  38.0139299998773
+                ],
+                [
+                  -119.698498000183,
+                  38.0139309999247
+                ],
+                [
+                  -119.698299999816,
+                  38.013965000112
+                ],
+                [
+                  -119.698111000568,
+                  38.0140310003475
+                ],
+                [
+                  -119.697739000124,
+                  38.0142229997293
+                ],
+                [
+                  -119.697523000214,
+                  38.0142909998175
+                ],
+                [
+                  -119.697406999863,
+                  38.0143020002837
+                ],
+                [
+                  -119.697289999687,
+                  38.014297000072
+                ],
+                [
+                  -119.696841999974,
+                  38.0142409998005
+                ],
+                [
+                  -119.696520000657,
+                  38.0142349995413
+                ],
+                [
+                  -119.696298999826,
+                  38.0142200003069
+                ],
+                [
+                  -119.69608599939,
+                  38.0142289992817
+                ],
+                [
+                  -119.69571300002,
+                  38.0142889997325
+                ],
+                [
+                  -119.695615999037,
+                  38.0142919998599
+                ],
+                [
+                  -119.695518000026,
+                  38.0142800000573
+                ],
+                [
+                  -119.695199000184,
+                  38.0141890003694
+                ],
+                [
+                  -119.694974999878,
+                  38.01409199959
+                ],
+                [
+                  -119.694877999793,
+                  38.0140649997807
+                ],
+                [
+                  -119.694860481747,
+                  38.0140568154019
+                ],
+                [
+                  -119.694748000097,
+                  38.0141810000181
+                ],
+                [
+                  -119.694513999745,
+                  38.0144229996418
+                ],
+                [
+                  -119.693748234475,
+                  38.0151761757247
+                ],
+                [
+                  -119.693039000185,
+                  38.0158539999805
+                ],
+                [
+                  -119.692231001519,
+                  38.0165109995999
+                ],
+                [
+                  -119.691978000003,
+                  38.0167410006236
+                ],
+                [
+                  -119.691742999826,
+                  38.0169729995218
+                ],
+                [
+                  -119.691521999893,
+                  38.0172089998195
+                ],
+                [
+                  -119.691123000583,
+                  38.0176850002429
+                ],
+                [
+                  -119.690760999287,
+                  38.0181699996043
+                ],
+                [
+                  -119.690424000799,
+                  38.0186720004176
+                ],
+                [
+                  -119.690111000805,
+                  38.0191779998186
+                ],
+                [
+                  -119.689968999616,
+                  38.019426999735
+                ],
+                [
+                  -119.689466999476,
+                  38.0204689996455
+                ],
+                [
+                  -119.689076999489,
+                  38.021245000582
+                ],
+                [
+                  -119.688652998268,
+                  38.0219930000136
+                ],
+                [
+                  -119.688414999515,
+                  38.0225050001272
+                ],
+                [
+                  -119.688204999453,
+                  38.023003999781
+                ],
+                [
+                  -119.688058999863,
+                  38.0235099996996
+                ],
+                [
+                  -119.688016000205,
+                  38.0237679996835
+                ],
+                [
+                  -119.688009330214,
+                  38.0239562336228
+                ],
+                [
+                  -119.688007000882,
+                  38.0240220005358
+                ],
+                [
+                  -119.688012999832,
+                  38.0245359997226
+                ],
+                [
+                  -119.687963999428,
+                  38.0248000004421
+                ],
+                [
+                  -119.6878489998,
+                  38.0250509994452
+                ],
+                [
+                  -119.687694000888,
+                  38.0252970002502
+                ],
+                [
+                  -119.687493000148,
+                  38.0255279997709
+                ],
+                [
+                  -119.687257000147,
+                  38.0257339999943
+                ],
+                [
+                  -119.686462000103,
+                  38.026328000116
+                ],
+                [
+                  -119.685647000867,
+                  38.0268960002099
+                ],
+                [
+                  -119.684630999992,
+                  38.0276560004241
+                ],
+                [
+                  -119.68411499871,
+                  38.0279929999094
+                ],
+                [
+                  -119.68384500017,
+                  38.0281409996008
+                ],
+                [
+                  -119.683571000534,
+                  38.0282689998387
+                ],
+                [
+                  -119.683284999405,
+                  38.0283700003605
+                ],
+                [
+                  -119.682979999806,
+                  38.0284529999215
+                ],
+                [
+                  -119.682606999538,
+                  38.028496999642
+                ],
+                [
+                  -119.682003000188,
+                  38.028615999928
+                ],
+                [
+                  -119.681419000032,
+                  38.0287589998435
+                ],
+                [
+                  -119.68117000051,
+                  38.0288670000102
+                ],
+                [
+                  -119.680579999608,
+                  38.0290599999904
+                ],
+                [
+                  -119.679724000364,
+                  38.0293989997659
+                ],
+                [
+                  -119.679432000286,
+                  38.0295060005696
+                ],
+                [
+                  -119.678817000167,
+                  38.0296630006524
+                ],
+                [
+                  -119.678489999929,
+                  38.0297110003898
+                ],
+                [
+                  -119.67816100094,
+                  38.0297130000538
+                ],
+                [
+                  -119.677844999674,
+                  38.0296890005435
+                ],
+                [
+                  -119.677525999831,
+                  38.0296429997501
+                ],
+                [
+                  -119.677258000043,
+                  38.0295320005164
+                ],
+                [
+                  -119.677020000392,
+                  38.0293750001527
+                ],
+                [
+                  -119.676830999347,
+                  38.029168000421
+                ],
+                [
+                  -119.6768244659,
+                  38.0291537719895
+                ],
+                [
+                  -119.676717999369,
+                  38.0289220005843
+                ],
+                [
+                  -119.676633999704,
+                  38.0286470001313
+                ],
+                [
+                  -119.676668998067,
+                  38.0283649996934
+                ],
+                [
+                  -119.676765000123,
+                  38.0280829995852
+                ],
+                [
+                  -119.6769429995,
+                  38.027819000081
+                ],
+                [
+                  -119.677176998954,
+                  38.0275779999737
+                ],
+                [
+                  -119.677731999696,
+                  38.0271400000393
+                ],
+                [
+                  -119.678320000948,
+                  38.0267189995729
+                ],
+                [
+                  -119.678630999496,
+                  38.0265110002447
+                ],
+                [
+                  -119.679197999934,
+                  38.0260780004158
+                ],
+                [
+                  -119.679433999935,
+                  38.0258539996994
+                ],
+                [
+                  -119.679649000021,
+                  38.0256180003519
+                ],
+                [
+                  -119.679836000517,
+                  38.0253659998616
+                ],
+                [
+                  -119.679965000388,
+                  38.0250970002914
+                ],
+                [
+                  -119.68007199962,
+                  38.0248180000383
+                ],
+                [
+                  -119.68014000029,
+                  38.0245389994305
+                ],
+                [
+                  -119.680285000953,
+                  38.0236599997843
+                ],
+                [
+                  -119.680441999516,
+                  38.0230740000591
+                ],
+                [
+                  -119.680541999075,
+                  38.0227880004019
+                ],
+                [
+                  -119.680673000393,
+                  38.0225049994196
+                ],
+                [
+                  -119.680865000013,
+                  38.0222479998761
+                ],
+                [
+                  -119.68110000019,
+                  38.0220140001108
+                ],
+                [
+                  -119.681363999781,
+                  38.0218070001038
+                ],
+                [
+                  -119.681660999882,
+                  38.0216360002723
+                ],
+                [
+                  -119.681978999899,
+                  38.0214810005687
+                ],
+                [
+                  -119.682317000008,
+                  38.0213499999563
+                ],
+                [
+                  -119.683388000235,
+                  38.0210150002475
+                ],
+                [
+                  -119.683722999971,
+                  38.0208880000273
+                ],
+                [
+                  -119.684037999615,
+                  38.0207409997929
+                ],
+                [
+                  -119.684320999473,
+                  38.0205560002005
+                ],
+                [
+                  -119.684555000723,
+                  38.0203320002947
+                ],
+                [
+                  -119.684749999818,
+                  38.0200839998783
+                ],
+                [
+                  -119.684888000809,
+                  38.019814000765
+                ],
+                [
+                  -119.684964999903,
+                  38.0195190006752
+                ],
+                [
+                  -119.685053000665,
+                  38.0189079994904
+                ],
+                [
+                  -119.685106999295,
+                  38.0186120000164
+                ],
+                [
+                  -119.68517599979,
+                  38.0183259999292
+                ],
+                [
+                  -119.685287999943,
+                  38.018046000089
+                ],
+                [
+                  -119.685441999031,
+                  38.0177729998517
+                ],
+                [
+                  -119.6856280006,
+                  38.0175230006866
+                ],
+                [
+                  -119.685853999658,
+                  38.0172969999998
+                ],
+                [
+                  -119.686586999777,
+                  38.0166599998469
+                ],
+                [
+                  -119.686801999862,
+                  38.016432000011
+                ],
+                [
+                  -119.687404999386,
+                  38.015740999628
+                ],
+                [
+                  -119.687616999997,
+                  38.0155209992623
+                ],
+                [
+                  -119.687841000303,
+                  38.0153090005886
+                ],
+                [
+                  -119.688077999231,
+                  38.0151039993983
+                ],
+                [
+                  -119.688328999301,
+                  38.0149059999968
+                ],
+                [
+                  -119.688607000034,
+                  38.0147169996831
+                ],
+                [
+                  -119.688909999084,
+                  38.0145369999422
+                ],
+                [
+                  -119.689917998664,
+                  38.0139979995295
+                ],
+                [
+                  -119.690237000303,
+                  38.0137990006298
+                ],
+                [
+                  -119.690536000054,
+                  38.013565000073
+                ],
+                [
+                  -119.692048000323,
+                  38.0118830002694
+                ],
+                [
+                  -119.691795000603,
+                  38.011702999939
+                ],
+                [
+                  -119.691573999772,
+                  38.0115019996022
+                ],
+                [
+                  -119.691364000608,
+                  38.0112799997939
+                ],
+                [
+                  -119.691077000552,
+                  38.0109169997111
+                ],
+                [
+                  -119.690924000392,
+                  38.0106570003057
+                ],
+                [
+                  -119.69079700017,
+                  38.0103889999208
+                ],
+                [
+                  -119.690052000355,
+                  38.0101750003624
+                ],
+                [
+                  -119.689818999829,
+                  38.0102200005397
+                ],
+                [
+                  -119.689601000269,
+                  38.0102300001035
+                ],
+                [
+                  -119.689394999506,
+                  38.0102110003649
+                ],
+                [
+                  -119.689204999535,
+                  38.0101730001652
+                ],
+                [
+                  -119.689011999191,
+                  38.0101010001052
+                ],
+                [
+                  -119.688848000058,
+                  38.0100140005872
+                ],
+                [
+                  -119.688698999197,
+                  38.0099070003387
+                ],
+                [
+                  -119.688567999676,
+                  38.0097880001039
+                ],
+                [
+                  -119.688466000467,
+                  38.0096719999924
+                ],
+                [
+                  -119.688360000162,
+                  38.0095260000183
+                ],
+                [
+                  -119.687857999123,
+                  38.0086000001121
+                ],
+                [
+                  -119.687584001283,
+                  38.0081519994371
+                ],
+                [
+                  -119.687464998763,
+                  38.0079070006638
+                ],
+                [
+                  -119.687361000802,
+                  38.0076490000508
+                ],
+                [
+                  -119.687288999035,
+                  38.0073789997209
+                ],
+                [
+                  -119.687255000497,
+                  38.0071029996772
+                ],
+                [
+                  -119.687275000588,
+                  38.0068199997076
+                ],
+                [
+                  -119.687344000185,
+                  38.0065490004237
+                ],
+                [
+                  -119.687440000445,
+                  38.0062899998349
+                ],
+                [
+                  -119.687862001118,
+                  38.0053430001968
+                ],
+                [
+                  -119.688117000487,
+                  38.0046879992151
+                ],
+                [
+                  -119.688256001303,
+                  38.0042580005169
+                ],
+                [
+                  -119.688310999758,
+                  38.0040400000292
+                ],
+                [
+                  -119.688340999895,
+                  38.0038280000048
+                ],
+                [
+                  -119.688350000116,
+                  38.0036220004958
+                ],
+                [
+                  -119.688337000595,
+                  38.0034290000561
+                ],
+                [
+                  -119.68829200039,
+                  38.0032540004616
+                ],
+                [
+                  -119.688221999171,
+                  38.0030959995225
+                ],
+                [
+                  -119.68763699919,
+                  38.0021229999356
+                ],
+                [
+                  -119.687228999659,
+                  38.0013700004944
+                ],
+                [
+                  -119.687150999841,
+                  38.0012040000992
+                ],
+                [
+                  -119.686957999498,
+                  38.0006500001627
+                ],
+                [
+                  -119.68686500051,
+                  38.0004599996729
+                ],
+                [
+                  -119.686724999869,
+                  38.0002829996047
+                ],
+                [
+                  -119.686569000234,
+                  38.000119000052
+                ],
+                [
+                  -119.686373999342,
+                  37.9999620003826
+                ],
+                [
+                  -119.686155000855,
+                  37.9998250002207
+                ],
+                [
+                  -119.685915000656,
+                  37.9997160001932
+                ],
+                [
+                  -119.685655000365,
+                  37.9996349997171
+                ],
+                [
+                  -119.685382001451,
+                  37.99957599955
+                ],
+                [
+                  -119.685100999447,
+                  37.999533999942
+                ],
+                [
+                  -119.684532000258,
+                  37.9994699998864
+                ],
+                [
+                  -119.683980999714,
+                  37.9993870000629
+                ],
+                [
+                  -119.68346100003,
+                  37.9992929995523
+                ],
+                [
+                  -119.683220999831,
+                  37.9992169998497
+                ],
+                [
+                  -119.683005999746,
+                  37.9991100001256
+                ],
+                [
+                  -119.682825999821,
+                  37.9989620005608
+                ],
+                [
+                  -119.682681000056,
+                  37.9987900002704
+                ],
+                [
+                  -119.682588000169,
+                  37.9985980001118
+                ],
+                [
+                  -119.68256200023,
+                  37.9983940005872
+                ],
+                [
+                  -119.682568000078,
+                  37.9981949996817
+                ],
+                [
+                  -119.682624999979,
+                  37.9978050005138
+                ],
+                [
+                  -119.682823999273,
+                  37.9970899998386
+                ],
+                [
+                  -119.682939999623,
+                  37.9967470002663
+                ],
+                [
+                  -119.683020000888,
+                  37.9965820003094
+                ],
+                [
+                  -119.683155999534,
+                  37.9964439999187
+                ],
+                [
+                  -119.683332000159,
+                  37.9963349998216
+                ],
+                [
+                  -119.68353499965,
+                  37.9962519999897
+                ],
+                [
+                  -119.684005000004,
+                  37.9961200000125
+                ],
+                [
+                  -119.684487000052,
+                  37.9959430000884
+                ],
+                [
+                  -119.684726999354,
+                  37.995835000249
+                ],
+                [
+                  -119.685199000255,
+                  37.9955680004941
+                ],
+                [
+                  -119.686244000544,
+                  37.9947759995924
+                ],
+                [
+                  -119.686827999801,
+                  37.9943059995583
+                ],
+                [
+                  -119.687173000481,
+                  37.993981999411
+                ],
+                [
+                  -119.68765899983,
+                  37.9934969993105
+                ],
+                [
+                  -119.687827999884,
+                  37.9933370000554
+                ],
+                [
+                  -119.688011000182,
+                  37.9931839999325
+                ],
+                [
+                  -119.688564999303,
+                  37.9927450001312
+                ],
+                [
+                  -119.688756999822,
+                  37.9926129995063
+                ],
+                [
+                  -119.68933699978,
+                  37.9922709998714
+                ],
+                [
+                  -119.689503000359,
+                  37.9921579999832
+                ],
+                [
+                  -119.689783000742,
+                  37.9919199997618
+                ],
+                [
+                  -119.690000999403,
+                  37.9916829998272
+                ],
+                [
+                  -119.690060000751,
+                  37.9915710000935
+                ],
+                [
+                  -119.690060999678,
+                  37.9914519998351
+                ],
+                [
+                  -119.689997999929,
+                  37.9913270000816
+                ],
+                [
+                  -119.689871000605,
+                  37.9912030004726
+                ],
+                [
+                  -119.689548999492,
+                  37.9909530006119
+                ],
+                [
+                  -119.689397000953,
+                  37.9908059998176
+                ],
+                [
+                  -119.689284000076,
+                  37.9906360002462
+                ],
+                [
+                  -119.68919299984,
+                  37.9904540001184
+                ],
+                [
+                  -119.689151999832,
+                  37.9902650004882
+                ],
+                [
+                  -119.689162999702,
+                  37.9900649998097
+                ],
+                [
+                  -119.689197000038,
+                  37.9898669993373
+                ],
+                [
+                  -119.689290999749,
+                  37.9894679998941
+                ],
+                [
+                  -119.689397000054,
+                  37.9890930004726
+                ],
+                [
+                  -119.689504000184,
+                  37.9889350001764
+                ],
+                [
+                  -119.689658999995,
+                  37.988815000208
+                ],
+                [
+                  -119.689844999768,
+                  37.9887289998975
+                ],
+                [
+                  -119.690057000378,
+                  37.988679999832
+                ],
+                [
+                  -119.690716001776,
+                  37.988621999741
+                ],
+                [
+                  -119.691128999533,
+                  37.9886069995147
+                ],
+                [
+                  -119.691312999656,
+                  37.9885840003889
+                ],
+                [
+                  -119.691483000433,
+                  37.9885410004649
+                ],
+                [
+                  -119.691634999871,
+                  37.9884770000209
+                ],
+                [
+                  -119.69176799994,
+                  37.9883959998766
+                ],
+                [
+                  -119.691998000094,
+                  37.9881979998557
+                ],
+                [
+                  -119.692085000133,
+                  37.9880799994818
+                ],
+                [
+                  -119.692139000559,
+                  37.9879440001835
+                ],
+                [
+                  -119.692166000324,
+                  37.9877989998314
+                ],
+                [
+                  -119.692165000499,
+                  37.9876449997881
+                ],
+                [
+                  -119.692136000186,
+                  37.9874840001052
+                ],
+                [
+                  -119.692080999037,
+                  37.9873209999565
+                ],
+                [
+                  -119.692009955772,
+                  37.9871695625995
+                ],
+                [
+                  -119.690745073953,
+                  37.9867281535558
+                ],
+                [
+                  -119.690604793039,
+                  37.985924006747
+                ],
+                [
+                  -119.690946312747,
+                  37.9848194359076
+                ],
+                [
+                  -119.691390657215,
+                  37.9839982399029
+                ],
+                [
+                  -119.691649255236,
+                  37.984009186147
+                ],
+                [
+                  -119.692902441889,
+                  37.984360066922
+                ],
+                [
+                  -119.693280176279,
+                  37.984591375997
+                ],
+                [
+                  -119.693372001169,
+                  37.9845080003652
+                ],
+                [
+                  -119.693474001276,
+                  37.9843899997209
+                ],
+                [
+                  -119.693558999868,
+                  37.9842670001674
+                ],
+                [
+                  -119.69399891205,
+                  37.9834858611022
+                ],
+                [
+                  -119.694100999293,
+                  37.9833169993872
+                ],
+                [
+                  -119.694163999941,
+                  37.9831979999013
+                ],
+                [
+                  -119.694211999622,
+                  37.9830740007137
+                ],
+                [
+                  -119.694240000109,
+                  37.9829480003767
+                ],
+                [
+                  -119.694250000155,
+                  37.9828270000573
+                ],
+                [
+                  -119.694244000307,
+                  37.98270900025
+                ],
+                [
+                  -119.694221999667,
+                  37.982597999328
+                ],
+                [
+                  -119.694141999301,
+                  37.9823890003576
+                ],
+                [
+                  -119.694102079068,
+                  37.9823210662709
+                ],
+                [
+                  -119.693398175381,
+                  37.9819383571136
+                ],
+                [
+                  -119.693614089053,
+                  37.9813714807122
+                ],
+                [
+                  -119.693986490146,
+                  37.9807697998293
+                ],
+                [
+                  -119.694205818314,
+                  37.9802964989543
+                ],
+                [
+                  -119.694673000652,
+                  37.9800290000985
+                ],
+                [
+                  -119.694836000859,
+                  37.9795329997894
+                ],
+                [
+                  -119.694836956666,
+                  37.9795317330349
+                ],
+                [
+                  -119.69491599853,
+                  37.9794269994856
+                ],
+                [
+                  -119.695012000586,
+                  37.9793359997373
+                ],
+                [
+                  -119.695123999841,
+                  37.9792599998921
+                ],
+                [
+                  -119.695251000961,
+                  37.9791999998097
+                ],
+                [
+                  -119.695394000177,
+                  37.9791579998644
+                ],
+                [
+                  -119.695851999937,
+                  37.9790809993123
+                ],
+                [
+                  -119.695885328332,
+                  37.9782070322495
+                ],
+                [
+                  -119.695451999904,
+                  37.9779649994906
+                ],
+                [
+                  -119.69535300017,
+                  37.9778869999803
+                ],
+                [
+                  -119.695199000184,
+                  37.9776939998005
+                ],
+                [
+                  -119.695196999636,
+                  37.9775810001201
+                ],
+                [
+                  -119.695253999537,
+                  37.9774659998845
+                ],
+                [
+                  -119.695354999819,
+                  37.9773659998718
+                ],
+                [
+                  -119.695479999493,
+                  37.9772799995961
+                ],
+                [
+                  -119.69561699976,
+                  37.977202999906
+                ],
+                [
+                  -119.695764999898,
+                  37.9771350001217
+                ],
+                [
+                  -119.695923000082,
+                  37.9770760002683
+                ],
+                [
+                  -119.695987573679,
+                  37.9770595765179
+                ],
+                [
+                  -119.69697067196,
+                  37.9767169003665
+                ],
+                [
+                  -119.697374000251,
+                  37.9764680004078
+                ],
+                [
+                  -119.698247000112,
+                  37.975776000271
+                ],
+                [
+                  -119.698431999162,
+                  37.9756989997112
+                ],
+                [
+                  -119.698944731475,
+                  37.9755275028733
+                ],
+                [
+                  -119.700549131556,
+                  37.9752971247318
+                ],
+                [
+                  -119.701901440113,
+                  37.9750063139421
+                ],
+                [
+                  -119.703443763014,
+                  37.9743914422466
+                ],
+                [
+                  -119.704423626462,
+                  37.9742690044772
+                ],
+                [
+                  -119.705633385858,
+                  37.9742211851234
+                ],
+                [
+                  -119.706766479435,
+                  37.9748344458446
+                ],
+                [
+                  -119.707506360649,
+                  37.9757364682758
+                ],
+                [
+                  -119.707608437113,
+                  37.9764533836165
+                ],
+                [
+                  -119.707574143927,
+                  37.9768937250406
+                ],
+                [
+                  -119.707662279436,
+                  37.97723134806
+                ],
+                [
+                  -119.709191608207,
+                  37.9776356603436
+                ],
+                [
+                  -119.710908748652,
+                  37.9776560082429
+                ],
+                [
+                  -119.712230686068,
+                  37.9772259204593
+                ],
+                [
+                  -119.713537684501,
+                  37.9770758777664
+                ],
+                [
+                  -119.714702926087,
+                  37.9771888293654
+                ],
+                [
+                  -119.715756797239,
+                  37.9777039329896
+                ],
+                [
+                  -119.71686866632,
+                  37.9777381772736
+                ],
+                [
+                  -119.717501364148,
+                  37.9777834897988
+                ],
+                [
+                  -119.718333609241,
+                  37.9777642458577
+                ],
+                [
+                  -119.719823771466,
+                  37.9777897118424
+                ],
+                [
+                  -119.720966761782,
+                  37.9779830339536
+                ],
+                [
+                  -119.72211565942,
+                  37.9783360430333
+                ],
+                [
+                  -119.72229059105,
+                  37.9789713382641
+                ],
+                [
+                  -119.722613768058,
+                  37.980202585147
+                ],
+                [
+                  -119.7225067293,
+                  37.9814038370089
+                ],
+                [
+                  -119.722327714827,
+                  37.9827066530676
+                ],
+                [
+                  -119.721919486226,
+                  37.9839548386665
+                ],
+                [
+                  -119.721564774758,
+                  37.9846023979118
+                ],
+                [
+                  -119.720692000374,
+                  37.9854769996663
+                ],
+                [
+                  -119.72042339063,
+                  37.9856611900119
+                ],
+                [
+                  -119.720259467853,
+                  37.9857735938427
+                ],
+                [
+                  -119.720062000187,
+                  37.9859089995969
+                ],
+                [
+                  -119.719488000077,
+                  37.9863490003731
+                ],
+                [
+                  -119.719203999497,
+                  37.9866470006745
+                ],
+                [
+                  -119.719096999366,
+                  37.9868010006885
+                ],
+                [
+                  -119.719009999328,
+                  37.9869550003793
+                ],
+                [
+                  -119.719002423835,
+                  37.986972678629
+                ],
+                [
+                  -119.718550480517,
+                  37.9880399586921
+                ],
+                [
+                  -119.71844501471,
+                  37.9887287457288
+                ],
+                [
+                  -119.718443999613,
+                  37.9890639998881
+                ],
+                [
+                  -119.718388999362,
+                  37.9898189997001
+                ],
+                [
+                  -119.718294001622,
+                  37.990325000019
+                ],
+                [
+                  -119.71821000016,
+                  37.9905769999197
+                ],
+                [
+                  -119.71810499968,
+                  37.9908210003023
+                ],
+                [
+                  -119.717978000356,
+                  37.9910530005169
+                ],
+                [
+                  -119.717834000416,
+                  37.9912789999838
+                ],
+                [
+                  -119.717528999919,
+                  37.9917149997197
+                ],
+                [
+                  -119.71739200055,
+                  37.9919279997105
+                ],
+                [
+                  -119.717289000618,
+                  37.9921470004421
+                ],
+                [
+                  -119.717016999733,
+                  37.9928230001314
+                ],
+                [
+                  -119.716912999078,
+                  37.9930460002281
+                ],
+                [
+                  -119.716792000501,
+                  37.9932660000751
+                ],
+                [
+                  -119.716644999289,
+                  37.9934729992674
+                ],
+                [
+                  -119.716478999608,
+                  37.9936689992708
+                ],
+                [
+                  -119.716302999881,
+                  37.9938540001732
+                ],
+                [
+                  -119.71611299991,
+                  37.9940319997936
+                ],
+                [
+                  -119.715494999419,
+                  37.9945220000413
+                ],
+                [
+                  -119.715111000178,
+                  37.9948569997715
+                ],
+                [
+                  -119.714767999148,
+                  37.995207999986
+                ],
+                [
+                  -119.7146360007,
+                  37.9954080000931
+                ],
+                [
+                  -119.714552999961,
+                  37.9956289995242
+                ],
+                [
+                  -119.71436699929,
+                  37.9963580000569
+                ],
+                [
+                  -119.714265999906,
+                  37.9968670007098
+                ],
+                [
+                  -119.714111000095,
+                  37.997365999345
+                ],
+                [
+                  -119.71400699944,
+                  37.9976110000682
+                ],
+                [
+                  -119.713874999195,
+                  37.9978489995218
+                ],
+                [
+                  -119.713695000168,
+                  37.9980600002861
+                ],
+                [
+                  -119.713477999535,
+                  37.9982460002854
+                ],
+                [
+                  -119.713230001635,
+                  37.9983929996199
+                ],
+                [
+                  -119.712970000445,
+                  37.9985250004616
+                ],
+                [
+                  -119.712704000306,
+                  37.9986420000598
+                ],
+                [
+                  -119.712433000145,
+                  37.9987410005542
+                ],
+                [
+                  -119.712279972136,
+                  37.9987848829061
+                ],
+                [
+                  -119.711859819298,
+                  37.9991520622707
+                ],
+                [
+                  -119.711485185892,
+                  37.9996914132247
+                ],
+                [
+                  -119.711425547639,
+                  38.0012849082349
+                ],
+                [
+                  -119.711308100102,
+                  38.0023802484274
+                ],
+                [
+                  -119.709607762644,
+                  38.0044174195859
+                ],
+                [
+                  -119.708164143931,
+                  38.004856532144
+                ],
+                [
+                  -119.70695244058,
+                  38.0051654123809
+                ],
+                [
+                  -119.706480542087,
+                  38.0052074986583
+                ],
+                [
+                  -119.705252767875,
+                  38.005079678982
+                ],
+                [
+                  -119.705229644342,
+                  38.0050750228559
+                ],
+                [
+                  -119.705102999853,
+                  38.0050840003027
+                ],
+                [
+                  -119.704707999843,
+                  38.005096000195
+                ],
+                [
+                  -119.703172000183,
+                  38.0050829994268
+                ],
+                [
+                  -119.702455000856,
+                  38.005097999823
+                ],
+                [
+                  -119.70210000013,
+                  38.005119999266
+                ],
+                [
+                  -119.701271497418,
+                  38.0058447469802
+                ],
+                [
+                  -119.700162154399,
+                  38.0067750179701
+                ],
+                [
+                  -119.699069366433,
+                  38.008157288144
+                ],
+                [
+                  -119.697136735422,
+                  38.0089125578584
+                ],
+                [
+                  -119.696759446596,
+                  38.0097613674667
+                ],
+                [
+                  -119.696876069479,
+                  38.0101081013077
+                ],
+                [
+                  -119.697126148776,
+                  38.0108516088992
+                ],
+                [
+                  -119.696909714082,
+                  38.0116321005483
+                ]
+              ],
+              [
+                [
+                  -119.685604700997,
+                  38.0210357479835
+                ],
+                [
+                  -119.685429114495,
+                  38.0212278217212
+                ],
+                [
+                  -119.685290511633,
+                  38.0216724985089
+                ],
+                [
+                  -119.685179443931,
+                  38.021828213971
+                ],
+                [
+                  -119.684943464591,
+                  38.0220723835337
+                ],
+                [
+                  -119.684797567409,
+                  38.0221613148268
+                ],
+                [
+                  -119.684513074552,
+                  38.0222759385757
+                ],
+                [
+                  -119.684443722815,
+                  38.0223360916637
+                ],
+                [
+                  -119.6844020338,
+                  38.0224812112629
+                ],
+                [
+                  -119.684332687453,
+                  38.022717067151
+                ],
+                [
+                  -119.684110823341,
+                  38.0231140889487
+                ],
+                [
+                  -119.684055041555,
+                  38.0232144766685
+                ],
+                [
+                  -119.684089818933,
+                  38.0234164179127
+                ],
+                [
+                  -119.684075785451,
+                  38.0234708012572
+                ],
+                [
+                  -119.683832956457,
+                  38.0237421547901
+                ],
+                [
+                  -119.683839853722,
+                  38.0238140805922
+                ],
+                [
+                  -119.683930084102,
+                  38.0239066315309
+                ],
+                [
+                  -119.684270405458,
+                  38.0241511494077
+                ],
+                [
+                  -119.684360607092,
+                  38.0241355740533
+                ],
+                [
+                  -119.684291134083,
+                  38.0238217947082
+                ],
+                [
+                  -119.684311731554,
+                  38.0236546322311
+                ],
+                [
+                  -119.684408846623,
+                  38.0234676996032
+                ],
+                [
+                  -119.684638076022,
+                  38.0232236861287
+                ],
+                [
+                  -119.684762772963,
+                  38.0231487536133
+                ],
+                [
+                  -119.685033729107,
+                  38.0231020162863
+                ],
+                [
+                  -119.685109974515,
+                  38.0230552223166
+                ],
+                [
+                  -119.685241919064,
+                  38.0229350722496
+                ],
+                [
+                  -119.685366806448,
+                  38.0228556302206
+                ],
+                [
+                  -119.685463984399,
+                  38.0228849465048
+                ],
+                [
+                  -119.685484969943,
+                  38.0229430341393
+                ],
+                [
+                  -119.685436387255,
+                  38.0230747961758
+                ],
+                [
+                  -119.685429114495,
+                  38.0231875913222
+                ],
+                [
+                  -119.685456885912,
+                  38.0232365145495
+                ],
+                [
+                  -119.685581861331,
+                  38.0233057432593
+                ],
+                [
+                  -119.685672226458,
+                  38.0232946663021
+                ],
+                [
+                  -119.68581811825,
+                  38.0230885983618
+                ],
+                [
+                  -119.686005338834,
+                  38.0226788491056
+                ],
+                [
+                  -119.685977732707,
+                  38.0226344283694
+                ],
+                [
+                  -119.685873384403,
+                  38.0225647305517
+                ],
+                [
+                  -119.685845530341,
+                  38.0224842726219
+                ],
+                [
+                  -119.68587340237,
+                  38.0223800143838
+                ],
+                [
+                  -119.685977708452,
+                  38.0221658863628
+                ],
+                [
+                  -119.685970672847,
+                  38.0220804467138
+                ],
+                [
+                  -119.685908105187,
+                  38.0220728675793
+                ],
+                [
+                  -119.685797279133,
+                  38.0220889146795
+                ],
+                [
+                  -119.685707000243,
+                  38.0221315262383
+                ],
+                [
+                  -119.685491728867,
+                  38.0223481899283
+                ],
+                [
+                  -119.685325013228,
+                  38.0224421042667
+                ],
+                [
+                  -119.685248792973,
+                  38.0224213201303
+                ],
+                [
+                  -119.685193252834,
+                  38.0223234739698
+                ],
+                [
+                  -119.685207281824,
+                  38.0222105232217
+                ],
+                [
+                  -119.685241913674,
+                  38.0221061110301
+                ],
+                [
+                  -119.685352982274,
+                  38.0220089636264
+                ],
+                [
+                  -119.685540460674,
+                  38.0218695228592
+                ],
+                [
+                  -119.68560974863,
+                  38.021651688678
+                ],
+                [
+                  -119.685672080931,
+                  38.0213213836575
+                ],
+                [
+                  -119.685797071622,
+                  38.0211473290626
+                ],
+                [
+                  -119.686553767501,
+                  38.0203956820815
+                ],
+                [
+                  -119.686727194453,
+                  38.0200763511839
+                ],
+                [
+                  -119.686859371666,
+                  38.0198751006404
+                ],
+                [
+                  -119.687018906172,
+                  38.0196822342805
+                ],
+                [
+                  -119.687116046394,
+                  38.0196034242331
+                ],
+                [
+                  -119.687518339826,
+                  38.0193329223009
+                ],
+                [
+                  -119.687670950118,
+                  38.019135707837
+                ],
+                [
+                  -119.687782274738,
+                  38.0188898795488
+                ],
+                [
+                  -119.68805306649,
+                  38.0183520710754
+                ],
+                [
+                  -119.688059819126,
+                  38.0182933492361
+                ],
+                [
+                  -119.687983736313,
+                  38.0182275099496
+                ],
+                [
+                  -119.687879316145,
+                  38.0182434142275
+                ],
+                [
+                  -119.687712578048,
+                  38.0182292063211
+                ],
+                [
+                  -119.687587910751,
+                  38.0181779945661
+                ],
+                [
+                  -119.68744901414,
+                  38.0180685405814
+                ],
+                [
+                  -119.687331078818,
+                  38.0180261842658
+                ],
+                [
+                  -119.687185545454,
+                  38.0180565442279
+                ],
+                [
+                  -119.68699104672,
+                  38.0181691163863
+                ],
+                [
+                  -119.686754946107,
+                  38.0183997746178
+                ],
+                [
+                  -119.686734162685,
+                  38.0185128798573
+                ],
+                [
+                  -119.686831200499,
+                  38.0185872509511
+                ],
+                [
+                  -119.686963446882,
+                  38.018660815897
+                ],
+                [
+                  -119.687039502745,
+                  38.0187356666621
+                ],
+                [
+                  -119.687074304377,
+                  38.0188114593001
+                ],
+                [
+                  -119.687004912217,
+                  38.0190067702196
+                ],
+                [
+                  -119.686859173138,
+                  38.0192849214259
+                ],
+                [
+                  -119.686755114991,
+                  38.0194179511521
+                ],
+                [
+                  -119.686477319074,
+                  38.0196765939744
+                ],
+                [
+                  -119.686324755494,
+                  38.0197972164603
+                ],
+                [
+                  -119.686255522335,
+                  38.0199384608255
+                ],
+                [
+                  -119.686185767255,
+                  38.0200752125134
+                ],
+                [
+                  -119.686012478644,
+                  38.0204666218256
+                ],
+                [
+                  -119.685886872607,
+                  38.020662641678
+                ],
+                [
+                  -119.685604700997,
+                  38.0210357479835
+                ]
+              ],
+              [
+                [
+                  -119.692924531461,
+                  38.0127171531779
+                ],
+                [
+                  -119.69311911823,
+                  38.0126270949942
+                ],
+                [
+                  -119.693299540363,
+                  38.0125779077669
+                ],
+                [
+                  -119.693444982998,
+                  38.0125745763374
+                ],
+                [
+                  -119.693674277974,
+                  38.0126549198734
+                ],
+                [
+                  -119.693736507867,
+                  38.0126534937371
+                ],
+                [
+                  -119.693916965034,
+                  38.0124691489341
+                ],
+                [
+                  -119.694263877329,
+                  38.0123305464087
+                ],
+                [
+                  -119.69442344687,
+                  38.0122367833134
+                ],
+                [
+                  -119.694541323801,
+                  38.0121124404027
+                ],
+                [
+                  -119.69462482041,
+                  38.0120114111015
+                ],
+                [
+                  -119.694638505345,
+                  38.0118894565232
+                ],
+                [
+                  -119.694603751324,
+                  38.0117956440277
+                ],
+                [
+                  -119.694465057732,
+                  38.0117402561885
+                ],
+                [
+                  -119.694284602361,
+                  38.011739887441
+                ],
+                [
+                  -119.693667158825,
+                  38.0118576593615
+                ],
+                [
+                  -119.693382754901,
+                  38.0120218605602
+                ],
+                [
+                  -119.693278459598,
+                  38.0120602915386
+                ],
+                [
+                  -119.693208978505,
+                  38.0120483678093
+                ],
+                [
+                  -119.693077120194,
+                  38.0119657898971
+                ],
+                [
+                  -119.692528923292,
+                  38.0118071523382
+                ],
+                [
+                  -119.692438764777,
+                  38.0118137218416
+                ],
+                [
+                  -119.692098839578,
+                  38.01205578024
+                ],
+                [
+                  -119.692015691515,
+                  38.0123415146121
+                ],
+                [
+                  -119.691973901888,
+                  38.0124055430679
+                ],
+                [
+                  -119.691959942069,
+                  38.0125590416959
+                ],
+                [
+                  -119.691619959378,
+                  38.0130624009057
+                ],
+                [
+                  -119.691613019893,
+                  38.0131256339227
+                ],
+                [
+                  -119.69165468645,
+                  38.0131652257483
+                ],
+                [
+                  -119.691932218263,
+                  38.0131048082174
+                ],
+                [
+                  -119.692098859341,
+                  38.013087475281
+                ],
+                [
+                  -119.692168340435,
+                  38.0130993988412
+                ],
+                [
+                  -119.692293331125,
+                  38.0131596090044
+                ],
+                [
+                  -119.692334780291,
+                  38.0132127224636
+                ],
+                [
+                  -119.692348697889,
+                  38.0133790955517
+                ],
+                [
+                  -119.692251451667,
+                  38.0138048154944
+                ],
+                [
+                  -119.692209853381,
+                  38.0138643357313
+                ],
+                [
+                  -119.692209886619,
+                  38.0139138936629
+                ],
+                [
+                  -119.692265231823,
+                  38.0139576770505
+                ],
+                [
+                  -119.692626082378,
+                  38.0138593064721
+                ],
+                [
+                  -119.692806706632,
+                  38.0138641779035
+                ],
+                [
+                  -119.692938578417,
+                  38.0138206103233
+                ],
+                [
+                  -119.69301501876,
+                  38.0137017218963
+                ],
+                [
+                  -119.693077355552,
+                  38.0134795383647
+                ],
+                [
+                  -119.693035707859,
+                  38.0133723669442
+                ],
+                [
+                  -119.692924776701,
+                  38.0133073307839
+                ],
+                [
+                  -119.69286205004,
+                  38.0132952522594
+                ],
+                [
+                  -119.692820410432,
+                  38.0132466493777
+                ],
+                [
+                  -119.692792780949,
+                  38.0130265275764
+                ],
+                [
+                  -119.692813710796,
+                  38.0128593546294
+                ],
+                [
+                  -119.692924531461,
+                  38.0127171531779
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "GlobalID": "c62f887f-6203-4d10-a59a-d94b56a0b4ec",
+            "FIRE_NAME": "TILTILL",
+            "YEAR_": 2021,
+            "ALARM_DATE": 1627689600000
+          }
+        }
+      ]
+    }
+  },
+  "builtAt": "2026-10-25T18:32:51.154301+00:00",
+  "plumeCoverage": {
+    "2021-07-28": false,
+    "2021-07-29": false,
+    "2021-07-30": false,
+    "2021-07-31": true,
+    "2021-08-01": false,
+    "2021-08-02": true
+  },
+  "context": {
+    "status": "available",
+    "fireId": "frap:2021:c62f887f-6203-4d10-a59a-d94b56a0b4ec",
+    "slope": {
+      "status": "available",
+      "file": "/data/waves/frap-2021-c62f887f-6203-4d10-a59a-d94b56a0b4ec-slope-ccb5e39119c4.png",
+      "bounds": [
+        -119.75976870267891,
+        37.94510707295566,
+        -119.63787868019662,
+        38.05882233066545
+      ],
+      "width": 1351,
+      "height": 1600,
+      "thresholdDegrees": 23.0,
+      "pixelSizeMetres": 10,
+      "colors": {
+        "below": "#e0e7e1",
+        "atOrAbove": "#4d7778"
+      },
+      "minimumDegrees": 0.0,
+      "maximumDegrees": 81.76131041603772,
+      "nativeValidPercent": 100.0,
+      "fireSteepPercent": 37.32720906066348,
+      "fireValidPercent": 100.0,
+      "fireValidCells": 114517,
+      "sourceUrl": "https://www.usgs.gov/3d-elevation-program",
+      "license": "Public domain (USGS 3DEP); elevation metres, NAVD88; horizontal NAD83.",
+      "retrievedAt": "2026-10-23T02:26:48.295659+00:00",
+      "sources": [
+        {
+          "sourceUrl": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/13/TIFF/historical/n38w120/USGS_13_n38w120_20250514.tif",
+          "catalogUrl": "https://tnmaccess.nationalmap.gov/api/v1/products?bbox=-119.75976870267891%2C37.94510707295566%2C-119.63787868019662%2C38.05882233066545&datasets=National+Elevation+Dataset+%28NED%29+1%2F3+arc-second&max=1000",
+          "retrievedAt": "2026-10-23T02:26:47.424159+00:00",
+          "license": "Public domain (USGS 3DEP); elevation metres, NAVD88; horizontal NAD83.",
+          "publicationDate": "2025-05-15",
+          "title": "USGS 1/3 Arc Second n38w120 20250514",
+          "bytes": 2660398,
+          "sha256": "9b5ff47f499927c0218c4e9eb330d58af2fabfe51a8cb29c249f33b620ab4066",
+          "footprint": [
+            -119.75976870267891,
+            37.94510707295566,
+            -119.63787868019662,
+            38.05882233066545
+          ],
+          "processing": "Native-grid window plus 20-cell derivative buffer; not a complete copy of the source tile."
+        },
+        {
+          "sourceUrl": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/13/TIFF/historical/n39w120/USGS_13_n39w120_20260519.tif",
+          "catalogUrl": "https://tnmaccess.nationalmap.gov/api/v1/products?bbox=-119.75976870267891%2C37.94510707295566%2C-119.63787868019662%2C38.05882233066545&datasets=National+Elevation+Dataset+%28NED%29+1%2F3+arc-second&max=1000",
+          "retrievedAt": "2026-10-23T02:26:48.295659+00:00",
+          "license": "Public domain (USGS 3DEP); elevation metres, NAVD88; horizontal NAD83.",
+          "publicationDate": "2026-05-20",
+          "title": "USGS 1/3 Arc Second n39w120 20260519",
+          "bytes": 2828755,
+          "sha256": "218eb7349543737f472369c40bdd1f6d6fe6bcf6135fb52e544d2305515af1f1",
+          "footprint": [
+            -119.75976870267891,
+            37.94510707295566,
+            -119.63787868019662,
+            38.05882233066545
+          ],
+          "processing": "Native-grid window plus 20-cell derivative buffer; not a complete copy of the source tile."
+        }
+      ],
+      "waterSource": {
+        "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Hydro/MapServer/1/query?f=geojson&where=1%3D1&geometry=-119.75976870267891%2C37.94510707295566%2C-119.63787868019662%2C38.05882233066545&geometryType=esriGeometryEnvelope&inSR=4326&outSR=4326&spatialRel=esriSpatialRelIntersects&outFields=%2A&returnGeometry=true&resultRecordCount=100000",
+        "retrievedAt": "2026-10-23T02:26:49.786694+00:00",
+        "bytes": 257501,
+        "sha256": "51c0fec9f98b77e4bdd0921ebf1435ece233fef0d2d8de80a2696cd659de3812",
+        "md5": "cf8e7d4a3d55d1357621277b203cc8e2",
+        "usedFeatureCount": 133,
+        "excludedInvalidFeatureIds": []
+      },
+      "dataClass": "Historical",
+      "processing": "Native elevation windows; bilinear reprojection to a metre-based 10 m NAD83 UTM grid; central-difference slope in degrees; 0-90 degree check before thresholding; rectangle extending 3 km past each edge of the fire's projected bounding box; nearest-neighbor class rendering to Web Mercator PNG. Water and no-data transparent.",
+      "contextBufferMetres": 3000,
+      "contextShape": "rectangle",
+      "outsideAlpha": 64,
+      "inputFootprint": [
+        -119.7228,
+        37.9733,
+        -119.675,
+        38.031
+      ],
+      "limitation": "Elevation editions are not fire-date measurements. Display is resampled; no extra spatial detail is created. Census water is not date-matched; invalid water polygons are omitted and listed in the water source record. This is terrain, not a watershed or a debris-flow estimate.",
+      "analysisMask": "Rectangle extending 3 km past each edge of the verified fire boundary's projected bounding box"
+    },
+    "imagery": {
+      "status": "not_checked",
+      "reason": "No verified fire-level dated imagery archive has been retrieved. MTBS maps are checked separately."
+    },
+    "boundarySource": {
+      "status": "available",
+      "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10024041",
+      "retrievedAt": "2026-10-21T23:14:09.240036+00:00",
+      "bytes": 36370,
+      "sha256": "5d09335107eef81e79c84b0d32b60fbe07dfdd80a506413116baa570c3738548",
+      "displayFootprintChoice": {
+        "policy": {
+          "useVerifiedMtbsBoundaryExtent": true,
+          "approvedAt": "2026-10-21",
+          "reason": "User approved the exact verified MTBS boundary extent for new ground products without an established raster footprint. No padding; area statistics remain within that MTBS boundary. Existing footprints and reviewed values are retained."
+        },
+        "mapId": 10024041,
+        "bounds": [
+          -119.7228,
+          37.9733,
+          -119.675,
+          38.031
+        ],
+        "padding": 0
+      }
+    }
+  },
+  "recovery": {
+    "schemaVersion": 1,
+    "fireId": "frap:2021:c62f887f-6203-4d10-a59a-d94b56a0b4ec",
+    "water": {
+      "status": "match_unresolved",
+      "reason": "The verified notice catalog has no fire-to-provider link for this record. No complete historical notice registry or service-area crosswalk is supplied; this is not evidence that no notice existed. Unrelated provider pages were not requested.",
+      "notices": [],
+      "failures": [],
+      "completeHistory": false,
+      "scope": {
+        "fireId": "frap:2021:c62f887f-6203-4d10-a59a-d94b56a0b4ec",
+        "boundarySource": null,
+        "spatialRelationship": "Provider notice territory, not the fire footprint or every property inside it.",
+        "measurementPeriod": null,
+        "periodStatus": "not_supplied",
+        "sourceUrls": [],
+        "blockedBy": "provider_link",
+        "indexChecked": "Existing verified provider-notice catalog"
+      }
+    },
+    "builtAt": "2026-10-22T02:31:07.402313+00:00",
+    "damage": {
+      "status": "not_checked",
+      "reason": "Inspection match not checked."
+    },
+    "power": {
+      "status": "available",
+      "dataClass": "Historical",
+      "relationship": "nearby_time_matched",
+      "unit": "reported customers without power",
+      "sourceUrl": "https://figshare.com/articles/dataset/The_Environment_for_Analysis_of_Geo-Located_Energy_Information_s_Recorded_Electricity_Outages_2014-2022/24237376",
+      "retrievedAt": "2026-10-25T18:17:07.814391+00:00",
+      "license": "CC BY 4.0; ORNL EAGLE-I / DOE-CESER",
+      "seriesUrl": "/data/historical-fires/power/frap-2021-c62f887f-6203-4d10-a59a-d94b56a0b4ec.json",
+      "countyCount": 1,
+      "recordCount": 2831,
+      "scope": {
+        "fireId": "frap:2021:c62f887f-6203-4d10-a59a-d94b56a0b4ec",
+        "boundarySource": {
+          "status": "available",
+          "sourceUrl": "https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/California_Historic_Fire_Perimeters/FeatureServer/0/query?f=geojson&where=GlobalID%3D%27c62f887f-6203-4d10-a59a-d94b56a0b4ec%27&outFields=GlobalID%2CFIRE_NAME%2CYEAR_%2CALARM_DATE&outSR=4326&returnGeometry=true",
+          "retrievedAt": "2026-10-25T17:57:14.141657+00:00",
+          "bytes": 22391,
+          "sha256": "c34e22c475c24c5c5324e25cb1b71a22b7a73028640799b46c8faf7e8c60e1fd",
+          "md5": "3a68b0341684d61e562c033471f0c123"
+        },
+        "spatialRelationship": "County-wide context in counties intersecting the fire; not outages inside the perimeter or attributed to the fire.",
+        "measurementPeriod": [
+          {
+            "countyId": "06109",
+            "start": "2021-07-28T03:45:00+00:00",
+            "end": "2021-09-25T23:45:00+00:00"
+          }
+        ],
+        "periodStatus": "source_supplied",
+        "sourceUrls": [
+          "https://ndownloader.figshare.com/files/42547891"
+        ],
+        "preflightVerified": true,
+        "countyBoundarySource": {
+          "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?f=geojson&where=STATE%3D%2706%27&outFields=STATE%2CCOUNTY%2CGEOID%2CNAME&returnGeometry=true&outSR=4326&resultRecordCount=1000",
+          "retrievedAt": "2026-10-25T17:56:26.362096+00:00",
+          "bytes": 10816969,
+          "sha256": "f51dd64302c7fe4df11c3f9bb11d2b3b13f35cf66bc2b252d49f8b6d572f9b14",
+          "md5": "fca119c0d3d508d9fa76ce3b320fde7a"
+        },
+        "countyIds": [
+          "06109"
+        ],
+        "analysisWindow": {
+          "countyIds": [
+            "06109"
+          ],
+          "start": "2021-07-28T00:00:00+00:00",
+          "endExclusive": "2021-09-26T00:00:00+00:00"
+        }
+      },
+      "missingRecordCount": 133,
+      "reason": ""
+    }
+  },
+  "hrrr": {
+    "status": "available",
+    "caseId": "frap:2021:c62f887f-6203-4d10-a59a-d94b56a0b4ec",
+    "manifest": "/data/waves/hrrr-frap-2021-c62f887f-6203-4d10-a59a-d94b56a0b4ec/manifest.json",
+    "forecastLeadHours": 1,
+    "timezone": "America/Los_Angeles",
+    "reason": "Archived NOAA model frames prepared."
+  }
+}

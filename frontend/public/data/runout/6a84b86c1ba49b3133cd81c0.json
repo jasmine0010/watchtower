@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "assessmentId": "6a84b86c1ba49b3133cd81c0",
+  "name": "Eaton",
+  "ignition": "2025-01-08",
+  "assessmentDate": "2025-02-28",
+  "publicationDate": "2026-08-18",
+  "assessmentVersion": "1.0.0",
+  "sourceUrl": "https://www.sciencebase.gov/catalog/item/6a84b86c1ba49b3133cd81c0",
+  "license": "CC0 1.0",
+  "provisional": true,
+  "bounds": [
+    -118.17398598675591,
+    34.15437785412925,
+    -118.0173565449337,
+    34.21801882918159
+  ],
+  "studyBounds": [
+    -118.2271543491671,
+    34.10783874829298,
+    -117.94804268074525,
+    34.29077123917006
+  ],
+  "match": {
+    "mapId": 10037055,
+    "eventId": "CA3419211810520250108",
+    "name": "EATON",
+    "ignition": "2025-01-08"
+  },
+  "agencyMatch": null,
+  "model": "Ursa pre-v1.0.0",
+  "terrain": "Manually constructed DEM (mer1625_dmproj_3m-withdam.tif) that used a combination of the 2016 and 2025 lidar and manual modification to represent the Sierra Madre dam.",
+  "depthCutoffMetres": 0.1,
+  "assessmentAgeDays": 51,
+  "sourceCrs": "urn:ogc:def:crs:EPSG::26911",
+  "displayCrs": "EPSG:4326",
+  "scenarios": [
+    {
+      "intensity": 15,
+      "url": "/data/runout/eaton-15-5290755d1841.geojson",
+      "bytes": 187015,
+      "sha256": "5290755d1841761c2c6007e32287217a1dc3ba2c9541914ebba7ef8b7976c5af"
+    },
+    {
+      "intensity": 20,
+      "url": "/data/runout/eaton-20-d96641102c0a.geojson",
+      "bytes": 1329798,
+      "sha256": "d96641102c0a642bb5f200aecffbf0819df5436e2fe0efc052c9da403ca830ec"
+    },
+    {
+      "intensity": 25,
+      "url": "/data/runout/eaton-25-b6c1f3742ecf.geojson",
+      "bytes": 1562659,
+      "sha256": "b6c1f3742ecf5d3e273129074859d3d5e5eb60f549500486a6c6b8ff24821db6"
+    },
+    {
+      "intensity": 50,
+      "url": "/data/runout/eaton-50-f44a74701c1e.geojson",
+      "bytes": 2155524,
+      "sha256": "f44a74701c1ed1eb5a670fade718febde665a80ae0ddad3ee9c80ce30e30f9aa"
+    },
+    {
+      "intensity": 75,
+      "url": "/data/runout/eaton-75-1ae74ff6ce04.geojson",
+      "bytes": 2465258,
+      "sha256": "1ae74ff6ce04a6a7daf195a56a9007ba4a8ff02156234baeb76de404f1dd6add"
+    }
+  ],
+  "sources": {
+    "release": {
+      "url": "https://www.sciencebase.gov/catalog/item/6a84b86c1ba49b3133cd81c0?format=json",
+      "retrieved": "2026-10-18T22:22:20.215605+00:00",
+      "bytes": 13997,
+      "sha256": "38e8424e5c1cccb07e5fb4d0126c4bec549417a092e0b4e29c6218ece8d32df6"
+    },
+    "locations": {
+      "url": "https://earthquake.usgs.gov/arcgis/rest/services/ls/pwfdf/MapServer/0/query?f=json&where=1%3D1&outFields=%2A&returnGeometry=false&resultRecordCount=2000",
+      "retrieved": "2026-10-18T22:22:48.219590+00:00",
+      "bytes": 420134,
+      "sha256": "85286c45b58c94d9d3c4bb800364f0e0f050300de4650b783c3b10a4eacf988e"
+    },
+    "metadata.json": {
+      "url": "https://www.sciencebase.gov/catalog/file/get/6a84b86c1ba49b3133cd81c0?f=__disk__56%2Fed%2F7a%2F56ed7a4b7bdd67495a202b982dbe22f43d40c109",
+      "retrieved": "2026-10-18T22:22:20.430133+00:00",
+      "bytes": 5381,
+      "sha256": "99779b99eb922af0e076764ef9b2dc6a9c2e1397b592d6509360cae13c6b83b1"
+    },
+    "GeoJSON.zip": {
+      "url": "https://www.sciencebase.gov/catalog/file/get/6a84b86c1ba49b3133cd81c0?f=__disk__96%2Fcc%2F84%2F96cc847f62e6e21a0faa88e2deb9e97d87143cb1",
+      "retrieved": "2026-10-18T22:22:51.703234+00:00",
+      "bytes": 630180,
+      "sha256": "830633ec29e5d7ddc0c1b43ea61bfb9c633d14e4527fa759883d0ef8f2544255"
+    },
+    "config.yml": {
+      "url": "https://www.sciencebase.gov/catalog/file/get/6a84b86c1ba49b3133cd81c0?f=__disk__ba%2F0b%2Fcd%2Fba0bcd4598e6403407aa4669cafb0c8313c9aaa5",
+      "retrieved": "2026-10-18T22:22:51.893558+00:00",
+      "bytes": 1774,
+      "sha256": "51abb39d27a929396e6f45f213b23e3d86896f94e4fc30d30fba33a9f4a346b5"
+    },
+    "version.txt": {
+      "url": "https://www.sciencebase.gov/catalog/file/get/6a84b86c1ba49b3133cd81c0?f=__disk__73%2F03%2F6f%2F73036f2ac6ad60a023b9380b8c2fd842cf175900",
+      "retrieved": "2026-10-18T22:22:52.106069+00:00",
+      "bytes": 592,
+      "sha256": "845df7200716c81a459781b6cea4ae6c33e6ff899d544a4bc26d307f4a9002b0"
+    },
+    "mtbs": {
+      "url": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=incid_name%3D%27EATON%27",
+      "retrieved": "2026-10-18T22:22:52.623808+00:00",
+      "bytes": 191083,
+      "sha256": "19a2ae6533653dd95adf19cf589d4bfb0eceb0d3f647c2b256a69561f7492a6b"
+    }
+  },
+  "audit": {
+    "runoutFeatures": 15,
+    "invalidRunoutFeatures": 0,
+    "basinFeatures": 108,
+    "invalidBasinFeatures": 14,
+    "basinsDisplayed": false,
+    "withinScenarioNested": true,
+    "crossScenarioNested": false,
+    "note": "Fire-level identities only; no watershed crosswalk or live-assessment version join."
+  }
+}

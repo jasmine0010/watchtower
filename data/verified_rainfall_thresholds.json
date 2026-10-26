@@ -1,0 +1,117 @@
+{
+  "checkedDate": "2026-10-17",
+  "cases": {
+    "Dolan_2020_0006": {
+      "status": "available",
+      "observationId": "Dolan_2020_0006",
+      "assessmentId": "dln2020_10780",
+      "scope": "basin",
+      "durationMinutes": 15,
+      "probability": 0.5,
+      "depthMm": 5.18625551487,
+      "intensityMmH": 20.7450220595,
+      "depthUnit": "mm",
+      "intensityUnit": "mm/hour",
+      "assessmentDate": "2020-10-09",
+      "version": "Dated archive snapshot; no numbered version supplied",
+      "sourceUrl": "https://data.usgs.gov/datacatalog/data/USGS:68bb430fd4be025329aa1c10",
+      "downloadUrl": "https://www.sciencebase.gov/catalog/file/get/68bb430fd4be025329aa1c10?f=__disk__d4%2Ff2%2Fe1%2Fd4f2e1b58bbeab1dada30c1454f6832cece91859",
+      "archive": "dln2020.zip",
+      "archiveSha256": "d8bd5284bfaf1bd0362ad989de8d841b6fb0845789dbc97b4a3b3970b64b79f3",
+      "layer": "dln2020_Basin_RainfallEstimates_15min_RainAtP_50.shp",
+      "metadataSha256": "ffb954aa441e07a39ee90dce48132c5d3bd083c18321ff35615bca0a9934de3b",
+      "definitions": {
+        "RainAccAtP50_mm": "15 rainfall accumulation (in millimeters) resulting in a statistical likelihood (P) = 0.50 (Staley et al. 2017, Geomorphology 278(1):149-162, https://doi.org/10.1016/j.geomorph.2016.10.019)",
+        "RainIntAtP50_mm": "15 rainfall intensity (in millimeters per hour) resulting in a statistical likelihood (P) = 0.50 (Staley et al. 2017, Geomorphology 278(1):149-162, https://doi.org/10.1016/j.geomorph.2016.10.019)"
+      },
+      "matchedFeatureParts": 1,
+      "geometryDifferenceMetres": 2.3283064365386963e-09,
+      "limitation": "Historical post-fire conditions, not current conditions. Agency estimates have not been independently validated here."
+    },
+    "Dolan_2020_0007": {
+      "status": "unavailable",
+      "reason": "Observation is outside the linked basin; spatial association remains unresolved."
+    },
+    "Dolan_2020_0025": {
+      "status": "available",
+      "observationId": "Dolan_2020_0025",
+      "assessmentId": "dln2020_19140",
+      "scope": "segment",
+      "durationMinutes": 15,
+      "probability": 0.5,
+      "depthMm": 5.37610768919,
+      "intensityMmH": 21.5044307568,
+      "depthUnit": "mm",
+      "intensityUnit": "mm/hour",
+      "assessmentDate": "2020-10-09",
+      "version": "Dated archive snapshot; no numbered version supplied",
+      "sourceUrl": "https://data.usgs.gov/datacatalog/data/USGS:68bb430fd4be025329aa1c10",
+      "downloadUrl": "https://www.sciencebase.gov/catalog/file/get/68bb430fd4be025329aa1c10?f=__disk__d4%2Ff2%2Fe1%2Fd4f2e1b58bbeab1dada30c1454f6832cece91859",
+      "archive": "dln2020.zip",
+      "archiveSha256": "d8bd5284bfaf1bd0362ad989de8d841b6fb0845789dbc97b4a3b3970b64b79f3",
+      "layer": "dln2020_Segment_RainfallEstimates_15min_RainAtP_50.shp",
+      "metadataSha256": "ffb954aa441e07a39ee90dce48132c5d3bd083c18321ff35615bca0a9934de3b",
+      "definitions": {
+        "RainAccAtP50_mm": "15 rainfall accumulation (in millimeters) resulting in a statistical likelihood (P) = 0.50 (Staley et al. 2017, Geomorphology 278(1):149-162, https://doi.org/10.1016/j.geomorph.2016.10.019)",
+        "RainIntAtP50_mm": "15 rainfall intensity (in millimeters per hour) resulting in a statistical likelihood (P) = 0.50 (Staley et al. 2017, Geomorphology 278(1):149-162, https://doi.org/10.1016/j.geomorph.2016.10.019)"
+      },
+      "matchedFeatureParts": 1,
+      "geometryDifferenceMetres": 5.206251464550825e-10,
+      "limitation": "Agency-linked stream segment; its complete catchment outline is unavailable. Historical post-fire conditions, not current conditions. Agency estimates have not been independently validated here."
+    },
+    "ElDorado_2020_0003": {
+      "status": "available",
+      "observationId": "ElDorado_2020_0003",
+      "assessmentId": "aed2020_297",
+      "scope": "segment",
+      "durationMinutes": 15,
+      "probability": 0.5,
+      "depthMm": 4.32530855836,
+      "intensityMmH": 17.3012342335,
+      "depthUnit": "mm",
+      "intensityUnit": "mm/hour",
+      "assessmentDate": "2020-09-26",
+      "version": "Dated archive snapshot; no numbered version supplied",
+      "sourceUrl": "https://data.usgs.gov/datacatalog/data/USGS:68bb430fd4be025329aa1c10",
+      "downloadUrl": "https://www.sciencebase.gov/catalog/file/get/68bb430fd4be025329aa1c10?f=__disk__3e%2F73%2F54%2F3e735436c40bf5262c139fa34e2400a9ca91d8bd",
+      "archive": "aed2020.zip",
+      "archiveSha256": "1e64c20182877d9faf2724b09e61ca81fa285289a7ffc57123b35725f92fab87",
+      "layer": "aed2020_Segment_RainfallEstimates_15min_RainAtP_50.shp",
+      "metadataSha256": "fceb1dc40c994e706f0995c9bef77cf0a7c48b32cfb65ef1d3f936d47ed810ae",
+      "definitions": {
+        "RainAccAtP50_mm": "15 rainfall accumulation (in millimeters) resulting in a statistical likelihood (P) = 0.50 (Staley et al. 2017, Geomorphology 278(1):149-162, https://doi.org/10.1016/j.geomorph.2016.10.019)",
+        "RainIntAtP50_mm": "15 rainfall intensity (in millimeters per hour) resulting in a statistical likelihood (P) = 0.50 (Staley et al. 2017, Geomorphology 278(1):149-162, https://doi.org/10.1016/j.geomorph.2016.10.019)"
+      },
+      "matchedFeatureParts": 2,
+      "geometryDifferenceMetres": 1.2375118458567478e-09,
+      "limitation": "Agency-linked stream segment; its complete catchment outline is unavailable. Historical post-fire conditions, not current conditions. Agency estimates have not been independently validated here."
+    },
+    "Thomas_2017_0002": {
+      "status": "available",
+      "observationId": "Thomas_2017_0002",
+      "assessmentId": "thm2017_10048",
+      "scope": "basin",
+      "durationMinutes": 15,
+      "probability": 0.5,
+      "depthMm": 6.26743982034,
+      "intensityMmH": 25.0697592814,
+      "depthUnit": "mm",
+      "intensityUnit": "mm/hour",
+      "assessmentDate": "2018-01-03",
+      "version": "Dated archive snapshot; no numbered version supplied",
+      "sourceUrl": "https://data.usgs.gov/datacatalog/data/USGS:68bb42efd4be025329aa1c02",
+      "downloadUrl": "https://www.sciencebase.gov/catalog/file/get/68bb42efd4be025329aa1c02?f=__disk__f4%2F4a%2F67%2Ff44a67fbdf53740f80bea5f1c0bb03b70138abca",
+      "archive": "thm2017.zip",
+      "archiveSha256": "ff1bc48be83ca8bcd4f2ee624ab7a31c8b89dbf83ee3ad58cb892e54319e38c2",
+      "layer": "thm2017_Basin_RainfallEstimates_15min_RainAtP_50.shp",
+      "metadataSha256": "d64163ba90e33a4072bca1c592f144497ed0dcc3187a63c8310e663e520bf20c",
+      "definitions": {
+        "RainAccAtP50_mm": "15 rainfall accumulation (in millimeters) resulting in a statistical likelihood (P) = 0.50 (Staley Et Al, In Review, submitted to Geomorphology)",
+        "RainIntAtP50_mm": "15 rainfall intensity (in millimeters per hour) resulting in a statistical likelihood (P) = 0.50 (Staley Et Al, In Review, submitted to Geomorphology)"
+      },
+      "matchedFeatureParts": 1,
+      "geometryDifferenceMetres": 1.5618754393652476e-09,
+      "limitation": "Historical post-fire conditions, not current conditions. Agency estimates have not been independently validated here."
+    }
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "checkedAt": "20261018T223158Z",
+  "collectionUrl": "https://www.sciencebase.gov/catalog/item/6851e986d4be027dac17f0ae",
+  "sources": [
+    {
+      "url": "https://www.sciencebase.gov/catalog/items?filter=parentId%3D6851e986d4be027dac17f0ae&format=json&max=100&offset=0",
+      "retrieved": "2026-10-18T22:25:21.238826+00:00",
+      "bytes": 17621,
+      "sha256": "35337b3b272ff46974bb3a5229ca3fac3bd4cf93b920a2dd5172bd81c9d4e8b8"
+    }
+  ],
+  "releaseCount": 16,
+  "releases": [
+    {
+      "assessmentId": "6a2ae0921ba49b7eb1086628",
+      "name": "Border 2",
+      "ignition": "2025-01-23",
+      "assessmentDate": "2026-06-11",
+      "publicationDate": "2026-06-11",
+      "assessmentVersion": "1.0.0",
+      "sourceUrl": "https://www.sciencebase.gov/catalog/item/6a2ae0921ba49b7eb1086628",
+      "match": null,
+      "agencyMatch": {
+        "OBJECTID": 591,
+        "fire": "Border 2",
+        "lat": 32.614872870289666,
+        "lon": -116.87608952396702,
+        "location": "Otay Mountain Wilderness",
+        "size": 27.8893472214873,
+        "status": "Most Recent Version: 1.0",
+        "disclaimer": null,
+        "Fire_ID": "bor2025",
+        "Rainfall": "24mm",
+        "start_date": 1737590400000,
+        "assessment_date": 1738540800000,
+        "download_url": " https://www.sciencebase.gov/catalog/file/get/6838d13ad4be025925747183?f=__disk__da%2F4a%2Fe1%2Fda4ae1613b833ac331af91dfae6bdb0863fee34d",
+        "ScienceBaseURL": " https://www.sciencebase.gov/catalog/item/6838d13ad4be025925747183"
+      },
+      "relatedAgency": null,
+      "intensities": [
+        25,
+        50,
+        75
+      ],
+      "url": "/data/runout/6a2ae0921ba49b7eb1086628.json",
+      "sha256": "478e53d46b1066736b97c2fbe8df4683df58319e807a5b6ec647f9838f25ff65"
+    },
+    {
+      "assessmentId": "6aa1d60a1ba49bf0b10fe0ad",
+      "name": "MP18",
+      "ignition": "2026-08-07",
+      "assessmentDate": "2026-09-09",
+      "publicationDate": "2026-09-09",
+      "assessmentVersion": "1.0.0",
+      "sourceUrl": "https://www.sciencebase.gov/catalog/item/6aa1d60a1ba49bf0b10fe0ad",
+      "match": null,
+      "agencyMatch": {
+        "OBJECTID": 724,
+        "fire": "MP18",
+        "lat": 41.12565568688746,
+        "lon": -123.64886590190346,
+        "location": "Hoopa Valley Reservation",
+        "size": 30.7205,
+        "status": "Most Recent Version: 1.0",
+        "disclaimer": null,
+        "Fire_ID": "MP18_2026-08-07_v1.0",
+        "Rainfall": "28mm",
+        "start_date": 1786060800000,
+        "assessment_date": 1788566400000,
+        "download_url": "https://www.sciencebase.gov/catalog/file/get/6a9ccc171ba49b0f97e24bab?f=__disk__54%2F17%2F0f%2F54170f2be7db2f550aaf8dfc1bc646ce228dbab5",
+        "ScienceBaseURL": "https://www.sciencebase.gov/catalog/item/6a9ccc171ba49b0f97e24bab"
+      },
+      "relatedAgency": null,
+      "intensities": [
+        28,
+        40,
+        60,
+        80
+      ],
+      "url": "/data/runout/6aa1d60a1ba49bf0b10fe0ad.json",
+      "sha256": "4dec2efc5aacc8f2dc1916183b6d5154efb21b56615194db4bbdaaeb79982e38"
+    },
+    {
+      "assessmentId": "6a2ae2f71ba49b7eb1086638",
+      "name": "Monte",
+      "ignition": "2025-06-17",
+      "assessmentDate": "2026-06-10",
+      "publicationDate": "2026-06-11",
+      "assessmentVersion": "1.0.0",
+      "sourceUrl": "https://www.sciencebase.gov/catalog/item/6a2ae2f71ba49b7eb1086638",
+      "match": null,
+      "agencyMatch": {
+        "OBJECTID": 598,
+        "fire": "Monte",
+        "lat": 32.90055500533566,
+        "lon": -116.82635797105193,
+        "location": "Cleveland National Forest, San Diego County",
+        "size": 4.2574,
+        "status": "Most Recent Version: 1.0",
+        "disclaimer": null,
+        "Fire_ID": "Monte_2025-06-17_v1.0",
+        "Rainfall": "24mm",
+        "start_date": 1750118400000,
+        "assessment_date": 1750896000000,
+        "download_url": " https://www.sciencebase.gov/catalog/file/get/685db120d4be02077e8f59fc?f=__disk__8b%2F4d%2F6f%2F8b4d6fc43236c3113fa326bf0953636a58df048d",
+        "ScienceBaseURL": " https://www.sciencebase.gov/catalog/item/685db120d4be02077e8f59fc"
+      },
+      "relatedAgency": null,
+      "intensities": [
+        25,
+        50,
+        75
+      ],
+      "url": "/data/runout/6a2ae2f71ba49b7eb1086638.json",
+      "sha256": "b02807da4cbde8b8f2b4b114d43647eb43f9cd5c5a1de39a44de5799c819fbb5"
+    },
+    {
+      "assessmentId": "6a84b86c1ba49b3133cd81c0",
+      "name": "Eaton",
+      "ignition": "2025-01-08",
+      "assessmentDate": "2025-02-28",
+      "publicationDate": "2026-08-18",
+      "assessmentVersion": "1.0.0",
+      "sourceUrl": "https://www.sciencebase.gov/catalog/item/6a84b86c1ba49b3133cd81c0",
+      "match": {
+        "mapId": 10037055,
+        "eventId": "CA3419211810520250108",
+        "name": "EATON",
+        "ignition": "2025-01-08"
+      },
+      "agencyMatch": null,
+      "relatedAgency": {
+        "OBJECTID": 588,
+        "fire": "Eaton",
+        "lat": 34.20062127627064,
+        "lon": -118.09312432703544,
+        "location": "Angeles National Forest",
+        "size": 57.60550042252342,
+        "status": "Most Recent Version: 1.0",
+        "disclaimer": null,
+        "Fire_ID": "eat2025",
+        "Rainfall": "40mm",
+        "start_date": 1736208000000,
+        "assessment_date": 1737244800000,
+        "download_url": " https://www.sciencebase.gov/catalog/file/get/6838d149d4be025925747189?f=__disk__79%2Ff9%2F7c%2F79f97c7018e82b2cd3663c1942967ebf6704b62f",
+        "ScienceBaseURL": " https://www.sciencebase.gov/catalog/item/6838d149d4be025925747189"
+      },
+      "intensities": [
+        15,
+        20,
+        25,
+        50,
+        75
+      ],
+      "url": "/data/runout/6a84b86c1ba49b3133cd81c0.json",
+      "sha256": "541330d2c857d2059fa56e64963d107678a4823bd53b26a2dcaf1ef30561eda7"
+    }
+  ],
+  "excluded": [
+    {
+      "id": "6a6775091ba49b572f318a16",
+      "title": "Aspen Acres 2026-06-29 v1.0.0 postfire debris-flow runout hazard assessment",
+      "sourceUrl": "https://www.sciencebase.gov/catalog/item/6a6775091ba49b572f318a16",
+      "status": "outside_scope",
+      "reason": "Outside California; not imported."
+    },
+    {
+      "id": "69f5307ab66b01e5b0bbb5de",
+      "title": "Bear Gulch 2025-07-07 v1.0.0 postfire debris-flow runout hazard assessment",
+      "sourceUrl": "https://www.sciencebase.gov/catalog/item/69f5307ab66b01e5b0bbb5de",
+      "status": "outside_scope",
+      "reason": "Outside California; not imported."
+    },
+    {
+      "id": "6a8de8101ba49bbf954e5041",
+      "title": "Widemouth 2 2026-07-27 v1.0.0 postfire debris-flow runout hazard assessment",
+      "sourceUrl": "https://www.sciencebase.gov/catalog/item/6a8de8101ba49bbf954e5041",
+      "status": "outside_scope",
+      "reason": "Outside California; not imported."
+    },
+    {
+      "id": "6ab84e241ba49b8ead2a9cf7",
+      "title": "Little Giant 2026-07-16 v1.0.0 postfire debris-flow runout hazard assessment",
+      "sourceUrl": "https://www.sciencebase.gov/catalog/item/6ab84e241ba49b8ead2a9cf7",
+      "status": "outside_scope",
+      "reason": "Outside California; not imported."
+    },
+    {
+      "id": "6a7369111ba49ba0aff77e8a",
+      "title": "Gold Mountain 2026-06-27 v1.0.0 postfire debris-flow runout hazard assessment",
+      "sourceUrl": "https://www.sciencebase.gov/catalog/item/6a7369111ba49ba0aff77e8a",
+      "status": "outside_scope",
+      "reason": "Outside California; not imported."
+    },
+    {
+      "id": "6ab694ef1ba49bf8b300e765",
+      "title": "Sinlahekin 2026-07-26 v1.1.0 postfire debris-flow runout hazard assessment",
+      "sourceUrl": "https://www.sciencebase.gov/catalog/item/6ab694ef1ba49bf8b300e765",
+      "status": "outside_scope",
+      "reason": "Outside California; not imported."
+    },
+    {
+      "id": "6a2889031ba49bd8ccf11f94",
+      "title": "Lee 2025-08-02 v1.0.0 postfire debris-flow runout hazard assessment",
+      "sourceUrl": "https://www.sciencebase.gov/catalog/item/6a2889031ba49bd8ccf11f94",
+      "status": "outside_scope",
+      "reason": "Outside California; not imported."
+    },
+    {
+      "id": "6a970db21ba49b45440e9e5a",
+      "title": "Sinlahekin 2026-07-26 v1.0.0 postfire debris-flow runout hazard assessment",
+      "sourceUrl": "https://www.sciencebase.gov/catalog/item/6a970db21ba49b45440e9e5a",
+      "status": "outside_scope",
+      "reason": "Outside California; not imported."
+    },
+    {
+      "id": "6a5e3d6b1ba49b09079379c4",
+      "title": "Cottonwood 2026-06-22 v1.0.0 postfire debris-flow runout hazard assessment",
+      "sourceUrl": "https://www.sciencebase.gov/catalog/item/6a5e3d6b1ba49b09079379c4",
+      "status": "outside_scope",
+      "reason": "Outside California; not imported."
+    },
+    {
+      "id": "6ad10fec1ba49b1dd2a0bec9",
+      "title": "Paradise 2026-07-16 v1.0.0 postfire debris-flow runout hazard assessment",
+      "sourceUrl": "https://www.sciencebase.gov/catalog/item/6ad10fec1ba49b1dd2a0bec9",
+      "status": "outside_scope",
+      "reason": "Outside California; not imported."
+    },
+    {
+      "id": "6a84b7c31ba49b3133cd81b7",
+      "title": "Salt 2024-06-17 v1.0.0 postfire debris-flow runout hazard assessment",
+      "sourceUrl": "https://www.sciencebase.gov/catalog/item/6a84b7c31ba49b3133cd81b7",
+      "status": "outside_scope",
+      "reason": "Outside California; not imported."
+    },
+    {
+      "id": "6a84b7731ba49b3133cd81ae",
+      "title": "South Fork 2024-06-17 v1.0.0 postfire debris-flow runout hazard assessment",
+      "sourceUrl": "https://www.sciencebase.gov/catalog/item/6a84b7731ba49b3133cd81ae",
+      "status": "outside_scope",
+      "reason": "Outside California; not imported."
+    }
+  ]
+}

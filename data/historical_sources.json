@@ -1,0 +1,21 @@
+{
+  "frap": {
+    "itemUrl": "https://www.arcgis.com/sharing/rest/content/items/c3c10388e3b24cec8a954ba10458039d?f=json",
+    "sourceUrl": "https://www.fire.ca.gov/what-we-do/fire-resource-assessment-program/fire-perimeters",
+    "layer": 0
+  },
+  "mtbs": {
+    "service": "https://edcintl.cr.usgs.gov/geoserver/wfs",
+    "layer": "mtbs:fire_polygons",
+    "sourceUrl": "https://www.mtbs.gov/faqs"
+  },
+  "usgs": {
+    "service": "https://earthquake.usgs.gov/arcgis/rest/services/ls/pwfdf/MapServer/0",
+    "sourceUrl": "https://www.usgs.gov/programs/landslide-hazards/science/postfire-debris-flow-hazard-assessment-data"
+  },
+  "archives": [
+    {"id": "6818f950d4be0208bc3e0165", "name": "USGS assessments since 2025"},
+    {"id": "68c325ebd4be0260db1940bf", "name": "USGS 2024 assessments"},
+    {"id": "68bb4218d4be025329aa1bd0", "name": "USGS 2013-2023 yearly archives"}
+  ]
+}

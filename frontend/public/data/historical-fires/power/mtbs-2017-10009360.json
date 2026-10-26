@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "fireId": "mtbs:2017:10009360",
+  "dataClass": "Historical",
+  "relationship": "nearby_time_matched",
+  "unit": "reported customers without power",
+  "timezone": "UTC",
+  "sourceUrl": "https://figshare.com/articles/dataset/The_Environment_for_Analysis_of_Geo-Located_Energy_Information_s_Recorded_Electricity_Outages_2014-2022/24237376",
+  "methodsUrl": "https://www.nature.com/articles/s41597-024-03095-5",
+  "license": "CC BY 4.0; ORNL EAGLE-I / DOE-CESER",
+  "retrievedAt": "2026-10-25T18:27:09.637614+00:00",
+  "sourceUpdatedAt": "2026-02-25T18:52:23Z",
+  "publicationDate": "2026-02-25T18:52:23Z",
+  "source": {
+    "sourceUrl": "https://ndownloader.figshare.com/files/42547828",
+    "retrievedAt": "2026-10-25T18:27:09.637614+00:00",
+    "bytes": 698796929,
+    "sha256": "47479c4fd645ec69685447f90baa51f08a85e776cedf612279b3e41c13147c8d",
+    "md5": "4faaeeb3b3e8e2d13d0e9238617ce3ce"
+  },
+  "countySource": {
+    "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?f=geojson&where=STATE%3D%2706%27&outFields=STATE%2CCOUNTY%2CGEOID%2CNAME&returnGeometry=true&outSR=4326&resultRecordCount=1000",
+    "retrievedAt": "2026-10-25T17:56:26.362096+00:00",
+    "bytes": 10816969,
+    "sha256": "f51dd64302c7fe4df11c3f9bb11d2b3b13f35cf66bc2b252d49f8b6d572f9b14",
+    "md5": "fca119c0d3d508d9fa76ce3b320fde7a"
+  },
+  "window": {
+    "start": "2017-10-06T00:00:00+00:00",
+    "endExclusive": "2017-12-05T00:00:00+00:00"
+  },
+  "fileTimestampRange": {
+    "start": "2017-01-01T00:00:00+00:00",
+    "end": "2017-12-31T00:00:00+00:00"
+  },
+  "counties": [
+    {
+      "id": "06097",
+      "name": "Sonoma County",
+      "series": [
+        {
+          "timestamp": "2017-11-21T00:00:00+00:00",
+          "customersOut": 105
+        }
+      ],
+      "daily": [
+        {
+          "dateUtc": "2017-11-21",
+          "maximumReported": 105,
+          "reportedSlots": 1
+        }
+      ],
+      "missingRecords": [],
+      "missingDays": []
+    }
+  ],
+  "limitation": "County-wide context, not fire-caused outages or household service status. Reported zero counts are retained; absent rows may mean zero or a collection gap. No missing row is filled. Current Census county geometry links the fire to counties, not a historical outage footprint. Daily maxima are maxima of available reports, not unique affected customers or complete-day peaks.",
+  "releaseVersion": 4,
+  "sourceMissingness": "Blank source counts are retained as unknown records, separate from numeric series. No zero is substituted.",
+  "scope": {
+    "fireId": "mtbs:2017:10009360",
+    "boundarySource": {
+      "status": "available",
+      "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10009360",
+      "retrievedAt": "2026-10-25T17:58:41.500879+00:00",
+      "bytes": 8903,
+      "sha256": "6e2b3594ce1fbb6ac4011d757568b812b57592e36f6d55f67a67aa19f9465928",
+      "md5": "1a0e2431c7a6f43d6f273bb1fa95de7e"
+    },
+    "spatialRelationship": "County-wide context in counties intersecting the fire; not outages inside the perimeter or attributed to the fire.",
+    "measurementPeriod": [
+      {
+        "countyId": "06097",
+        "start": "2017-11-21T00:00:00+00:00",
+        "end": "2017-11-21T00:00:00+00:00"
+      }
+    ],
+    "periodStatus": "source_supplied",
+    "sourceUrls": [
+      "https://ndownloader.figshare.com/files/42547828"
+    ],
+    "preflightVerified": true,
+    "countyBoundarySource": {
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?f=geojson&where=STATE%3D%2706%27&outFields=STATE%2CCOUNTY%2CGEOID%2CNAME&returnGeometry=true&outSR=4326&resultRecordCount=1000",
+      "retrievedAt": "2026-10-25T17:56:26.362096+00:00",
+      "bytes": 10816969,
+      "sha256": "f51dd64302c7fe4df11c3f9bb11d2b3b13f35cf66bc2b252d49f8b6d572f9b14",
+      "md5": "fca119c0d3d508d9fa76ce3b320fde7a"
+    },
+    "countyIds": [
+      "06097"
+    ],
+    "analysisWindow": {
+      "countyIds": [
+        "06097"
+      ],
+      "start": "2017-10-06T00:00:00+00:00",
+      "endExclusive": "2017-12-05T00:00:00+00:00"
+    }
+  }
+}

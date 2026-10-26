@@ -1,0 +1,3817 @@
+{
+  "schemaVersion": 1,
+  "fireId": "frap:2020:7aba2b28-9b21-4d9b-9fd5-dbf0042c0419",
+  "checks": {
+    "smoke": {
+      "status": "no_match",
+      "reason": "Checked EPA archives: no numeric observations in the selected hourly window among up to five audited sites within 50 km. More distant sites not evaluated.",
+      "preparedUrl": "/data/historical-fires/evidence/frap-2020-7aba2b28-9b21-4d9b-9fd5-dbf0042c0419.json",
+      "scope": {
+        "fireId": "frap:2020:7aba2b28-9b21-4d9b-9fd5-dbf0042c0419",
+        "boundarySource": {
+          "status": "available",
+          "sourceUrl": "https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/California_Historic_Fire_Perimeters/FeatureServer/0/query?f=geojson&where=GlobalID%3D%277aba2b28-9b21-4d9b-9fd5-dbf0042c0419%27&outFields=GlobalID%2CFIRE_NAME%2CYEAR_%2CALARM_DATE&outSR=4326&returnGeometry=true",
+          "retrievedAt": "2026-10-22T00:56:49.526140+00:00",
+          "bytes": 15006,
+          "sha256": "a848b04587688ac76f12870a8a996993b8f27e694b849baaec46c5a4fef23589",
+          "md5": "9f5d4d655d5f116ce55178c77e2905ad"
+        },
+        "spatialRelationship": "nearby ambient monitors; not fire-attributed exposure",
+        "analysisWindow": {
+          "start": "2020-07-20",
+          "end": "2020-09-17",
+          "referenceYears": [
+            2017,
+            2018,
+            2019
+          ],
+          "referenceMonths": [
+            7,
+            8,
+            9
+          ],
+          "minimumHoursPerDay": 18,
+          "referenceSources": []
+        },
+        "measurementPeriod": null,
+        "periodStatus": "not_supplied",
+        "sourceUrls": [],
+        "catalogIdentityVerified": true
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-22T00:56:51.717633+00:00"
+    },
+    "hms": {
+      "status": "available",
+      "reason": "Independent NOAA daily-file checks completed",
+      "dayStatuses": {
+        "available": 60
+      },
+      "scope": {
+        "fireId": "frap:2020:7aba2b28-9b21-4d9b-9fd5-dbf0042c0419",
+        "boundarySource": {
+          "status": "available",
+          "sourceUrl": "https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/California_Historic_Fire_Perimeters/FeatureServer/0/query?f=geojson&where=GlobalID%3D%277aba2b28-9b21-4d9b-9fd5-dbf0042c0419%27&outFields=GlobalID%2CFIRE_NAME%2CYEAR_%2CALARM_DATE&outSR=4326&returnGeometry=true",
+          "retrievedAt": "2026-10-22T00:56:49.526140+00:00",
+          "bytes": 15006,
+          "sha256": "a848b04587688ac76f12870a8a996993b8f27e694b849baaec46c5a4fef23589",
+          "md5": "9f5d4d655d5f116ce55178c77e2905ad"
+        },
+        "spatialRelationship": "medium/heavy polygons intersecting the existing fire footprint",
+        "analysisWindow": {
+          "start": "2020-07-20",
+          "end": "2020-09-17"
+        },
+        "measurementPeriod": [
+          {
+            "start": "2020-07-20T10:00:00+00:00",
+            "end": "2020-07-21T02:10:00+00:00"
+          },
+          {
+            "start": "2020-07-21T12:30:00+00:00",
+            "end": "2020-07-22T01:30:00+00:00"
+          },
+          {
+            "start": "2020-07-22T10:00:00+00:00",
+            "end": "2020-07-23T01:10:00+00:00"
+          },
+          {
+            "start": "2020-07-23T15:00:00+00:00",
+            "end": "2020-07-24T01:36:00+00:00"
+          },
+          {
+            "start": "2020-07-24T13:00:00+00:00",
+            "end": "2020-07-25T01:36:00+00:00"
+          },
+          {
+            "start": "2020-07-25T13:00:00+00:00",
+            "end": "2020-07-26T01:30:00+00:00"
+          },
+          {
+            "start": "2020-07-26T12:30:00+00:00",
+            "end": "2020-07-26T20:36:00+00:00"
+          },
+          {
+            "start": "2020-07-27T13:00:00+00:00",
+            "end": "2020-07-28T06:30:00+00:00"
+          },
+          {
+            "start": "2020-07-28T13:00:00+00:00",
+            "end": "2020-07-29T02:30:00+00:00"
+          },
+          {
+            "start": "2020-07-29T13:30:00+00:00",
+            "end": "2020-07-30T02:06:00+00:00"
+          },
+          {
+            "start": "2020-07-30T12:00:00+00:00",
+            "end": "2020-07-30T17:30:00+00:00"
+          },
+          {
+            "start": "2020-07-31T12:30:00+00:00",
+            "end": "2020-07-31T16:50:00+00:00"
+          },
+          {
+            "start": "2020-08-01T12:00:00+00:00",
+            "end": "2020-08-02T01:36:00+00:00"
+          },
+          {
+            "start": "2020-08-02T12:00:00+00:00",
+            "end": "2020-08-03T02:06:00+00:00"
+          },
+          {
+            "start": "2020-08-03T11:00:00+00:00",
+            "end": "2020-08-04T01:30:00+00:00"
+          },
+          {
+            "start": "2020-08-04T12:40:00+00:00",
+            "end": "2020-08-05T02:30:00+00:00"
+          },
+          {
+            "start": "2020-08-05T10:00:00+00:00",
+            "end": "2020-08-06T02:50:00+00:00"
+          },
+          {
+            "start": "2020-08-06T12:10:00+00:00",
+            "end": "2020-08-07T02:30:00+00:00"
+          },
+          {
+            "start": "2020-08-07T12:00:00+00:00",
+            "end": "2020-08-08T00:01:00+00:00"
+          },
+          {
+            "start": "2020-08-08T10:00:00+00:00",
+            "end": "2020-08-09T01:36:00+00:00"
+          },
+          {
+            "start": "2020-08-09T11:00:00+00:00",
+            "end": "2020-08-10T01:16:00+00:00"
+          },
+          {
+            "start": "2020-08-10T11:00:00+00:00",
+            "end": "2020-08-11T02:16:00+00:00"
+          },
+          {
+            "start": "2020-08-11T10:00:00+00:00",
+            "end": "2020-08-12T02:26:00+00:00"
+          },
+          {
+            "start": "2020-08-12T10:00:00+00:00",
+            "end": "2020-08-13T00:50:00+00:00"
+          },
+          {
+            "start": "2020-08-13T10:30:00+00:00",
+            "end": "2020-08-14T00:30:00+00:00"
+          },
+          {
+            "start": "2020-08-14T10:30:00+00:00",
+            "end": "2020-08-15T00:30:00+00:00"
+          },
+          {
+            "start": "2020-08-15T12:30:00+00:00",
+            "end": "2020-08-16T02:30:00+00:00"
+          },
+          {
+            "start": "2020-08-16T12:00:00+00:00",
+            "end": "2020-08-17T01:36:00+00:00"
+          },
+          {
+            "start": "2020-08-17T13:00:00+00:00",
+            "end": "2020-08-18T02:26:00+00:00"
+          },
+          {
+            "start": "2020-08-18T10:45:00+00:00",
+            "end": "2020-08-19T02:10:00+00:00"
+          },
+          {
+            "start": "2020-08-19T13:00:00+00:00",
+            "end": "2020-08-20T00:30:00+00:00"
+          },
+          {
+            "start": "2020-08-20T13:00:00+00:00",
+            "end": "2020-08-21T01:30:00+00:00"
+          },
+          {
+            "start": "2020-08-21T12:30:00+00:00",
+            "end": "2020-08-22T01:00:00+00:00"
+          },
+          {
+            "start": "2020-08-22T13:40:00+00:00",
+            "end": "2020-08-23T04:00:00+00:00"
+          },
+          {
+            "start": "2020-08-23T13:00:00+00:00",
+            "end": "2020-08-24T09:00:00+00:00"
+          },
+          {
+            "start": "2020-08-24T13:31:00+00:00",
+            "end": "2020-08-25T02:10:00+00:00"
+          },
+          {
+            "start": "2020-08-25T10:31:00+00:00",
+            "end": "2020-08-26T02:30:00+00:00"
+          },
+          {
+            "start": "2020-08-26T13:51:00+00:00",
+            "end": "2020-08-27T03:00:00+00:00"
+          },
+          {
+            "start": "2020-08-27T11:45:00+00:00",
+            "end": "2020-08-28T00:00:00+00:00"
+          },
+          {
+            "start": "2020-08-28T11:50:00+00:00",
+            "end": "2020-08-28T17:50:00+00:00"
+          },
+          {
+            "start": "2020-08-29T11:00:00+00:00",
+            "end": "2020-08-30T01:10:00+00:00"
+          },
+          {
+            "start": "2020-08-30T11:50:00+00:00",
+            "end": "2020-08-31T01:50:00+00:00"
+          },
+          {
+            "start": "2020-08-31T12:00:00+00:00",
+            "end": "2020-09-01T02:10:00+00:00"
+          },
+          {
+            "start": "2020-09-01T13:46:00+00:00",
+            "end": "2020-09-02T02:30:00+00:00"
+          },
+          {
+            "start": "2020-09-02T12:51:00+00:00",
+            "end": "2020-09-03T02:30:00+00:00"
+          },
+          {
+            "start": "2020-09-03T13:00:00+00:00",
+            "end": "2020-09-04T00:00:00+00:00"
+          },
+          {
+            "start": "2020-09-04T13:00:00+00:00",
+            "end": "2020-09-05T00:00:00+00:00"
+          },
+          {
+            "start": "2020-09-05T12:00:00+00:00",
+            "end": "2020-09-06T01:46:00+00:00"
+          },
+          {
+            "start": "2020-09-06T11:00:00+00:00",
+            "end": "2020-09-07T00:00:00+00:00"
+          },
+          {
+            "start": "2020-09-07T10:00:00+00:00",
+            "end": "2020-09-07T22:46:00+00:00"
+          },
+          {
+            "start": "2020-09-08T13:20:00+00:00",
+            "end": "2020-09-08T23:00:00+00:00"
+          },
+          {
+            "start": "2020-09-09T11:00:00+00:00",
+            "end": "2020-09-10T02:00:00+00:00"
+          },
+          {
+            "start": "2020-09-10T11:30:00+00:00",
+            "end": "2020-09-10T23:50:00+00:00"
+          },
+          {
+            "start": "2020-09-11T16:10:00+00:00",
+            "end": "2020-09-12T01:00:00+00:00"
+          },
+          {
+            "start": "2020-09-12T11:30:00+00:00",
+            "end": "2020-09-13T00:50:00+00:00"
+          },
+          {
+            "start": "2020-09-13T15:30:00+00:00",
+            "end": "2020-09-14T00:50:00+00:00"
+          },
+          {
+            "start": "2020-09-14T16:10:00+00:00",
+            "end": "2020-09-14T23:26:00+00:00"
+          },
+          {
+            "start": "2020-09-15T12:30:00+00:00",
+            "end": "2020-09-15T22:00:00+00:00"
+          },
+          {
+            "start": "2020-09-16T12:00:00+00:00",
+            "end": "2020-09-16T23:00:00+00:00"
+          },
+          {
+            "start": "2020-09-17T11:30:00+00:00",
+            "end": "2020-09-17T15:30:00+00:00"
+          }
+        ],
+        "periodStatus": "source_supplied",
+        "sourceUrls": [
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/07/hms_smoke20200720.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/07/hms_smoke20200721.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/07/hms_smoke20200722.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/07/hms_smoke20200723.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/07/hms_smoke20200724.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/07/hms_smoke20200725.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/07/hms_smoke20200726.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/07/hms_smoke20200727.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/07/hms_smoke20200728.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/07/hms_smoke20200729.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/07/hms_smoke20200730.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/07/hms_smoke20200731.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200801.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200802.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200803.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200804.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200805.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200806.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200807.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200808.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200809.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200810.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200811.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200812.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200813.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200814.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200815.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200816.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200817.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200818.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200819.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200820.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200821.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200822.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200823.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200824.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200825.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200826.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200827.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200828.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200829.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200830.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200831.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200901.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200902.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200903.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200904.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200905.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200906.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200907.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200908.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200909.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200910.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200911.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200912.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200913.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200914.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200915.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200916.kml",
+          "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200917.kml"
+        ],
+        "catalogIdentityVerified": true
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-22T01:24:44.877232+00:00"
+    },
+    "context": {
+      "status": "available",
+      "reason": "Original 3DEP windows processed and checked"
+    },
+    "rain": {
+      "status": "no_match",
+      "sourceUrl": "https://www.usgs.gov/programs/landslide-hazards/science/postfire-debris-flow-hazard-assessment-data",
+      "candidates": [],
+      "reason": "Completed assessment catalog and annual attachment-index search; no verified fire-to-release link. No nearby assessment was substituted.",
+      "scope": {
+        "fireId": "frap:2020:7aba2b28-9b21-4d9b-9fd5-dbf0042c0419",
+        "catalogIdentityVerified": true
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-22T02:21:40.931910+00:00"
+    },
+    "thresholds": {
+      "status": "no_match",
+      "sourceUrl": "https://www.usgs.gov/programs/landslide-hazards/science/postfire-debris-flow-hazard-assessment-data",
+      "candidates": [],
+      "reason": "Completed assessment catalog and annual attachment-index search; no verified fire-to-release link. No nearby assessment was substituted.",
+      "scope": {
+        "fireId": "frap:2020:7aba2b28-9b21-4d9b-9fd5-dbf0042c0419",
+        "catalogIdentityVerified": true
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-22T02:25:46.560554+00:00"
+    },
+    "travel": {
+      "status": "no_match",
+      "candidates": [],
+      "sources": [
+        {
+          "sourceUrl": "https://www.sciencebase.gov/catalog/items?filter=parentId%3D6851e986d4be027dac17f0ae&format=json&max=100&offset=0",
+          "retrievedAt": "2026-10-18T22:25:21.238826+00:00",
+          "sha256": "35337b3b272ff46974bb3a5229ca3fac3bd4cf93b920a2dd5172bd81c9d4e8b8",
+          "bytes": 17621,
+          "originalReceipt": {
+            "url": "https://www.sciencebase.gov/catalog/items?filter=parentId%3D6851e986d4be027dac17f0ae&format=json&max=100&offset=0",
+            "retrieved": "2026-10-18T22:25:21.238826+00:00",
+            "bytes": 17621,
+            "sha256": "35337b3b272ff46974bb3a5229ca3fac3bd4cf93b920a2dd5172bd81c9d4e8b8"
+          },
+          "importedFrom": "data\\raw\\runout-catalog\\collection-0.json"
+        }
+      ],
+      "reason": "Complete official runout collection checked; no verified release link for this fire.",
+      "scope": {
+        "fireId": "frap:2020:7aba2b28-9b21-4d9b-9fd5-dbf0042c0419",
+        "catalogIdentityVerified": true
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-22T02:28:46.440147+00:00"
+    },
+    "recovery": {
+      "status": "checked",
+      "reason": "Products checked separately; power is county/time context."
+    },
+    "water": {
+      "status": "match_unresolved",
+      "reason": "The verified notice catalog has no fire-to-provider link for this record. No complete historical notice registry or service-area crosswalk is supplied; this is not evidence that no notice existed. Unrelated provider pages were not requested.",
+      "notices": [],
+      "failures": [],
+      "completeHistory": false,
+      "scope": {
+        "fireId": "frap:2020:7aba2b28-9b21-4d9b-9fd5-dbf0042c0419",
+        "boundarySource": null,
+        "spatialRelationship": "Provider notice territory, not the fire footprint or every property inside it.",
+        "measurementPeriod": null,
+        "periodStatus": "not_supplied",
+        "sourceUrls": [],
+        "blockedBy": "provider_link",
+        "indexChecked": "Existing verified provider-notice catalog",
+        "catalogIdentityVerified": true
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-22T02:31:25.047346+00:00"
+    },
+    "power": {
+      "status": "available",
+      "dataClass": "Historical",
+      "relationship": "nearby_time_matched",
+      "unit": "reported customers without power",
+      "sourceUrl": "https://figshare.com/articles/dataset/The_Environment_for_Analysis_of_Geo-Located_Energy_Information_s_Recorded_Electricity_Outages_2014-2022/24237376",
+      "retrievedAt": "2026-10-25T18:19:47.861172+00:00",
+      "license": "CC BY 4.0; ORNL EAGLE-I / DOE-CESER",
+      "seriesUrl": "/data/historical-fires/power/frap-2020-7aba2b28-9b21-4d9b-9fd5-dbf0042c0419.json",
+      "countyCount": 1,
+      "recordCount": 352,
+      "scope": {
+        "fireId": "frap:2020:7aba2b28-9b21-4d9b-9fd5-dbf0042c0419",
+        "boundarySource": {
+          "status": "available",
+          "sourceUrl": "https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/California_Historic_Fire_Perimeters/FeatureServer/0/query?f=geojson&where=GlobalID%3D%277aba2b28-9b21-4d9b-9fd5-dbf0042c0419%27&outFields=GlobalID%2CFIRE_NAME%2CYEAR_%2CALARM_DATE&outSR=4326&returnGeometry=true",
+          "retrievedAt": "2026-10-25T17:57:30.452864+00:00",
+          "bytes": 15006,
+          "sha256": "a848b04587688ac76f12870a8a996993b8f27e694b849baaec46c5a4fef23589",
+          "md5": "9f5d4d655d5f116ce55178c77e2905ad"
+        },
+        "spatialRelationship": "County-wide context in counties intersecting the fire; not outages inside the perimeter or attributed to the fire.",
+        "measurementPeriod": [
+          {
+            "countyId": "06049",
+            "start": "2020-07-22T02:30:00+00:00",
+            "end": "2020-09-17T15:15:00+00:00"
+          }
+        ],
+        "periodStatus": "source_supplied",
+        "sourceUrls": [
+          "https://ndownloader.figshare.com/files/42547894"
+        ],
+        "preflightVerified": true,
+        "countyBoundarySource": {
+          "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?f=geojson&where=STATE%3D%2706%27&outFields=STATE%2CCOUNTY%2CGEOID%2CNAME&returnGeometry=true&outSR=4326&resultRecordCount=1000",
+          "retrievedAt": "2026-10-25T17:56:26.362096+00:00",
+          "bytes": 10816969,
+          "sha256": "f51dd64302c7fe4df11c3f9bb11d2b3b13f35cf66bc2b252d49f8b6d572f9b14",
+          "md5": "fca119c0d3d508d9fa76ce3b320fde7a"
+        },
+        "countyIds": [
+          "06049"
+        ],
+        "analysisWindow": {
+          "countyIds": [
+            "06049"
+          ],
+          "start": "2020-07-20T00:00:00+00:00",
+          "endExclusive": "2020-09-18T00:00:00+00:00"
+        },
+        "catalogIdentityVerified": true
+      },
+      "missingRecordCount": 15,
+      "reason": "",
+      "attempts": 1,
+      "checkedAt": "2026-10-25T18:20:36.187291+00:00"
+    },
+    "case_severity": {
+      "status": "no_match",
+      "reason": "The original observation-display crop catalog has no verified severity crop for this fire; fire-wide numeric severity is checked separately",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:28:18.171645+00:00"
+    },
+    "damage": {
+      "status": "match_unresolved",
+      "sourceUrl": "https://publish.data.ca.gov/dataset/cal-fire-damage-inspection-dins-data",
+      "retrievedAt": "2026-10-21T06:13:31.534013+00:00",
+      "reason": "CAL FIRE inspection index checked; no unique exact incident/name/day link was confirmed.",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:14:54.839817+00:00"
+    },
+    "dnbr": {
+      "status": "access_failed",
+      "reason": "Verified MTBS product identity, but the checked original-raster interface requires an emailed processing request; no request sent",
+      "mtbs": {
+        "map_id": 10019551,
+        "incid_name": "DALTON ",
+        "incid_type": "Wildfire",
+        "event_id": "CA4173712105820200723",
+        "ig_date": "2020-07-23Z",
+        "asmt_type": "Initial",
+        "burnbndac": 1639,
+        "burnbndlat": 41.72488345237101,
+        "burnbndlon": -121.05972328744038,
+        "post_id": "804403120200809",
+        "updated_at": "2025-12-18T15:21:58Z",
+        "asmnt_type": "Initial",
+        "pre_id": null
+      },
+      "sources": [
+        {
+          "sourceUrl": "https://burnseverity.cr.usgs.gov/viewer/",
+          "retrievedAt": "2026-10-21T23:10:57.851818+00:00",
+          "bytes": 1722,
+          "sha256": "87f576910f5e586e7a81dccc2d13c966b8f59ccf512c4460bea1048c7bfb1a86"
+        },
+        {
+          "sourceUrl": "https://burnseverity.cr.usgs.gov/viewer/main.e04713e0ed3bd08cbc93.js",
+          "retrievedAt": "2026-10-21T22:44:44.815483+00:00",
+          "bytes": 406661,
+          "sha256": "121491bd66003bea13b40f0df1c483b089cff84614605e1ac43976075c875c25"
+        }
+      ],
+      "baerCheck": {
+        "status": "no_match",
+        "reason": "Checked BAER index has no exact name/day candidate",
+        "sources": [
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=0&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:36.072753+00:00",
+            "bytes": 36489,
+            "sha256": "4bafff091f8a37a9e171970f2af30c730c385835c1cc8b6c9877b1664f9c4fe5"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=100&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:36.937190+00:00",
+            "bytes": 34956,
+            "sha256": "a039830d37ec57767dde8c382436651534eb54909c41265e8a92fdf9f94dfda1"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=200&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:37.999924+00:00",
+            "bytes": 35588,
+            "sha256": "2ce4ee102033e494563df7ba0a442fbda7f3b528b8ac509e13015f3786e4d4c9"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=300&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:38.986579+00:00",
+            "bytes": 34691,
+            "sha256": "43f7a5013359105da9263242194bdd9c54056ea5cb030b373ed1a264ffb64cd8"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=400&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:39.878707+00:00",
+            "bytes": 35592,
+            "sha256": "3f53e644c3b10db1074e58043115b5075e750ec9a89259363bd1ce6b42eb6c83"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=500&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:40.957829+00:00",
+            "bytes": 35208,
+            "sha256": "88cd48b9baa0f3030246d11cf7b760fc2794f45bc7705f398064768acf1241f2"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=600&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:41.979952+00:00",
+            "bytes": 33949,
+            "sha256": "a49ea913284b2441d002035c373f5082d6afd933a3798ee0726bd4075ddd0248"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=700&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:42.761479+00:00",
+            "bytes": 8435,
+            "sha256": "544c283f9a7d2a2e969b3d13571ffac541fd3eb12b02f43bf7de54cbe033d24f"
+          }
+        ]
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:36:31.734511+00:00"
+    },
+    "goes": {
+      "status": "coverage_limited",
+      "reason": "Checked GOES-18 product index does not list this year",
+      "source": {
+        "sourceUrl": "https://noaa-goes18.s3.amazonaws.com/?list-type=2&prefix=ABI-L2-ADPC%2F&delimiter=%2F",
+        "retrievedAt": "2026-10-21T21:49:24.733793+00:00",
+        "bytes": 613,
+        "sha256": "78cb996d56b316b0e4b76246c6a7d71831e7873de7695817d42a10db5cc59736"
+      },
+      "scope": {
+        "fireId": "frap:2020:7aba2b28-9b21-4d9b-9fd5-dbf0042c0419",
+        "catalogIdentityVerified": true
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-22T02:07:04.233759+00:00"
+    },
+    "health": {
+      "status": "coverage_limited",
+      "reason": "The approved limited-study registry was checked. This fire has no documented study link; regional health findings and other fires' soil results are not transferred.",
+      "scope": "Approved reviewed health and chemical-sampling studies only",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:16:46.432590+00:00"
+    },
+    "imagery": {
+      "status": "access_failed",
+      "reason": "Verified MTBS product identity, but the checked original-raster interface requires an emailed processing request; no request sent",
+      "mtbs": {
+        "map_id": 10019551,
+        "incid_name": "DALTON ",
+        "incid_type": "Wildfire",
+        "event_id": "CA4173712105820200723",
+        "ig_date": "2020-07-23Z",
+        "asmt_type": "Initial",
+        "burnbndac": 1639,
+        "burnbndlat": 41.72488345237101,
+        "burnbndlon": -121.05972328744038,
+        "post_id": "804403120200809",
+        "updated_at": "2025-12-18T15:21:58Z",
+        "asmnt_type": "Initial",
+        "pre_id": null
+      },
+      "sources": [
+        {
+          "sourceUrl": "https://burnseverity.cr.usgs.gov/viewer/",
+          "retrievedAt": "2026-10-21T23:10:57.851818+00:00",
+          "bytes": 1722,
+          "sha256": "87f576910f5e586e7a81dccc2d13c966b8f59ccf512c4460bea1048c7bfb1a86"
+        },
+        {
+          "sourceUrl": "https://burnseverity.cr.usgs.gov/viewer/main.e04713e0ed3bd08cbc93.js",
+          "retrievedAt": "2026-10-21T22:44:44.815483+00:00",
+          "bytes": 406661,
+          "sha256": "121491bd66003bea13b40f0df1c483b089cff84614605e1ac43976075c875c25"
+        }
+      ],
+      "baerCheck": {
+        "status": "no_match",
+        "reason": "Checked BAER index has no exact name/day candidate",
+        "sources": [
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=0&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:36.072753+00:00",
+            "bytes": 36489,
+            "sha256": "4bafff091f8a37a9e171970f2af30c730c385835c1cc8b6c9877b1664f9c4fe5"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=100&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:36.937190+00:00",
+            "bytes": 34956,
+            "sha256": "a039830d37ec57767dde8c382436651534eb54909c41265e8a92fdf9f94dfda1"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=200&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:37.999924+00:00",
+            "bytes": 35588,
+            "sha256": "2ce4ee102033e494563df7ba0a442fbda7f3b528b8ac509e13015f3786e4d4c9"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=300&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:38.986579+00:00",
+            "bytes": 34691,
+            "sha256": "43f7a5013359105da9263242194bdd9c54056ea5cb030b373ed1a264ffb64cd8"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=400&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:39.878707+00:00",
+            "bytes": 35592,
+            "sha256": "3f53e644c3b10db1074e58043115b5075e750ec9a89259363bd1ce6b42eb6c83"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=500&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:40.957829+00:00",
+            "bytes": 35208,
+            "sha256": "88cd48b9baa0f3030246d11cf7b760fc2794f45bc7705f398064768acf1241f2"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=600&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:41.979952+00:00",
+            "bytes": 33949,
+            "sha256": "a49ea913284b2441d002035c373f5082d6afd933a3798ee0726bd4075ddd0248"
+          },
+          {
+            "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&count=100&startIndex=700&sortBy=id+A&propertyName=id%2Cmap_id%2Cmap_prog%2Cincid_name%2Cevent_id%2Cig_date%2Cburnbndlon%2Cburnbndlat%2Cpost_id%2Cupdated_at&CQL_FILTER=map_prog%3D%27BAER%27+AND+BBOX%28geom%2C-124.5%2C32.4%2C-114.0%2C42.1%2C%27EPSG%3A4326%27%29",
+            "retrievedAt": "2026-10-21T22:50:42.761479+00:00",
+            "bytes": 8435,
+            "sha256": "544c283f9a7d2a2e969b3d13571ffac541fd3eb12b02f43bf7de54cbe033d24f"
+          }
+        ]
+      },
+      "scope": {
+        "fireId": "frap:2020:7aba2b28-9b21-4d9b-9fd5-dbf0042c0419",
+        "catalogIdentityVerified": true
+      },
+      "attempts": 1,
+      "checkedAt": "2026-10-22T01:44:57.855221+00:00"
+    },
+    "measured_rain": {
+      "status": "no_match",
+      "sourceUrl": "https://www.sciencebase.gov/catalog/item/69612c8ed4be02298529c522",
+      "candidates": [],
+      "reason": "Completed public-inventory search; no verified export for this fire. Other inventories are outside this check.",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:21:38.780729+00:00"
+    },
+    "observations": {
+      "status": "no_match",
+      "sourceUrl": "https://www.sciencebase.gov/catalog/item/69612c8ed4be02298529c522",
+      "candidates": [],
+      "reason": "Completed public-inventory search; no verified export for this fire. Other inventories are outside this check.",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:20:33.271038+00:00"
+    },
+    "severity": {
+      "status": "available",
+      "reason": "Existing numeric MTBS summary retained unchanged",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:16:59.108870+00:00"
+    },
+    "soil": {
+      "status": "coverage_limited",
+      "reason": "The approved limited-study registry was checked. This fire has no documented study link; regional health findings and other fires' soil results are not transferred.",
+      "scope": "Approved reviewed health and chemical-sampling studies only",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:18:09.592717+00:00"
+    },
+    "soil_followup": {
+      "status": "coverage_limited",
+      "reason": "The approved limited-study registry was checked. This fire has no documented study link; regional health findings and other fires' soil results are not transferred.",
+      "scope": "Approved reviewed health and chemical-sampling studies only",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:19:14.982023+00:00"
+    },
+    "unresolved_rain": {
+      "status": "no_match",
+      "sourceUrl": "https://www.sciencebase.gov/catalog/item/69612c8ed4be02298529c522",
+      "candidates": [],
+      "reason": "Completed public-inventory search; no verified export for this fire. Other inventories are outside this check.",
+      "attempts": 1,
+      "checkedAt": "2026-10-21T23:23:01.416303+00:00"
+    }
+  },
+  "smoke": {
+    "status": "available",
+    "epaStatus": "unavailable",
+    "reason": "Checked EPA archives: no numeric observations in the selected hourly window among up to five audited sites within 50 km. More distant sites not evaluated.",
+    "checkedAt": "2026-10-22T00:56:51.626486+00:00",
+    "relationship": "nearby_time_matched",
+    "sourceUrl": "https://aqs.epa.gov/aqsweb/airdata/download_files.html",
+    "retrievedAt": "2026-10-21T04:34:49.579619+00:00",
+    "bytes": 386197,
+    "sha256": "815afb5445d66d1762caecfc5a5c4072640d7d2548638bb3c90c0ad43bdb814b",
+    "stations": [],
+    "timezone": "Pacific standard time (UTC−08:00)",
+    "window": {
+      "start": "2020-07-20",
+      "end": "2020-09-17",
+      "referenceYears": [
+        2017,
+        2018,
+        2019
+      ],
+      "referenceMonths": [
+        7,
+        8,
+        9
+      ],
+      "minimumHoursPerDay": 18,
+      "referenceSources": []
+    },
+    "plumes": {
+      "days": [
+        {
+          "dateUtc": "2020-07-20",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-07-20.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-07-20T10:00:00+00:00",
+            "end": "2020-07-21T02:10:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/07/hms_smoke20200720.kml",
+          "retrievedAt": "2026-10-22T01:22:58.223973+00:00",
+          "bytes": 286263,
+          "sha256": "afffdf1a57765be4596ab27b95fbb9fc6ec20045597daa64cebf690fe8774ca0",
+          "md5": "aebe1fd6379fbbb6863578e42bc2bbb7",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 90,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-07-21",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-07-21.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-07-21T12:30:00+00:00",
+            "end": "2020-07-22T01:30:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/07/hms_smoke20200721.kml",
+          "retrievedAt": "2026-10-22T01:22:59.650444+00:00",
+          "bytes": 245638,
+          "sha256": "df49024748b0109ff93575aa7b3db9704b5e03d0a641cb633b6335a94021dc42",
+          "md5": "0b66e402d9a2266deab7c812459339fe",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 68,
+          "firePolygonCount": 8
+        },
+        {
+          "dateUtc": "2020-07-22",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-07-22.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-07-22T10:00:00+00:00",
+            "end": "2020-07-23T01:10:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/07/hms_smoke20200722.kml",
+          "retrievedAt": "2026-10-22T01:23:00.935097+00:00",
+          "bytes": 254356,
+          "sha256": "939a0821606a9084512f3f1385a565c1ea489513338f519ab1457afc857c8417",
+          "md5": "1c1f00701f0d8d9ff4a28e7cee4a7291",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 70,
+          "firePolygonCount": 7
+        },
+        {
+          "dateUtc": "2020-07-23",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-07-23.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-07-23T15:00:00+00:00",
+            "end": "2020-07-24T01:36:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/07/hms_smoke20200723.kml",
+          "retrievedAt": "2026-10-22T01:23:01.968923+00:00",
+          "bytes": 69693,
+          "sha256": "ebcce38e94a5574d8a3d977718284c7371ebfef23bdacdc2396592e7e911b877",
+          "md5": "8b2f8f2ad3ea34be751e5665bc524555",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 25,
+          "firePolygonCount": 1
+        },
+        {
+          "dateUtc": "2020-07-24",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-07-24.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-07-24T13:00:00+00:00",
+            "end": "2020-07-25T01:36:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/07/hms_smoke20200724.kml",
+          "retrievedAt": "2026-10-22T01:23:02.876463+00:00",
+          "bytes": 71309,
+          "sha256": "946a259406de88f22b5346ee8f6d38a981549b3c9d00864638d1c6ca2be3feba",
+          "md5": "57ac0417f461d9f13ebb74129257db81",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 20,
+          "firePolygonCount": 4
+        },
+        {
+          "dateUtc": "2020-07-25",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-07-25.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-07-25T13:00:00+00:00",
+            "end": "2020-07-26T01:30:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/07/hms_smoke20200725.kml",
+          "retrievedAt": "2026-10-22T01:23:04.326157+00:00",
+          "bytes": 64428,
+          "sha256": "c6ed8041a68c36b7d16c602a292ecced7e206938bc44268ece82fa3dc4f1ac1f",
+          "md5": "94577101762111131f788fac9692748b",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 10,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-07-26",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-07-26.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-07-26T12:30:00+00:00",
+            "end": "2020-07-26T20:36:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/07/hms_smoke20200726.kml",
+          "retrievedAt": "2026-10-22T01:23:05.119484+00:00",
+          "bytes": 20066,
+          "sha256": "ad97b6aae8e8d44d27bafe448888a554424c0802496986a1634bec314c070cfd",
+          "md5": "fa5d7c7097c358727c4969b8cc2641e2",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 4,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-07-27",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-07-27.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-07-27T13:00:00+00:00",
+            "end": "2020-07-28T06:30:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/07/hms_smoke20200727.kml",
+          "retrievedAt": "2026-10-22T01:23:06.264385+00:00",
+          "bytes": 53909,
+          "sha256": "bc0ce1a028f0a8bc5efccfff70fd9d275a6c69824cd32ed82727c02bc10fa61f",
+          "md5": "5ea6f22c6454cba3521aa679a521b558",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 10,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-07-28",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-07-28.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-07-28T13:00:00+00:00",
+            "end": "2020-07-29T02:30:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/07/hms_smoke20200728.kml",
+          "retrievedAt": "2026-10-22T01:23:07.534903+00:00",
+          "bytes": 53817,
+          "sha256": "79c942f9df62719c05e9381734b78ded6afefb0d1d700eec4c2a2d33f057794f",
+          "md5": "b47f2c644b17a2133b837861818454a6",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 15,
+          "firePolygonCount": 1
+        },
+        {
+          "dateUtc": "2020-07-29",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-07-29.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-07-29T13:30:00+00:00",
+            "end": "2020-07-30T02:06:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/07/hms_smoke20200729.kml",
+          "retrievedAt": "2026-10-22T01:22:06.140966+00:00",
+          "bytes": 65730,
+          "sha256": "139f893c0e1c08fb4fd20a4676971192fb815d742c82045293a26f31e8aee06c",
+          "md5": "168f789f4eb26f762e1b274fd0661324",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 20,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-07-30",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-07-30.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-07-30T12:00:00+00:00",
+            "end": "2020-07-30T17:30:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/07/hms_smoke20200730.kml",
+          "retrievedAt": "2026-10-22T01:22:07.655471+00:00",
+          "bytes": 142458,
+          "sha256": "717dd7dbb7ef39136b324a8c5d7450ea9dfad7c49533027a825fd6ed4403de91",
+          "md5": "9802010d31cbf5b79d824d914fbe07b6",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 45,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-07-31",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-07-31.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-07-31T12:30:00+00:00",
+            "end": "2020-07-31T16:50:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/07/hms_smoke20200731.kml",
+          "retrievedAt": "2026-10-22T01:22:08.956605+00:00",
+          "bytes": 98251,
+          "sha256": "f42fd5321fd3fc726518b4b2426a423a347d23246296234ad8a8cb2ea0c24857",
+          "md5": "77b8a14cb21cfc64b811dd74b53db3f7",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 33,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-08-01",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-01.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-01T12:00:00+00:00",
+            "end": "2020-08-02T01:36:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200801.kml",
+          "retrievedAt": "2026-10-22T01:22:10.055889+00:00",
+          "bytes": 124841,
+          "sha256": "98e43d518062f5d7c470ed22c2ba32bf4362645ff226e03bd859c88c842bb12e",
+          "md5": "aa59cb2f476d9d7bc055485770c5449d",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 48,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-08-02",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-02.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-02T12:00:00+00:00",
+            "end": "2020-08-03T02:06:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200802.kml",
+          "retrievedAt": "2026-10-22T01:22:11.232177+00:00",
+          "bytes": 130851,
+          "sha256": "c42d7c4fd986a1546e418488363a5e390c8c0667b327852280478294414a75d8",
+          "md5": "cd8ff88497861c324cd950df16ceb45b",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 55,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-08-03",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-03.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-03T11:00:00+00:00",
+            "end": "2020-08-04T01:30:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200803.kml",
+          "retrievedAt": "2026-10-22T01:22:12.249151+00:00",
+          "bytes": 50046,
+          "sha256": "db342be1e11e1c19c0a9d84c450b8374805634143be5ad6cc1d47e1585e559fd",
+          "md5": "76df85caff1e3e8e186caeceb3b09348",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 13,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-08-04",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-04.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-04T12:40:00+00:00",
+            "end": "2020-08-05T02:30:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200804.kml",
+          "retrievedAt": "2026-10-22T01:23:08.436763+00:00",
+          "bytes": 50409,
+          "sha256": "8e220752b2b922b2f81d138e916be8fefd013a22d9664e0d858c23cde4dc535a",
+          "md5": "36bcc16285340b099951ac82dcfd8101",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 17,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-08-05",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-05.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-05T10:00:00+00:00",
+            "end": "2020-08-06T02:50:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200805.kml",
+          "retrievedAt": "2026-10-22T01:23:09.251986+00:00",
+          "bytes": 65630,
+          "sha256": "5bcf2bc0b5f29ba889cfa89fa016d1ac14b7c564ee6e293133dc2ca9badb0029",
+          "md5": "0d6a7ff4548778f90c6994386a8c8325",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 23,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-08-06",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-06.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-06T12:10:00+00:00",
+            "end": "2020-08-07T02:30:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200806.kml",
+          "retrievedAt": "2026-10-22T01:24:35.035895+00:00",
+          "bytes": 56956,
+          "sha256": "b60745e0984c9f12707d47f05d08fd43a4c3747d5120c302dae3134b10bc77a9",
+          "md5": "f1b8a6c3dd087435aad208e16fd5b646",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 10,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-08-07",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-07.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-07T12:00:00+00:00",
+            "end": "2020-08-08T00:01:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200807.kml",
+          "retrievedAt": "2026-10-22T01:24:36.148363+00:00",
+          "bytes": 87638,
+          "sha256": "231996eec859f9bbaa4b1f0963aa9b69a35d9f1e75d04b01bd3ba270a5edfb06",
+          "md5": "96390d38819f5e5f08b1cbeef1efe72b",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 16,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-08-08",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-08.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-08T10:00:00+00:00",
+            "end": "2020-08-09T01:36:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200808.kml",
+          "retrievedAt": "2026-10-22T01:24:37.146927+00:00",
+          "bytes": 72217,
+          "sha256": "45c1dd9d4f814b10145c4d5fac41a10567cae354ac6851c72d564a19e87d99f8",
+          "md5": "5b1e5011d665e86912222c682a7d2013",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 22,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-08-09",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-09.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-09T11:00:00+00:00",
+            "end": "2020-08-10T01:16:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200809.kml",
+          "retrievedAt": "2026-10-22T01:24:38.460080+00:00",
+          "bytes": 60059,
+          "sha256": "74fdaa6ddac8c53d97a9e31904d5401732dcc44d1a5f38abd596639af2acc732",
+          "md5": "21fefd9a1bdcae8a3fa49983fe964500",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 19,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-08-10",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-10.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-10T11:00:00+00:00",
+            "end": "2020-08-11T02:16:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200810.kml",
+          "retrievedAt": "2026-10-22T01:24:39.307550+00:00",
+          "bytes": 95292,
+          "sha256": "bba442445ea3bc7d7d374c9d5f5811ba72456679f00738a6fbe6fc07da230308",
+          "md5": "c95a3cd8ee5bb7b558308b03a43578b8",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 27,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-08-11",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-11.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-11T10:00:00+00:00",
+            "end": "2020-08-12T02:26:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200811.kml",
+          "retrievedAt": "2026-10-22T01:24:40.132623+00:00",
+          "bytes": 128017,
+          "sha256": "5e4952e43e213a71875b9f78b225a58f4ada799d82a45c9da9c38d1584ded47b",
+          "md5": "630fd3f2628e5888c60ae12add0cb4a8",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 52,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-08-12",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-12.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-12T10:00:00+00:00",
+            "end": "2020-08-13T00:50:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200812.kml",
+          "retrievedAt": "2026-10-22T01:24:41.346556+00:00",
+          "bytes": 201083,
+          "sha256": "e9a81701d1bedb86d2e1229918bbc1d8f974631ee6d6258fd82eca49f0f1c7fd",
+          "md5": "66e029016972eb81dde0ff70ff7f7ad1",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 79,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-08-13",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-13.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-13T10:30:00+00:00",
+            "end": "2020-08-14T00:30:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200813.kml",
+          "retrievedAt": "2026-10-22T01:24:42.414936+00:00",
+          "bytes": 245643,
+          "sha256": "7657639dccb765a978940b47a34cf6f883582c1f8cd060d928adc296a3f87335",
+          "md5": "3d94ac17da5031368a2fdc97da2cc293",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 101,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-08-14",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-14.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-14T10:30:00+00:00",
+            "end": "2020-08-15T00:30:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200814.kml",
+          "retrievedAt": "2026-10-22T01:24:29.478409+00:00",
+          "bytes": 255905,
+          "sha256": "54c0c92acd80e14b31c784b970338c88844b46f98766bdb5d0ecd0363d1de452",
+          "md5": "c0e8ffd0b7b8586d12837aebc51ce7a3",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 102,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-08-15",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-15.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-15T12:30:00+00:00",
+            "end": "2020-08-16T02:30:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200815.kml",
+          "retrievedAt": "2026-10-22T01:24:30.677817+00:00",
+          "bytes": 202046,
+          "sha256": "ec00d35fada95ebc5b5ef29f2e6d8f1e922b1b5319c094517ed533b00ea181a2",
+          "md5": "f527ae122633768f8febbf955891fc3d",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 80,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-08-16",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-16.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-16T12:00:00+00:00",
+            "end": "2020-08-17T01:36:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200816.kml",
+          "retrievedAt": "2026-10-22T01:24:31.509335+00:00",
+          "bytes": 105718,
+          "sha256": "55d96d3463aca3af7badd382eb693d107bc918cd2852ae0bf1a81937df071417",
+          "md5": "c3873be3ec50d29a792389179b350298",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 46,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-08-17",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-17.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-17T13:00:00+00:00",
+            "end": "2020-08-18T02:26:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200817.kml",
+          "retrievedAt": "2026-10-22T01:22:14.164982+00:00",
+          "bytes": 97408,
+          "sha256": "d744c3e51f45abd9566c863c6d6316f47ddc74515cf528bebe51c74a9e5b8fcd",
+          "md5": "9998ba27c9bb4491dcddc45973136ebb",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 27,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-08-18",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-18.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-18T10:45:00+00:00",
+            "end": "2020-08-19T02:10:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200818.kml",
+          "retrievedAt": "2026-10-22T01:21:26.879454+00:00",
+          "bytes": 111084,
+          "sha256": "189004de290bea4a6fcb530bce7384387e5416fd31f5a8ce4639090a8c3f3681",
+          "md5": "ccc377edf9835e4354613bfbf69b1582",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 48,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-08-19",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-19.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-19T13:00:00+00:00",
+            "end": "2020-08-20T00:30:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200819.kml",
+          "retrievedAt": "2026-10-22T01:21:28.769787+00:00",
+          "bytes": 259573,
+          "sha256": "3c05ff5e72e9ffea468491a8f8eb8cfe43f1e5f0bed8131ae39286eeb76a49a1",
+          "md5": "f6a2129bfe41d8823ff67c413ae2f35c",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 124,
+          "firePolygonCount": 2
+        },
+        {
+          "dateUtc": "2020-08-20",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-20.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-20T13:00:00+00:00",
+            "end": "2020-08-21T01:30:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200820.kml",
+          "retrievedAt": "2026-10-22T01:21:30.854933+00:00",
+          "bytes": 143002,
+          "sha256": "5698dbf4a7bc737edf7c682d01a2e0d270c6b255f551ad5fc17f672b162b8cc5",
+          "md5": "9286ea15fb540f1a9c835b005a404d61",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 51,
+          "firePolygonCount": 4
+        },
+        {
+          "dateUtc": "2020-08-21",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-21.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-21T12:30:00+00:00",
+            "end": "2020-08-22T01:00:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200821.kml",
+          "retrievedAt": "2026-10-22T01:21:32.412685+00:00",
+          "bytes": 124396,
+          "sha256": "031dbfefa386207ecbe6987b2be82eb2011b76f512985bb5937541e415baeb35",
+          "md5": "7b92b142045b14646964ac5ce699c8fb",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 46,
+          "firePolygonCount": 4
+        },
+        {
+          "dateUtc": "2020-08-22",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-22.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-22T13:40:00+00:00",
+            "end": "2020-08-23T04:00:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200822.kml",
+          "retrievedAt": "2026-10-22T01:21:34.614450+00:00",
+          "bytes": 105928,
+          "sha256": "349441d62d71cfa616f1e8a758efe9757505903bbb8075d158aea22402ed1e5b",
+          "md5": "435d704c19fb356ba3094387153bbd59",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 72,
+          "firePolygonCount": 7
+        },
+        {
+          "dateUtc": "2020-08-23",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-23.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-23T13:00:00+00:00",
+            "end": "2020-08-24T09:00:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200823.kml",
+          "retrievedAt": "2026-10-22T01:21:37.920400+00:00",
+          "bytes": 51244,
+          "sha256": "f7e6e094a6c16d91ef07bb14dad09eca02731628ce4d1ba8a72621a82b5f803f",
+          "md5": "90ef19e42ef930b5a80501231ca52b0b",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 23,
+          "firePolygonCount": 3
+        },
+        {
+          "dateUtc": "2020-08-24",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-24.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-24T13:31:00+00:00",
+            "end": "2020-08-25T02:10:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200824.kml",
+          "retrievedAt": "2026-10-22T01:21:38.962788+00:00",
+          "bytes": 62217,
+          "sha256": "7723e93fecff982dc20e31daa59fd3d19aaf40722c2487593ddebf04b77cde75",
+          "md5": "9df0a0738cdac05743f1c655f3c12fff",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 33,
+          "firePolygonCount": 3
+        },
+        {
+          "dateUtc": "2020-08-25",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-25.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-25T10:31:00+00:00",
+            "end": "2020-08-26T02:30:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200825.kml",
+          "retrievedAt": "2026-10-22T01:21:40.507009+00:00",
+          "bytes": 142192,
+          "sha256": "c8b10a32bbc22affd9c975e6b42f8d160d02980b0e67653675ceb41a31944122",
+          "md5": "b9a843158d8577ded16238c61a9f6241",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 46,
+          "firePolygonCount": 4
+        },
+        {
+          "dateUtc": "2020-08-26",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-26.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-26T13:51:00+00:00",
+            "end": "2020-08-27T03:00:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200826.kml",
+          "retrievedAt": "2026-10-22T01:21:41.726347+00:00",
+          "bytes": 38702,
+          "sha256": "c7a85c80b3c0d913a9e53dbb7922bbfe2eea5149f5194066963749b2353d81b0",
+          "md5": "82c3da2a11829978f7ef6f3f2951d60a",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 19,
+          "firePolygonCount": 2
+        },
+        {
+          "dateUtc": "2020-08-27",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-27.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-27T11:45:00+00:00",
+            "end": "2020-08-28T00:00:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200827.kml",
+          "retrievedAt": "2026-10-22T01:21:43.891871+00:00",
+          "bytes": 274685,
+          "sha256": "f8b9b7c3b7ad79c40e4185c0597f274187c9e58668be966c44bf0987acb35113",
+          "md5": "d840236289e87e4ab30128b1059a4d11",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 127,
+          "firePolygonCount": 6
+        },
+        {
+          "dateUtc": "2020-08-28",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-28.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-28T11:50:00+00:00",
+            "end": "2020-08-28T17:50:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200828.kml",
+          "retrievedAt": "2026-10-22T01:21:45.277878+00:00",
+          "bytes": 212579,
+          "sha256": "d85fa61a297abed9cb29bc5c54c68c92122c9dcb74bf1e08921db8b80407ff97",
+          "md5": "76e1b82e4ac717a9a2513d963de8566a",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 100,
+          "firePolygonCount": 4
+        },
+        {
+          "dateUtc": "2020-08-29",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-29.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-29T11:00:00+00:00",
+            "end": "2020-08-30T01:10:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200829.kml",
+          "retrievedAt": "2026-10-22T01:21:46.893296+00:00",
+          "bytes": 172005,
+          "sha256": "c8c96d1b6706fa0f6791506fb7d14956d9ca90a3671c457dc13a918f6db16988",
+          "md5": "82f14a27be0048e597a61221fa2d3161",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 74,
+          "firePolygonCount": 3
+        },
+        {
+          "dateUtc": "2020-08-30",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-30.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-30T11:50:00+00:00",
+            "end": "2020-08-31T01:50:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200830.kml",
+          "retrievedAt": "2026-10-22T01:21:48.600056+00:00",
+          "bytes": 275366,
+          "sha256": "c4aeca7be2171ab424eae045deb10b0413ac7d1d2dd24fdc38b0544eb3e6ff83",
+          "md5": "26c92e947106751846e2679c6229cca6",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 125,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-08-31",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-08-31.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-08-31T12:00:00+00:00",
+            "end": "2020-09-01T02:10:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/08/hms_smoke20200831.kml",
+          "retrievedAt": "2026-10-22T01:21:50.262295+00:00",
+          "bytes": 145632,
+          "sha256": "e1abba37fb844e365b038924f349c1e65f7428c259980b03eb209a773677fa25",
+          "md5": "b55769c06e759ecb8e569d3f3850ed0e",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 60,
+          "firePolygonCount": 2
+        },
+        {
+          "dateUtc": "2020-09-01",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-09-01.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-09-01T13:46:00+00:00",
+            "end": "2020-09-02T02:30:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200901.kml",
+          "retrievedAt": "2026-10-22T01:21:51.470131+00:00",
+          "bytes": 53652,
+          "sha256": "2d8c04f12bed0588063651f9e21bc700639621c57ac7957edf6c4f24dacf5dfd",
+          "md5": "e21f3501c5e9604cf412a2c9d8bbd61f",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 16,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-09-02",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-09-02.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-09-02T12:51:00+00:00",
+            "end": "2020-09-03T02:30:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200902.kml",
+          "retrievedAt": "2026-10-21T21:34:51.054788+00:00",
+          "bytes": 48127,
+          "sha256": "ccd2409efc3e5734666536db9a206c12a7fed23a5054f34e31cfcb0b08c0b491",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 13,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-09-03",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-09-03.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-09-03T13:00:00+00:00",
+            "end": "2020-09-04T00:00:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200903.kml",
+          "retrievedAt": "2026-10-21T21:34:52.557139+00:00",
+          "bytes": 272164,
+          "sha256": "6618a6a09cb296c2d3cc922f5e3d59566e6d5be7d689e848ab89f0cd645de23a",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 87,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-09-04",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-09-04.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-09-04T13:00:00+00:00",
+            "end": "2020-09-05T00:00:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200904.kml",
+          "retrievedAt": "2026-10-21T21:34:54.329848+00:00",
+          "bytes": 256686,
+          "sha256": "7ce29f6aa290a02b2702ca792ed6576bcc7948647f45d1d3d372e0a193fb3ed2",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 80,
+          "firePolygonCount": 4
+        },
+        {
+          "dateUtc": "2020-09-05",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-09-05.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-09-05T12:00:00+00:00",
+            "end": "2020-09-06T01:46:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200905.kml",
+          "retrievedAt": "2026-10-21T21:34:55.999824+00:00",
+          "bytes": 199561,
+          "sha256": "bdfeb3d52720bf6f6e8a16c2a72ad469149407f9b647c341ad6ae0a7ef9093e4",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 117,
+          "firePolygonCount": 9
+        },
+        {
+          "dateUtc": "2020-09-06",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-09-06.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-09-06T11:00:00+00:00",
+            "end": "2020-09-07T00:00:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200906.kml",
+          "retrievedAt": "2026-10-21T21:34:57.262065+00:00",
+          "bytes": 55318,
+          "sha256": "1c76f17533756868b63ea3658e1e3019f72135eddb74aa9e9c1dca6d783880c1",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 18,
+          "firePolygonCount": 2
+        },
+        {
+          "dateUtc": "2020-09-07",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-09-07.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-09-07T10:00:00+00:00",
+            "end": "2020-09-07T22:46:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200907.kml",
+          "retrievedAt": "2026-10-21T21:34:58.272674+00:00",
+          "bytes": 53793,
+          "sha256": "6e353a6757876ca6cf1fdb342825c9602c3be53e987b626398bdb702f8988e5a",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 26,
+          "firePolygonCount": 2
+        },
+        {
+          "dateUtc": "2020-09-08",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-09-08.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-09-08T13:20:00+00:00",
+            "end": "2020-09-08T23:00:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200908.kml",
+          "retrievedAt": "2026-10-21T21:34:59.804546+00:00",
+          "bytes": 89615,
+          "sha256": "e008c848f81180ef740df58403ac2e6b0e28341c9ef052d8e1d9a2a6f6e0a65d",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 30,
+          "firePolygonCount": 0
+        },
+        {
+          "dateUtc": "2020-09-09",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-09-09.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-09-09T11:00:00+00:00",
+            "end": "2020-09-10T02:00:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200909.kml",
+          "retrievedAt": "2026-10-21T21:35:01.037128+00:00",
+          "bytes": 85420,
+          "sha256": "92c59100df3bba2d6569af00f7db3522d24b00a67e97efd9ccc2b5b50e463683",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 33,
+          "firePolygonCount": 1
+        },
+        {
+          "dateUtc": "2020-09-10",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-09-10.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-09-10T11:30:00+00:00",
+            "end": "2020-09-10T23:50:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200910.kml",
+          "retrievedAt": "2026-10-21T21:35:02.232791+00:00",
+          "bytes": 35771,
+          "sha256": "65cfdcc70d5325235053163c8b7233dda6cf996e45176fb0ca9a7ffd9170c728",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 4,
+          "firePolygonCount": 2
+        },
+        {
+          "dateUtc": "2020-09-11",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-09-11.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-09-11T16:10:00+00:00",
+            "end": "2020-09-12T01:00:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200911.kml",
+          "retrievedAt": "2026-10-21T21:35:03.635129+00:00",
+          "bytes": 121311,
+          "sha256": "3fa74f98d841e8b04bae2f2214b4228f6b50ed8415210fe4d70927914a2eb428",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 56,
+          "firePolygonCount": 3
+        },
+        {
+          "dateUtc": "2020-09-12",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-09-12.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-09-12T11:30:00+00:00",
+            "end": "2020-09-13T00:50:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200912.kml",
+          "retrievedAt": "2026-10-21T21:35:05.063886+00:00",
+          "bytes": 72312,
+          "sha256": "e16342c2a344b7b5ed3b9cc0e17073b2eaaf7f38727559113315b01b507278f5",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 25,
+          "firePolygonCount": 4
+        },
+        {
+          "dateUtc": "2020-09-13",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-09-13.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-09-13T15:30:00+00:00",
+            "end": "2020-09-14T00:50:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200913.kml",
+          "retrievedAt": "2026-10-21T21:35:06.267833+00:00",
+          "bytes": 72959,
+          "sha256": "ea14404133a1715760f88adf48474e93ef7b9c271164b3db603a3fffda889337",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 26,
+          "firePolygonCount": 4
+        },
+        {
+          "dateUtc": "2020-09-14",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-09-14.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-09-14T16:10:00+00:00",
+            "end": "2020-09-14T23:26:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200914.kml",
+          "retrievedAt": "2026-10-21T21:35:07.318214+00:00",
+          "bytes": 45512,
+          "sha256": "e98b453c9a1ac6626ba0b391c7659390d75977e2bbd6be84a6bcf0022e322890",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 12,
+          "firePolygonCount": 4
+        },
+        {
+          "dateUtc": "2020-09-15",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-09-15.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-09-15T12:30:00+00:00",
+            "end": "2020-09-15T22:00:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200915.kml",
+          "retrievedAt": "2026-10-21T21:35:08.718881+00:00",
+          "bytes": 20268,
+          "sha256": "4ca4d23b627688f0ad6fcb6bd4df15adeb235299ed6ec4e01161519979bfdf97",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 3,
+          "firePolygonCount": 2
+        },
+        {
+          "dateUtc": "2020-09-16",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-09-16.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-09-16T12:00:00+00:00",
+            "end": "2020-09-16T23:00:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200916.kml",
+          "retrievedAt": "2026-10-21T21:35:09.820569+00:00",
+          "bytes": 27723,
+          "sha256": "e595ed308da25b4590aa71d417b5c613c9bca7f5af3b8750ca87dab3683be54c",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 5,
+          "firePolygonCount": 2
+        },
+        {
+          "dateUtc": "2020-09-17",
+          "status": "available",
+          "path": "/data/waves/plumes/2020-09-17.json",
+          "monitorCoverage": {},
+          "measurementPeriod": {
+            "start": "2020-09-17T11:30:00+00:00",
+            "end": "2020-09-17T15:30:00+00:00"
+          },
+          "sourceUrl": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/KML/2020/09/hms_smoke20200917.kml",
+          "retrievedAt": "2026-10-21T21:37:33.229888+00:00",
+          "bytes": 38515,
+          "sha256": "deee66fddceda7c838277af7983a277be2ea1aedae64aaa001b08772d4439253",
+          "dataClass": "Historical",
+          "sourcePolygonCount": 2,
+          "firePolygonCount": 2
+        }
+      ]
+    },
+    "exclusions": [],
+    "health": [],
+    "aqiReference": {
+      "bands": [
+        {
+          "name": "Good",
+          "low": 0,
+          "high": 9,
+          "color": "#00e400"
+        },
+        {
+          "name": "Moderate",
+          "low": 9.1,
+          "high": 35.4,
+          "color": "#ffff00"
+        },
+        {
+          "name": "Unhealthy for sensitive groups",
+          "low": 35.5,
+          "high": 55.4,
+          "color": "#ff7e00"
+        },
+        {
+          "name": "Unhealthy",
+          "low": 55.5,
+          "high": 125.4,
+          "color": "#ff0000"
+        },
+        {
+          "name": "Very unhealthy",
+          "low": 125.5,
+          "high": 225.4,
+          "color": "#8f3f97"
+        },
+        {
+          "name": "Hazardous",
+          "low": 225.5,
+          "high": 325.4,
+          "color": "#7e0023"
+        }
+      ],
+      "averagingHours": 24,
+      "sourceUrl": "https://aqs.epa.gov/aqsweb/documents/codetables/aqi_breakpoints.csv",
+      "retrievedAt": "2026-10-19T02:57:31.110041+00:00",
+      "bytes": 6494,
+      "sha256": "00460436574eb146f0b1293cf591a831c272c3d2a5be1fbef76b98193f9ff3c4",
+      "dataClass": "Historical"
+    },
+    "limitedCoverage": true,
+    "selectionRule": "Nearest three distinct sites among five audited within 50 km, preferring >=75% hourly coverage over 60 days. If none qualify, show partial records with gaps. Prefer comparable reference instrument within each site. Not fire-attributed smoke."
+  },
+  "perimeter": {
+    "status": "available",
+    "sourceUrl": "https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/California_Historic_Fire_Perimeters/FeatureServer/0/query?f=geojson&where=GlobalID%3D%277aba2b28-9b21-4d9b-9fd5-dbf0042c0419%27&outFields=GlobalID%2CFIRE_NAME%2CYEAR_%2CALARM_DATE&outSR=4326&returnGeometry=true",
+    "retrievedAt": "2026-10-22T00:56:49.526140+00:00",
+    "bytes": 15006,
+    "sha256": "a848b04587688ac76f12870a8a996993b8f27e694b849baaec46c5a4fef23589",
+    "md5": "9f5d4d655d5f116ce55178c77e2905ad",
+    "value": {
+      "type": "FeatureCollection",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "EPSG:4326"
+        }
+      },
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -121.083390201013,
+                  41.7203635722219
+                ],
+                [
+                  -121.083285621842,
+                  41.7206716144585
+                ],
+                [
+                  -121.082957796053,
+                  41.7209997607574
+                ],
+                [
+                  -121.082343134599,
+                  41.7213469480777
+                ],
+                [
+                  -121.081732009813,
+                  41.7215750416174
+                ],
+                [
+                  -121.08131092093,
+                  41.7218301376172
+                ],
+                [
+                  -121.081071366295,
+                  41.7223980511535
+                ],
+                [
+                  -121.081119355196,
+                  41.7229231094773
+                ],
+                [
+                  -121.081461274654,
+                  41.72319094853
+                ],
+                [
+                  -121.081707818182,
+                  41.7234571920843
+                ],
+                [
+                  -121.081982613726,
+                  41.7238430581624
+                ],
+                [
+                  -121.082004485907,
+                  41.7241770394076
+                ],
+                [
+                  -121.08174518181,
+                  41.724339519513
+                ],
+                [
+                  -121.081427962429,
+                  41.7243103912599
+                ],
+                [
+                  -121.080927781377,
+                  41.7240160774968
+                ],
+                [
+                  -121.080412714342,
+                  41.7242219410545
+                ],
+                [
+                  -121.080278450343,
+                  41.7244579955041
+                ],
+                [
+                  -121.079952007959,
+                  41.7247384958011
+                ],
+                [
+                  -121.079880617945,
+                  41.7249994289682
+                ],
+                [
+                  -121.079809227931,
+                  41.725260364428
+                ],
+                [
+                  -121.079800004928,
+                  41.7255699969628
+                ],
+                [
+                  -121.079947623282,
+                  41.7259537404599
+                ],
+                [
+                  -121.079676607849,
+                  41.726169447295
+                ],
+                [
+                  -121.079591089132,
+                  41.7263898243699
+                ],
+                [
+                  -121.079547232482,
+                  41.7267941970119
+                ],
+                [
+                  -121.07925327767,
+                  41.7270514089655
+                ],
+                [
+                  -121.078837823021,
+                  41.7271159509702
+                ],
+                [
+                  -121.078387023258,
+                  41.7272990481369
+                ],
+                [
+                  -121.078129117838,
+                  41.7274138822558
+                ],
+                [
+                  -121.077992707764,
+                  41.7277213872028
+                ],
+                [
+                  -121.07798347488,
+                  41.7280310199449
+                ],
+                [
+                  -121.078071048942,
+                  41.7282946120396
+                ],
+                [
+                  -121.07790639314,
+                  41.7284824959935
+                ],
+                [
+                  -121.077486665205,
+                  41.7286899394924
+                ],
+                [
+                  -121.076969417061,
+                  41.7289672375162
+                ],
+                [
+                  -121.076805467335,
+                  41.7291313010896
+                ],
+                [
+                  -121.076574371237,
+                  41.7294133892965
+                ],
+                [
+                  -121.076057115906,
+                  41.7296906841975
+                ],
+                [
+                  -121.075505212555,
+                  41.7300627146093
+                ],
+                [
+                  -121.074835368492,
+                  41.7301229804451
+                ],
+                [
+                  -121.074008681276,
+                  41.7301091205481
+                ],
+                [
+                  -121.073278805497,
+                  41.7300492220802
+                ],
+                [
+                  -121.072935460413,
+                  41.7298289943206
+                ],
+                [
+                  -121.072726425141,
+                  41.7293727222357
+                ],
+                [
+                  -121.072419866965,
+                  41.7289863014138
+                ],
+                [
+                  -121.071762144769,
+                  41.7286416466434
+                ],
+                [
+                  -121.071035851472,
+                  41.7284626442033
+                ],
+                [
+                  -121.070062329232,
+                  41.7276999093909
+                ],
+                [
+                  -121.069969543145,
+                  41.7277405627611
+                ],
+                [
+                  -121.069586582356,
+                  41.7277817879796
+                ],
+                [
+                  -121.069204334829,
+                  41.7277991929236
+                ],
+                [
+                  -121.069256511676,
+                  41.7281813462723
+                ],
+                [
+                  -121.069725584968,
+                  41.728451355678
+                ],
+                [
+                  -121.069875288312,
+                  41.7287636578522
+                ],
+                [
+                  -121.070152885701,
+                  41.7290542793546
+                ],
+                [
+                  -121.070369746197,
+                  41.7292485615042
+                ],
+                [
+                  -121.070806323832,
+                  41.7295418517195
+                ],
+                [
+                  -121.071055697951,
+                  41.7297128485107
+                ],
+                [
+                  -121.071015349222,
+                  41.729998127296
+                ],
+                [
+                  -121.071037878969,
+                  41.7303082920891
+                ],
+                [
+                  -121.071060407818,
+                  41.7306184567254
+                ],
+                [
+                  -121.071113309605,
+                  41.7309767916639
+                ],
+                [
+                  -121.07122695098,
+                  41.7314314648755
+                ],
+                [
+                  -121.070862219704,
+                  41.7319257639257
+                ],
+                [
+                  -121.071080518403,
+                  41.732072409458
+                ],
+                [
+                  -121.071166641685,
+                  41.7323836435453
+                ],
+                [
+                  -121.07093765034,
+                  41.7325942647682
+                ],
+                [
+                  -121.070651477633,
+                  41.732589458169
+                ],
+                [
+                  -121.070337788631,
+                  41.7324412102729
+                ],
+                [
+                  -121.069923002328,
+                  41.7324819008655
+                ],
+                [
+                  -121.069413541679,
+                  41.7324971700543
+                ],
+                [
+                  -121.069024131885,
+                  41.7327527496049
+                ],
+                [
+                  -121.068824070783,
+                  41.7330591745022
+                ],
+                [
+                  -121.068912325768,
+                  41.7332989552417
+                ],
+                [
+                  -121.068903049765,
+                  41.7336085859042
+                ],
+                [
+                  -121.069119208676,
+                  41.7338266877202
+                ],
+                [
+                  -121.069303570821,
+                  41.7340442531769
+                ],
+                [
+                  -121.068919860837,
+                  41.7341092922672
+                ],
+                [
+                  -121.068686571052,
+                  41.7344628153508
+                ],
+                [
+                  -121.068388969979,
+                  41.7348390882735
+                ],
+                [
+                  -121.067962742733,
+                  41.7352608542266
+                ],
+                [
+                  -121.067796610999,
+                  41.7354963566422
+                ],
+                [
+                  -121.067691932115,
+                  41.7358043826365
+                ],
+                [
+                  -121.06714421671,
+                  41.736033464549
+                ],
+                [
+                  -121.066469301658,
+                  41.7362604045842
+                ],
+                [
+                  -121.066244568326,
+                  41.736328108033
+                ],
+                [
+                  -121.065887636223,
+                  41.7365603976416
+                ],
+                [
+                  -121.065440308449,
+                  41.7366243529348
+                ],
+                [
+                  -121.064994409895,
+                  41.7366406722229
+                ],
+                [
+                  -121.064776112094,
+                  41.7364940156695
+                ],
+                [
+                  -121.064716853828,
+                  41.7363939123463
+                ],
+                [
+                  -121.064652492233,
+                  41.7363727839981
+                ],
+                [
+                  -121.06447171796,
+                  41.7360361224491
+                ],
+                [
+                  -121.063996887366,
+                  41.7359566314116
+                ],
+                [
+                  -121.063751802702,
+                  41.735642714489
+                ],
+                [
+                  -121.063598536639,
+                  41.7354494920561
+                ],
+                [
+                  -121.063120850301,
+                  41.7354652686621
+                ],
+                [
+                  -121.062732112446,
+                  41.735697009028
+                ],
+                [
+                  -121.062447359976,
+                  41.7356445465408
+                ],
+                [
+                  -121.062010064587,
+                  41.735375042646
+                ],
+                [
+                  -121.061246910719,
+                  41.7353621646007
+                ],
+                [
+                  -121.060916029759,
+                  41.7357855138211
+                ],
+                [
+                  -121.060644443896,
+                  41.7363528428101
+                ],
+                [
+                  -121.060117743678,
+                  41.736939689513
+                ],
+                [
+                  -121.05986621989,
+                  41.7368401231502
+                ],
+                [
+                  -121.060036686893,
+                  41.7364617282707
+                ],
+                [
+                  -121.060239664825,
+                  41.7360600515897
+                ],
+                [
+                  -121.060505522132,
+                  41.7356832636219
+                ],
+                [
+                  -121.060549506343,
+                  41.7352789020193
+                ],
+                [
+                  -121.060410588173,
+                  41.734609325042
+                ],
+                [
+                  -121.060106233564,
+                  41.7341514210664
+                ],
+                [
+                  -121.059727532587,
+                  41.7340497038844
+                ],
+                [
+                  -121.05918769361,
+                  41.7340167549506
+                ],
+                [
+                  -121.059054047652,
+                  41.7342289635924
+                ],
+                [
+                  -121.058916814721,
+                  41.7345602610413
+                ],
+                [
+                  -121.058678449455,
+                  41.7350804859574
+                ],
+                [
+                  -121.058350423341,
+                  41.7354085586669
+                ],
+                [
+                  -121.058310014425,
+                  41.7356938309268
+                ],
+                [
+                  -121.058641854786,
+                  41.7362951817189
+                ],
+                [
+                  -121.058064459942,
+                  41.736452231619
+                ],
+                [
+                  -121.057719700909,
+                  41.7362795936818
+                ],
+                [
+                  -121.057372791309,
+                  41.7361784074268
+                ],
+                [
+                  -121.056738978672,
+                  41.7360961976669
+                ],
+                [
+                  -121.056200562627,
+                  41.7360155986305
+                ],
+                [
+                  -121.055597113945,
+                  41.735981555368
+                ],
+                [
+                  -121.05512876739,
+                  41.735687669794
+                ],
+                [
+                  -121.054499996098,
+                  41.7354387242774
+                ],
+                [
+                  -121.054062016193,
+                  41.7351930075387
+                ],
+                [
+                  -121.053079163153,
+                  41.7350810356447
+                ],
+                [
+                  -121.052798020113,
+                  41.7349094612225
+                ],
+                [
+                  -121.052902768167,
+                  41.7346014523877
+                ],
+                [
+                  -121.053295849376,
+                  41.7342268385532
+                ],
+                [
+                  -121.053848631279,
+                  41.7338311013938
+                ],
+                [
+                  -121.054180266824,
+                  41.7333839566434
+                ],
+                [
+                  -121.054353629996,
+                  41.7329102982098
+                ],
+                [
+                  -121.054244421807,
+                  41.7323127040398
+                ],
+                [
+                  -121.05422700527,
+                  41.7318358151693
+                ],
+                [
+                  -121.054236353139,
+                  41.731526186017
+                ],
+                [
+                  -121.05425145292,
+                  41.7310260186257
+                ],
+                [
+                  -121.053357899606,
+                  41.7306130312019
+                ],
+                [
+                  -121.053137880633,
+                  41.7310309802026
+                ],
+                [
+                  -121.05299702839,
+                  41.731481358525
+                ],
+                [
+                  -121.053070833075,
+                  41.7321975012533
+                ],
+                [
+                  -121.053082483326,
+                  41.7328649286811
+                ],
+                [
+                  -121.052653293436,
+                  41.7333819073278
+                ],
+                [
+                  -121.052357764776,
+                  41.7336866821367
+                ],
+                [
+                  -121.052034755752,
+                  41.7338480139928
+                ],
+                [
+                  -121.051520960732,
+                  41.7340061069264
+                ],
+                [
+                  -121.051136515028,
+                  41.7340949036454
+                ],
+                [
+                  -121.050645148246,
+                  41.7345631596602
+                ],
+                [
+                  -121.049939117348,
+                  41.7347656416754
+                ],
+                [
+                  -121.049462874602,
+                  41.7347337267949
+                ],
+                [
+                  -121.049084910243,
+                  41.7346081586236
+                ],
+                [
+                  -121.048675150913,
+                  41.7344820505696
+                ],
+                [
+                  -121.048192419635,
+                  41.7346644872233
+                ],
+                [
+                  -121.047959015765,
+                  41.7350179663597
+                ],
+                [
+                  -121.047638153715,
+                  41.735107832229
+                ],
+                [
+                  -121.047292709268,
+                  41.7349589801253
+                ],
+                [
+                  -121.04727101675,
+                  41.7346249959382
+                ],
+                [
+                  -121.047283283245,
+                  41.7342200994299
+                ],
+                [
+                  -121.047298439621,
+                  41.7337199342446
+                ],
+                [
+                  -121.047349719949,
+                  41.7330774039139
+                ],
+                [
+                  -121.047552043907,
+                  41.7326995680816
+                ],
+                [
+                  -121.047499995519,
+                  41.7323174074213
+                ],
+                [
+                  -121.047318599612,
+                  41.7320045379499
+                ],
+                [
+                  -121.047268717063,
+                  41.7315509273362
+                ],
+                [
+                  -121.047282427151,
+                  41.7310983948616
+                ],
+                [
+                  -121.047073570644,
+                  41.7306420788315
+                ],
+                [
+                  -121.046647200566,
+                  41.7300152574445
+                ],
+                [
+                  -121.046280098635,
+                  41.7295324204151
+                ],
+                [
+                  -121.045916609728,
+                  41.7289304941102
+                ],
+                [
+                  -121.045755341473,
+                  41.7287009101981
+                ],
+                [
+                  -121.045665865678,
+                  41.7288070786969
+                ],
+                [
+                  -121.04562106939,
+                  41.7292352531672
+                ],
+                [
+                  -121.045541594538,
+                  41.7297581538955
+                ],
+                [
+                  -121.045460670704,
+                  41.7303286883441
+                ],
+                [
+                  -121.045107310302,
+                  41.7304418236201
+                ],
+                [
+                  -121.044938941763,
+                  41.7307487455782
+                ],
+                [
+                  -121.04501843548,
+                  41.7312743530898
+                ],
+                [
+                  -121.045228002554,
+                  41.7317068525331
+                ],
+                [
+                  -121.04490570859,
+                  41.7318443471503
+                ],
+                [
+                  -121.044651341634,
+                  41.7318400171383
+                ],
+                [
+                  -121.044105028499,
+                  41.7320213524836
+                ],
+                [
+                  -121.044000241817,
+                  41.73232935425
+                ],
+                [
+                  -121.043894009747,
+                  41.7326849921092
+                ],
+                [
+                  -121.043599166501,
+                  41.7329659264185
+                ],
+                [
+                  -121.043063689743,
+                  41.7327899956166
+                ],
+                [
+                  -121.042560009753,
+                  41.7326146073377
+                ],
+                [
+                  -121.042122097222,
+                  41.7323688462762
+                ],
+                [
+                  -121.041301185274,
+                  41.7321642134975
+                ],
+                [
+                  -121.040637813573,
+                  41.7320099197811
+                ],
+                [
+                  -121.040103801069,
+                  41.7317863434671
+                ],
+                [
+                  -121.039788013602,
+                  41.7317094650261
+                ],
+                [
+                  -121.039606657221,
+                  41.7313965838786
+                ],
+                [
+                  -121.039590075219,
+                  41.7308958764812
+                ],
+                [
+                  -121.040046798473,
+                  41.7305223974716
+                ],
+                [
+                  -121.040476790558,
+                  41.7299816494457
+                ],
+                [
+                  -121.040861950423,
+                  41.7298690704658
+                ],
+                [
+                  -121.041709560301,
+                  41.7302409691163
+                ],
+                [
+                  -121.042221176906,
+                  41.730154374703
+                ],
+                [
+                  -121.042294170413,
+                  41.729845829536
+                ],
+                [
+                  -121.042023209777,
+                  41.7293407885859
+                ],
+                [
+                  -121.041935783039,
+                  41.7290771712855
+                ],
+                [
+                  -121.042359239881,
+                  41.7287507737884
+                ],
+                [
+                  -121.042557239349,
+                  41.7285158513582
+                ],
+                [
+                  -121.042727060464,
+                  41.7281612979553
+                ],
+                [
+                  -121.042867976487,
+                  41.7277109345703
+                ],
+                [
+                  -121.042940963706,
+                  41.727402392417
+                ],
+                [
+                  -121.043234338206,
+                  41.727169093538
+                ],
+                [
+                  -121.043509917081,
+                  41.7270008213274
+                ],
+                [
+                  -121.043406319769,
+                  41.726743087571
+                ],
+                [
+                  -121.043475689472,
+                  41.7265536317131
+                ],
+                [
+                  -121.043838424692,
+                  41.7261308753294
+                ],
+                [
+                  -121.04403713383,
+                  41.7258721304018
+                ],
+                [
+                  -121.043854324873,
+                  41.7256068911305
+                ],
+                [
+                  -121.043510386001,
+                  41.7254103955352
+                ],
+                [
+                  -121.043325411206,
+                  41.7252166073004
+                ],
+                [
+                  -121.043272670218,
+                  41.7248582636979
+                ],
+                [
+                  -121.043314584711,
+                  41.7245253620829
+                ],
+                [
+                  -121.043388287886,
+                  41.7241930004781
+                ],
+                [
+                  -121.043334823754,
+                  41.7238584742256
+                ],
+                [
+                  -121.043380349474,
+                  41.7234064849541
+                ],
+                [
+                  -121.043456944327,
+                  41.7229788536107
+                ],
+                [
+                  -121.043856510474,
+                  41.7223899155144
+                ],
+                [
+                  -121.044185981977,
+                  41.7220142502137
+                ],
+                [
+                  -121.044296527758,
+                  41.7215157091338
+                ],
+                [
+                  -121.044340600004,
+                  41.7211113542283
+                ],
+                [
+                  -121.044672230159,
+                  41.7206642335848
+                ],
+                [
+                  -121.045222054808,
+                  41.7203638042163
+                ],
+                [
+                  -121.045704686373,
+                  41.7201813792481
+                ],
+                [
+                  -121.045906254848,
+                  41.7198273618539
+                ],
+                [
+                  -121.045857209528,
+                  41.719467127521
+                ],
+                [
+                  -121.04544384436,
+                  41.7193429000399
+                ],
+                [
+                  -121.045544988373,
+                  41.7191539829135
+                ],
+                [
+                  -121.045617951337,
+                  41.7188454385583
+                ],
+                [
+                  -121.045181563247,
+                  41.7185520539182
+                ],
+                [
+                  -121.044970590309,
+                  41.7181671880084
+                ],
+                [
+                  -121.044855709259,
+                  41.7177601265553
+                ],
+                [
+                  -121.044867265187,
+                  41.7173790477798
+                ],
+                [
+                  -121.044886039976,
+                  41.7167597934704
+                ],
+                [
+                  -121.044905537011,
+                  41.7161167240377
+                ],
+                [
+                  -121.04498283255,
+                  41.7156652717393
+                ],
+                [
+                  -121.045186556083,
+                  41.7152398023906
+                ],
+                [
+                  -121.045261682191,
+                  41.7148598063801
+                ],
+                [
+                  -121.045210378506,
+                  41.7144538257183
+                ],
+                [
+                  -121.045252274135,
+                  41.714120923176
+                ],
+                [
+                  -121.045474784135,
+                  41.714124708539
+                ],
+                [
+                  -121.045854789467,
+                  41.7141788335052
+                ],
+                [
+                  -121.046080907102,
+                  41.7140635304744
+                ],
+                [
+                  -121.046845966297,
+                  41.7140050527387
+                ],
+                [
+                  -121.047093052407,
+                  41.7142475513256
+                ],
+                [
+                  -121.047405154985,
+                  41.714443494982
+                ],
+                [
+                  -121.0477880484,
+                  41.7144023430147
+                ],
+                [
+                  -121.047798140972,
+                  41.7140688983853
+                ],
+                [
+                  -121.047648579562,
+                  41.7137565690437
+                ],
+                [
+                  -121.047402935248,
+                  41.7134664376074
+                ],
+                [
+                  -121.047316227162,
+                  41.7131790052833
+                ],
+                [
+                  -121.04763842321,
+                  41.7130415029086
+                ],
+                [
+                  -121.048151333389,
+                  41.7129072411619
+                ],
+                [
+                  -121.048664968509,
+                  41.7127491580014
+                ],
+                [
+                  -121.049141045965,
+                  41.7127810737447
+                ],
+                [
+                  -121.049292057256,
+                  41.7130457657884
+                ],
+                [
+                  -121.049219118547,
+                  41.7133543145169
+                ],
+                [
+                  -121.049052976931,
+                  41.7135897906184
+                ],
+                [
+                  -121.049237937353,
+                  41.7137835703302
+                ],
+                [
+                  -121.049776159363,
+                  41.7138641979307
+                ],
+                [
+                  -121.050120774665,
+                  41.7140368572143
+                ],
+                [
+                  -121.050691507603,
+                  41.7140942023293
+                ],
+                [
+                  -121.051050527391,
+                  41.7137905080751
+                ],
+                [
+                  -121.051093108434,
+                  41.7134337825587
+                ],
+                [
+                  -121.050877077981,
+                  41.7132156490633
+                ],
+                [
+                  -121.05082286106,
+                  41.7129049417367
+                ],
+                [
+                  -121.050954326807,
+                  41.7127641944936
+                ],
+                [
+                  -121.051399342318,
+                  41.712771744591
+                ],
+                [
+                  -121.051816165999,
+                  41.712659666559
+                ],
+                [
+                  -121.052199044143,
+                  41.7126184986967
+                ],
+                [
+                  -121.052704036572,
+                  41.7127462094457
+                ],
+                [
+                  -121.053144735677,
+                  41.7128966560265
+                ],
+                [
+                  -121.053521864603,
+                  41.7130460259735
+                ],
+                [
+                  -121.053867210236,
+                  41.7131948557576
+                ],
+                [
+                  -121.05379501084,
+                  41.7134795909547
+                ],
+                [
+                  -121.053941008633,
+                  41.7139110011478
+                ],
+                [
+                  -121.054348495226,
+                  41.7141085404441
+                ],
+                [
+                  -121.054721325713,
+                  41.7144008127825
+                ],
+                [
+                  -121.054997355542,
+                  41.7147391031882
+                ],
+                [
+                  -121.055081226748,
+                  41.7151217989113
+                ],
+                [
+                  -121.054970777088,
+                  41.715620352714
+                ],
+                [
+                  -121.055218618681,
+                  41.7158390185128
+                ],
+                [
+                  -121.05556613644,
+                  41.7159163913653
+                ],
+                [
+                  -121.056269785904,
+                  41.7157853214155
+                ],
+                [
+                  -121.056663447425,
+                  41.7153868756028
+                ],
+                [
+                  -121.057044905332,
+                  41.7153933270216
+                ],
+                [
+                  -121.057198824469,
+                  41.7155627400684
+                ],
+                [
+                  -121.057444519089,
+                  41.7158528513134
+                ],
+                [
+                  -121.057718419911,
+                  41.7162625889295
+                ],
+                [
+                  -121.05770851868,
+                  41.7162736864789
+                ],
+                [
+                  -121.058123064234,
+                  41.7165553872373
+                ],
+                [
+                  -121.058175166521,
+                  41.7169375451016
+                ],
+                [
+                  -121.05784723473,
+                  41.7172656192748
+                ],
+                [
+                  -121.059273440499,
+                  41.7174327013018
+                ],
+                [
+                  -121.059790667982,
+                  41.7171554808975
+                ],
+                [
+                  -121.060247177436,
+                  41.7167819139654
+                ],
+                [
+                  -121.061075836455,
+                  41.7167244143416
+                ],
+                [
+                  -121.061417639132,
+                  41.7169923100758
+                ],
+                [
+                  -121.06182874863,
+                  41.7170707362968
+                ],
+                [
+                  -121.061976956279,
+                  41.7174306850041
+                ],
+                [
+                  -121.06165405146,
+                  41.7175920436033
+                ],
+                [
+                  -121.06158188081,
+                  41.7178767834601
+                ],
+                [
+                  -121.061704027434,
+                  41.7180456542086
+                ],
+                [
+                  -121.062144785829,
+                  41.7181960689399
+                ],
+                [
+                  -121.062940241318,
+                  41.7181856549892
+                ],
+                [
+                  -121.063827489358,
+                  41.7182959337526
+                ],
+                [
+                  -121.06394964227,
+                  41.7184648000471
+                ],
+                [
+                  -121.064640438639,
+                  41.7187623972972
+                ],
+                [
+                  -121.06537089383,
+                  41.7187985323216
+                ],
+                [
+                  -121.0659373975,
+                  41.7189987091667
+                ],
+                [
+                  -121.066113136715,
+                  41.7195020927744
+                ],
+                [
+                  -121.065631994558,
+                  41.7196369703556
+                ],
+                [
+                  -121.06524550878,
+                  41.7197972707146
+                ],
+                [
+                  -121.065013682351,
+                  41.720103152611
+                ],
+                [
+                  -121.065199423409,
+                  41.7202730909879
+                ],
+                [
+                  -121.065601984539,
+                  41.7206373163197
+                ],
+                [
+                  -121.066136000636,
+                  41.7208607758786
+                ],
+                [
+                  -121.066578931156,
+                  41.7209397210378
+                ],
+                [
+                  -121.067144028962,
+                  41.7211875285924
+                ],
+                [
+                  -121.067260484759,
+                  41.7215469359519
+                ],
+                [
+                  -121.067731643939,
+                  41.7217454990837
+                ],
+                [
+                  -121.068078495148,
+                  41.7218466530941
+                ],
+                [
+                  -121.068491072494,
+                  41.7218774197965
+                ],
+                [
+                  -121.068962950326,
+                  41.7220521615396
+                ],
+                [
+                  -121.069694159204,
+                  41.7220644522254
+                ],
+                [
+                  -121.069879918229,
+                  41.7222343807222
+                ],
+                [
+                  -121.070416101062,
+                  41.7223863679891
+                ],
+                [
+                  -121.070852631086,
+                  41.722679656678
+                ],
+                [
+                  -121.071446706747,
+                  41.7230232492147
+                ],
+                [
+                  -121.071696056612,
+                  41.7231942439123
+                ],
+                [
+                  -121.072141146682,
+                  41.72320171568
+                ],
+                [
+                  -121.072685888664,
+                  41.7230678767728
+                ],
+                [
+                  -121.073583899419,
+                  41.7228208126548
+                ],
+                [
+                  -121.074097552505,
+                  41.7226626184407
+                ],
+                [
+                  -121.074586702245,
+                  41.7222597531931
+                ],
+                [
+                  -121.074599327168,
+                  41.72183698733
+                ],
+                [
+                  -121.074515333791,
+                  41.7214543020912
+                ],
+                [
+                  -121.074506303027,
+                  41.7206915987331
+                ],
+                [
+                  -121.074519105817,
+                  41.7202628758433
+                ],
+                [
+                  -121.074307950521,
+                  41.7198780604099
+                ],
+                [
+                  -121.074221115772,
+                  41.7195906460306
+                ],
+                [
+                  -121.074515054415,
+                  41.7193334477934
+                ],
+                [
+                  -121.074869725459,
+                  41.7191725817024
+                ],
+                [
+                  -121.075068999637,
+                  41.7188899624052
+                ],
+                [
+                  -121.075050007455,
+                  41.7184607105219
+                ],
+                [
+                  -121.074903146381,
+                  41.7180531413266
+                ],
+                [
+                  -121.074721652557,
+                  41.7177403136957
+                ],
+                [
+                  -121.074087995329,
+                  41.7176582023759
+                ],
+                [
+                  -121.073519341991,
+                  41.7175295170434
+                ],
+                [
+                  -121.073077846978,
+                  41.7174029624132
+                ],
+                [
+                  -121.072848203456,
+                  41.7176374091664
+                ],
+                [
+                  -121.072466017913,
+                  41.7176548275869
+                ],
+                [
+                  -121.072184184069,
+                  41.7175071178635
+                ],
+                [
+                  -121.072193441208,
+                  41.7171974860369
+                ],
+                [
+                  -121.072304472079,
+                  41.7166750939448
+                ],
+                [
+                  -121.072508019542,
+                  41.7162495722728
+                ],
+                [
+                  -121.072395815472,
+                  41.7157472649059
+                ],
+                [
+                  -121.072407207008,
+                  41.715366178889
+                ],
+                [
+                  -121.071996805382,
+                  41.7152639719612
+                ],
+                [
+                  -121.071620333125,
+                  41.7150908445709
+                ],
+                [
+                  -121.07137671002,
+                  41.7147293069363
+                ],
+                [
+                  -121.071638136835,
+                  41.7144953974266
+                ],
+                [
+                  -121.072244241836,
+                  41.7144340829194
+                ],
+                [
+                  -121.07266175722,
+                  41.7142981074292
+                ],
+                [
+                  -121.072948558748,
+                  41.7142790901365
+                ],
+                [
+                  -121.073230380914,
+                  41.7144267958791
+                ],
+                [
+                  -121.073600452675,
+                  41.7148142799332
+                ],
+                [
+                  -121.074226258627,
+                  41.7151583906213
+                ],
+                [
+                  -121.075208853852,
+                  41.7152701779684
+                ],
+                [
+                  -121.075614995666,
+                  41.7155152795693
+                ],
+                [
+                  -121.075954010871,
+                  41.7158784053411
+                ],
+                [
+                  -121.076609496263,
+                  41.7162944888468
+                ],
+                [
+                  -121.077088115053,
+                  41.7163384592489
+                ],
+                [
+                  -121.077285585414,
+                  41.7160198505124
+                ],
+                [
+                  -121.077797045712,
+                  41.7159330900812
+                ],
+                [
+                  -121.077973580835,
+                  41.7164126410457
+                ],
+                [
+                  -121.078277274283,
+                  41.7168943173974
+                ],
+                [
+                  -121.078971673794,
+                  41.7170727398655
+                ],
+                [
+                  -121.079629318736,
+                  41.7174173541032
+                ],
+                [
+                  -121.080767363827,
+                  41.7176508406016
+                ],
+                [
+                  -121.081593893838,
+                  41.7176646482025
+                ],
+                [
+                  -121.082104654349,
+                  41.7176016858668
+                ],
+                [
+                  -121.083119093053,
+                  41.717713939007
+                ],
+                [
+                  -121.083360669796,
+                  41.7181469059053
+                ],
+                [
+                  -121.08337759226,
+                  41.7186476154384
+                ],
+                [
+                  -121.083270676571,
+                  41.7186890214974
+                ],
+                [
+                  -121.083416718382,
+                  41.7188548399171
+                ],
+                [
+                  -121.083726208658,
+                  41.7189138174707
+                ],
+                [
+                  -121.084008574305,
+                  41.7190799645345
+                ],
+                [
+                  -121.084142566114,
+                  41.7194050788503
+                ],
+                [
+                  -121.084013324596,
+                  41.7197258010174
+                ],
+                [
+                  -121.083742634353,
+                  41.7199724137142
+                ],
+                [
+                  -121.083352425059,
+                  41.7203388983383
+                ],
+                [
+                  -121.083390201013,
+                  41.7203635722219
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "GlobalID": "7aba2b28-9b21-4d9b-9fd5-dbf0042c0419",
+            "FIRE_NAME": "DALTON ",
+            "YEAR_": 2020,
+            "ALARM_DATE": 1595462400000
+          }
+        }
+      ]
+    }
+  },
+  "builtAt": "2026-10-25T18:32:51.779621+00:00",
+  "plumeCoverage": {
+    "2020-07-20": false,
+    "2020-07-21": true,
+    "2020-07-22": true,
+    "2020-07-23": true,
+    "2020-07-24": true,
+    "2020-07-25": false,
+    "2020-07-26": false,
+    "2020-07-27": false,
+    "2020-07-28": true,
+    "2020-07-29": false,
+    "2020-07-30": false,
+    "2020-07-31": false,
+    "2020-08-01": false,
+    "2020-08-02": false,
+    "2020-08-03": false,
+    "2020-08-04": false,
+    "2020-08-05": false,
+    "2020-08-06": false,
+    "2020-08-07": false,
+    "2020-08-08": false,
+    "2020-08-09": false,
+    "2020-08-10": false,
+    "2020-08-11": false,
+    "2020-08-12": false,
+    "2020-08-13": false,
+    "2020-08-14": false,
+    "2020-08-15": false,
+    "2020-08-16": false,
+    "2020-08-17": false,
+    "2020-08-18": false,
+    "2020-08-19": true,
+    "2020-08-20": true,
+    "2020-08-21": true,
+    "2020-08-22": true,
+    "2020-08-23": true,
+    "2020-08-24": true,
+    "2020-08-25": true,
+    "2020-08-26": true,
+    "2020-08-27": true,
+    "2020-08-28": true,
+    "2020-08-29": true,
+    "2020-08-30": false,
+    "2020-08-31": true,
+    "2020-09-01": false,
+    "2020-09-02": false,
+    "2020-09-03": false,
+    "2020-09-04": true,
+    "2020-09-05": true,
+    "2020-09-06": true,
+    "2020-09-07": true,
+    "2020-09-08": false,
+    "2020-09-09": true,
+    "2020-09-10": true,
+    "2020-09-11": true,
+    "2020-09-12": true,
+    "2020-09-13": true,
+    "2020-09-14": true,
+    "2020-09-15": true,
+    "2020-09-16": true,
+    "2020-09-17": true
+  },
+  "context": {
+    "status": "available",
+    "fireId": "frap:2020:7aba2b28-9b21-4d9b-9fd5-dbf0042c0419",
+    "slope": {
+      "status": "available",
+      "file": "/data/waves/frap-2020-7aba2b28-9b21-4d9b-9fd5-dbf0042c0419-slope-1db08ccf1e94.png",
+      "bounds": [
+        -121.12218474806667,
+        41.683759483198784,
+        -121.0010128731086,
+        41.76568781684142
+      ],
+      "width": 1600,
+      "height": 1449,
+      "thresholdDegrees": 23.0,
+      "pixelSizeMetres": 10,
+      "colors": {
+        "below": "#e0e7e1",
+        "atOrAbove": "#4d7778"
+      },
+      "minimumDegrees": 0.0003497056855003104,
+      "maximumDegrees": 25.085631325740067,
+      "nativeValidPercent": 100.0,
+      "fireSteepPercent": 0.0,
+      "fireValidPercent": 100.0,
+      "fireValidCells": 66290,
+      "sourceUrl": "https://www.usgs.gov/3d-elevation-program",
+      "license": "Public domain (USGS 3DEP); elevation metres, NAVD88; horizontal NAD83.",
+      "retrievedAt": "2026-10-23T02:28:11.756520+00:00",
+      "sources": [
+        {
+          "sourceUrl": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/13/TIFF/historical/n42w121/USGS_13_n42w121_20260601.tif",
+          "catalogUrl": "https://tnmaccess.nationalmap.gov/api/v1/products?bbox=-121.12218474806667%2C41.683759483198784%2C-121.0010128731086%2C41.76568781684142&datasets=National+Elevation+Dataset+%28NED%29+1%2F3+arc-second&max=1000",
+          "retrievedAt": "2026-10-23T02:28:10.240163+00:00",
+          "license": "Public domain (USGS 3DEP); elevation metres, NAVD88; horizontal NAD83.",
+          "publicationDate": "2026-06-01",
+          "title": "USGS 1/3 Arc Second n42w121 20260601",
+          "bytes": 51648,
+          "sha256": "10f085473d4e54e08e84511511975297fdb6c871da3e23f12443c443bc9b7bd1",
+          "footprint": [
+            -121.12218474806667,
+            41.683759483198784,
+            -121.0010128731086,
+            41.76568781684142
+          ],
+          "processing": "Native-grid window plus 20-cell derivative buffer; not a complete copy of the source tile."
+        },
+        {
+          "sourceUrl": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/13/TIFF/historical/n42w122/USGS_13_n42w122_20260601.tif",
+          "catalogUrl": "https://tnmaccess.nationalmap.gov/api/v1/products?bbox=-121.12218474806667%2C41.683759483198784%2C-121.0010128731086%2C41.76568781684142&datasets=National+Elevation+Dataset+%28NED%29+1%2F3+arc-second&max=1000",
+          "retrievedAt": "2026-10-23T02:28:11.756520+00:00",
+          "license": "Public domain (USGS 3DEP); elevation metres, NAVD88; horizontal NAD83.",
+          "publicationDate": "2026-06-01",
+          "title": "USGS 1/3 Arc Second n42w122 20260601",
+          "bytes": 3403920,
+          "sha256": "c488d7e7e43fdba9e13137181fafcbe94889b1cc8b3d7aba6301647caf23a449",
+          "footprint": [
+            -121.12218474806667,
+            41.683759483198784,
+            -121.0010128731086,
+            41.76568781684142
+          ],
+          "processing": "Native-grid window plus 20-cell derivative buffer; not a complete copy of the source tile."
+        }
+      ],
+      "waterSource": {
+        "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Hydro/MapServer/1/query?f=geojson&where=1%3D1&geometry=-121.12218474806667%2C41.683759483198784%2C-121.0010128731086%2C41.76568781684142&geometryType=esriGeometryEnvelope&inSR=4326&outSR=4326&spatialRel=esriSpatialRelIntersects&outFields=%2A&returnGeometry=true&resultRecordCount=100000",
+        "retrievedAt": "2026-10-23T02:28:12.621846+00:00",
+        "bytes": 50869,
+        "sha256": "c5b2b8736e53e932ded55c0b64c0f5f568cf9ed6aaab038f684496041fabd52a",
+        "md5": "57a412485fc4660794ce9638bba050f9",
+        "usedFeatureCount": 23,
+        "excludedInvalidFeatureIds": []
+      },
+      "dataClass": "Historical",
+      "processing": "Native elevation windows; bilinear reprojection to a metre-based 10 m NAD83 UTM grid; central-difference slope in degrees; 0-90 degree check before thresholding; rectangle extending 3 km past each edge of the fire's projected bounding box; nearest-neighbor class rendering to Web Mercator PNG. Water and no-data transparent.",
+      "contextBufferMetres": 3000,
+      "contextShape": "rectangle",
+      "outsideAlpha": 64,
+      "inputFootprint": [
+        -121.0851,
+        41.7116,
+        -121.0381,
+        41.7377
+      ],
+      "limitation": "Elevation editions are not fire-date measurements. Display is resampled; no extra spatial detail is created. Census water is not date-matched; invalid water polygons are omitted and listed in the water source record. This is terrain, not a watershed or a debris-flow estimate.",
+      "analysisMask": "Rectangle extending 3 km past each edge of the verified fire boundary's projected bounding box"
+    },
+    "imagery": {
+      "status": "not_checked",
+      "reason": "No verified fire-level dated imagery archive has been retrieved. MTBS maps are checked separately."
+    },
+    "boundarySource": {
+      "status": "available",
+      "sourceUrl": "https://edcintl.cr.usgs.gov/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=mtbs%3Afire_polygons&outputFormat=application%2Fjson&srsName=EPSG%3A4326&CQL_FILTER=map_id%3D10019551",
+      "retrievedAt": "2026-10-22T00:20:02.741717+00:00",
+      "bytes": 7684,
+      "sha256": "96448becfe4a3a6ce9c198fa069d706fa482641a71df8bcdc3a7a05f144810e2",
+      "md5": "63f6fc67e3093fd7250c001ce6d10380",
+      "displayFootprintChoice": {
+        "policy": {
+          "useVerifiedMtbsBoundaryExtent": true,
+          "approvedAt": "2026-10-21",
+          "reason": "User approved the exact verified MTBS boundary extent for new ground products without an established raster footprint. No padding; area statistics remain within that MTBS boundary. Existing footprints and reviewed values are retained."
+        },
+        "mapId": 10019551,
+        "bounds": [
+          -121.0851,
+          41.7116,
+          -121.0381,
+          41.7377
+        ],
+        "padding": 0
+      }
+    }
+  },
+  "recovery": {
+    "schemaVersion": 1,
+    "fireId": "frap:2020:7aba2b28-9b21-4d9b-9fd5-dbf0042c0419",
+    "water": {
+      "status": "match_unresolved",
+      "reason": "The verified notice catalog has no fire-to-provider link for this record. No complete historical notice registry or service-area crosswalk is supplied; this is not evidence that no notice existed. Unrelated provider pages were not requested.",
+      "notices": [],
+      "failures": [],
+      "completeHistory": false,
+      "scope": {
+        "fireId": "frap:2020:7aba2b28-9b21-4d9b-9fd5-dbf0042c0419",
+        "boundarySource": null,
+        "spatialRelationship": "Provider notice territory, not the fire footprint or every property inside it.",
+        "measurementPeriod": null,
+        "periodStatus": "not_supplied",
+        "sourceUrls": [],
+        "blockedBy": "provider_link",
+        "indexChecked": "Existing verified provider-notice catalog"
+      }
+    },
+    "builtAt": "2026-10-22T02:31:24.793999+00:00",
+    "damage": {
+      "status": "not_checked",
+      "reason": "Inspection match not checked."
+    },
+    "power": {
+      "status": "available",
+      "dataClass": "Historical",
+      "relationship": "nearby_time_matched",
+      "unit": "reported customers without power",
+      "sourceUrl": "https://figshare.com/articles/dataset/The_Environment_for_Analysis_of_Geo-Located_Energy_Information_s_Recorded_Electricity_Outages_2014-2022/24237376",
+      "retrievedAt": "2026-10-25T18:19:47.861172+00:00",
+      "license": "CC BY 4.0; ORNL EAGLE-I / DOE-CESER",
+      "seriesUrl": "/data/historical-fires/power/frap-2020-7aba2b28-9b21-4d9b-9fd5-dbf0042c0419.json",
+      "countyCount": 1,
+      "recordCount": 352,
+      "scope": {
+        "fireId": "frap:2020:7aba2b28-9b21-4d9b-9fd5-dbf0042c0419",
+        "boundarySource": {
+          "status": "available",
+          "sourceUrl": "https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/California_Historic_Fire_Perimeters/FeatureServer/0/query?f=geojson&where=GlobalID%3D%277aba2b28-9b21-4d9b-9fd5-dbf0042c0419%27&outFields=GlobalID%2CFIRE_NAME%2CYEAR_%2CALARM_DATE&outSR=4326&returnGeometry=true",
+          "retrievedAt": "2026-10-25T17:57:30.452864+00:00",
+          "bytes": 15006,
+          "sha256": "a848b04587688ac76f12870a8a996993b8f27e694b849baaec46c5a4fef23589",
+          "md5": "9f5d4d655d5f116ce55178c77e2905ad"
+        },
+        "spatialRelationship": "County-wide context in counties intersecting the fire; not outages inside the perimeter or attributed to the fire.",
+        "measurementPeriod": [
+          {
+            "countyId": "06049",
+            "start": "2020-07-22T02:30:00+00:00",
+            "end": "2020-09-17T15:15:00+00:00"
+          }
+        ],
+        "periodStatus": "source_supplied",
+        "sourceUrls": [
+          "https://ndownloader.figshare.com/files/42547894"
+        ],
+        "preflightVerified": true,
+        "countyBoundarySource": {
+          "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?f=geojson&where=STATE%3D%2706%27&outFields=STATE%2CCOUNTY%2CGEOID%2CNAME&returnGeometry=true&outSR=4326&resultRecordCount=1000",
+          "retrievedAt": "2026-10-25T17:56:26.362096+00:00",
+          "bytes": 10816969,
+          "sha256": "f51dd64302c7fe4df11c3f9bb11d2b3b13f35cf66bc2b252d49f8b6d572f9b14",
+          "md5": "fca119c0d3d508d9fa76ce3b320fde7a"
+        },
+        "countyIds": [
+          "06049"
+        ],
+        "analysisWindow": {
+          "countyIds": [
+            "06049"
+          ],
+          "start": "2020-07-20T00:00:00+00:00",
+          "endExclusive": "2020-09-18T00:00:00+00:00"
+        }
+      },
+      "missingRecordCount": 15,
+      "reason": ""
+    }
+  }
+}
