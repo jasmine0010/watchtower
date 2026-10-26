@@ -133,8 +133,12 @@ async function loadWeather(coordinates: string): Promise<Weather> {
   const point = get(`https://api.weather.gov/points/${coordinates}`, validPoint);
   const observation = attempt(async () => {
     const stations = await get((await point).data.properties.observationStations, validStations);
-    if (!stations.data.features[0]?.id) throw new Error("No observation station returned");
-    return get(`${stations.data.features[0].id}/observations/latest`, validObservation);
+    for (const station of stations.data.features.slice(0, 3)) {
+      try {
+        return await get(`${station.id}/observations/latest`, validObservation);
+      } catch {}
+    }
+    throw new Error("No usable observation from nearby NWS stations");
   });
   const alerts = attempt(() =>
     get(`https://api.weather.gov/alerts/active?point=${coordinates}`, validAlerts),
