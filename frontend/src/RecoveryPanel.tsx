@@ -51,31 +51,6 @@ export function RecoveryCards({ data, check }: { data?: RecoveryData; check?: Ev
         <p className="quiet-failure">Building damage / {damage.reason}</p>
       )}
       <PowerEvidence recovery={data} />
-      {data.water.status === "available" && data.water.notices.length > 0 && (
-        <EvidenceCard
-          title="Water notices"
-          kind="Historical"
-          source={data.water.notices.map((notice, index) => (
-            <span key={notice.sourceUrl}>
-              {index > 0 && " / "}
-              <a href={notice.sourceUrl}>{notice.provider}</a>
-            </span>
-          ))}
-        >
-          <ul>
-            {data.water.notices.flatMap((notice) =>
-              notice.events.map((event) => (
-                <li key={notice.sourceUrl + event.date}>
-                  <strong>
-                    {event.date} / {event.label}
-                  </strong>
-                  <p>{event.scope}</p>
-                </li>
-              )),
-            )}
-          </ul>
-        </EvidenceCard>
-      )}
     </div>
   );
 }
