@@ -3043,6 +3043,9 @@
   align-items: center;
   gap: 8px;
 }
+.historical-smoke-controls .waves-playback-controls {
+  grid-template-rows: 48px 18px;
+}
 @media (min-width: 1101px) {
   .historical-smoke-controls .waves-playback-controls {
     grid-template-columns: 44px 105px minmax(0, 1fr) auto;
