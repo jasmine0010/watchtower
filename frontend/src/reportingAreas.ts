@@ -80,6 +80,38 @@ export function reportingAreaFor(areas: ReportingArea[], place: WavePlace) {
   return matches.length === 1 ? matches[0] : null;
 }
 
+function ringContains(ring: Position[], point: [number, number]) {
+  let inside = false;
+  const [longitude, latitude] = point;
+  for (let index = 0, previous = ring.length - 1; index < ring.length; previous = index++) {
+    const [x1, y1] = ring[index];
+    const [x2, y2] = ring[previous];
+    if (
+      (y1 > latitude) !== (y2 > latitude) &&
+      longitude < ((x2 - x1) * (latitude - y1)) / (y2 - y1) + x1
+    )
+      inside = !inside;
+  }
+  return inside;
+}
+
+function polygonContains(polygon: Position[][], point: [number, number]) {
+  return (
+    ringContains(polygon[0], point) &&
+    polygon.slice(1).every((hole) => !ringContains(hole, point))
+  );
+}
+
+export function reportingAreaAtPoint(areas: ReportingArea[], point: [number, number]) {
+  const matches = areas.filter((area) => {
+    if (area.properties.state !== "CA") return false;
+    const geometry = area.geometry;
+    if (geometry.type === "Polygon") return polygonContains(geometry.coordinates, point);
+    return geometry.coordinates.some((polygon) => polygonContains(polygon, point));
+  });
+  return matches.length === 1 ? matches[0].properties.name : null;
+}
+
 export function mapAirReports(
   areas: ReportingArea[],
   reports: FeatureCollection,

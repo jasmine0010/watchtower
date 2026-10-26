@@ -985,13 +985,20 @@ function WavesMap({
     const map = readyMap;
     if (!map) return;
     fit();
-    const observer = new ResizeObserver(() => {
+    const dashboard = map.getContainer().closest<HTMLElement>(".guided-dashboard");
+    const resizeMap = () => {
+      if (dashboard?.dataset.panelResizing === "true") return;
       map.resize();
       fit();
-    });
+    };
+    const observer = new ResizeObserver(resizeMap);
     observer.observe(map.getContainer());
+    dashboard?.addEventListener("panelresizeend", resizeMap);
 
-    return () => observer.disconnect();
+    return () => {
+      observer.disconnect();
+      dashboard?.removeEventListener("panelresizeend", resizeMap);
+    };
   }, [
     readyMap,
     step,

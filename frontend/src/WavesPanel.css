@@ -1133,10 +1133,6 @@
   color: var(--muted);
 }
 @media (max-width: 600px) {
-  .live-dashboard .maplibregl-popup-content {
-    max-height: 120px;
-    overflow-y: auto;
-  }
   .map-popup-camera img {
     max-height: 130px;
     object-fit: contain;
@@ -2580,10 +2576,11 @@
 }
 @media (max-width: 600px) {
   .waves-dashboard .fire-context-switch {
-    height: 44px;
+    height: 52px;
   }
+
   .waves-dashboard .fire-context-switch button {
-    min-height: 44px;
+    min-height: 0;
   }
   .waves-dashboard .rain-panel-card {
     padding: 16px;
@@ -3025,7 +3022,7 @@
   color: var(--muted);
 }
 .waves-playback {
-  --replay-play-size: 36px;
+  --replay-play-size: 32px;
   --replay-thumb-size: 16px;
   --replay-end-inset: calc(var(--replay-thumb-size) / 2);
   width: 100%;
@@ -3080,8 +3077,8 @@
   font-size: 15px;
 }
 .waves-playback-controls > button.replay-play svg {
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
 }
 .waves-playback-controls > button.replay-play:hover {
   background: var(--control-active-hover-background);
@@ -3391,6 +3388,11 @@
   background-color: var(--control-hover-background);
   border-color: var(--control-hover-border);
 }
+.waves-dashboard .step-dots button:hover:not(:disabled),
+.waves-dashboard .waves-modes button:hover:not(:disabled):not([aria-pressed="true"]) {
+  background: transparent;
+  border-color: transparent;
+}
 .waves-dashboard .waves-modes button[aria-pressed="true"]:hover {
   background: var(--control-active-hover-background);
   color: white;
@@ -3591,7 +3593,7 @@
     min-height: 44px;
   }
   .waves-playback {
-    --replay-play-size: 44px;
+    --replay-play-size: 36px;
   }
   .waves-dashboard .waves-smoke-map .map-frame {
     height: clamp(180px, 36svh, 340px);

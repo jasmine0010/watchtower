@@ -191,11 +191,10 @@ export function SmokeForecast({
         rangeStart={rangeStart}
         rangeEnd={rangeEnd}
         suffix={frame ? "UTC" : undefined}
-        sublabel="Surface smoke forecast / not AQI"
         index={index}
         count={forecast?.frames.length || 0}
         ticks={[]}
-        status={status === "Ready" ? "" : status}
+        status={status.includes("unavailable") ? status : ""}
         playing={playing}
         playDisabled={status.includes("unavailable")}
         onPlaying={(play) => {
@@ -208,27 +207,9 @@ export function SmokeForecast({
           setIndex(selected);
         }}
         modeSwitch={
-          <div className="replay-layer-switch">
-            <span className="replay-mode-label" aria-hidden="true">
-              {regions[regionIndex].name}
-            </span>
-            <Icon name="chevron-down" />
-            <select
-              aria-label="Forecast map region"
-              value={regionIndex}
-              onChange={(event) => {
-                const next = Number(event.target.value);
-                setRegionIndex(next);
-                showRegion(regions[next].bounds);
-              }}
-            >
-              {regions.map((region, position) => (
-                <option key={region.name} value={position}>
-                  {region.name}
-                </option>
-              ))}
-            </select>
-          </div>
+          <span className="replay-mode-label" aria-label="United States">
+            US
+          </span>
         }
       />
     </div>

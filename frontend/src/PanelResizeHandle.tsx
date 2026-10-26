@@ -27,6 +27,7 @@ export function PanelResizeHandle() {
       startY: event.clientY,
       startHeight: map.getBoundingClientRect().height,
     };
+    dashboard.dataset.panelResizing = "true";
     event.currentTarget.setPointerCapture(event.pointerId);
   }
 
@@ -49,7 +50,11 @@ export function PanelResizeHandle() {
   }
 
   function stopDrag() {
+    const current = drag.current;
+    if (!current) return;
     drag.current = null;
+    delete current.dashboard.dataset.panelResizing;
+    current.dashboard.dispatchEvent(new Event("panelresizeend"));
   }
 
   return (

@@ -143,10 +143,17 @@ export default function HistoricalWavesMap({
       if (!cancelledMapRequest(event.error))
         setFailure("A map layer could not load. Text evidence remains available.");
     });
-    const observer = new ResizeObserver(() => instance.resize());
+    const dashboard = instance.getContainer().closest<HTMLElement>(".guided-dashboard");
+    function resizeMap() {
+      if (dashboard?.dataset.panelResizing === "true") return;
+      instance.resize();
+    }
+    const observer = new ResizeObserver(resizeMap);
     observer.observe(container.current);
+    dashboard?.addEventListener("panelresizeend", resizeMap);
     return () => {
       observer.disconnect();
+      dashboard?.removeEventListener("panelresizeend", resizeMap);
       instance.remove();
       mapRef.current = null;
     };

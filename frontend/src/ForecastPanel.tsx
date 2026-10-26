@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { displayUnits } from "./units";
 import { EvidenceCard, UpdateAge } from "./EvidenceCard";
-import type { WavePlace } from "./waves";
 import { HourlyOutlook } from "./HourlyOutlook";
 import { windMph } from "./wavesLive";
 import { weatherWarningMeanings } from "./weatherWarningMeanings";
@@ -157,19 +156,22 @@ export type WeatherState = {
 };
 
 export function ForecastPanel({
-  place,
+  point,
+  label,
   state,
   refresh,
   onState,
 }: {
-  place: WavePlace;
+  point: [number, number];
+  label: string;
   state: WeatherState;
   refresh: number;
   onState: (changes: Partial<WeatherState>) => void;
 }) {
   const { now } = state;
-  const coordinates = `${place.latitude},${place.longitude}`;
-  const nwsForecast = `https://forecast.weather.gov/MapClick.php?lat=${place.latitude}&lon=${place.longitude}`;
+  const [longitude, latitude] = point;
+  const coordinates = `${latitude},${longitude}`;
+  const nwsForecast = `https://forecast.weather.gov/MapClick.php?lat=${latitude}&lon=${longitude}`;
 
   const weather = state.weather?.coordinates === coordinates ? state.weather : null;
   useEffect(() => {
@@ -217,7 +219,9 @@ export function ForecastPanel({
         <>
           <StationObservation
             observation={weather.observation}
-            place={place}
+            latitude={latitude}
+            longitude={longitude}
+            label={label}
             now={now}
             refresh={refresh}
           />
@@ -230,16 +234,20 @@ export function ForecastPanel({
 
 function StationObservation({
   observation,
-  place,
+  latitude,
+  longitude,
+  label,
   now,
   refresh,
 }: {
   observation: Weather["observation"];
-  place: WavePlace;
+  latitude: number;
+  longitude: number;
+  label: string;
   now: number;
   refresh: number;
 }) {
-  const nwsForecast = `https://forecast.weather.gov/MapClick.php?lat=${place.latitude}&lon=${place.longitude}`;
+  const nwsForecast = `https://forecast.weather.gov/MapClick.php?lat=${latitude}&lon=${longitude}`;
   if (!observation.data)
     return (
       <EvidenceCard
@@ -256,9 +264,9 @@ function StationObservation({
         </p>
         <HourlyOutlook
           embedded
-          latitude={place.latitude}
-          longitude={place.longitude}
-          label={`ZIP ${place.zipcode}`}
+          latitude={latitude}
+          longitude={longitude}
+          label={label}
           refresh={refresh}
         />
       </EvidenceCard>
@@ -292,7 +300,7 @@ function StationObservation({
           <a href={`${report.station.replace(/\/$/, "")}/observations/latest`}>NWS observations</a>{" "}
           /{" "}
           <a
-            href={`https://forecast.weather.gov/MapClick.php?lat=${place.latitude}&lon=${place.longitude}`}
+            href={nwsForecast}
           >
             NWS forecast
           </a>
@@ -329,9 +337,9 @@ function StationObservation({
       )}
       <HourlyOutlook
         embedded
-        latitude={place.latitude}
-        longitude={place.longitude}
-        label={`ZIP ${place.zipcode}`}
+        latitude={latitude}
+        longitude={longitude}
+        label={label}
         refresh={refresh}
       />
     </EvidenceCard>

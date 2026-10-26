@@ -28,7 +28,7 @@ import { ForYouSteps } from "./PersonalBrief";
 import type { PersonalDestination } from "./personalGuidance";
 import { loadDrivingRoute, type DrivingRoute } from "./drivingRoute";
 import { loadHomeAddressLocation, type HomeAddressPoint } from "./homeAddressLocation";
-import { usePersonalLocation } from "./personalLocation";
+import { usePersonalLocation, type PersonalLocation } from "./personalLocation";
 import { censusZipUrl, readZipOutline, type ZipOutline } from "./zipOutline";
 import {
   DemoAir,
@@ -51,7 +51,12 @@ import { PanelResizeHandle } from "./PanelResizeHandle";
 import { EvidenceCard, LoadingBars, UpdateAge } from "./EvidenceCard";
 import { ForecastPanel, clearWeatherCache, type WeatherState } from "./ForecastPanel";
 import "./WavesPanel.css";
-import { readReportingAreas, nearbyAirReports, type ReportingArea } from "./reportingAreas";
+import {
+  readReportingAreas,
+  nearbyAirReports,
+  reportingAreaAtPoint,
+  type ReportingArea,
+} from "./reportingAreas";
 import {
   airNowUrl,
   monitorUrl,
@@ -116,7 +121,11 @@ async function fetchCurrent(url: string, signal: AbortSignal) {
   return response;
 }
 
-function useCurrentReports(places: WavePlace[], placeName: string) {
+function useCurrentReports(
+  places: WavePlace[],
+  placeName: string,
+  exactLocation: PersonalLocation | null,
+) {
   const [refresh, setRefresh] = useState(0);
   const [air, setAir] = useState<Feed<string> | null>(null);
   const [airMonitors, setAirMonitors] = useState<Feed<FeatureCollection> | null>(null);
@@ -341,9 +350,10 @@ function useCurrentReports(places: WavePlace[], placeName: string) {
     () => (air ? californiaAirReports(air.data, now) : emptyFeatures),
     [air, now],
   );
+  const overheadPoint = exactLocation || place;
   const overhead =
-    availableSmoke && place
-      ? plumeCovers(availableSmoke.data.polygons, place.longitude, place.latitude)
+    availableSmoke && overheadPoint
+      ? plumeCovers(availableSmoke.data.polygons, overheadPoint.longitude, overheadPoint.latitude)
       : null;
   function refreshNow() {
     setNow(new Date());
@@ -465,7 +475,7 @@ export default function LivePanel({
     onPlace,
     onUserSelectPlace,
   ]);
-  const current = useCurrentReports(allPlaces, placeName);
+  const current = useCurrentReports(allPlaces, placeName, demo ? null : personalLocation.location);
   const { evidence: demoEvidence, failed: demoFailed } = useDemoEvidence(demo);
   const currentShelters = useRedCrossShelters(current.refresh, current.now, !demo);
   const shelters = demo ? { snapshot: demoShelters, loading: false } : currentShelters;
@@ -485,6 +495,19 @@ export default function LivePanel({
   const evacuationZones = useEvacuationZones(!demo, current.refresh);
   const reliefCenters = useReliefCenters(true, current.refresh);
   const place = current.place;
+  const liveLocation = demo ? null : personalLocation.location;
+  const conditionPoint: [number, number] | null = liveLocation
+    ? [liveLocation.longitude, liveLocation.latitude]
+    : place
+      ? [place.longitude, place.latitude]
+      : null;
+  const conditionLabel = liveLocation
+    ? liveLocation.kind === "gps"
+      ? "GPS location"
+      : "Map pin"
+    : place
+      ? `ZIP ${place.zipcode}`
+      : "selected location";
   const [zipOutline, setZipOutline] = useState<ZipOutline | null | undefined>();
   let activeZipOutline;
   if (zipOutline?.zip === place?.zipcode) {
@@ -554,6 +577,11 @@ export default function LivePanel({
     loadAreas();
     return () => controller.abort();
   }, []);
+  const historyArea = liveLocation
+    ? conditionPoint
+      ? reportingAreaAtPoint(areas, conditionPoint)
+      : null
+    : place?.reportingArea || null;
   const fireFeatures = useMemo<FeatureCollection>(
     () =>
       demo
@@ -1024,14 +1052,12 @@ export default function LivePanel({
     </section>
   );
   const demoReports = demoEvidence?.regionalAir || emptyFeatures;
-  let personalPoint: [number, number] | null;
-  if (personalLocation.location) {
-    personalPoint = [personalLocation.location.longitude, personalLocation.location.latitude];
-  } else if (place) {
-    personalPoint = [place.longitude, place.latitude];
-  } else {
-    personalPoint = null;
-  }
+  const personalPoint: [number, number] | null =
+    personalLocation.location
+      ? [personalLocation.location.longitude, personalLocation.location.latitude]
+      : place
+        ? [place.longitude, place.latitude]
+        : null;
   let routeOrigin: [number, number] | null;
   if (personalLocation.location) {
     routeOrigin = [personalLocation.location.longitude, personalLocation.location.latitude] as [
@@ -1134,12 +1160,24 @@ export default function LivePanel({
       </DemoAir>
     );
   } else {
-    airCard = <AirReport key="air" current={current} />;
+    airCard = (
+      <AirReport
+        key="air"
+        current={current}
+        point={conditionPoint}
+        exactLocation={liveLocation !== null}
+        historyArea={historyArea}
+      />
+    );
   }
   const smokeCard = demo ? (
     <DemoSmoke key="smoke" evidence={demoEvidence} failed={demoFailed} place={place} />
   ) : (
-    <SmokeReport key="smoke" current={current} />
+    <SmokeReport
+      key="smoke"
+      current={current}
+      locationLabel={liveLocation ? "this selected location" : "this ZIP reference point"}
+    />
   );
   const fireCard = demo ? (
     <DemoFire key="fires" evidence={demoEvidence} failed={demoFailed}>
@@ -1154,7 +1192,12 @@ export default function LivePanel({
       />
     </DemoFire>
   ) : (
-    <FireReport key="fires" current={current} onFireSelect={selectFire} />
+    <FireReport
+      key="fires"
+      current={current}
+      point={conditionPoint}
+      onFireSelect={selectFire}
+    />
   );
   const weatherCard = demo ? (
     <>
@@ -1174,10 +1217,11 @@ export default function LivePanel({
       />
     </>
   ) : (
-    place && (
+    conditionPoint && (
       <ForecastPanel
         key="weather"
-        place={place}
+        point={conditionPoint}
+        label={conditionLabel}
         state={weatherState}
         refresh={current.refresh}
         onState={onWeatherState}
@@ -1265,7 +1309,12 @@ export default function LivePanel({
           </button>
         )}
         <section className="guide-card" aria-labelledby="live-place-title">
-          <LiveHeading demo={demo} current={current} fire={selectedFire} />
+          <LiveHeading
+            demo={demo}
+            current={current}
+            fire={selectedFire}
+            location={liveLocation}
+          />
           {!selectedFire && (
             <FireSearch
               fires={fireFeatures}
@@ -1387,13 +1436,13 @@ export default function LivePanel({
             </>
           ) : (
             <div className="live-reports">
-              {place
+              {place || liveLocation
                 ? [
                     mapControls,
                     ...personalCards,
                     <NearbyAirReports
                       key="nearby"
-                      place={place!}
+                      point={conditionPoint!}
                       reports={demo ? demoReports : current.regionalAir}
                       sourceUrl={
                         demo
@@ -1604,7 +1653,6 @@ function AirMonitorList({
             aria-description={reportText(report)}
             onClick={() => onLocate(report)}
             onFocus={() => onInspect(report)}
-            onBlur={() => onInspect(null)}
             onKeyDown={(event) => {
               if (event.key === "Escape") onInspect(null);
             }}
@@ -1614,7 +1662,7 @@ function AirMonitorList({
               {report.properties?.siteName || report.properties?.area}
               <small>
                 {report.properties?.demoPM25
-                  ? "Hourly PM2.5 / µg/m³ / not AQI"
+                  ? "Hourly PM2.5 / µg/m³"
                   : `${report.properties?.pollutant} / ${report.properties?.category}`}
                 {distance !== null && ` / ${distance.toFixed(1)} km`}
               </small>
@@ -1709,8 +1757,77 @@ function AirQualityHistory({ area, today }: { area: string; today: string }) {
   );
 }
 
-function AirReport({ current }: { current: CurrentReports }) {
-  const { place, aqi, air, pending } = current;
+function AirReport({
+  current,
+  point,
+  exactLocation,
+  historyArea,
+}: {
+  current: CurrentReports;
+  point: [number, number] | null;
+  exactLocation: boolean;
+  historyArea: string | null;
+}) {
+  const { place, aqi, air, pending, monitors } = current;
+  if (exactLocation) {
+    const nearest =
+      point && monitors
+        ? nearbyAirReports(monitors.data, { longitude: point[0], latitude: point[1] })[0]
+        : null;
+    const monitor = nearest?.report;
+    return (
+      <EvidenceCard
+        title="Air quality"
+        id="live-air"
+        icon="air"
+        className="live-card live-air"
+        updated={
+          monitor && (
+            <UpdateAge
+              time={String(monitor.properties?.timestamp || "")}
+              now={current.now}
+              delayed={!!monitor.properties?.delayed}
+            />
+          )
+        }
+        kind="Observed"
+        data={!!monitor}
+        loading={!monitor && pending.monitors}
+        source={<a href={monitors?.sourceUrl || monitorUrl}>U.S. EPA / AirNow</a>}
+      >
+        {monitor ? (
+          <>
+            <div className="live-headline">
+              <span
+                className="waves-aqi-dot"
+                style={{ background: String(monitor.properties?.color || "#9aa39d") }}
+              />
+              <strong>
+                {monitor.properties?.value} ({monitor.properties?.category})
+              </strong>
+            </div>
+            <p className="live-support">
+              {monitor.properties?.siteName} / Nearest monitor / {nearest!.distance.toFixed(1)} km
+            </p>
+          </>
+        ) : (
+          !pending.monitors && (
+            <p className="quiet-failure" role="status">
+              No current monitor reading near this location.
+            </p>
+          )
+        )}
+        {historyArea ? (
+          <>
+            <p className="live-support">Reporting area: {historyArea}</p>
+            <AirQualityHistory area={historyArea} today={californiaDate(current.now)} />
+          </>
+        ) : (
+          <p className="live-support">Five-day area history unavailable for this location.</p>
+        )}
+      </EvidenceCard>
+    );
+  }
   if (!place) return null;
   return (
     <>
@@ -1760,14 +1877,14 @@ function AirReport({ current }: { current: CurrentReports }) {
 }
 
 function NearbyAirReports({
-  place,
+  point,
   reports,
   sourceUrl,
   sourceName,
   onLocate,
   onInspect,
 }: {
-  place: WavePlace;
+  point: [number, number];
   reports: FeatureCollection;
   sourceUrl: string;
   sourceName: string;
@@ -1786,27 +1903,28 @@ function NearbyAirReports({
       >
         {reports.features.length ? (
           <ol className="live-nearby-list">
-            {nearbyAirReports(reports, place).map(({ report, distance }) => (
-              <li key={report.id}>
-                <button
-                  aria-description={`${reportText(report)} ${distance.toFixed(1)} km to representative point.`}
-                  onClick={() => onLocate(report)}
-                  onFocus={() => onInspect(report)}
-                  onBlur={() => onInspect(null)}
-                  onKeyDown={(event) => {
-                    if (event.key === "Escape") onInspect(null);
-                  }}
-                >
-                  <AqiChip report={report} />
-                  <span>
-                    {report.properties!.area}
-                    <small>
-                      {report.properties!.category} / {distance.toFixed(1)} km
-                    </small>
-                  </span>
-                </button>
-              </li>
-            ))}
+            {nearbyAirReports(reports, { longitude: point[0], latitude: point[1] }).map(
+              ({ report, distance }) => (
+                <li key={report.id}>
+                  <button
+                    aria-description={`${reportText(report)} ${distance.toFixed(1)} km to representative point.`}
+                    onClick={() => onLocate(report)}
+                    onFocus={() => onInspect(report)}
+                    onKeyDown={(event) => {
+                      if (event.key === "Escape") onInspect(null);
+                    }}
+                  >
+                    <AqiChip report={report} />
+                    <span>
+                      {report.properties!.area}
+                      <small>
+                        {report.properties!.category} / {distance.toFixed(1)} km
+                      </small>
+                    </span>
+                  </button>
+                </li>
+              ),
+            )}
           </ol>
         ) : (
           <p className="quiet-failure">No usable regional reports.</p>
@@ -1816,7 +1934,13 @@ function NearbyAirReports({
   );
 }
 
-function SmokeReport({ current }: { current: CurrentReports }) {
+function SmokeReport({
+  current,
+  locationLabel,
+}: {
+  current: CurrentReports;
+  locationLabel: string;
+}) {
   const { smoke, overhead, pending } = current;
   return (
     <>
@@ -1839,8 +1963,8 @@ function SmokeReport({ current }: { current: CurrentReports }) {
           <p className="live-smoke-readout">
             <Icon name="smoke" />
             {overhead
-              ? "Smoke plume mapped over this ZIP reference point"
-              : "No smoke plume mapped over this ZIP reference point"}
+              ? `Smoke plume mapped over ${locationLabel}`
+              : `No smoke plume mapped over ${locationLabel}`}
           </p>
         </EvidenceCard>
       )}
@@ -1868,13 +1992,15 @@ function SmokeReport({ current }: { current: CurrentReports }) {
 
 function FireReport({
   current,
+  point,
   onFireSelect,
 }: {
   current: CurrentReports;
+  point: [number, number] | null;
   onFireSelect: (feature: Feature) => void;
 }) {
   const { place, fires, pending } = current;
-  if (!place) return null;
+  if (!place && !point) return null;
   return (
     <>
       <EvidenceCard
@@ -1896,7 +2022,14 @@ function FireReport({
             {fires.data.features.length === 0 && (
               <p className="live-support">None mapped in this area.</p>
             )}
-            <FireList data={fires.data} place={place} limit={3} onLocate={onFireSelect} compact />
+            <FireList
+              data={fires.data}
+              place={place}
+              point={point}
+              limit={3}
+              onLocate={onFireSelect}
+              compact
+            />
           </>
         ) : (
           !pending.fires && (
@@ -1914,10 +2047,12 @@ function LiveHeading({
   demo,
   current,
   fire,
+  location,
 }: {
   demo: boolean;
   current: CurrentReports;
   fire: Feature | null;
+  location: PersonalLocation | null;
 }) {
   return (
     <div className={`live-place-heading${fire ? " is-fire" : ""}`}>
@@ -1928,13 +2063,19 @@ function LiveHeading({
             {demo && !fire && "Demo: "}
             {fire
               ? displayFireName(String(fire.properties?.poly_IncidentName || "Unnamed fire"))
-              : current.place?.name || "California"}
+              : location?.kind === "gps"
+                ? "GPS location"
+                : location?.kind === "pin"
+                  ? "Map pin"
+                  : current.place?.name || "California"}
           </h2>
           {!demo &&
             !fire &&
             current.place &&
-            current.place.name !== `ZIP ${current.place.zipcode}` && (
-              <small>{current.place.zipcode}</small>
+            (location || current.place.name !== `ZIP ${current.place.zipcode}`) && (
+              <small>
+                {location ? `ZIP ${current.place.zipcode}` : current.place.zipcode}
+              </small>
             )}
         </div>
       </div>
@@ -2274,6 +2415,7 @@ function LiveFireCase({
 function FireList({
   data,
   place,
+  point,
   onLocate,
   limit,
   compact = false,
@@ -2281,6 +2423,7 @@ function FireList({
 }: {
   data: FeatureCollection;
   place: WavePlace | null;
+  point?: [number, number] | null;
   onLocate?: (feature: Feature) => void;
   limit?: number;
   compact?: boolean;
@@ -2288,9 +2431,9 @@ function FireList({
 }) {
   const records = [];
   for (const fire of data.features) {
-    const distance = place
-      ? perimeterDistanceKm(fire.geometry, [place.longitude, place.latitude])
-      : null;
+    const referencePoint =
+      point || (place ? ([place.longitude, place.latitude] as [number, number]) : null);
+    const distance = referencePoint ? perimeterDistanceKm(fire.geometry, referencePoint) : null;
     let acres;
     if (
       typeof fire.properties?.attr_IncidentSize === "number" &&
@@ -2331,7 +2474,7 @@ function FireList({
                 {record.acres !== null && (
                   <small>{Math.round(record.acres).toLocaleString()} acres</small>
                 )}
-                {compact && place && (
+                {compact && (place || point) && (
                   <small>
                     {record.distance === null
                       ? "Distance unavailable"
@@ -2339,7 +2482,7 @@ function FireList({
                   </small>
                 )}
               </span>
-              {!compact && place && (
+              {!compact && (place || point) && (
                 <small>
                   {record.distance === null
                     ? "Distance unavailable"
@@ -2355,7 +2498,7 @@ function FireList({
               )}
             </span>
           )}
-          {place && !compact && !onLocate && (
+          {(place || point) && !compact && !onLocate && (
             <small>
               {record.distance === null
                 ? "Distance unavailable"

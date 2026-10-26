@@ -502,7 +502,7 @@ export function reportText(feature: Feature) {
     timeZoneName: "short",
   });
   if (p.demoPM25)
-    return `${p.siteName}: hourly PM2.5 ${p.pm25} µg/m³. Monitor reading, not AQI or a ZIP-wide estimate.`;
+    return `${p.siteName}: hourly PM2.5 ${p.pm25} µg/m³. Reading at this monitor, not a ZIP-wide estimate.`;
   if (p.siteName)
     return `${p.siteName}: AQI ${p.value}, ${p.category} / ${p.pollutant}. ${time}${p.delayed ? "; delayed report" : ""}. ${p.agency}. Preliminary reading at this monitor, not a ZIP-wide estimate.`;
   return `${p.area}: AQI ${p.value}, ${p.category} / ${p.pollutant}. ${time}${p.delayed ? "; delayed report" : ""}. ${p.agency}. Preliminary regional report-not uniform air quality.`;
@@ -542,7 +542,6 @@ function airPopup(feature: Feature, boundaryAvailable = true) {
       p.siteName,
       [
         `PM2.5 ${p.pm25} µg/m³`,
-        "Monitor reading, not AQI or a ZIP-wide value.",
         ...(p.qualifier ? [`EPA qualifier: ${p.qualifier}.`] : []),
       ],
       "air",
@@ -555,7 +554,7 @@ function airPopup(feature: Feature, boundaryAvailable = true) {
   ];
   if (p.aqsPm25 !== undefined)
     lines.push(
-      `EPA AQS hourly PM2.5: ${p.aqsPm25} µg/m³${p.aqsQualifier ? ` / qualifier ${p.aqsQualifier}` : ""}. Not an AQI value.`,
+      `EPA AQS hourly PM2.5: ${p.aqsPm25} µg/m³${p.aqsQualifier ? ` / qualifier ${p.aqsQualifier}` : ""}.`,
     );
   if (!p.siteName && !boundaryAvailable) lines.push("Area boundary unavailable.");
   return popupContent(
@@ -862,10 +861,17 @@ export default function LiveMap(props: Props) {
       fitState();
       setReady(true);
     });
-    const observer = new ResizeObserver(() => map.resize());
+    const dashboard = map.getContainer().closest<HTMLElement>(".guided-dashboard");
+    function resizeMap() {
+      if (dashboard?.dataset.panelResizing === "true") return;
+      map.resize();
+    }
+    const observer = new ResizeObserver(resizeMap);
     observer.observe(container.current);
+    dashboard?.addEventListener("panelresizeend", resizeMap);
     return () => {
       observer.disconnect();
+      dashboard?.removeEventListener("panelresizeend", resizeMap);
       map.remove();
       mapRef.current = null;
     };
@@ -1081,11 +1087,28 @@ export default function LiveMap(props: Props) {
       })
         .setLngLat(point)
         .addTo(map);
+      let dragging = false;
+      const savePin = () => {
+        const point = marker.getLngLat();
+        onMovePin(point.lng, point.lat);
+      };
+      const handleDragStart = () => {
+        dragging = true;
+      };
+      const handleDragEnd = () => {
+        dragging = false;
+        savePin();
+      };
+      const handleTouchCancel = () => {
+        if (!dragging) return;
+        dragging = false;
+        savePin();
+      };
+
       if (editable) {
-        marker.on("dragend", () => {
-          const point = marker.getLngLat();
-          onMovePin(point.lng, point.lat);
-        });
+        marker.on("dragstart", handleDragStart);
+        marker.on("dragend", handleDragEnd);
+        map.on("touchcancel", handleTouchCancel);
         element.addEventListener("keydown", (event) => {
           const offsets: Record<string, [number, number]> = {
             ArrowLeft: [-10, 0],
@@ -1109,6 +1132,7 @@ export default function LiveMap(props: Props) {
         });
       }
       return () => {
+        map.off("touchcancel", handleTouchCancel);
         marker.remove();
       };
     }
@@ -1168,7 +1192,7 @@ export default function LiveMap(props: Props) {
   }, [ready, chosenDestination, onClearDestination]);
   useEffect(() => {
     const map = mapRef.current!;
-    if (!ready || !map || choosingPin) return;
+    if (!ready || !map) return;
     const popup = new maplibregl.Popup({
       maxWidth: "320px",
       closeButton: false,
@@ -1397,7 +1421,6 @@ export default function LiveMap(props: Props) {
     showReliefCenters,
     showEvacuationZones,
     now,
-    choosingPin,
   ]);
 
   function mapDescription() {
