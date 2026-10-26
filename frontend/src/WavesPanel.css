@@ -3758,6 +3758,18 @@
   .waves-dashboard .waves-smoke-controls {
     padding: 4px 12px;
   }
+  .waves-dashboard .historical-smoke-controls {
+    padding-bottom: 0;
+  }
+  .waves-dashboard .historical-smoke-controls .waves-playback {
+    padding-bottom: 0;
+  }
+  .waves-dashboard .historical-smoke-controls .waves-playback-controls {
+    grid-template-rows: 48px;
+  }
+  .waves-dashboard .historical-smoke-controls .waves-playback-status {
+    display: none;
+  }
 }
 @media (max-width: 600px) {
   .live-dashboard .waves-map-legend,
