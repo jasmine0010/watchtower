@@ -1,0 +1,1 @@
+This folder contains only source references, case records, and display rules for data processing. Processed datasets are in `frontend/public/data/`
