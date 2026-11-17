@@ -8,6 +8,7 @@ export function historicalEvidenceProxy(python: string | undefined): Plugin {
   const root = path.resolve("..");
   const jobs = new Map<string, "pending" | "failed">();
   let queue = Promise.resolve();
+  let previewOnly = false;
 
   async function relay(request: IncomingMessage, response: ServerResponse) {
     function send(status: number, value: unknown) {
@@ -20,7 +21,9 @@ export function historicalEvidenceProxy(python: string | undefined): Plugin {
     const query = new URL(request.url || "/", "http://localhost").searchParams;
     if (
       request.headers["sec-fetch-site"] === "cross-site" ||
-      (request.headers.origin && request.headers.origin !== "http://" + request.headers.host)
+      (request.headers.origin &&
+        request.headers.origin !== "http://" + request.headers.host &&
+        request.headers.origin !== "https://" + request.headers.host)
     ) {
       send(403, {
         status: "failed",
@@ -66,7 +69,7 @@ export function historicalEvidenceProxy(python: string | undefined): Plugin {
           return;
         }
       } catch {}
-      if (!python) {
+      if (!python || previewOnly) {
         send(503, {
           status: "not_checked",
           reason: "Historical evidence preparation is not configured on this server.",
@@ -147,6 +150,11 @@ export function historicalEvidenceProxy(python: string | undefined): Plugin {
   return {
     name: "historical-evidence",
     configureServer(server) {
+      server.middlewares.use("/historical-evidence", relay);
+    },
+    configurePreviewServer(server) {
+      // Deployed servers only serve evidence that was already prepared; they never run Python.
+      previewOnly = true;
       server.middlewares.use("/historical-evidence", relay);
     },
   };

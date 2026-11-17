@@ -7,8 +7,12 @@
     "dev": "vite --host 127.0.0.1",
     "preview": "vite preview --host 127.0.0.1",
     "build": "tsc --noEmit && vite build",
+    "start": "vite preview --host 0.0.0.0 --port ${PORT:-4173} --strictPort",
     "format": "prettier --write \"src/**/*.{ts,tsx,css}\" \"*Proxy.ts\" vite.config.ts index.html \"../scripts/*.{mjs,mts}\"",
     "format:check": "prettier --check \"src/**/*.{ts,tsx,css}\" \"*Proxy.ts\" vite.config.ts index.html \"../scripts/*.{mjs,mts}\""
+  },
+  "engines": {
+    "node": ">=22"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.118.0",

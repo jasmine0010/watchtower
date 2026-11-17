@@ -1,18 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 import type { Map as LibreMap, RasterTileSource } from "maplibre-gl";
-import { cancelledMapRequest, mapPadding } from "./MapLayers";
+import { cancelledMapRequest } from "./MapLayers";
 import { ReplayBar } from "./WavesSmoke";
-import { Icon } from "./Icons";
-import { isStackedLayout } from "./layout";
 import { useReplayPlayback } from "./useReplayPlayback";
 
 type Forecast = { issuedTime: number; frames: { validTime: number }[] };
 const sourceIds = ["smoke-forecast-a", "smoke-forecast-b"] as const;
-const regions = [
-  { name: "US", bounds: [-190, 17, -65, 72] },
-  { name: "Alaska", bounds: [-190, 49, -129, 72] },
-  { name: "Hawaii", bounds: [-161, 18, -154, 23] },
-];
 
 export function SmokeForecast({
   map,
@@ -26,7 +19,6 @@ export function SmokeForecast({
   onFrame: (time: number | null) => void;
 }) {
   const [forecast, setForecast] = useState<Forecast | null>(null);
-  const [regionIndex, setRegionIndex] = useState(0);
   const [status, setStatus] = useState("Loading…");
   const activeSource = useRef<string | null>(null);
   const { index, setIndex, playing, setPlaying } = useReplayPlayback(
@@ -35,24 +27,6 @@ export function SmokeForecast({
     1500,
   );
   const frame = forecast?.frames[index];
-
-  function showRegion(bounds: number[]) {
-    if (!map) return;
-    const padding = mapPadding(map.getContainer());
-    const bottom = isStackedLayout(map.getContainer())
-      ? padding.bottom
-      : Math.max(padding.bottom, 145);
-    map.fitBounds(
-      [
-        [bounds[0], bounds[1]],
-        [bounds[2], bounds[3]],
-      ],
-      {
-        padding: { ...padding, bottom },
-        duration: 0,
-      },
-    );
-  }
 
   useEffect(() => {
     if (!active) {

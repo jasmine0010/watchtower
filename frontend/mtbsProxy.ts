@@ -145,6 +145,7 @@ export function mtbsProxy(): Plugin {
       server.middlewares.use("/usgs-hazards", relayHazard);
     },
     configurePreviewServer(server) {
+      server.middlewares.use("/noaa-smoke", relayNoaa);
       server.middlewares.use("/mtbs-service", relay);
       server.middlewares.use("/usgs-assessments", relayAssessment);
       server.middlewares.use("/usgs-hazards", relayHazard);

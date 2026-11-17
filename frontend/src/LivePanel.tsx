@@ -1064,10 +1064,13 @@ export default function LivePanel({
       number,
       number,
     ];
-  } else if (hasUserSelectedPlace && place) {
-    routeOrigin = [place.longitude, place.latitude] as [number, number];
-  } else {
+  } else if (homeAddressPoint && !hasUserSelectedPlace) {
     routeOrigin = homeAddressPoint;
+  } else if (place) {
+    // Route from the center of the ZIP area.
+    routeOrigin = activeZipOutline?.point || [place.longitude, place.latitude];
+  } else {
+    routeOrigin = null;
   }
   const originLongitude = routeOrigin?.[0];
   const originLatitude = routeOrigin?.[1];
